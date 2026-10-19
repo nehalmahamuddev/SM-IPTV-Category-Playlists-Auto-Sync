@@ -1,7 +1,7 @@
 # SM IPTV Category Playlists
 
 > **Auto-generated and refreshed every 30 minutes via GitHub Actions.**  
-> **Last Synchronized:** `2026-10-19 14:54:46 UTC`  
+> **Last Synchronized:** `2026-10-19 16:11:25 UTC`  
 > **Total Channels & Feeds:** `294`  
 
 ---

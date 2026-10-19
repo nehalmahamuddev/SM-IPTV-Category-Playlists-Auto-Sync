@@ -1,6 +1,6 @@
 #EXTM3U name="SM IPTV - Refined Live Sports Events"
 # Category: Live Sports Events
-# Updated: 2026-10-19 14:54:47 UTC
+# Updated: 2026-10-19 16:11:25 UTC
 
 #EXTINF:-1 tvg-id="live_tennis_evento_vs_tennis_evento_sky_tennis" tvg-name="[Live] TENNIS | EVENTO Vs TENNIS | EVENTO - SKY TENNIS" tvg-logo="https://i.ibb.co/jPv7P49q/Sktenn.png" group-title="live_sports" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0",[Live] TENNIS | EVENTO Vs TENNIS | EVENTO - SKY TENNIS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0
@@ -96,6 +96,12 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=b6e646d15d2ddfcf74c41ef6574b90fc:5c8bb38d3758dca73ad0ba63d6ba2841
 https://otte.cache.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/jvrno3jef2/out/v1/0f66f4d875f04d7d91f6210461dd7b52/cenc.mpd
+#EXTINF:-1 tvg-id="live_abha_vs_al_kholood_stream_tv" tvg-name="[Live] Abha Vs Al-Kholood - STREAM TV +" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/955/image/dark" group-title="live_sports",[Live] Abha Vs Al-Kholood - STREAM TV +
+https://file.genoads.com/ch1.m3u8
+#EXTINF:-1 tvg-id="live_al_fayha_vs_al_ahli_fox_deportes" tvg-name="[Live] Al-Fayha Vs Al-Ahli - FOX DEPORTES" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/955/image/dark" group-title="live_sports",[Live] Al-Fayha Vs Al-Ahli - FOX DEPORTES
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd
 #EXTINF:-1 tvg-id="live_afghanistan_vs_zimbabwe_willow" tvg-name="[Live] Afghanistan Vs Zimbabwe - WILLOW" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/37663/image/dark" group-title="live_sports" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",[Live] Afghanistan Vs Zimbabwe - WILLOW
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -112,14 +118,6 @@ https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clie
 https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd
 #EXTINF:-1 tvg-id="live_afghanistan_vs_zimbabwe_t_sports" tvg-name="[Live] Afghanistan Vs Zimbabwe - T SPORTS" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/37663/image/dark" group-title="live_sports",[Live] Afghanistan Vs Zimbabwe - T SPORTS
 http://103.151.60.162:2122/play/a030/index.m3u8?hls
-#EXTINF:-1 tvg-id="live_bandari_vs_3k_fc_link_1" tvg-name="[Live] Bandari Vs 3K FC - Link 1" tvg-logo="https://pbs.twimg.com/profile_images/1546980409699102720/gU1veo3__400x400.jpg" group-title="live_sports" http-user-agent="Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36" http-referrer="https://nadia01eo.tn76degree12ec3out.cfd",[Live] Bandari Vs 3K FC - Link 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
-http://193.47.62.59/hls/zzzzzaAA.m3u8
-#EXTINF:-1 tvg-id="live_bandari_vs_3k_fc_low_quality_use_vpn" tvg-name="[Live] Bandari Vs 3K FC - LOW QUALITY (USE VPN)" tvg-logo="https://pbs.twimg.com/profile_images/1546980409699102720/gU1veo3__400x400.jpg" group-title="live_sports" http-user-agent="Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36" http-referrer="https://nadia01eo.tn76degree12ec3out.cfd",[Live] Bandari Vs 3K FC - LOW QUALITY (USE VPN)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
-http://193.47.62.59/hls/zzzzzaAA.m3u8
 #EXTINF:-1 tvg-id="live_smackdown_vs_smackdown_stream" tvg-name="[Live] SmackDown Vs SmackDown - STREAM" tvg-logo="https://www.wwe.com/f/styles/wwe_show_logo_l/public/all/2024/09/Smackdown_LOGO--c8e0b09904cb1356d309a8ea2acb0422.png" group-title="live_sports" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" http-referrer="https://streame.center",[Live] SmackDown Vs SmackDown - STREAM
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 #EXTVLCOPT:http-referrer=https://streame.center
@@ -358,12 +356,6 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd
 #EXTINF:-1 tvg-id="live_trabzonspor_vs_besiktas_jk_stream_tv" tvg-name="[Live] Trabzonspor Vs Beşiktaş JK - STREAM TV +" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/52/image/dark" group-title="live_sports",[Live] Trabzonspor Vs Beşiktaş JK - STREAM TV +
 https://file.genoads.com/ch1.m3u8
-#EXTINF:-1 tvg-id="live_abha_vs_al_kholood_stream_tv" tvg-name="[Live] Abha Vs Al-Kholood - STREAM TV +" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/955/image/dark" group-title="live_sports",[Live] Abha Vs Al-Kholood - STREAM TV +
-https://file.genoads.com/ch1.m3u8
-#EXTINF:-1 tvg-id="live_al_fayha_vs_al_ahli_fox_deportes" tvg-name="[Live] Al-Fayha Vs Al-Ahli - FOX DEPORTES" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/955/image/dark" group-title="live_sports",[Live] Al-Fayha Vs Al-Ahli - FOX DEPORTES
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd
 #EXTINF:-1 tvg-id="live_al_shabab_vs_al_faisaly_stream_tv" tvg-name="[Live] Al-Shabab Vs Al Faisaly - STREAM TV +" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/955/image/dark" group-title="live_sports",[Live] Al-Shabab Vs Al Faisaly - STREAM TV +
 https://file.genoads.com/ch1.m3u8
 #EXTINF:-1 tvg-id="live_snooker_vs_snooker_tnt4uk_sports" tvg-name="[Live] Snooker Vs Snooker - TNT4UK SPORTS" tvg-logo="https://pbs.twimg.com/profile_images/1818178290231787520/UgacIQ2j_400x400.jpg" group-title="live_sports" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",[Live] Snooker Vs Snooker - TNT4UK SPORTS
@@ -397,6 +389,14 @@ https://dash2.antik.sk/stream/nvidia_nova_sport2/playlist_cenc.mpd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
 http://193.47.62.41/hls/IZZZA.m3u8
+#EXTINF:-1 tvg-id="live_bandari_vs_3k_fc_link_1" tvg-name="[Live] Bandari Vs 3K FC - Link 1" tvg-logo="https://pbs.twimg.com/profile_images/1546980409699102720/gU1veo3__400x400.jpg" group-title="live_sports" http-user-agent="Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36" http-referrer="https://nadia01eo.tn76degree12ec3out.cfd",[Live] Bandari Vs 3K FC - Link 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
+http://193.47.62.59/hls/zzzzzaAA.m3u8
+#EXTINF:-1 tvg-id="live_bandari_vs_3k_fc_low_quality_use_vpn" tvg-name="[Live] Bandari Vs 3K FC - LOW QUALITY (USE VPN)" tvg-logo="https://pbs.twimg.com/profile_images/1546980409699102720/gU1veo3__400x400.jpg" group-title="live_sports" http-user-agent="Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36" http-referrer="https://nadia01eo.tn76degree12ec3out.cfd",[Live] Bandari Vs 3K FC - LOW QUALITY (USE VPN)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
+http://193.47.62.59/hls/zzzzzaAA.m3u8
 #EXTINF:-1 tvg-id="live_mara_sugar_vs_mombasa_united_link_1" tvg-name="[Live] Mara Sugar Vs Mombasa United - Link 1" tvg-logo="https://pbs.twimg.com/profile_images/1546980409699102720/gU1veo3__400x400.jpg" group-title="live_sports" http-user-agent="Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36" http-referrer="https://nadia01eo.tn76degree12ec3out.cfd",[Live] Mara Sugar Vs Mombasa United - Link 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
