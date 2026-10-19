@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-19T14:51:11.321595+00:00",
-  "total_channels": 283,
-  "total_streams": 292,
+  "updated_at": "2026-10-19T14:54:47.042909+00:00",
+  "total_channels": 284,
+  "total_streams": 293,
   "channels": [
     {
       "id": "g_series",
@@ -4957,6 +4957,29 @@
             "type": "clearkey",
             "kid": "7995c724a13748ed970840a8ab5bb9b3",
             "key": "67bdaf1e2175b9ff682fcdf0e2354b1e"
+          },
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_monza_vs_cagliari_fubo_sports",
+      "name": "[Live] Monza Vs Cagliari - FUBO SPORTS",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/23/image/dark",
+      "quality": "FHD",
+      "servers": [
+        {
+          "name": "Server 1 (FHD)",
+          "stream_url": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd",
+          "quality": "FHD",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+          },
+          "drm": {
+            "type": "clearkey",
+            "kid": "42f72c025dd53039244adc13b7e31dad",
+            "key": "a7bd941a19f6dd14f3004a623a6ad3a1"
           },
           "sort_order": 1
         }

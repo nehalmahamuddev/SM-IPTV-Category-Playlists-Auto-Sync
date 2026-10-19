@@ -1,6 +1,6 @@
 #EXTM3U name="SM IPTV - Refined Live Sports Events"
 # Category: Live Sports Events
-# Updated: 2026-10-19 14:51:11 UTC
+# Updated: 2026-10-19 14:54:47 UTC
 
 #EXTINF:-1 tvg-id="live_tennis_evento_vs_tennis_evento_sky_tennis" tvg-name="[Live] TENNIS | EVENTO Vs TENNIS | EVENTO - SKY TENNIS" tvg-logo="https://i.ibb.co/jPv7P49q/Sktenn.png" group-title="live_sports" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0",[Live] TENNIS | EVENTO Vs TENNIS | EVENTO - SKY TENNIS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0
@@ -342,6 +342,11 @@ https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd
+#EXTINF:-1 tvg-id="live_monza_vs_cagliari_fubo_sports" tvg-name="[Live] Monza Vs Cagliari - FUBO SPORTS" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/23/image/dark" group-title="live_sports" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",[Live] Monza Vs Cagliari - FUBO SPORTS
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=42f72c025dd53039244adc13b7e31dad:a7bd941a19f6dd14f3004a623a6ad3a1
+https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd
 #EXTINF:-1 tvg-id="live_corinthians_vs_vitoria_premierer1" tvg-name="[Live] Corinthians Vs Vitória - PREMIERER1" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/325/image/dark" group-title="live_sports",[Live] Corinthians Vs Vitória - PREMIERER1
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3
