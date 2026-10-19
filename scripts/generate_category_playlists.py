@@ -31,7 +31,7 @@ except ImportError:
 BOOTSTRAP_URL = "https://app-main-ap.sm-monirul.xyz/exp/"
 DEFAULT_USER_AGENT = "okhttp/4.12.0"
 OUTPUT_DIR = os.environ.get("PLAYLISTS_DIR", "playlists")
-GITHUB_REPO = os.environ.get("GITHUB_REPOSITORY", "nehalmahamuddev/SM-IPTV-Category-Playlists-Auto-Sync")
+GITHUB_REPO = os.environ.get("GITHUB_REPOSITORY", "nehalDIU/PlayZTV-Sync")
 GITHUB_BRANCH = os.environ.get("GITHUB_REF_NAME", "main")
 RAW_BASE_URL = f"https://raw.githubusercontent.com/{GITHUB_REPO}/{GITHUB_BRANCH}/{OUTPUT_DIR}"
 

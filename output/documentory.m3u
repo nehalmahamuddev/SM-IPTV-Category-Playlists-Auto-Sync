@@ -1,0 +1,22 @@
+#EXTM3U name="SM IPTV - Refined Documentary"
+# Category: Documentary
+# Updated: 2026-10-19 14:51:11 UTC
+
+#EXTINF:-1 tvg-id="animal_planet" tvg-name="Animal Planet" tvg-logo="https://assets-prod.services.toffeelive.com/Ny61-JQBv9knK3AHgzZ7/posters/0909b36a-afd5-426a-93b3-4512800977db.webp" group-title="documentory",Animal Planet (Server 1 (HD))
+https://toffee.sm-monirul-islam-rs.workers.dev/animal_planet/index.m3u8
+#EXTINF:-1 tvg-id="animal_planet" tvg-name="Animal Planet" tvg-logo="https://assets-prod.services.toffeelive.com/Ny61-JQBv9knK3AHgzZ7/posters/0909b36a-afd5-426a-93b3-4512800977db.webp" group-title="documentory",Animal Planet (Server 2 (HD))
+https://toffee.sm-monirul-islam-rs.workers.dev/animal_planet_hd/index.m3u8
+#EXTINF:-1 tvg-id="discovery" tvg-name="Discovery" tvg-logo="https://assets-prod.services.toffeelive.com/KC6x-JQBv9knK3AHqjYc/posters/55e554f1-dbbb-47bd-97fe-fca878726c4c.webp" group-title="documentory",Discovery (Server 1 (HD))
+https://toffee.sm-monirul-islam-rs.workers.dev/discovery_hd/index.m3u8
+#EXTINF:-1 tvg-id="discovery" tvg-name="Discovery" tvg-logo="https://assets-prod.services.toffeelive.com/KC6x-JQBv9knK3AHqjYc/posters/55e554f1-dbbb-47bd-97fe-fca878726c4c.webp" group-title="documentory",Discovery (Server 2 (HD))
+https://toffee.sm-monirul-islam-rs.workers.dev/discovery/index.m3u8
+#EXTINF:-1 tvg-id="discovery_science" tvg-name="Discovery Science" tvg-logo="https://assets-prod.services.toffeelive.com/AS6s-JQBv9knK3AHDTZb/posters/eab8fd0f-9351-464c-b45e-332f38b49f4b.webp" group-title="documentory",Discovery Science
+https://toffee.sm-monirul-islam-rs.workers.dev/discovery_science/index.m3u8
+#EXTINF:-1 tvg-id="discovery_turbo" tvg-name="Discovery Turbo" tvg-logo="https://assets-prod.services.toffeelive.com/Ay6s-JQBv9knK3AHJTY1/posters/e8f65578-e82d-4e4a-a1ff-073becc5bd71.webp" group-title="documentory",Discovery Turbo
+https://toffee.sm-monirul-islam-rs.workers.dev/discovery_turbo/index.m3u8
+#EXTINF:-1 tvg-id="investigation_discovery" tvg-name="Investigation Discovery" tvg-logo="https://assets-prod.services.toffeelive.com/ay7uX5UBv9knK3AHs6TI/posters/deb3c186-b2e1-4a91-aafb-d86f9128b851.png" group-title="documentory",Investigation Discovery
+https://toffee.sm-monirul-islam-rs.workers.dev/investigation_discovery_hd/index.m3u8
+#EXTINF:-1 tvg-id="discovery_bangla" tvg-name="Discovery Bangla" tvg-logo="https://assets-prod.services.toffeelive.com/KC6x-JQBv9knK3AHqjYc/posters/55e554f1-dbbb-47bd-97fe-fca878726c4c.webp" group-title="documentory" http-user-agent="OTT-KING TV 1.0" http-referrer="https://sm-monirul.xyz",Discovery Bangla
+#EXTVLCOPT:http-user-agent=OTT-KING TV 1.0
+#EXTVLCOPT:http-referrer=https://sm-monirul.xyz
+https://app-re.sm-monirul-islam-rs.workers.dev/discovery-bangla/index.m3u8
