@@ -1,12 +1,14 @@
 #EXTM3U name="SM IPTV - Refined Sports"
 # Category: Sports
-# Updated: 2026-10-20 06:08:53 UTC
+# Updated: 2026-10-20 11:52:13 UTC
 
 #EXTINF:-1 tvg-id="t_sports" tvg-name="T Sports" tvg-logo="https://i.postimg.cc/26pLYgzB/1000115823.jpg" group-title="sports",T Sports
 https://tvsen5.aynaott.com/TnMn5kZz8aLmjklkk/index.m3u8
 #EXTINF:-1 tvg-id="ptv" tvg-name="PTV" tvg-logo="https://i.postimg.cc/zB0GG09t/ptv-sports.png" group-title="sports" http-user-agent="OTT-KING TV 1.0",PTV
 #EXTVLCOPT:http-user-agent=OTT-KING TV 1.0
 https://app-re.sm-monirul-islam-rs.workers.dev/PTV-SPORTS-HD/index.m3u8
+#EXTINF:-1 tvg-id="unite_sports_2" tvg-name="Unite Sports 2" tvg-logo="https://i.postimg.cc/cJgxdQT1/sm-unite8-sports1.webp" group-title="sports",Unite Sports 2
+http://tv.cloudcdn.me:80/live.ts?channelId=49859&uid=10097&deviceMac=00:1A:79:A4:73:F2
 #EXTINF:-1 tvg-id="sony_ten_1" tvg-name="Sony Ten 1" tvg-logo="https://i.postimg.cc/cH2Cc7zX/20250529-122631.png" group-title="sports" http-referrer="https://techandeat.online",Sony Ten 1
 #EXTVLCOPT:http-referrer=https://techandeat.online
 https://techandeat.online/sliv/stream.m3u8?id=1000009276

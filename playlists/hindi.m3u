@@ -1,107 +1,110 @@
 #EXTM3U name="SM IPTV - Hindi"
 # Category: Hindi
-# Updated: 2026-10-20 06:08:53 UTC
+# Updated: 2026-10-20 11:52:13 UTC
 
-#EXTINF:-1 tvg-id="101" tvg-name="Sony Max HD" tvg-logo="https://i.postimg.cc/zX9vhkhB/20250529-131834.png" group-title="Hindi" http-referrer="https://techandeat.online",Sony Max HD
+#EXTINF:-1 tvg-id="102" tvg-name="Sony Max HD" tvg-logo="https://i.postimg.cc/zX9vhkhB/20250529-131834.png" group-title="Hindi" http-referrer="https://techandeat.online",Sony Max HD
 #EXTVLCOPT:http-referrer=https://techandeat.online
 https://techandeat.online/sliv/stream.m3u8?id=1000009247
-#EXTINF:-1 tvg-id="102" tvg-name="And Pictures hd" tvg-logo="https://i.postimg.cc/P5NbNSb8/and-picturs-hd.png" group-title="Hindi",And Pictures hd
-https://sm-monirul.xyz/@monirul_Islam_SM/stream.php?id=and_picturs_hd&e=.m3u8
-#EXTINF:-1 tvg-id="103" tvg-name="Star Movie" tvg-logo="https://i.postimg.cc/v8z5zJ3g/star-movies.png" group-title="Hindi" http-user-agent="OTT-KING TV 1.0" http-referrer="https://sm-monirul.xyz",Star Movie
+#EXTINF:-1 tvg-id="103" tvg-name="And Pictures hd" tvg-logo="https://i.postimg.cc/P5NbNSb8/and-picturs-hd.png" group-title="Hindi",And Pictures hd
+http://tv.cloudcdn.me:80/live.ts?channelId=132225&uid=10097&deviceMac=00:1A:79:A4:73:F2
+#EXTINF:-1 tvg-id="104" tvg-name="Star Movie" tvg-logo="https://i.postimg.cc/v8z5zJ3g/star-movies.png" group-title="Hindi" http-user-agent="OTT-KING TV 1.0" http-referrer="https://sm-monirul.xyz",Star Movie
 #EXTVLCOPT:http-user-agent=OTT-KING TV 1.0
 #EXTVLCOPT:http-referrer=https://sm-monirul.xyz
 https://app-re.sm-monirul-islam-rs.workers.dev/STAR-MOVIES-HD/index.m3u8
-#EXTINF:-1 tvg-id="104" tvg-name="Star Movies Select" tvg-logo="https://i.postimg.cc/bYT1T73s/star-movies-select.png" group-title="Hindi" http-user-agent="OTT-KING TV 1.0",Star Movies Select
+#EXTINF:-1 tvg-id="105" tvg-name="Star Movies Select" tvg-logo="https://i.postimg.cc/bYT1T73s/star-movies-select.png" group-title="Hindi" http-user-agent="OTT-KING TV 1.0",Star Movies Select
 #EXTVLCOPT:http-user-agent=OTT-KING TV 1.0
 https://app-re.sm-monirul-islam-rs.workers.dev/STAR-MOVIES-SELECT-HD/index.m3u8
-#EXTINF:-1 tvg-id="105" tvg-name="HBO" tvg-logo="https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch115_160_115" group-title="Hindi" http-user-agent="OTT-KING TV 1.0" http-referrer="https://sm-monirul.xyz",HBO
+#EXTINF:-1 tvg-id="106" tvg-name="HBO" tvg-logo="https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch115_160_115" group-title="Hindi" http-user-agent="OTT-KING TV 1.0" http-referrer="https://sm-monirul.xyz",HBO
 #EXTVLCOPT:http-user-agent=OTT-KING TV 1.0
 #EXTVLCOPT:http-referrer=https://sm-monirul.xyz
 https://app-re.sm-monirul-islam-rs.workers.dev/HBO/index.m3u8
-#EXTINF:-1 tvg-id="106" tvg-name="Xplor" tvg-logo="https://i.postimg.cc/jSC6CM6N/and-xplore.png" group-title="Hindi" http-user-agent="OTT-KING TV 1.0" http-referrer="https://sm-monirul.xyz",Xplor
+#EXTINF:-1 tvg-id="107" tvg-name="Xplor" tvg-logo="https://i.postimg.cc/jSC6CM6N/and-xplore.png" group-title="Hindi" http-user-agent="OTT-KING TV 1.0" http-referrer="https://sm-monirul.xyz",Xplor
 #EXTVLCOPT:http-user-agent=OTT-KING TV 1.0
 #EXTVLCOPT:http-referrer=https://sm-monirul.xyz
-https://mac.nocablenetwork.workers.dev/stream/4082.ts
-#EXTINF:-1 tvg-id="107" tvg-name="Star Gold HD" tvg-logo="https://i.postimg.cc/PqN0KF2M/20251202-090224.png" group-title="Hindi",Star Gold HD
-http://sm-monirul.xyz/my_server/live/star-gold/index.m3u8
-#EXTINF:-1 tvg-id="108" tvg-name="Star Gold 2" tvg-logo="https://i.postimg.cc/6q3Qjm9p/star-gold-2.png" group-title="Hindi",Star Gold 2
+http://tv.cloudcdn.me:80/live.ts?channelId=80371&uid=10097&deviceMac=00:1A:79:A4:73:F2
+#EXTINF:-1 tvg-id="108" tvg-name="Star Gold HD" tvg-logo="https://i.postimg.cc/PqN0KF2M/20251202-090224.png" group-title="Hindi",Star Gold HD
+https://app-re.sm-monirul-islam-rs.workers.dev/star_gold/index.m3u8
+#EXTINF:-1 tvg-id="109" tvg-name="Star Gold 2" tvg-logo="https://i.postimg.cc/6q3Qjm9p/star-gold-2.png" group-title="Hindi",Star Gold 2
 http://103.151.60.162:2122/play/a01v/index.m3u8
-#EXTINF:-1 tvg-id="109" tvg-name="Star Gold Select" tvg-logo="https://i.postimg.cc/8kMDDGYQ/star-gold-select.png" group-title="Hindi",Star Gold Select
+#EXTINF:-1 tvg-id="110" tvg-name="Star Gold Select" tvg-logo="https://i.postimg.cc/8kMDDGYQ/star-gold-select.png" group-title="Hindi",Star Gold Select
 https://app-zibo-play40.tvhunter.top/newr/STAR.GOLD.SEL.HD.m3u8
-#EXTINF:-1 tvg-id="110" tvg-name="Star Bharat" tvg-logo="https://i.postimg.cc/dQrvvFfc/star-bharat.png" group-title="Hindi",Star Bharat
+#EXTINF:-1 tvg-id="111" tvg-name="Star Bharat" tvg-logo="https://i.postimg.cc/dQrvvFfc/star-bharat.png" group-title="Hindi",Star Bharat
 https://homair-tv-production.up.railway.app/api/play/STAR%20GOLD%20SEL%20HD.m3u8
-#EXTINF:-1 tvg-id="111" tvg-name="Travel XP Bangla" tvg-logo="https://i.postimg.cc/28ShX0KZ/travel-xp.png" group-title="Hindi",Travel XP Bangla
+#EXTINF:-1 tvg-id="112" tvg-name="Travel XP Bangla" tvg-logo="https://i.postimg.cc/28ShX0KZ/travel-xp.png" group-title="Hindi",Travel XP Bangla
 https://app-zibo-play40.tvhunter.top/newr/TRAVELXP.HD.m3u8
-#EXTINF:-1 tvg-id="112" tvg-name="Colors Cineplex HD" tvg-logo="https://i.postimg.cc/HLvX9R1x/colors-cineplex-hd.png" group-title="Hindi",Colors Cineplex HD
+#EXTINF:-1 tvg-id="113" tvg-name="Colors Cineplex HD" tvg-logo="https://i.postimg.cc/HLvX9R1x/colors-cineplex-hd.png" group-title="Hindi",Colors Cineplex HD
 http://bosstv.click:8080/live/18012689/77561563/85219.ts
-#EXTINF:-1 tvg-id="113" tvg-name="Colors" tvg-logo="https://i.postimg.cc/pdy3k1qZ/20251202-090150.png" group-title="Hindi",Colors
+#EXTINF:-1 tvg-id="114" tvg-name="Colors" tvg-logo="https://i.postimg.cc/pdy3k1qZ/20251202-090150.png" group-title="Hindi",Colors
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:colorsme.smil/media-udh.m3u8
-#EXTINF:-1 tvg-id="114" tvg-name="Star Plus HD" tvg-logo="https://i.postimg.cc/q7gWQZjw/20251202-090307.png" group-title="Hindi",Star Plus HD
+#EXTINF:-1 tvg-id="115" tvg-name="Star Plus HD" tvg-logo="https://i.postimg.cc/q7gWQZjw/20251202-090307.png" group-title="Hindi",Star Plus HD
 http://38.96.178.205/STARPLUS/tracks-v1a1/index.m3u8
-#EXTINF:-1 tvg-id="115" tvg-name="Hum TV" tvg-logo="https://i.postimg.cc/RFXqn515/20250529-132912.png" group-title="Hindi",Hum TV
+#EXTINF:-1 tvg-id="116" tvg-name="Hum TV" tvg-logo="https://i.postimg.cc/RFXqn515/20250529-132912.png" group-title="Hindi",Hum TV
 https://drk6xq0vhn.gpcdn.net/live/hum_tv_abr/index.m3u8
-#EXTINF:-1 tvg-id="116" tvg-name="Hum TV hd" tvg-logo="https://i.postimg.cc/zvJYHWwG/Hridoy-TV-The-Home-of-Live-TV-la-ibha-ta-bha-da-kha-na-247.webp" group-title="Hindi",Hum TV hd
+#EXTINF:-1 tvg-id="117" tvg-name="Hum TV hd" tvg-logo="https://i.postimg.cc/zvJYHWwG/Hridoy-TV-The-Home-of-Live-TV-la-ibha-ta-bha-da-kha-na-247.webp" group-title="Hindi",Hum TV hd
 https://cdn4.mjunoon.tv:8087/streamtest/82M/chunks.m3u8
-#EXTINF:-1 tvg-id="117" tvg-name="& Tv" tvg-logo="https://i.postimg.cc/bJzsJNt9/20250529-133255.png" group-title="Hindi",& Tv
+#EXTINF:-1 tvg-id="118" tvg-name="& Tv" tvg-logo="https://i.postimg.cc/bJzsJNt9/20250529-133255.png" group-title="Hindi",& Tv
 https://toffee.sm-monirul-islam-rs.workers.dev/tv_hd/index.m3u8
-#EXTINF:-1 tvg-id="118" tvg-name="Lotus Tv" tvg-logo="https://i.postimg.cc/ydhc2tKr/lotus-tv.png" group-title="Hindi",Lotus Tv
+#EXTINF:-1 tvg-id="119" tvg-name="Lotus Tv" tvg-logo="https://i.postimg.cc/ydhc2tKr/lotus-tv.png" group-title="Hindi",Lotus Tv
 https://sm-monirul.xyz/@monirul_Islam_SM/stream.php?id=lotus_tv&e=.m3u8
-#EXTINF:-1 tvg-id="119" tvg-name="& Picture" tvg-logo="https://i.postimg.cc/k5N2qtB5/20250529-133459.png" group-title="Hindi",& Picture
+#EXTINF:-1 tvg-id="120" tvg-name="& Picture" tvg-logo="https://i.postimg.cc/k5N2qtB5/20250529-133459.png" group-title="Hindi",& Picture
 https://drk6xq0vhn.gpcdn.net/live/and_picture_hd_abr/index.m3u8
-#EXTINF:-1 tvg-id="120" tvg-name="Zee Cinema" tvg-logo="https://i.postimg.cc/nhDsSWxB/20250529-133753.png" group-title="Hindi",Zee Cinema
+#EXTINF:-1 tvg-id="121" tvg-name="Zee Cinema" tvg-logo="https://i.postimg.cc/nhDsSWxB/20250529-133753.png" group-title="Hindi",Zee Cinema
 http://2756d46c.akciatv.ru/iptv/7FRNF6CY9A9TG3/6642/index.m3u8
-#EXTINF:-1 tvg-id="121" tvg-name="Zee Cinema HD" tvg-logo="https://i.postimg.cc/nhDsSWxB/20250529-133753.png" group-title="Hindi",Zee Cinema HD
+#EXTINF:-1 tvg-id="122" tvg-name="Zee Cinema HD" tvg-logo="https://i.postimg.cc/nhDsSWxB/20250529-133753.png" group-title="Hindi",Zee Cinema HD
 https://drk6xq0vhn.gpcdn.net/live/zee_cinema_hd_abr/live/zee_cinema_hd_720/index.m3u8
-#EXTINF:-1 tvg-id="122" tvg-name="Zee Tv" tvg-logo="https://i.postimg.cc/1z18kKRT/20250529-133622.png" group-title="Hindi",Zee Tv
+#EXTINF:-1 tvg-id="123" tvg-name="Zee Tv" tvg-logo="https://i.postimg.cc/1z18kKRT/20250529-133622.png" group-title="Hindi",Zee Tv
 https://drk6xq0vhn.gpcdn.net/live/zee_tv_hd_abr/index.m3u8
-#EXTINF:-1 tvg-id="123" tvg-name="Zee Bollywood" tvg-logo="https://i.postimg.cc/x81JsTj1/20250529-134250.png" group-title="Hindi",Zee Bollywood
+#EXTINF:-1 tvg-id="124" tvg-name="Zee Bollywood" tvg-logo="https://i.postimg.cc/x81JsTj1/20250529-134250.png" group-title="Hindi",Zee Bollywood
 https://drk6xq0vhn.gpcdn.net/live/zee_bollywood_abr/index.m3u8
-#EXTINF:-1 tvg-id="124" tvg-name="Sony Television HD" tvg-logo="https://i.postimg.cc/0yDQ0JGC/20250529-131726.png" group-title="Hindi" http-referrer="https://techandeat.online",Sony Television HD
+#EXTINF:-1 tvg-id="125" tvg-name="Sony Television HD" tvg-logo="https://i.postimg.cc/0yDQ0JGC/20250529-131726.png" group-title="Hindi" http-referrer="https://techandeat.online",Sony Television HD
 #EXTVLCOPT:http-referrer=https://techandeat.online
 https://techandeat.online/sliv/stream.m3u8?id=1000009246
-#EXTINF:-1 tvg-id="125" tvg-name="Sony Max" tvg-logo="https://i.postimg.cc/zX9vhkhB/20250529-131834.png" group-title="Hindi" http-referrer="https://techandeat.online",Sony Max
+#EXTINF:-1 tvg-id="126" tvg-name="Sony Max" tvg-logo="https://i.postimg.cc/zX9vhkhB/20250529-131834.png" group-title="Hindi" http-referrer="https://techandeat.online",Sony Max
 #EXTVLCOPT:http-referrer=https://techandeat.online
 https://techandeat.online/sliv/stream.m3u8?id=1000009249
-#EXTINF:-1 tvg-id="126" tvg-name="Sony Max 2" tvg-logo="https://i.postimg.cc/KYbYqvJh/20250529-132238.png" group-title="Hindi" http-referrer="https://techandeat.online",Sony Max 2
+#EXTINF:-1 tvg-id="127" tvg-name="Sony Max 1" tvg-logo="https://i.postimg.cc/k4Dv0q86/1000120489.jpg" group-title="Hindi",Sony Max 1
+https://bdtop1.tvhunter.top/max1/index.m3u8
+#EXTINF:-1 tvg-id="128" tvg-name="Sony Max 2" tvg-logo="https://i.postimg.cc/KYbYqvJh/20250529-132238.png" group-title="Hindi" http-referrer="https://techandeat.online",Sony Max 2
 #EXTVLCOPT:http-referrer=https://techandeat.online
 https://techandeat.online/sliv/stream.m3u8?id=1000044878
-#EXTINF:-1 tvg-id="127" tvg-name="Sony Sab HD" tvg-logo="https://i.postimg.cc/442mfGNp/20250529-132607.png" group-title="Hindi" http-referrer="https://techandeat.online",Sony Sab HD
+#EXTINF:-1 tvg-id="129" tvg-name="Sony Sab HD" tvg-logo="https://i.postimg.cc/442mfGNp/20250529-132607.png" group-title="Hindi" http-referrer="https://techandeat.online",Sony Sab HD
 #EXTVLCOPT:http-referrer=https://techandeat.online
 https://techandeat.online/sliv/stream.m3u8?id=1000009248
-#EXTINF:-1 tvg-id="128" tvg-name="Sony Pal" tvg-logo="https://i.postimg.cc/rsHmQ1Yf/20250529-132755.png" group-title="Hindi" http-referrer="https://techandeat.online",Sony Pal
+#EXTINF:-1 tvg-id="130" tvg-name="Sony Pal" tvg-logo="https://i.postimg.cc/rsHmQ1Yf/20250529-132755.png" group-title="Hindi" http-referrer="https://techandeat.online",Sony Pal
 #EXTVLCOPT:http-referrer=https://techandeat.online
 https://techandeat.online/sliv/stream.m3u8?id=1000009273
-#EXTINF:-1 tvg-id="129" tvg-name="Sony Wah" tvg-logo="https://i.postimg.cc/vH1DDKck/20250529-132424.png" group-title="Hindi" http-referrer="https://techandeat.online",Sony Wah
+#EXTINF:-1 tvg-id="131" tvg-name="Sony Wah" tvg-logo="https://i.postimg.cc/vH1DDKck/20250529-132424.png" group-title="Hindi" http-referrer="https://techandeat.online",Sony Wah
 #EXTVLCOPT:http-referrer=https://techandeat.online
 https://techandeat.online/sliv/stream.m3u8?id=1000009253
-#EXTINF:-1 tvg-id="130" tvg-name="Sony Kal" tvg-logo="https://i.postimg.cc/L5TmcvqR/hridoytvgate-(14).webp" group-title="Hindi",Sony Kal
+#EXTINF:-1 tvg-id="132" tvg-name="Sony Kal" tvg-logo="https://i.postimg.cc/L5TmcvqR/hridoytvgate-(14).webp" group-title="Hindi",Sony Kal
 https://e77bef9b.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctY2FfU29ueUtBTF9ITFM/playlist.m3u8
-#EXTINF:-1 tvg-id="131" tvg-name="Sony Marathi" tvg-logo="https://i.postimg.cc/mZ6Xz0ds/Hridoy-TV-pro-(19).webp" group-title="Hindi" http-referrer="https://techandeat.online",Sony Marathi
+#EXTINF:-1 tvg-id="133" tvg-name="Sony Marathi" tvg-logo="https://i.postimg.cc/mZ6Xz0ds/Hridoy-TV-pro-(19).webp" group-title="Hindi" http-referrer="https://techandeat.online",Sony Marathi
 #EXTVLCOPT:http-referrer=https://techandeat.online
 https://techandeat.online/sliv/stream.m3u8?id=1000009259
-#EXTINF:-1 tvg-id="132" tvg-name="Sony Pix" tvg-logo="https://i.postimg.cc/yYTkD4Z5/20251222-213710.png" group-title="Hindi" http-referrer="https://techandeat.online",Sony Pix
+#EXTINF:-1 tvg-id="134" tvg-name="Sony Pix" tvg-logo="https://i.postimg.cc/yYTkD4Z5/20251222-213710.png" group-title="Hindi" http-referrer="https://techandeat.online",Sony Pix
 #EXTVLCOPT:http-referrer=https://techandeat.online
 https://techandeat.online/sliv/stream.m3u8?id=1000009258
-#EXTINF:-1 tvg-id="133" tvg-name="Sony BBC Earth HD" tvg-logo="https://assets-prod.services.toffeelive.com/MC6C-JQBv9knK3AHUzUT/posters/a8c32fd3-2ba7-437c-85ac-de2f1b2fa6ca.webp" group-title="Hindi",Sony BBC Earth HD
+#EXTINF:-1 tvg-id="135" tvg-name="Sony One Hite" tvg-logo="https://i.postimg.cc/sg8zHMzq/sony_one.webp" group-title="Hindi",Sony One Hite
+https://5098a8b860504a3690fd2e7c0a18d68f.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-817-FR-SONYONEHITSACTION-LG_FR/playlist.m3u8
+#EXTINF:-1 tvg-id="136" tvg-name="Sony BBC Earth HD" tvg-logo="https://assets-prod.services.toffeelive.com/MC6C-JQBv9knK3AHUzUT/posters/a8c32fd3-2ba7-437c-85ac-de2f1b2fa6ca.webp" group-title="Hindi",Sony BBC Earth HD
 https://toffee.sm-monirul-islam-rs.workers.dev/sony_bbc_earth_hd/index.m3u8
-#EXTINF:-1 tvg-id="134" tvg-name="HUM SITARAY HD" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1791450706877.png" group-title="Hindi",HUM SITARAY HD
+#EXTINF:-1 tvg-id="137" tvg-name="HUM SITARAY HD" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1791450706877.png" group-title="Hindi",HUM SITARAY HD
 https://j6nfugukcl.gpcdn.net/tile_2/master.m3u8
-#EXTINF:-1 tvg-id="135" tvg-name="B4U Movies" tvg-logo="https://i.postimg.cc/13nLvxQx/20250630-050504.png" group-title="Hindi",B4U Movies
+#EXTINF:-1 tvg-id="138" tvg-name="B4U Movies" tvg-logo="https://i.postimg.cc/13nLvxQx/20250630-050504.png" group-title="Hindi",B4U Movies
 https://drk6xq0vhn.gpcdn.net/live/b4u_movies_abr/index.m3u8
-#EXTINF:-1 tvg-id="136" tvg-name="Colors Cineplex" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTUfUOb0JURr2sR8aIFquATeQ6krMWpj6O12yJa_j6Hh7TZ_uEf85JbXimVmAy3sFGhxaSLy6bO2KvLxKTkApSOcmNEDNBjiMKvZa_xBXQXpAxccCQAkTTa4RBsgza4SljsLENgELFVScSlxaWlxYoKfs5ed5HEChWG5biR1EBwFIWGE0cNLB0qJhrzg/s1080/1000098991.png" group-title="Hindi",Colors Cineplex
+#EXTINF:-1 tvg-id="139" tvg-name="Colors Cineplex" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTUfUOb0JURr2sR8aIFquATeQ6krMWpj6O12yJa_j6Hh7TZ_uEf85JbXimVmAy3sFGhxaSLy6bO2KvLxKTkApSOcmNEDNBjiMKvZa_xBXQXpAxccCQAkTTa4RBsgza4SljsLENgELFVScSlxaWlxYoKfs5ed5HEChWG5biR1EBwFIWGE0cNLB0qJhrzg/s1080/1000098991.png" group-title="Hindi",Colors Cineplex
 https://d1rc86nwwc9fag.cloudfront.net/260723/smil:rishteycineplexukdev.smil/chunklist_b1928000.m3u8
-#EXTINF:-1 tvg-id="137" tvg-name="MNX HD" tvg-logo="https://i.postimg.cc/5yxLJgNJ/mnx-hd.png" group-title="Hindi",MNX HD
+#EXTINF:-1 tvg-id="140" tvg-name="MNX HD" tvg-logo="https://i.postimg.cc/5yxLJgNJ/mnx-hd.png" group-title="Hindi",MNX HD
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=40f019b86241d23ef075633fd7f1e927:058dec845bd340178a388edd104a015e
 https://times-ott-live.akamaized.net/mnxhd_wv_drm/index.mpd
-#EXTINF:-1 tvg-id="138" tvg-name="Movies Now HD" tvg-logo="https://i.postimg.cc/5yxLJgN1/movies-now.png" group-title="Hindi",Movies Now HD
+#EXTINF:-1 tvg-id="141" tvg-name="Movies Now HD" tvg-logo="https://i.postimg.cc/5yxLJgN1/movies-now.png" group-title="Hindi",Movies Now HD
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=40f019b86241d23ef075633fd7f1e927:058dec845bd340178a388edd104a015e
 https://times-ott-live.akamaized.net/moviesnow_wv_drm/index.mpd
-#EXTINF:-1 tvg-id="139" tvg-name="MN+ HD" tvg-logo="https://i.postimg.cc/vTQfyh8C/mn-plus.png" group-title="Hindi",MN+ HD
+#EXTINF:-1 tvg-id="142" tvg-name="MN+ HD" tvg-logo="https://i.postimg.cc/vTQfyh8C/mn-plus.png" group-title="Hindi",MN+ HD
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=40f019b86241d23ef075633fd7f1e927:058dec845bd340178a388edd104a015e
 https://times-ott-live.akamaized.net/mnplus_wv_drm/index.mpd
-#EXTINF:-1 tvg-id="140" tvg-name="ary tv" tvg-logo="https://i.postimg.cc/XJx2RBXx/sm-ary-tv.png" group-title="Hindi" http-referrer="https://live.arydigital.tv",ary tv
-#EXTVLCOPT:http-referrer=https://live.arydigital.tv
-https://arydigital.aryzap.com/55ae4e128198dcc665950b98a478e32d/6ad356ed/v1/0183ea2408f90b8ed5941a38bc72/0183ea24302d0b8ed5941a38bc75/main.m3u8
+#EXTINF:-1 tvg-id="143" tvg-name="ary tv" tvg-logo="https://i.postimg.cc/XJx2RBXx/sm-ary-tv.png" group-title="Hindi",ary tv
+http://live1.entertv.com.bd:8080/dsds/index.m3u8
