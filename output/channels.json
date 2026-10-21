@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-21T07:26:51.335909+00:00",
-  "total_channels": 319,
-  "total_streams": 330,
+  "updated_at": "2026-10-21T13:14:51.758500+00:00",
+  "total_channels": 328,
+  "total_streams": 340,
   "channels": [
     {
       "id": "g_series",
@@ -3094,6 +3094,52 @@
       ]
     },
     {
+      "id": "live_snooker_vs_snooker_tnt1uk_sports",
+      "name": "[Live] Snooker Vs Snooker - TNT1UK SPORTS",
+      "category": "live_sports",
+      "logo": "https://pbs.twimg.com/profile_images/1818178290231787520/UgacIQ2j_400x400.jpg",
+      "quality": "FHD",
+      "servers": [
+        {
+          "name": "Server 1 (FHD)",
+          "stream_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
+          "quality": "FHD",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+          },
+          "drm": {
+            "type": "clearkey",
+            "kid": "69a5aa835a061ce64a630d1046727e40",
+            "key": "d02feac8a999bd06bf4059bf33411749"
+          },
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_snooker_vs_snooker_tnt4uk_sports",
+      "name": "[Live] Snooker Vs Snooker - TNT4UK SPORTS",
+      "category": "live_sports",
+      "logo": "https://pbs.twimg.com/profile_images/1818178290231787520/UgacIQ2j_400x400.jpg",
+      "quality": "FHD",
+      "servers": [
+        {
+          "name": "Server 1 (FHD)",
+          "stream_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd",
+          "quality": "FHD",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+          },
+          "drm": {
+            "type": "clearkey",
+            "kid": "fa34fa8c90336dd528c7a23871cad1fe",
+            "key": "552a78d1aeb74f1650d68255c5749408"
+          },
+          "sort_order": 1
+        }
+      ]
+    },
+    {
       "id": "live_tennis_evento_vs_tennis_evento_sky_tennis",
       "name": "[Live] TENNIS | EVENTO Vs TENNIS | EVENTO - SKY TENNIS",
       "category": "live_sports",
@@ -3463,6 +3509,109 @@
       ]
     },
     {
+      "id": "live_south_africa_vs_australia_willow",
+      "name": "[Live] South Africa Vs Australia - WILLOW",
+      "category": "live_sports",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11190/image/dark",
+      "quality": "FHD",
+      "servers": [
+        {
+          "name": "Server 1 (FHD)",
+          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/2aajhzhbtb/out/v1/e17009f75acc4bddb216ccc7eb256e89/cenc.mpd",
+          "quality": "FHD",
+          "headers": {},
+          "drm": {
+            "type": "clearkey",
+            "kid": "39d6fd72bc7b22ab03ea3d81cb8c739a",
+            "key": "91a9302b488dc76b61b9ab7c4e158aa2"
+          },
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_south_africa_vs_australia_fancode",
+      "name": "[Live] South Africa Vs Australia - FANCODE",
+      "category": "live_sports",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11190/image/dark",
+      "quality": "FHD",
+      "servers": [
+        {
+          "name": "Server 1 (FHD)",
+          "stream_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+          "quality": "FHD",
+          "headers": {},
+          "drm": {
+            "type": "clearkey",
+            "kid": "82dfca238e8c4b430a3269db71965db9",
+            "key": "a00b28caf4ac628e77a553d440c0ddca"
+          },
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_south_africa_vs_australia_sky_cricket",
+      "name": "[Live] South Africa Vs Australia - SKY CRICKET",
+      "category": "live_sports",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11190/image/dark",
+      "quality": "FHD",
+      "servers": [
+        {
+          "name": "Server 1 (FHD)",
+          "stream_url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
+          "quality": "FHD",
+          "headers": {
+            "User-Agent": "Mozilla"
+          },
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_south_africa_vs_australia_willow_alt",
+      "name": "[Live] South Africa Vs Australia - WILLOW ALT",
+      "category": "live_sports",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11190/image/dark",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/2aajhzhbtb/out/v1/e17009f75acc4bddb216ccc7eb256e89/cenc.mpd",
+          "quality": "HD",
+          "headers": {},
+          "drm": {
+            "type": "clearkey",
+            "kid": "39d6fd72bc7b22ab03ea3d81cb8c739a",
+            "key": "91a9302b488dc76b61b9ab7c4e158aa2"
+          },
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_south_africa_vs_australia_willow_sports",
+      "name": "[Live] South Africa Vs Australia - WILLOW SPORTS",
+      "category": "live_sports",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11190/image/dark",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
+          "quality": "HD",
+          "headers": {},
+          "drm": {
+            "type": "clearkey",
+            "kid": "290e09c837da78d5cd961978d390515c",
+            "key": "b748836c71e6a4ca68ef5b5652db6247"
+          },
+          "sort_order": 1
+        }
+      ]
+    },
+    {
       "id": "live_sports_live_vs_sports_live_nfl_server",
       "name": "[Live] SPORTS LIVE Vs SPORTS LIVE - NFL SERVER",
       "category": "live_sports",
@@ -3479,6 +3628,262 @@
             "kid": "b6e646d15d2ddfcf74c41ef6574b90fc",
             "key": "5c8bb38d3758dca73ad0ba63d6ba2841"
           },
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_bangladesh_vs_afghanistan_willow",
+      "name": "[Live] Bangladesh Vs Afghanistan - WILLOW",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/37663/image/dark",
+      "quality": "FHD",
+      "servers": [
+        {
+          "name": "Server 1 (FHD)",
+          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/iplwybp0pk/out/v1/d71f03d9635c4fc0b1c911f743f98519/cenc.mpd",
+          "quality": "FHD",
+          "headers": {},
+          "drm": {
+            "type": "clearkey",
+            "kid": "a016bbf898c1522758c13ec19c280d2a",
+            "key": "f7a70af49c51630e54a3ec6dfe2de582"
+          },
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_bangladesh_vs_afghanistan_fancode",
+      "name": "[Live] Bangladesh Vs Afghanistan - FANCODE",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/37663/image/dark",
+      "quality": "FHD",
+      "servers": [
+        {
+          "name": "Server 1 (FHD)",
+          "stream_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/twcny8iyym/out/v1/83184682abbf4c7fbc78b64266100dbd/cenc.mpd",
+          "quality": "FHD",
+          "headers": {},
+          "drm": {
+            "type": "clearkey",
+            "kid": "1994b1df7dfd2e8a8d7b9bf3fb900285",
+            "key": "22a1444b3da18e139191665b3d652835"
+          },
+          "sort_order": 1
+        },
+        {
+          "name": "Server 2 (FHD)",
+          "stream_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+          "quality": "FHD",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+          },
+          "drm": {
+            "type": "clearkey",
+            "kid": "82dfca238e8c4b430a3269db71965db9",
+            "key": "a00b28caf4ac628e77a553d440c0ddca"
+          },
+          "sort_order": 2
+        }
+      ]
+    },
+    {
+      "id": "live_bangladesh_vs_afghanistan_willow_alt",
+      "name": "[Live] Bangladesh Vs Afghanistan - WILLOW ALT",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/37663/image/dark",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/iplwybp0pk/out/v1/d71f03d9635c4fc0b1c911f743f98519/cenc.mpd",
+          "quality": "HD",
+          "headers": {},
+          "drm": {
+            "type": "clearkey",
+            "kid": "a016bbf898c1522758c13ec19c280d2a",
+            "key": "f7a70af49c51630e54a3ec6dfe2de582"
+          },
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_bangladesh_vs_afghanistan_willow_sports",
+      "name": "[Live] Bangladesh Vs Afghanistan - WILLOW SPORTS",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/37663/image/dark",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://live-pv-ta.amazon.fastly-edge.com/lhr-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
+          "quality": "HD",
+          "headers": {},
+          "drm": {
+            "type": "clearkey",
+            "kid": "290e09c837da78d5cd961978d390515c",
+            "key": "b748836c71e6a4ca68ef5b5652db6247"
+          },
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_bangladesh_vs_afghanistan_t_sports",
+      "name": "[Live] Bangladesh Vs Afghanistan - T SPORTS",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/37663/image/dark",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "http://103.151.60.162:2122/play/a030/index.m3u8?hls",
+          "quality": "HD",
+          "headers": {},
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_bangladesh_vs_afghanistan_fancode_ind_ip",
+      "name": "[Live] Bangladesh Vs Afghanistan - FANCODE IND IP",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/37663/image/dark",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://dai-fancode.pages.dev/mumbai/4249694_english_hls_c370ab317921311_1ta-di_h264/index.m3u8",
+          "quality": "HD",
+          "headers": {
+            "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
+            "Referer": "https://fancode.com/"
+          },
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_lille_u19_vs_galatasaray_u19_stream_tv",
+      "name": "[Live] Lille U19 Vs Galatasaray U19 - STREAM TV +",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/2132/image/dark",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "http://193.47.62.55/hls/KYYYQQ.m3u8",
+          "quality": "HD",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36",
+            "Referer": "https://nadia01eo.tn76degree12ec3out.cfd"
+          },
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_lille_u19_vs_galatasaray_u19_low_quality_use_vpn",
+      "name": "[Live] Lille U19 Vs Galatasaray U19 - LOW QUALITY (USE VPN)",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/2132/image/dark",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "http://193.47.62.55/hls/KYYYQQ.m3u8",
+          "quality": "HD",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36",
+            "Referer": "https://nadia01eo.tn76degree12ec3out.cfd"
+          },
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_aston_villa_u19_vs_viking_fk_u19_tnt3uk_sports",
+      "name": "[Live] Aston Villa U19 Vs Viking FK U19 - TNT3UK SPORTS",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/2132/image/dark",
+      "quality": "FHD",
+      "servers": [
+        {
+          "name": "Server 1 (FHD)",
+          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd",
+          "quality": "FHD",
+          "headers": {},
+          "drm": {
+            "type": "clearkey",
+            "kid": "cc91508324ce9dcaf425a43d58f1d9d4",
+            "key": "643e5474d9edd87c7d9091c8c97994ca"
+          },
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_aston_villa_u19_vs_viking_fk_u19_low_quality_use_vpn",
+      "name": "[Live] Aston Villa U19 Vs Viking FK U19 - LOW QUALITY (USE VPN)",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/2132/image/dark",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "http://193.47.62.55/hls/KYYYQQQQQ.m3u8",
+          "quality": "HD",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36",
+            "Referer": "https://nadia01eo.tn76degree12ec3out.cfd"
+          },
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_fc_15_de_agosto_de_akonibe_vs_simba_sc_stream_tv",
+      "name": "[Live] FC 15 de Agosto de Akonibe Vs Simba SC - STREAM TV +",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/1054/image/dark",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "http://193.47.62.50/hls/AAAAA.m3u8",
+          "quality": "HD",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36",
+            "Referer": "https://nadia01eo.tn76degree12ec3out.cfd"
+          },
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_fc_15_de_agosto_de_akonibe_vs_simba_sc_low_quality_use_vpn",
+      "name": "[Live] FC 15 de Agosto de Akonibe Vs Simba SC - LOW QUALITY (USE VPN)",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/1054/image/dark",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "http://193.47.62.50/hls/AAAAA.m3u8",
+          "quality": "HD",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36",
+            "Referer": "https://nadia01eo.tn76degree12ec3out.cfd"
+          },
+          "drm": null,
           "sort_order": 1
         }
       ]
@@ -3522,52 +3927,6 @@
             "type": "clearkey",
             "kid": "9f327d24c66fbd84e15ab5c9ead7c7a4",
             "key": "83837185529c0c4048f81386c2d36426"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_snooker_vs_snooker_tnt1uk_sports",
-      "name": "[Live] Snooker Vs Snooker - TNT1UK SPORTS",
-      "category": "live_sports",
-      "logo": "https://pbs.twimg.com/profile_images/1818178290231787520/UgacIQ2j_400x400.jpg",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
-          "quality": "FHD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-          },
-          "drm": {
-            "type": "clearkey",
-            "kid": "69a5aa835a061ce64a630d1046727e40",
-            "key": "d02feac8a999bd06bf4059bf33411749"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_snooker_vs_snooker_tnt4uk_sports",
-      "name": "[Live] Snooker Vs Snooker - TNT4UK SPORTS",
-      "category": "live_sports",
-      "logo": "https://pbs.twimg.com/profile_images/1818178290231787520/UgacIQ2j_400x400.jpg",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd",
-          "quality": "FHD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-          },
-          "drm": {
-            "type": "clearkey",
-            "kid": "fa34fa8c90336dd528c7a23871cad1fe",
-            "key": "552a78d1aeb74f1650d68255c5749408"
           },
           "sort_order": 1
         }
@@ -3669,109 +4028,6 @@
             "type": "clearkey",
             "kid": "30089c52924f037b225b82c616fee2a5",
             "key": "f55dc8b66ed4fc6753d6035ae7e17144"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_south_africa_vs_australia_willow",
-      "name": "[Live] South Africa Vs Australia - WILLOW",
-      "category": "live_sports",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11190/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/4kosuavavh/out/v1/9e742bb032404e1fb540828f2aaca55c/cenc.mpd",
-          "quality": "FHD",
-          "headers": {},
-          "drm": {
-            "type": "clearkey",
-            "kid": "080ee04799e134b38da01ba4bfca26b7",
-            "key": "e7238b74d5c55457ea611fe541c358aa"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_south_africa_vs_australia_fancode",
-      "name": "[Live] South Africa Vs Australia - FANCODE",
-      "category": "live_sports",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11190/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
-          "quality": "FHD",
-          "headers": {},
-          "drm": {
-            "type": "clearkey",
-            "kid": "82dfca238e8c4b430a3269db71965db9",
-            "key": "a00b28caf4ac628e77a553d440c0ddca"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_south_africa_vs_australia_sky_cricket",
-      "name": "[Live] South Africa Vs Australia - SKY CRICKET",
-      "category": "live_sports",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11190/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
-          "quality": "FHD",
-          "headers": {
-            "User-Agent": "Mozilla"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_south_africa_vs_australia_willow_alt",
-      "name": "[Live] South Africa Vs Australia - WILLOW ALT",
-      "category": "live_sports",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11190/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/4kosuavavh/out/v1/9e742bb032404e1fb540828f2aaca55c/cenc.mpd",
-          "quality": "HD",
-          "headers": {},
-          "drm": {
-            "type": "clearkey",
-            "kid": "080ee04799e134b38da01ba4bfca26b7",
-            "key": "e7238b74d5c55457ea611fe541c358aa"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_south_africa_vs_australia_willow_sports",
-      "name": "[Live] South Africa Vs Australia - WILLOW SPORTS",
-      "category": "live_sports",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11190/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
-          "quality": "HD",
-          "headers": {},
-          "drm": {
-            "type": "clearkey",
-            "kid": "290e09c837da78d5cd961978d390515c",
-            "key": "b748836c71e6a4ca68ef5b5652db6247"
           },
           "sort_order": 1
         }
@@ -4179,129 +4435,6 @@
             "kid": "69a5aa835a061ce64a630d1046727e40",
             "key": "d02feac8a999bd06bf4059bf33411749"
           },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_bangladesh_vs_afghanistan_willow",
-      "name": "[Live] Bangladesh Vs Afghanistan - WILLOW",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/37663/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/iiqppqpksi/out/v1/5aedff78e45a44a08461ab32fa41310a/cenc.mpd",
-          "quality": "FHD",
-          "headers": {},
-          "drm": {
-            "type": "clearkey",
-            "kid": "d67c0f3e8d176e693e9d452ec4aeca2f",
-            "key": "3cae5de28b16ae8152999574ced3b4db"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_bangladesh_vs_afghanistan_fancode",
-      "name": "[Live] Bangladesh Vs Afghanistan - FANCODE",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/37663/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
-          "quality": "FHD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-          },
-          "drm": {
-            "type": "clearkey",
-            "kid": "82dfca238e8c4b430a3269db71965db9",
-            "key": "a00b28caf4ac628e77a553d440c0ddca"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_bangladesh_vs_afghanistan_willow_alt",
-      "name": "[Live] Bangladesh Vs Afghanistan - WILLOW ALT",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/37663/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/iiqppqpksi/out/v1/5aedff78e45a44a08461ab32fa41310a/cenc.mpd",
-          "quality": "HD",
-          "headers": {},
-          "drm": {
-            "type": "clearkey",
-            "kid": "d67c0f3e8d176e693e9d452ec4aeca2f",
-            "key": "3cae5de28b16ae8152999574ced3b4db"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_bangladesh_vs_afghanistan_willow_sports",
-      "name": "[Live] Bangladesh Vs Afghanistan - WILLOW SPORTS",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/37663/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://live-pv-ta.amazon.fastly-edge.com/lhr-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
-          "quality": "HD",
-          "headers": {},
-          "drm": {
-            "type": "clearkey",
-            "kid": "290e09c837da78d5cd961978d390515c",
-            "key": "b748836c71e6a4ca68ef5b5652db6247"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_bangladesh_vs_afghanistan_t_sports",
-      "name": "[Live] Bangladesh Vs Afghanistan - T SPORTS",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/37663/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "http://103.151.60.162:2122/play/a030/index.m3u8?hls",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_bangladesh_vs_afghanistan_fancode_ind_ip",
-      "name": "[Live] Bangladesh Vs Afghanistan - FANCODE IND IP",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/37663/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://dai-fancode.pages.dev/mumbai/4249694_english_hls_c370ab317921311_1ta-di_h264/index.m3u8",
-          "quality": "HD",
-          "headers": {
-            "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
-            "Referer": "https://fancode.com/"
-          },
-          "drm": null,
           "sort_order": 1
         }
       ]
@@ -4991,22 +5124,81 @@
       ]
     },
     {
-      "id": "live_aston_villa_u19_vs_viking_fk_u19_tnt3uk_sports",
-      "name": "[Live] Aston Villa U19 Vs Viking FK U19 - TNT3UK SPORTS",
+      "id": "live_inter_u20_vs_shakhtar_donetsk_u19_stream_tv",
+      "name": "[Live] Inter U20 Vs Shakhtar Donetsk U19 - STREAM TV +",
       "category": "live_sports",
       "logo": "http://img.sofascore.com/api/v1/unique-tournament/2132/image/dark",
-      "quality": "FHD",
+      "quality": "HD",
       "servers": [
         {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd",
-          "quality": "FHD",
-          "headers": {},
-          "drm": {
-            "type": "clearkey",
-            "kid": "cc91508324ce9dcaf425a43d58f1d9d4",
-            "key": "643e5474d9edd87c7d9091c8c97994ca"
+          "name": "Server 1 (HD)",
+          "stream_url": "http://193.47.62.55/hls/KYYYQQQQQQ.m3u8",
+          "quality": "HD",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36",
+            "Referer": "https://nadia01eo.tn76degree12ec3out.cfd"
           },
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_inter_u20_vs_shakhtar_donetsk_u19_low_quality_use_vpn",
+      "name": "[Live] Inter U20 Vs Shakhtar Donetsk U19 - LOW QUALITY (USE VPN)",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/2132/image/dark",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "http://193.47.62.55/hls/KYYYQQQQQQ.m3u8",
+          "quality": "HD",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36",
+            "Referer": "https://nadia01eo.tn76degree12ec3out.cfd"
+          },
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_real_madrid_u19_vs_rb_leipzig_u19_stream_tv",
+      "name": "[Live] Real Madrid U19 Vs RB Leipzig U19 - STREAM TV +",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/2132/image/dark",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "http://193.47.62.55/hls/KYYYQQQQQQA.m3u8",
+          "quality": "HD",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36",
+            "Referer": "https://nadia01eo.tn76degree12ec3out.cfd"
+          },
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_real_madrid_u19_vs_rb_leipzig_u19_low_quality_use_vpn",
+      "name": "[Live] Real Madrid U19 Vs RB Leipzig U19 - LOW QUALITY (USE VPN)",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/2132/image/dark",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "http://193.47.62.55/hls/KYYYQQQQQQA.m3u8",
+          "quality": "HD",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36",
+            "Referer": "https://nadia01eo.tn76degree12ec3out.cfd"
+          },
+          "drm": null,
           "sort_order": 1
         }
       ]
