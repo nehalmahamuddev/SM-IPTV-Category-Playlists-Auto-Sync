@@ -104,15 +104,21 @@ class SmIptvClient:
 
                     cookie = ch.get("cookie")
                     referer = ch.get("referer")
+                    origin = ch.get("origin")
                     user_agent = ch.get("user_agent")
                     kid = ch.get("kid")
                     key = ch.get("key")
+
+                    if origin and not referer:
+                        referer = origin if origin.endswith("/") else f"{origin}/"
 
                     extinf = f'#EXTINF:-1 tvg-id="{ch_id}" tvg-name="{name}" tvg-logo="{logo}" group-title="{cat_name}"'
                     if user_agent:
                         extinf += f' http-user-agent="{user_agent}"'
                     if referer:
                         extinf += f' http-referrer="{referer}"'
+                    if origin:
+                        extinf += f' http-origin="{origin}"'
                     extinf += f',{name}'
 
                     lines.append(extinf)
@@ -120,6 +126,8 @@ class SmIptvClient:
                         lines.append(f'#EXTVLCOPT:http-user-agent={user_agent}')
                     if referer:
                         lines.append(f'#EXTVLCOPT:http-referrer={referer}')
+                    if origin:
+                        lines.append(f'#EXTVLCOPT:http-origin={origin}')
                     if cookie:
                         lines.append(f'#EXTVLCOPT:http-cookie={cookie}')
                     if kid and key:
@@ -150,14 +158,21 @@ class SmIptvClient:
                         display_name = f"[Live] {event_name} - {ch_name}"
                         user_agent = stream.get("user_agent")
                         referer = stream.get("referer")
+                        origin = stream.get("origin")
+                        cookie = stream.get("cookie")
                         kid = stream.get("kid")
                         key = stream.get("key")
+
+                        if origin and not referer:
+                            referer = origin if origin.endswith("/") else f"{origin}/"
 
                         extinf = f'#EXTINF:-1 tvg-name="{display_name}" tvg-logo="{event_logo}" group-title="Live Sports | {category}"'
                         if user_agent:
                             extinf += f' http-user-agent="{user_agent}"'
                         if referer:
                             extinf += f' http-referrer="{referer}"'
+                        if origin:
+                            extinf += f' http-origin="{origin}"'
                         extinf += f',{display_name}'
 
                         lines.append(extinf)
@@ -165,6 +180,10 @@ class SmIptvClient:
                             lines.append(f'#EXTVLCOPT:http-user-agent={user_agent}')
                         if referer:
                             lines.append(f'#EXTVLCOPT:http-referrer={referer}')
+                        if origin:
+                            lines.append(f'#EXTVLCOPT:http-origin={origin}')
+                        if cookie:
+                            lines.append(f'#EXTVLCOPT:http-cookie={cookie}')
                         if kid and key:
                             lines.append('#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey')
                             lines.append(f'#KODIPROP:inputstream.adaptive.license_key={kid}:{key}')

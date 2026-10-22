@@ -354,15 +354,21 @@ class SmIptvClient:
 
                     cookie = ch.get("cookie")
                     referer = ch.get("referer")
+                    origin = ch.get("origin")
                     user_agent = ch.get("user_agent")
                     kid = ch.get("kid")
                     key = ch.get("key")
+
+                    if origin and not referer:
+                        referer = origin if origin.endswith("/") else f"{origin}/"
 
                     extinf = f'#EXTINF:-1 tvg-id="{ch_id}" tvg-name="{name}" tvg-logo="{logo}" group-title="{cat_name}"'
                     if user_agent:
                         extinf += f' http-user-agent="{user_agent}"'
                     if referer:
                         extinf += f' http-referrer="{referer}"'
+                    if origin:
+                        extinf += f' http-origin="{origin}"'
                     extinf += f',{name}'
 
                     lines.append(extinf)
@@ -370,6 +376,8 @@ class SmIptvClient:
                         lines.append(f'#EXTVLCOPT:http-user-agent={user_agent}')
                     if referer:
                         lines.append(f'#EXTVLCOPT:http-referrer={referer}')
+                    if origin:
+                        lines.append(f'#EXTVLCOPT:http-origin={origin}')
                     if cookie:
                         lines.append(f'#EXTVLCOPT:http-cookie={cookie}')
                     if kid and key:

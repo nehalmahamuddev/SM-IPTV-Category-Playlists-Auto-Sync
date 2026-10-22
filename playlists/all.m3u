@@ -1,15 +1,23 @@
 #EXTM3U name="SM IPTV - All Channels & Live Sports"
-# Generated: 2026-10-22 15:24:22 UTC
+# Generated: 2026-10-22 17:34:40 UTC
 
 #EXTINF:-1 tvg-id="1" tvg-name="G-Series" tvg-logo="https://i.postimg.cc/xTxpr24R/1000114119.jpg" group-title="Bangla",G-Series
 https://vods2.aynaott.com/gseriesDrama/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="2" tvg-name="BTV" tvg-logo="https://i.postimg.cc/4yZsvjGm/sm-btv-hd.jpg" group-title="Bangla",BTV
+#EXTINF:-1 tvg-id="2" tvg-name="BTV" tvg-logo="https://i.postimg.cc/4yZsvjGm/sm-btv-hd.jpg" group-title="Bangla" http-referrer="https://www.btvlive.gov.bd/" http-origin="https://www.btvlive.gov.bd",BTV
+#EXTVLCOPT:http-referrer=https://www.btvlive.gov.bd/
+#EXTVLCOPT:http-origin=https://www.btvlive.gov.bd
 https://live.btvlive.gov.bd/live/61a7b67c-abf0-4066-8eb6-3f8fd169cd94/BD/355ba051-9a60-48aa-adcf-5a6c64da8c5c/index.m3u8
-#EXTINF:-1 tvg-id="3" tvg-name="BTV News" tvg-logo="https://i.postimg.cc/4yZsvjGK/sm-btv-news.webp" group-title="Bangla",BTV News
+#EXTINF:-1 tvg-id="3" tvg-name="BTV News" tvg-logo="https://i.postimg.cc/4yZsvjGK/sm-btv-news.webp" group-title="Bangla" http-referrer="https://www.btvlive.gov.bd/" http-origin="https://www.btvlive.gov.bd",BTV News
+#EXTVLCOPT:http-referrer=https://www.btvlive.gov.bd/
+#EXTVLCOPT:http-origin=https://www.btvlive.gov.bd
 https://live.btvlive.gov.bd/live/61a7b67c-abf0-4066-8eb6-3f8fd169cd94/BD/d96eb7f4-83c2-4472-9597-3568390a8ebf/index.m3u8
-#EXTINF:-1 tvg-id="4" tvg-name="BTV CHITTAGONG" tvg-logo="https://i.postimg.cc/L5TRxv42/sm-btv-chattagram.webp" group-title="Bangla",BTV CHITTAGONG
+#EXTINF:-1 tvg-id="4" tvg-name="BTV CHITTAGONG" tvg-logo="https://i.postimg.cc/L5TRxv42/sm-btv-chattagram.webp" group-title="Bangla" http-referrer="https://www.btvlive.gov.bd/" http-origin="https://www.btvlive.gov.bd",BTV CHITTAGONG
+#EXTVLCOPT:http-referrer=https://www.btvlive.gov.bd/
+#EXTVLCOPT:http-origin=https://www.btvlive.gov.bd
 https://live.btvlive.gov.bd/live/61a7b67c-abf0-4066-8eb6-3f8fd169cd94/BD/a707f2dc-9704-413a-a67c-17c64a77c350/index.m3u8
-#EXTINF:-1 tvg-id="5" tvg-name="BTV Shangshad" tvg-logo="https://i.postimg.cc/yxPBLn61/sm-btv-shangshad.jpg" group-title="Bangla",BTV Shangshad
+#EXTINF:-1 tvg-id="5" tvg-name="BTV Shangshad" tvg-logo="https://i.postimg.cc/yxPBLn61/sm-btv-shangshad.jpg" group-title="Bangla" http-referrer="https://www.btvlive.gov.bd/" http-origin="https://www.btvlive.gov.bd",BTV Shangshad
+#EXTVLCOPT:http-referrer=https://www.btvlive.gov.bd/
+#EXTVLCOPT:http-origin=https://www.btvlive.gov.bd
 https://live.btvlive.gov.bd/live/61a7b67c-abf0-4066-8eb6-3f8fd169cd94/BD/9ee3b4f9-fd0a-47c5-a135-2575c5691613/index.m3u8
 #EXTINF:-1 tvg-id="6" tvg-name="Channel 1" tvg-logo="https://i.postimg.cc/cHfdn0VD/sm-channel-1.jpg" group-title="Bangla",Channel 1
 https://drk6xq0vhn.gpcdn.net/live/channel_1_hd_abr/index.m3u8
@@ -225,7 +233,7 @@ http://103.114.11.37:8081/Colors-bangla-cinema/index.m3u8
 #EXTVLCOPT:http-referrer=https://techandeat.online
 https://techandeat.online/sliv/stream.m3u8?id=1000009247
 #EXTINF:-1 tvg-id="105" tvg-name="And Pictures hd" tvg-logo="https://i.postimg.cc/P5NbNSb8/and-picturs-hd.png" group-title="Hindi",And Pictures hd
-http://tv.cloudcdn.me:80/live.ts?channelId=132225&uid=10097&deviceMac=00:1A:79:A4:73:F2
+http://tv.cloudcdn.me:80/live.ts?channelId=139&uid=10097&deviceMac=00:1A:79:A4:73:F2
 #EXTINF:-1 tvg-id="106" tvg-name="Star Movie" tvg-logo="https://i.postimg.cc/v8z5zJ3g/star-movies.png" group-title="Hindi" http-user-agent="OTT-KING TV 1.0" http-referrer="https://sm-monirul.xyz",Star Movie
 #EXTVLCOPT:http-user-agent=OTT-KING TV 1.0
 #EXTVLCOPT:http-referrer=https://sm-monirul.xyz
@@ -348,7 +356,7 @@ https://app-re.sm-monirul-islam-rs.workers.dev/discovery-bangla/index.m3u8
 #EXTINF:-1 tvg-id="154" tvg-name="Durunto" tvg-logo="https://i.postimg.cc/s2WM2BPR/20251127-095726.png" group-title="Kids",Durunto
 http://103.135.253.32:8080/DORONTU-TV/index.m3u8
 #EXTINF:-1 tvg-id="155" tvg-name="Nick Bangla" tvg-logo="https://i.postimg.cc/4dQCpzTm/20250630-050342.png" group-title="Kids",Nick Bangla
-httpS://app-zibo-play40.tvhunter.top/newr/NICK.m3u8
+http://tv.cloudcdn.me:80/live.ts?channelId=90242&uid=10097&deviceMac=00:1A:79:A4:73:F2
 #EXTINF:-1 tvg-id="156" tvg-name="Nickelodeon" tvg-logo="https://iili.io/CpgdfYN.md.webp" group-title="Kids",Nickelodeon
 http://2756d46c.akciatv.ru/iptv/7FRNF6CY9A9TG3/6848/index.m3u8
 #EXTINF:-1 tvg-id="157" tvg-name="Sony YAY" tvg-logo="https://i.postimg.cc/wBbj6c9g/20250529-115914.png" group-title="Kids" http-referrer="https://techandeat.online",Sony YAY
@@ -421,115 +429,368 @@ https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd
-#EXTINF:-1 tvg-name="[Live] GOLF EVENTO Vs GOLF EVENTO - Golf Channel - HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfsn5BK10q6F7RDnUoMF18c1HXCsm0WNNhAH_T3iee9Q&s" group-title="Live Sports | Other",[Live] GOLF EVENTO Vs GOLF EVENTO - Golf Channel - HD
-https://dash3.antik.sk/live/test_golf_channel/playlist.m3u8
-#EXTINF:-1 tvg-name="[Live] GOLF EVENTO Vs GOLF EVENTO - Golf PGA Baycurrent Classic (USE VPN)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfsn5BK10q6F7RDnUoMF18c1HXCsm0WNNhAH_T3iee9Q&s" group-title="Live Sports | Other" http-user-agent="Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36" http-referrer="https://nadia01eo.tn76degree12ec3out.cfd",[Live] GOLF EVENTO Vs GOLF EVENTO - Golf PGA Baycurrent Classic (USE VPN)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
-http://193.47.62.44/hls/CTTTT.m3u8
-#EXTINF:-1 tvg-name="[Live] GOLF EVENTO Vs GOLF EVENTO - Golf Open de Espana" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfsn5BK10q6F7RDnUoMF18c1HXCsm0WNNhAH_T3iee9Q&s" group-title="Live Sports | Other" http-user-agent="Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36" http-referrer="https://nadia01eo.tn76degree12ec3out.cfd",[Live] GOLF EVENTO Vs GOLF EVENTO - Golf Open de Espana
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
-http://193.47.62.44/hls/CTTTT.m3u8
-#EXTINF:-1 tvg-name="[Live] South Africa Vs Australia - WILLOW FHD" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/11190/image/dark" group-title="Live Sports | Cricket",[Live] South Africa Vs Australia - WILLOW FHD
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=0d52e23fe7eade15ac5b852ac0a5a23a:5fce44b4d3887f03d32339b27a13637b
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/2jx5hrl31t/out/v1/9b12bcffb3eb4f95a4b1809826d1d020/cenc.mpd
-#EXTINF:-1 tvg-name="[Live] South Africa Vs Australia - FANCODE FHD" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/11190/image/dark" group-title="Live Sports | Cricket",[Live] South Africa Vs Australia - FANCODE FHD
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd
-#EXTINF:-1 tvg-name="[Live] South Africa Vs Australia - SKY CRICKET FHD" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/11190/image/dark" group-title="Live Sports | Cricket" http-user-agent="Mozilla",[Live] South Africa Vs Australia - SKY CRICKET FHD
-#EXTVLCOPT:http-user-agent=Mozilla
-https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https
-#EXTINF:-1 tvg-name="[Live] South Africa Vs Australia - WILLOW ALT" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/11190/image/dark" group-title="Live Sports | Cricket",[Live] South Africa Vs Australia - WILLOW ALT
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=0d52e23fe7eade15ac5b852ac0a5a23a:5fce44b4d3887f03d32339b27a13637b
-https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/2jx5hrl31t/out/v1/9b12bcffb3eb4f95a4b1809826d1d020/cenc.mpd
-#EXTINF:-1 tvg-name="[Live] South Africa Vs Australia - WILLOW SPORTS HD" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/11190/image/dark" group-title="Live Sports | Cricket",[Live] South Africa Vs Australia - WILLOW SPORTS HD
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd
-#EXTINF:-1 tvg-name="[Live] Australia Women Vs New Zealand Women - WILLOW FHD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/11222/image/dark" group-title="Live Sports | Cricket",[Live] Australia Women Vs New Zealand Women - WILLOW FHD
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=a1d03c736494cff8eff6c6b208716715:d41a9479cce7c43faf8e212765fd42c0
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/upctcqjn8t/out/v1/81cea51017e24bdc86df391c3c77f03b/cenc.mpd
-#EXTINF:-1 tvg-name="[Live] Australia Women Vs New Zealand Women - FANCODE FHD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/11222/image/dark" group-title="Live Sports | Cricket",[Live] Australia Women Vs New Zealand Women - FANCODE FHD
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd
-#EXTINF:-1 tvg-name="[Live] Australia Women Vs New Zealand Women - WILLOW ALT" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/11222/image/dark" group-title="Live Sports | Cricket",[Live] Australia Women Vs New Zealand Women - WILLOW ALT
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=a1d03c736494cff8eff6c6b208716715:d41a9479cce7c43faf8e212765fd42c0
-https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/upctcqjn8t/out/v1/81cea51017e24bdc86df391c3c77f03b/cenc.mpd
-#EXTINF:-1 tvg-name="[Live] Australia Women Vs New Zealand Women - SKY CRICKET FHD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/11222/image/dark" group-title="Live Sports | Cricket" http-user-agent="Mozilla",[Live] Australia Women Vs New Zealand Women - SKY CRICKET FHD
-#EXTVLCOPT:http-user-agent=Mozilla
-https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https
-#EXTINF:-1 tvg-name="[Live] Australia Women Vs New Zealand Women - WILLOW SPORTS" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/11222/image/dark" group-title="Live Sports | Cricket",[Live] Australia Women Vs New Zealand Women - WILLOW SPORTS
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247
-https://live-pv-ta.amazon.fastly-edge.com/lhr-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd
-#EXTINF:-1 tvg-name="[Live] Australia Women Vs New Zealand Women - EUROSPORT FHD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/11222/image/dark" group-title="Live Sports | Cricket",[Live] Australia Women Vs New Zealand Women - EUROSPORT FHD
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=12ed56d780abcfebcd23aa27e4ac5015:6784567890abcfebcd23aa27e4ac2814
-https://wbd.skandha.tv/EuroSport_HD/EuroSport_HD.isml/.mpd
-#EXTINF:-1 tvg-name="[Live] England Vs Sri Lanka - WILLOW FHD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/22868/image/dark" group-title="Live Sports | Cricket",[Live] England Vs Sri Lanka - WILLOW FHD
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=6138da1047932e4c4328448493554901:4e8e19728da2159ac564bd5b01843621
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lognidbrxm/out/v1/7871a7545c6a43f9b9f17bf42f50602e/cenc.mpd
-#EXTINF:-1 tvg-name="[Live] England Vs Sri Lanka - WILLOW ALT" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/22868/image/dark" group-title="Live Sports | Cricket",[Live] England Vs Sri Lanka - WILLOW ALT
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=6138da1047932e4c4328448493554901:4e8e19728da2159ac564bd5b01843621
-https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/lognidbrxm/out/v1/7871a7545c6a43f9b9f17bf42f50602e/cenc.mpd
-#EXTINF:-1 tvg-name="[Live] England Vs Sri Lanka - SKY CRICKET FHD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/22868/image/dark" group-title="Live Sports | Cricket" http-user-agent="Mozilla",[Live] England Vs Sri Lanka - SKY CRICKET FHD
-#EXTVLCOPT:http-user-agent=Mozilla
-https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https
-#EXTINF:-1 tvg-name="[Live] England Vs Sri Lanka - WILLOW HD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/22868/image/dark" group-title="Live Sports | Cricket",[Live] England Vs Sri Lanka - WILLOW HD
-http://mag.tivi-one-iptv.net/play/live.php?mac=00:1A:79:F5:CC:FD&stream=809386&extension=m3u8
-#EXTINF:-1 tvg-name="[Live] Spain U17 Vs Australia U17 - FOX2 SPORTS FHD " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/827/image/dark" group-title="Live Sports | Football",[Live] Spain U17 Vs Australia U17 - FOX2 SPORTS FHD 
+#EXTINF:-1 tvg-name="[Live] Horse Racing Vs Horse Racing - FOX2 SPORTS FHD " tvg-logo="https://pbs.twimg.com/profile_images/1597146257889312773/b_9FkAVp_400x400.jpg" group-title="Live Sports | Other",[Live] Horse Racing Vs Horse Racing - FOX2 SPORTS FHD 
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd
-#EXTINF:-1 tvg-name="[Live] Al-Hazem Vs Al-Fayha - STREAM TV + HD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/955/image/dark" group-title="Live Sports | Football" http-referrer="https://player.online878.com/",[Live] Al-Hazem Vs Al-Fayha - STREAM TV + HD
-#EXTVLCOPT:http-referrer=https://player.online878.com/
-https://live.vivo155.com/live/sd-1-4599633.m3u8?txSecret=d4ee6da4d0be0a8fab365a5007c4b68a&txTime=6ADA2222
-#EXTINF:-1 tvg-name="[Live] Al-Hazem Vs Al-Fayha - LOW QUALITY (USE VPN)" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/955/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36" http-referrer="https://nadia01eo.tn76degree12ec3out.cfd",[Live] Al-Hazem Vs Al-Fayha - LOW QUALITY (USE VPN)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
-http://193.47.62.44/hls/CIIIAAAA.m3u8
-#EXTINF:-1 tvg-name="[Live] Al-Fateh Vs Al-Shabab - STREAM TV + HD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/955/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" http-referrer="https://streame.center",[Live] Al-Fateh Vs Al-Shabab - STREAM TV + HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-#EXTVLCOPT:http-referrer=https://streame.center
-https://edgestream2.pro/hls/.m3u8
-#EXTINF:-1 tvg-name="[Live] FC Kairat Almaty Vs Panathinaikos FC - STREAM TV + HD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" http-referrer="https://streame.center",[Live] FC Kairat Almaty Vs Panathinaikos FC - STREAM TV + HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-#EXTVLCOPT:http-referrer=https://streame.center
-https://edgestream2.pro/hls/.m3u8
-#EXTINF:-1 tvg-name="[Live] New Zealand Vs India - WILLOW FHD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/11191/image/dark" group-title="Live Sports | Cricket",[Live] New Zealand Vs India - WILLOW FHD
+#EXTINF:-1 tvg-name="[Live] Horse Racing Vs Horse Racing - FOX1 SPORTS FHD" tvg-logo="https://pbs.twimg.com/profile_images/1597146257889312773/b_9FkAVp_400x400.jpg" group-title="Live Sports | Other",[Live] Horse Racing Vs Horse Racing - FOX1 SPORTS FHD
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=c3125d35cc46b342a0534a9c5ddd6d31:426221d3ffae19a037f5c755508dbf3c
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/meouoxphzm/out/v1/be7934dca1254ed0924242347f93c4e3/cenc.mpd
-#EXTINF:-1 tvg-name="[Live] New Zealand Vs India - TNT SPORTS FHD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/11191/image/dark" group-title="Live Sports | Cricket" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",[Live] New Zealand Vs India - TNT SPORTS FHD
+#KODIPROP:inputstream.adaptive.license_key=5466ebd70704bdeb657f0abf3c5ca4ef:bdd79b72d8e48ed483aa623cc38a8a16
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fsu3wl2rwb/out/v1/be61206c04e643349d53fb22301f3b50/cenc.mpd
+#EXTINF:-1 tvg-name="[Live] Horse Racing Vs Horse Racing - SKY RACING - FHD" tvg-logo="https://pbs.twimg.com/profile_images/1597146257889312773/b_9FkAVp_400x400.jpg" group-title="Live Sports | Other" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0",[Live] Horse Racing Vs Horse Racing - SKY RACING - FHD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0
+https://bl.rutube.ru/livestream/362d68a2d5d5b48dbf23522573e64d57/index.m3u8?s=SyXrFpONvusXH9PA0isg7Q&e=2075285628&scheme=https
+#EXTINF:-1 tvg-name="[Live] Horse Racing Vs Horse Racing - HD QUALITY " tvg-logo="https://pbs.twimg.com/profile_images/1597146257889312773/b_9FkAVp_400x400.jpg" group-title="Live Sports | Other",[Live] Horse Racing Vs Horse Racing - HD QUALITY 
+https://tmaxapp.site/8wirwjs76erftg/skysportsracing.m3u8
+#EXTINF:-1 tvg-name="[Live] Horse Racing Vs Horse Racing - ITV1 FHD " tvg-logo="https://pbs.twimg.com/profile_images/1597146257889312773/b_9FkAVp_400x400.jpg" group-title="Live Sports | Other" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",[Live] Horse Racing Vs Horse Racing - ITV1 FHD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=30089c52924f037b225b82c616fee2a5:f55dc8b66ed4fc6753d6035ae7e17144
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0eiyyz8qzm/out/v1/dd17af8835fe4bd087d1a4e359b635d7/cenc.mpd
+#EXTINF:-1 tvg-name="[Live] DARTS PDC Vs DARTS PDC - Nova2 Sports FHD " tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/751/image" group-title="Live Sports | Other",[Live] DARTS PDC Vs DARTS PDC - Nova2 Sports FHD 
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
+https://dash2.antik.sk/stream/nvidia_nova_sport2/playlist_cenc.mpd
+#EXTINF:-1 tvg-name="[Live] FC Nordsjælland Vs CSKA Sofia - PARAMOUNT+ FHD " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football",[Live] FC Nordsjælland Vs CSKA Sofia - PARAMOUNT+ FHD 
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=6657f9417ae8a60767d6555e9f53bed2:24f6d8e8695e7522721c63ea78fd08a8
+https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/zavjpcwbq7/out/v1/0785581cc05b4b50818045a3139e0ac0/2fef6d93-c4b3-4c47-8d1b-4ae26bdffa1b-cenc.mpd?aws_sessionId=6779332d-b6a3-4b31-b814-cea046eb3450
+#EXTINF:-1 tvg-name="[Live] FC Nordsjælland Vs CSKA Sofia - VIX Español FHD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football",[Live] FC Nordsjælland Vs CSKA Sofia - VIX Español FHD
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=1efa5a5a68fe1fc27d73a7c5e95105bf:eec5933c23dc8a641ae9cdf8518cb675
+https://otte.cache.aiv-cdn.net/fra-nitro/live/clients/dash/enc/8bzaltbjek/out/v1/ba23558c95cf412bbd7c5e73ec9c23d2/cenc.mpd
+#EXTINF:-1 tvg-name="[Live] FC Nordsjælland Vs CSKA Sofia - LOW QUALITY (USE VPN)" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" http-referrer="http://www.fawanews.sc/",[Live] FC Nordsjælland Vs CSKA Sofia - LOW QUALITY (USE VPN)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.55/hls/EEEEAAAA.m3u8
+#EXTINF:-1 tvg-name="[Live] FC Iberia 1999 Vs Mjällby AIF - PARAMOUNT+ FHD " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football",[Live] FC Iberia 1999 Vs Mjällby AIF - PARAMOUNT+ FHD 
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=c35e3b28761038557899484072d4e6f4:b2e55acf1ae0234c92b5d648e45bdbed
+https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/kiqchsirv7/out/v1/9d0e8d19d06e408cb2527f1f910198c7/dfe13b0f-1458-4502-b668-dcfb824bbb3d-cenc.mpd?aws_sessionId=345a0c0a-10e1-4950-8075-f82765926c65
+#EXTINF:-1 tvg-name="[Live] FC Iberia 1999 Vs Mjällby AIF - VIX Español FHD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football",[Live] FC Iberia 1999 Vs Mjällby AIF - VIX Español FHD
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=f5199536cdd1731a226272eb0e7fe284:7be83e43bdaa1aad8cae4f5c82bb59fe
+https://otte.cache.aiv-cdn.net/fra-nitro/live/clients/dash/enc/ld1abcco0n/out/v1/9d3fbdd64a7c46e6aaef568fd4e6b18b/cenc.mpd
+#EXTINF:-1 tvg-name="[Live] FC Iberia 1999 Vs Mjällby AIF - FASTER TV+ HD " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" http-referrer="https://xlz.domainkqt.cc/",[Live] FC Iberia 1999 Vs Mjällby AIF - FASTER TV+ HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live2.jorvakstreamcache.com/live/channel12.m3u8
+#EXTINF:-1 tvg-name="[Live] FC Iberia 1999 Vs Mjällby AIF - LOW QUALITY (USE VPN)" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" http-referrer="http://www.fawanews.sc/",[Live] FC Iberia 1999 Vs Mjällby AIF - LOW QUALITY (USE VPN)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.55/hls/EEEEAA.m3u8
+#EXTINF:-1 tvg-name="[Live] FK Jablonec Vs Brighton & Hove Albion - TNT2UK SPORTS FHD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",[Live] FK Jablonec Vs Brighton & Hove Albion - TNT2UK SPORTS FHD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd
+#EXTINF:-1 tvg-name="[Live] FK Jablonec Vs Brighton & Hove Albion - VIX Español FHD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football",[Live] FK Jablonec Vs Brighton & Hove Albion - VIX Español FHD
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=35e04df74d889d031dbb28993eeae09e:e14b28ef8968699295b3a30b1cdf0eb0
+https://otte.cache.aiv-cdn.net/fra-nitro/live/clients/dash/enc/ttwuzepxug/out/v1/3bb7be9163524e72bc8ec72519235803/cenc.mpd
+#EXTINF:-1 tvg-name="[Live] FK Jablonec Vs Brighton & Hove Albion - SPORT1 CZ FHD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football",[Live] FK Jablonec Vs Brighton & Hove Albion - SPORT1 CZ FHD
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
+https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd
+#EXTINF:-1 tvg-name="[Live] FK Jablonec Vs Brighton & Hove Albion - PARAMOUNT+ HD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football" http-referrer="https://gooz.aapmains.net",[Live] FK Jablonec Vs Brighton & Hove Albion - PARAMOUNT+ HD
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
+https://chatgpt.hereisman.net/playlist/58405/load-playlist-multi?&.m3u8
+#EXTINF:-1 tvg-name="[Live] FK Jablonec Vs Brighton & Hove Albion - FASTER TV+ HD " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" http-referrer="https://xlz.domainkqt.cc/",[Live] FK Jablonec Vs Brighton & Hove Albion - FASTER TV+ HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live2.jorvakstreamcache.com/live/channel11.m3u8
+#EXTINF:-1 tvg-name="[Live] FK Jablonec Vs Brighton & Hove Albion - SonyLiv (Asia) " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0" http-referrer="https://www.sonyliv.com/",[Live] FK Jablonec Vs Brighton & Hove Albion - SonyLiv (Asia) 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+https://sonymtmnew.akamaized.net/hls/live/2037139/footlive2210/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792704833~acl=/*~id=81881158884330765836131264728565~hmac=2e4b1336d344f822a04a7e52fa98b38a8a55f019693cdd340a606364cf4f407b
+#EXTINF:-1 tvg-name="[Live] FK Jablonec Vs Brighton & Hove Albion - LOW QUALITY (USE VPN)" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" http-referrer="http://www.fawanews.sc/",[Live] FK Jablonec Vs Brighton & Hove Albion - LOW QUALITY (USE VPN)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.50/hls/J666.m3u8
+#EXTINF:-1 tvg-name="[Live] FK Crvena zvezda Vs FC København - PARAMOUNT+ FHD " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football",[Live] FK Crvena zvezda Vs FC København - PARAMOUNT+ FHD 
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=96c389b5fa84049767584501141b50cb:87ffd918fa24b16069e55b05e27761fa
+https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/l9mr5hrvh7/out/v1/220d25890ed74b159b69ce013ee2f9af/e5d10066-6671-444a-8481-da3828f618aa-cenc.mpd?aws_sessionId=5a410319-79f1-421b-9fff-3161180886d3
+#EXTINF:-1 tvg-name="[Live] FK Crvena zvezda Vs FC København - VIX Español FHD " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football",[Live] FK Crvena zvezda Vs FC København - VIX Español FHD 
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=8b76905d690f57e17ecd90677855b5df:d9337322172bee8d0d1bd144f2fa91a9
+https://otte.cache.aiv-cdn.net/fra-nitro/live/clients/dash/enc/y9v18qdymz/out/v1/59dc0639d2c44432bf89984131478749/cenc.mpd
+#EXTINF:-1 tvg-name="[Live] FK Crvena zvezda Vs FC København - LOW QUALITY (USE VPN)" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" http-referrer="http://www.fawanews.sc/",[Live] FK Crvena zvezda Vs FC København - LOW QUALITY (USE VPN)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.55/hls/EEEEAAAAA.m3u8
+#EXTINF:-1 tvg-name="[Live] Getafe Vs FC Lugano - PARAMOUNT+ FHD " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football",[Live] Getafe Vs FC Lugano - PARAMOUNT+ FHD 
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=792b3cd4aa0f1a3279805967d5018f38:075c09809fff32f33bb2245862903d1c
+https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/0jot4cctmx/out/v1/df072049c6624b29a4e7b7ba027c21ec/2dcd39d9-6f5f-495b-ab48-1556c5a8c3b3-cenc.mpd?aws_sessionId=5687c013-5ef2-4bf6-817d-067bcfd20db9
+#EXTINF:-1 tvg-name="[Live] Getafe Vs FC Lugano - VIX Español FHD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football",[Live] Getafe Vs FC Lugano - VIX Español FHD
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=5feaf5bccec31a022d9673ee1137951f:84521c9ed5c884343e8ee559148e1838
+https://otte.cache.aiv-cdn.net/fra-nitro/live/clients/dash/enc/dq1gexajwh/out/v1/0243b44c809941c7a5e0132e783bab69/cenc.mpd
+#EXTINF:-1 tvg-name="[Live] Getafe Vs FC Lugano - FASTER TV+ HD " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" http-referrer="https://xlz.domainkqt.cc/",[Live] Getafe Vs FC Lugano - FASTER TV+ HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live2.jorvakstreamcache.com/live/channel4.m3u8
+#EXTINF:-1 tvg-name="[Live] Getafe Vs FC Lugano - SonyLiv (Asia) " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0" http-referrer="https://www.sonyliv.com/",[Live] Getafe Vs FC Lugano - SonyLiv (Asia) 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+https://sonymtmnew.akamaized.net/hls/live/2022320/footlive2210/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792704833~acl=/*~id=81881158884330765836131264728565~hmac=2e4b1336d344f822a04a7e52fa98b38a8a55f019693cdd340a606364cf4f407b
+#EXTINF:-1 tvg-name="[Live] Getafe Vs FC Lugano - LOW QUALITY (USE VPN)" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" http-referrer="http://www.fawanews.sc/",[Live] Getafe Vs FC Lugano - LOW QUALITY (USE VPN)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.55/hls/EEEEA.m3u8
+#EXTINF:-1 tvg-name="[Live] Inter Club d'Escaldes Vs Universitatea Craiova - PARAMOUNT+ FHD " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football",[Live] Inter Club d'Escaldes Vs Universitatea Craiova - PARAMOUNT+ FHD 
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=fd9367b34ce71d805798b5f11f9da057:efdb0e282930947350bf65c7a8ff0d39
+https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/jkhnmrkjst/out/v1/7763e20ac8e440d8b54ab6420ec7e0dd/0d4c4a8f-5ce6-4444-bce8-1592dd1cb0e6-cenc.mpd?aws_sessionId=ea757606-6c0b-43fe-bd78-029f0d10683b
+#EXTINF:-1 tvg-name="[Live] Inter Club d'Escaldes Vs Universitatea Craiova - VIX Español FHD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football",[Live] Inter Club d'Escaldes Vs Universitatea Craiova - VIX Español FHD
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=5ccb2fa3e92c1077dde479b617770e37:77193ba8029688cbcc949d282445959b
+https://otte.cache.aiv-cdn.net/fra-nitro/live/clients/dash/enc/0isdl1rnqo/out/v1/22c3f3c1e99c4c38b8e543d375d80046/cenc.mpd
+#EXTINF:-1 tvg-name="[Live] Inter Club d'Escaldes Vs Universitatea Craiova - LOW QUALITY (USE VPN)" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" http-referrer="http://www.fawanews.sc/",[Live] Inter Club d'Escaldes Vs Universitatea Craiova - LOW QUALITY (USE VPN)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.55/hls/EEEE.m3u8
+#EXTINF:-1 tvg-name="[Live] Trabzonspor Vs Heart of Midlothian - PARAMOUNT+ FHD " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football",[Live] Trabzonspor Vs Heart of Midlothian - PARAMOUNT+ FHD 
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=fd9367b34ce71d805798b5f11f9da057:efdb0e282930947350bf65c7a8ff0d39
+https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/jkhnmrkjst/out/v1/7763e20ac8e440d8b54ab6420ec7e0dd/0d4c4a8f-5ce6-4444-bce8-1592dd1cb0e6-cenc.mpd?aws_sessionId=481fd892-0021-413b-bdb5-415ac61d7059
+#EXTINF:-1 tvg-name="[Live] Trabzonspor Vs Heart of Midlothian - TNT3UK SPORTS FHD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football",[Live] Trabzonspor Vs Heart of Midlothian - TNT3UK SPORTS FHD
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca
+https://otte.live.fly.ww.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd
+#EXTINF:-1 tvg-name="[Live] Trabzonspor Vs Heart of Midlothian - VIX Español FHD " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football",[Live] Trabzonspor Vs Heart of Midlothian - VIX Español FHD 
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=b207679ebf853c19175777a031d3f092:470d8cef1da2a248013d5bfdea21cdd3
+https://otte.cache.aiv-cdn.net/fra-nitro/live/clients/dash/enc/u3bh1v4bd6/out/v1/b5ef208fdea84ed8a2f0aefe7fdb86cf/cenc.mpd
+#EXTINF:-1 tvg-name="[Live] Trabzonspor Vs Heart of Midlothian - FASTER TV+ HD " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" http-referrer="https://xlz.domainkqt.cc/",[Live] Trabzonspor Vs Heart of Midlothian - FASTER TV+ HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live2.jorvakstreamcache.com/live/channel16.m3u8
+#EXTINF:-1 tvg-name="[Live] Trabzonspor Vs Heart of Midlothian - SonyLiv (Asia) " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0" http-referrer="https://www.sonyliv.com/",[Live] Trabzonspor Vs Heart of Midlothian - SonyLiv (Asia) 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+https://sonymtmnew.akamaized.net/hls/live/2022322/footlive2210/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792704833~acl=/*~id=81881158884330765836131264728565~hmac=2e4b1336d344f822a04a7e52fa98b38a8a55f019693cdd340a606364cf4f407b
+#EXTINF:-1 tvg-name="[Live] Trabzonspor Vs Heart of Midlothian - LOW QUALITY (USE VPN)" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" http-referrer="http://www.fawanews.sc/",[Live] Trabzonspor Vs Heart of Midlothian - LOW QUALITY (USE VPN)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.41/hls/J666AAAAAAQ.m3u8
+#EXTINF:-1 tvg-name="[Live] FK Kauno Žalgiris Vs SK Brann - PARAMOUNT+ FHD " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football",[Live] FK Kauno Žalgiris Vs SK Brann - PARAMOUNT+ FHD 
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=c35e3b28761038557899484072d4e6f4:b2e55acf1ae0234c92b5d648e45bdbed
+https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/kiqchsirv7/out/v1/9d0e8d19d06e408cb2527f1f910198c7/dfe13b0f-1458-4502-b668-dcfb824bbb3d-cenc.mpd?aws_sessionId=e38080eb-4a37-49ad-b2f2-039cfa100660
+#EXTINF:-1 tvg-name="[Live] FK Kauno Žalgiris Vs SK Brann - VIX Español FHD " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football",[Live] FK Kauno Žalgiris Vs SK Brann - VIX Español FHD 
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=5a8545c5d1fb241c2bdca03797584a42:24528e1e70bcf402da7734edd59430fe
+https://otte.cache.aiv-cdn.net/fra-nitro/live/clients/dash/enc/kxfdt7fizc/out/v1/e97fce33fc064131b6dec095e0a0ab71/cenc.mpd
+#EXTINF:-1 tvg-name="[Live] FK Kauno Žalgiris Vs SK Brann - FASTER TV+ HD " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" http-referrer="https://xlz.domainkqt.cc/",[Live] FK Kauno Žalgiris Vs SK Brann - FASTER TV+ HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live2.jorvakstreamcache.com/live/channel9.m3u8
+#EXTINF:-1 tvg-name="[Live] FK Kauno Žalgiris Vs SK Brann - LOW QUALITY (USE VPN)" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" http-referrer="http://www.fawanews.sc/",[Live] FK Kauno Žalgiris Vs SK Brann - LOW QUALITY (USE VPN)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.55/hls/EEEEAAA.m3u8
+#EXTINF:-1 tvg-name="[Live] Pafos FC Vs Riga FC - PARAMOUNT+ FHD " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football",[Live] Pafos FC Vs Riga FC - PARAMOUNT+ FHD 
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=7565d545a4d1dc289154519391f4cc1f:3f93de86b18f274ba5aa99cfdcb514cd
+https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/jxig6f0jc4/out/v1/f01f5988f43046cea5d68c78d72e21d1/b7e2f84f-5725-477e-a33d-2f99cf2f40d1-cenc.mpd?aws_sessionId=31d41199-7e20-44b2-9650-8795a8b7fc5a
+#EXTINF:-1 tvg-name="[Live] Pafos FC Vs Riga FC - VIX Español FHD " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football",[Live] Pafos FC Vs Riga FC - VIX Español FHD 
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=e339d6bcbc297fa006180e5938694ba2:00e2eb3ffb3c4b965149d31aa68e9940
+https://otte.cache.aiv-cdn.net/fra-nitro/live/clients/dash/enc/1kivh8reem/out/v1/2ba8fd73df9048a1a02a44e78ef0d36c/cenc.mpd
+#EXTINF:-1 tvg-name="[Live] Pafos FC Vs Riga FC - FASTER TV+ HD " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" http-referrer="https://xlz.domainkqt.cc/",[Live] Pafos FC Vs Riga FC - FASTER TV+ HD 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live2.jorvakstreamcache.com/live/channel13.m3u8
+#EXTINF:-1 tvg-name="[Live] Pafos FC Vs Riga FC - SonyLiv (Asia) " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0" http-referrer="https://www.sonyliv.com/",[Live] Pafos FC Vs Riga FC - SonyLiv (Asia) 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+https://sonymtmnew.akamaized.net/hls/live/2120306/footlive2210/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792704833~acl=/*~id=81881158884330765836131264728565~hmac=2e4b1336d344f822a04a7e52fa98b38a8a55f019693cdd340a606364cf4f407b
+#EXTINF:-1 tvg-name="[Live] Pafos FC Vs Riga FC - LOW QUALITY (USE VPN)" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" http-referrer="http://www.fawanews.sc/",[Live] Pafos FC Vs Riga FC - LOW QUALITY (USE VPN)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.50/hls/J666A.m3u8
+#EXTINF:-1 tvg-name="[Live] Lech Poznań Vs Sunderland - PARAMOUNT+ FHD " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football",[Live] Lech Poznań Vs Sunderland - PARAMOUNT+ FHD 
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=3011c61c1945ef2226e77665d2aaf2db:dcb71a98b41b596523764694a04a6993
+https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/bvgzog7fgk/out/v1/4a006b4401a946dfbd3db3af22511330/ba9f8aa4-8243-45da-a00c-bc92ee194df3-cenc.mpd?aws_sessionId=c065baf6-3007-4b8a-9081-094d6b49a4d3
+#EXTINF:-1 tvg-name="[Live] Lech Poznań Vs Sunderland - TNT1UK SPORTS FHD " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",[Live] Lech Poznań Vs Sunderland - TNT1UK SPORTS FHD 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749
 https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd
-#EXTINF:-1 tvg-name="[Live] New Zealand Vs India - PRIME HINDI FHD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/11191/image/dark" group-title="Live Sports | Cricket",[Live] New Zealand Vs India - PRIME HINDI FHD
+#EXTINF:-1 tvg-name="[Live] Lech Poznań Vs Sunderland - VIX Español FHD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football",[Live] Lech Poznań Vs Sunderland - VIX Español FHD
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=a9fb7988fa5687d620e07587aed50f4a:ad2265ffa38ab51b0b4e1d14c9192ade
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/otxvvjcsxz/out/v1/b0905b5731f249b1a5020054715fb462/cenc.mpd
-#EXTINF:-1 tvg-name="[Live] New Zealand Vs India - PRIME ENG FHD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/11191/image/dark" group-title="Live Sports | Cricket",[Live] New Zealand Vs India - PRIME ENG FHD
+#KODIPROP:inputstream.adaptive.license_key=667ca2cae44b4470fe5bb256babd4ae6:61b3cd186cff64be99165aa66ce784b3
+https://otte.cache.aiv-cdn.net/fra-nitro/live/clients/dash/enc/kagc4duqbp/out/v1/8ccf7b91d6c3409b991d48150e65c0e4/cenc.mpd
+#EXTINF:-1 tvg-name="[Live] Lech Poznań Vs Sunderland - HD STREAMING " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" http-referrer="https://streame.center",[Live] Lech Poznań Vs Sunderland - HD STREAMING 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://streame.center
+https://edgestream6.pro/hls/24SDAZFcsqnj24.m3u8
+#EXTINF:-1 tvg-name="[Live] Lech Poznań Vs Sunderland - FASTER TV+ HD " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football" http-referrer="https://player.online878.com/",[Live] Lech Poznań Vs Sunderland - FASTER TV+ HD 
+#EXTVLCOPT:http-referrer=https://player.online878.com/
+https://live.vivo155.com/live/hd-en-1-4630576.m3u8?txSecret=876c4e51de6255603d7bd09f85d3072b&txTime=6ADA4D9A
+#EXTINF:-1 tvg-name="[Live] Lech Poznań Vs Sunderland - SonyLiv (Asia) " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0" http-referrer="https://www.sonyliv.com/",[Live] Lech Poznań Vs Sunderland - SonyLiv (Asia) 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+https://sonymtmnew.akamaized.net/hls/live/2120301/footlive2210/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792704833~acl=/*~id=81881158884330765836131264728565~hmac=2e4b1336d344f822a04a7e52fa98b38a8a55f019693cdd340a606364cf4f407b
+#EXTINF:-1 tvg-name="[Live] Lech Poznań Vs Sunderland - LOW QUALITY (USE VPN)" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" http-referrer="http://www.fawanews.sc/",[Live] Lech Poznań Vs Sunderland - LOW QUALITY (USE VPN)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.59/hls/J666AAAAA.m3u8
+#EXTINF:-1 tvg-name="[Live] Ferencváros TC Vs Torreense - PARAMOUNT+ FHD " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football",[Live] Ferencváros TC Vs Torreense - PARAMOUNT+ FHD 
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=cbfbd270193c2a674960b47427453daf:41912c92e12ecab217442960ea673af1
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ma3cynyzgo/out/v1/f457058f2efb43bcb2e22045bf7470dc/cenc.mpd
-#EXTINF:-1 tvg-name="[Live] New Zealand Vs India - WILLOW ALT" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/11191/image/dark" group-title="Live Sports | Cricket",[Live] New Zealand Vs India - WILLOW ALT
+#KODIPROP:inputstream.adaptive.license_key=d5408ef606d71e5f3b15350d182cc5e3:66497a3b16f12ac9601377ddb429de11
+https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/yl1jfk8973/out/v1/ecc2938688744dc7920a32164764043c/0aebc420-09fc-4626-8dc1-89e182bc463f-cenc.mpd?aws_sessionId=b41750a1-cd53-472b-b8af-85c2eef8c406
+#EXTINF:-1 tvg-name="[Live] Ferencváros TC Vs Torreense - VIX Español FHD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football",[Live] Ferencváros TC Vs Torreense - VIX Español FHD
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=c3125d35cc46b342a0534a9c5ddd6d31:426221d3ffae19a037f5c755508dbf3c
-https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/meouoxphzm/out/v1/be7934dca1254ed0924242347f93c4e3/cenc.mpd
-#EXTINF:-1 tvg-name="[Live] New Zealand Vs India - SonyLiv (ENG)" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/11191/image/dark" group-title="Live Sports | Cricket",[Live] New Zealand Vs India - SonyLiv (ENG)
+#KODIPROP:inputstream.adaptive.license_key=3f2baebda6ca8366b4335b69426d648b:c75e019c75d22f28af42ad32c94ca967
+https://otte.cache.aiv-cdn.net/fra-nitro/live/clients/dash/enc/nutk9fsmtw/out/v1/90efc41f5f384e97be25bab0bfc53de9/cenc.mpd
+#EXTINF:-1 tvg-name="[Live] Ferencváros TC Vs Torreense - FASTER TV+ HD " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football" http-referrer="https://player.online878.com/",[Live] Ferencváros TC Vs Torreense - FASTER TV+ HD 
+#EXTVLCOPT:http-referrer=https://player.online878.com/
+https://live.vivo155.com/live/hd-en-1-4630551.m3u8?txSecret=5641826a66edb2622cc44833bc70c97c&txTime=6ADA4E05
+#EXTINF:-1 tvg-name="[Live] Ferencváros TC Vs Torreense - SonyLiv (Asia) " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0" http-referrer="https://www.sonyliv.com/",[Live] Ferencváros TC Vs Torreense - SonyLiv (Asia) 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+https://sonymtmnew.akamaized.net/hls/live/2094590/footlive2210/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792704833~acl=/*~id=81881158884330765836131264728565~hmac=2e4b1336d344f822a04a7e52fa98b38a8a55f019693cdd340a606364cf4f407b
+#EXTINF:-1 tvg-name="[Live] Ferencváros TC Vs Torreense - LOW QUALITY (USE VPN)" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" http-referrer="http://www.fawanews.sc/",[Live] Ferencváros TC Vs Torreense - LOW QUALITY (USE VPN)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.55/hls/I222A.m3u8
+#EXTINF:-1 tvg-name="[Live] GNK Dinamo Zagreb Vs NEC Nijmegen - PARAMOUNT+ FHD " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football",[Live] GNK Dinamo Zagreb Vs NEC Nijmegen - PARAMOUNT+ FHD 
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=cbfbd270193c2a674960b47427453daf:41912c92e12ecab217442960ea673af1
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ma3cynyzgo/out/v1/f457058f2efb43bcb2e22045bf7470dc/cenc.mpd
+#KODIPROP:inputstream.adaptive.license_key=e7b8b5c99bef26435695cb16bf5650d6:71b7c9a2d7b75c0a843637239ddb4799
+https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/ftclg4v4ak/out/v1/08c7754d250a4412a5e896539d824572/ec4ef77c-6c57-42ea-971c-2438707c5f20-cenc.mpd?aws_sessionId=2c95be99-ac32-4ad9-9407-f56156b9537a
+#EXTINF:-1 tvg-name="[Live] GNK Dinamo Zagreb Vs NEC Nijmegen - VIX Español FHD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football",[Live] GNK Dinamo Zagreb Vs NEC Nijmegen - VIX Español FHD
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=ec66bac06d61d2e8a594349a708ac766:de78c8118134f4f5126c95a45c168e74
+https://otte.cache.aiv-cdn.net/fra-nitro/live/clients/dash/enc/nvil2nbdp5/out/v1/c22699bcc6df411098d4969c11e9c388/cenc.mpd
+#EXTINF:-1 tvg-name="[Live] GNK Dinamo Zagreb Vs NEC Nijmegen - FASTER TV+ HD " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football" http-referrer="https://player.online878.com/",[Live] GNK Dinamo Zagreb Vs NEC Nijmegen - FASTER TV+ HD 
+#EXTVLCOPT:http-referrer=https://player.online878.com/
+https://live.vivo155.com/live/hd-en-1-4630546.m3u8?txSecret=faa43d3836d19ba2f1ed06366818ecac&txTime=6ADA4DED
+#EXTINF:-1 tvg-name="[Live] GNK Dinamo Zagreb Vs NEC Nijmegen - SonyLiv (Asia) " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0" http-referrer="https://www.sonyliv.com/",[Live] GNK Dinamo Zagreb Vs NEC Nijmegen - SonyLiv (Asia) 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+https://sonymtmnew.akamaized.net/hls/live/2043696/footlive2210/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792704833~acl=/*~id=81881158884330765836131264728565~hmac=2e4b1336d344f822a04a7e52fa98b38a8a55f019693cdd340a606364cf4f407b
+#EXTINF:-1 tvg-name="[Live] GNK Dinamo Zagreb Vs NEC Nijmegen - LOW QUALITY (USE VPN)" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" http-referrer="http://www.fawanews.sc/",[Live] GNK Dinamo Zagreb Vs NEC Nijmegen - LOW QUALITY (USE VPN)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.55/hls/I222.m3u8
+#EXTINF:-1 tvg-name="[Live] FC Ararat-Armenia Vs AZ Alkmaar - PARAMOUNT+ FHD " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football",[Live] FC Ararat-Armenia Vs AZ Alkmaar - PARAMOUNT+ FHD 
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=20eae1f3c161a66579f8803f98a56978:6765f243f290a80a319ffda8950deb3b
+https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/vspthya0pt/out/v1/5138edfc4f1749748b1cc3bd0aa02431/5d6466cb-3781-4198-bda8-d00dbb270359-cenc.mpd?aws_sessionId=faf58309-c26a-410c-9bba-194079a719a6
+#EXTINF:-1 tvg-name="[Live] FC Ararat-Armenia Vs AZ Alkmaar - VIX Español FHD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football",[Live] FC Ararat-Armenia Vs AZ Alkmaar - VIX Español FHD
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=1585ea4786f5c6e5d4ac6e34619bcd4d:97ca052adba4200e81997a97dee89d73
+https://otte.cache.aiv-cdn.net/fra-nitro/live/clients/dash/enc/smvuy2nydp/out/v1/b853456a96d8434cb6cea6ade4feddd3/cenc.mpd
+#EXTINF:-1 tvg-name="[Live] FC Ararat-Armenia Vs AZ Alkmaar - FASTER TV+ HD " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football" http-referrer="https://player.online878.com/",[Live] FC Ararat-Armenia Vs AZ Alkmaar - FASTER TV+ HD 
+#EXTVLCOPT:http-referrer=https://player.online878.com/
+https://live.vivo155.com/live/hd-en-1-4630503.m3u8?txSecret=468e5e8d571e1f067d18328d17881339&txTime=6ADA4DDA
+#EXTINF:-1 tvg-name="[Live] FC Ararat-Armenia Vs AZ Alkmaar - SonyLiv (Asia) " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0" http-referrer="https://www.sonyliv.com/",[Live] FC Ararat-Armenia Vs AZ Alkmaar - SonyLiv (Asia) 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+https://sonymtmnew.akamaized.net/hls/live/2120304/footlive2210/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792704833~acl=/*~id=81881158884330765836131264728565~hmac=2e4b1336d344f822a04a7e52fa98b38a8a55f019693cdd340a606364cf4f407b
+#EXTINF:-1 tvg-name="[Live] FC Ararat-Armenia Vs AZ Alkmaar - LOW QUALITY (USE VPN)" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" http-referrer="http://www.fawanews.sc/",[Live] FC Ararat-Armenia Vs AZ Alkmaar - LOW QUALITY (USE VPN)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.50/hls/J666AAA.m3u8
+#EXTINF:-1 tvg-name="[Live] Juventus Vs Stade Rennais - PARAMOUNT+ FHD " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football",[Live] Juventus Vs Stade Rennais - PARAMOUNT+ FHD 
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=7f6089c1503b446f92f12afc08d371c3:5b474e1cb1287f360757a56c4a1f473b
+https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/5p8ar53otx/out/v1/c4906227ebac417482d7ae23108c3ef9/c7d82f73-f64a-428e-bdac-83f338925556-cenc.mpd?aws_sessionId=aa1ff4a1-34fb-48b5-b4ef-08d32cdb731f
+#EXTINF:-1 tvg-name="[Live] Juventus Vs Stade Rennais - VIX Español FHD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football",[Live] Juventus Vs Stade Rennais - VIX Español FHD
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=7f36cafa2955e26aaed1450bc27e921f:f6373ee35de662aaeccf2c36a9d508cc
+https://otte.cache.aiv-cdn.net/fra-nitro/live/clients/dash/enc/ztybd2ijid/out/v1/5edd423d949e412c98bf34042cb95d4e/cenc.mpd
+#EXTINF:-1 tvg-name="[Live] Juventus Vs Stade Rennais - PARAMOUNT+ HD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football" http-referrer="https://gooz.aapmains.net",[Live] Juventus Vs Stade Rennais - PARAMOUNT+ HD
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
+https://chatgpt.hereisman.net/playlist/58404/load-playlist-multi?&.m3u8
+#EXTINF:-1 tvg-name="[Live] Juventus Vs Stade Rennais - FASTER QUALITY " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football" http-referrer="https://player.online878.com/",[Live] Juventus Vs Stade Rennais - FASTER QUALITY 
+#EXTVLCOPT:http-referrer=https://player.online878.com/
+https://live.vivo155.com/live/hd-en-1-4630568.m3u8?txSecret=bb521511c0aaefe6e2cd921d5a0f4db6&txTime=6ADA4D2A
+#EXTINF:-1 tvg-name="[Live] Juventus Vs Stade Rennais - STREAM TV + HD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" http-referrer="https://streame.center",[Live] Juventus Vs Stade Rennais - STREAM TV + HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://streame.center
+https://edgestream2.pro/hls/sqdahach1ax.m3u8
+#EXTINF:-1 tvg-name="[Live] Juventus Vs Stade Rennais - SonyLiv (Asia) " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0" http-referrer="https://www.sonyliv.com/",[Live] Juventus Vs Stade Rennais - SonyLiv (Asia) 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+https://sonymtmnew.akamaized.net/hls/live/2105080/footlive2210/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792704833~acl=/*~id=81881158884330765836131264728565~hmac=2e4b1336d344f822a04a7e52fa98b38a8a55f019693cdd340a606364cf4f407b
+#EXTINF:-1 tvg-name="[Live] Juventus Vs Stade Rennais - LOW QUALITY (USE VPN)" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" http-referrer="http://www.fawanews.sc/",[Live] Juventus Vs Stade Rennais - LOW QUALITY (USE VPN)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.59/hls/J666AAAA.m3u8
+#EXTINF:-1 tvg-name="[Live] OFI Crete Vs Bayer 04 Leverkusen - PARAMOUNT+ FHD " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football",[Live] OFI Crete Vs Bayer 04 Leverkusen - PARAMOUNT+ FHD 
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=8e01bd95b0dae43d1723502b13cdfd25:822d36bbb92a5edd7eed1af405b1feed
+https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/qcpjsve3th/out/v1/462100e5f19d4a72aa7184cb82c98dcc/0e438090-b385-4fd7-b573-1e6841d7b8f8-cenc.mpd?aws_sessionId=c432b0b3-e201-4451-80e9-e1ea112235ed
+#EXTINF:-1 tvg-name="[Live] OFI Crete Vs Bayer 04 Leverkusen - VIX Español FHD " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football",[Live] OFI Crete Vs Bayer 04 Leverkusen - VIX Español FHD 
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=a26846cbe377720907bdcae3d467cf50:a247d75916c386b8a23e65c79a865ae1
+https://otte.cache.aiv-cdn.net/fra-nitro/live/clients/dash/enc/3uhtu8kaje/out/v1/ef78b780f5b04dbaa3301bc9be53b8c1/cenc.mpd
+#EXTINF:-1 tvg-name="[Live] OFI Crete Vs Bayer 04 Leverkusen - FASTER TV+ HD " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football" http-referrer="https://player.online878.com/",[Live] OFI Crete Vs Bayer 04 Leverkusen - FASTER TV+ HD 
+#EXTVLCOPT:http-referrer=https://player.online878.com/
+https://live.vivo155.com/live/hd-en-1-4630630.m3u8?txSecret=91b2200756259fffc8b1feacc306ed86&txTime=6ADA4DB7
+#EXTINF:-1 tvg-name="[Live] OFI Crete Vs Bayer 04 Leverkusen - SonyLiv (Asia) " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0" http-referrer="https://www.sonyliv.com/",[Live] OFI Crete Vs Bayer 04 Leverkusen - SonyLiv (Asia) 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+https://sonymtmnew.akamaized.net/hls/live/2120303/footlive2210/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792704833~acl=/*~id=81881158884330765836131264728565~hmac=2e4b1336d344f822a04a7e52fa98b38a8a55f019693cdd340a606364cf4f407b
+#EXTINF:-1 tvg-name="[Live] OFI Crete Vs Bayer 04 Leverkusen - LOW QUALITY (USE VPN)" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" http-referrer="http://www.fawanews.sc/",[Live] OFI Crete Vs Bayer 04 Leverkusen - LOW QUALITY (USE VPN)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.59/hls/J666AAAAAA.m3u8
+#EXTINF:-1 tvg-name="[Live] Royale Union Saint-Gilloise Vs Hapoel Be'er Sheva - PARAMOUNT+ FHD " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football",[Live] Royale Union Saint-Gilloise Vs Hapoel Be'er Sheva - PARAMOUNT+ FHD 
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=3e2c2a57c7238fbd1eadc13881867097:64be8a23fc51f1b92472ed9094d23ca1
+https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/vwsp6cxoor/out/v1/01386f4b42ae49e19a1251dc43d4aed2/93fd0b6e-4000-4be5-ba22-dc1ce0103bea-cenc.mpd?aws_sessionId=514c2ac1-5ea6-4f3e-a420-797bea8fa62a
+#EXTINF:-1 tvg-name="[Live] Royale Union Saint-Gilloise Vs Hapoel Be'er Sheva - VIX Español FHD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football",[Live] Royale Union Saint-Gilloise Vs Hapoel Be'er Sheva - VIX Español FHD
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=ba077d61bda1a7fb41445b49f523bd18:8ee296d6f387b56fb3830fb706be950c
+https://otte.cache.aiv-cdn.net/fra-nitro/live/clients/dash/enc/glz0sgcgux/out/v1/5c4455c571ae467ca76c6b6ca0ad80f1/cenc.mpd
+#EXTINF:-1 tvg-name="[Live] Royale Union Saint-Gilloise Vs Hapoel Be'er Sheva - FASTER TV+ HD " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football" http-referrer="https://player.online878.com/",[Live] Royale Union Saint-Gilloise Vs Hapoel Be'er Sheva - FASTER TV+ HD 
+#EXTVLCOPT:http-referrer=https://player.online878.com/
+https://live.vivo155.com/live/hd-en-1-4630655.m3u8?txSecret=5d3d0dc395f55e852fd25e597fca909c&txTime=6ADA4E1A
+#EXTINF:-1 tvg-name="[Live] Royale Union Saint-Gilloise Vs Hapoel Be'er Sheva - SonyLiv (Asia) " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0" http-referrer="https://www.sonyliv.com/",[Live] Royale Union Saint-Gilloise Vs Hapoel Be'er Sheva - SonyLiv (Asia) 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+https://sonymtmnew.akamaized.net/hls/live/2105079/footlive2210/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792704833~acl=/*~id=81881158884330765836131264728565~hmac=2e4b1336d344f822a04a7e52fa98b38a8a55f019693cdd340a606364cf4f407b
+#EXTINF:-1 tvg-name="[Live] Royale Union Saint-Gilloise Vs Hapoel Be'er Sheva - LOW QUALITY (USE VPN)" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" http-referrer="http://www.fawanews.sc/",[Live] Royale Union Saint-Gilloise Vs Hapoel Be'er Sheva - LOW QUALITY (USE VPN)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.55/hls/I222AA.m3u8
+#EXTINF:-1 tvg-name="[Live] SK Sturm Graz Vs Olympique de Marseille - PARAMOUNT+ FHD " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football",[Live] SK Sturm Graz Vs Olympique de Marseille - PARAMOUNT+ FHD 
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=96b317450e2f6e50d7224479445b8e67:171f0c2651a1a3ba0226f4c5630e0ecd
+https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/ajceoztq65/out/v1/9b3176bbc934402794da863d59ea939f/024b1662-0f77-4456-ad5a-96b6912fcc11-cenc.mpd?aws_sessionId=1eac8494-30d3-42f1-b796-adcf59341d23
+#EXTINF:-1 tvg-name="[Live] SK Sturm Graz Vs Olympique de Marseille - VIX Español FHD " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football",[Live] SK Sturm Graz Vs Olympique de Marseille - VIX Español FHD 
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=b3671425e0d166c2b74db9b9f818ddab:6e109c62794713118112874596d57a94
+https://otte.cache.aiv-cdn.net/fra-nitro/live/clients/dash/enc/tzsuwjomtc/out/v1/7c7d16e0b54848b0ba34ec2d68d0b638/cenc.mpd
+#EXTINF:-1 tvg-name="[Live] SK Sturm Graz Vs Olympique de Marseille - FASTER TV+ HD " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football" http-referrer="https://player.online878.com/",[Live] SK Sturm Graz Vs Olympique de Marseille - FASTER TV+ HD 
+#EXTVLCOPT:http-referrer=https://player.online878.com/
+https://live.vivo155.com/live/hd-en-1-4630665.m3u8?txSecret=bc4d9c8b0bfa7a3c92c1a122c5f8a710&txTime=6ADA4DCA
+#EXTINF:-1 tvg-name="[Live] SK Sturm Graz Vs Olympique de Marseille - SonyLiv (Asia) " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0" http-referrer="https://www.sonyliv.com/",[Live] SK Sturm Graz Vs Olympique de Marseille - SonyLiv (Asia) 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+https://sonymtmnew.akamaized.net/hls/live/2120299/footlive2210/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792704833~acl=/*~id=81881158884330765836131264728565~hmac=2e4b1336d344f822a04a7e52fa98b38a8a55f019693cdd340a606364cf4f407b
+#EXTINF:-1 tvg-name="[Live] SK Sturm Graz Vs Olympique de Marseille - LOW QUALITY (USE VPN)" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" http-referrer="http://www.fawanews.sc/",[Live] SK Sturm Graz Vs Olympique de Marseille - LOW QUALITY (USE VPN)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.50/hls/J666AA.m3u8
+#EXTINF:-1 tvg-name="[Live] Anadolu Efes Vs Beşiktaş JK - STREAM TV + HD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/138/image/dark" group-title="Live Sports | Basketball" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" http-referrer="https://streame.center",[Live] Anadolu Efes Vs Beşiktaş JK - STREAM TV + HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTVLCOPT:http-referrer=https://streame.center
+https://edgestream2.pro/hls/.m3u8
+#EXTINF:-1 tvg-name="[Live] The Golazo Show Vs The Golazo Show - PARAMOUNT+ FHD" tvg-logo="https://static.ppvservices.st/assets/thumb/9abba790e6243b72b412914826da3049-thumbnail.jpg" group-title="Live Sports | Football",[Live] The Golazo Show Vs The Golazo Show - PARAMOUNT+ FHD
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=827ec411457b7ffa7f3c61663bd3efbe:e8650f46a87c6ab5d623d2b69bf3d441
+https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/fbgrhb280n/out/v1/11bd5e89863343a2b7f5227f9db0caf8/b2e45e06-f330-4787-9185-8c5bf88662fa-cenc.mpd?aws_sessionId=390c6788-f4ff-40b4-b92d-852de94c5135
+#EXTINF:-1 tvg-name="[Live] The Golazo Show Vs The Golazo Show - LOW QUALITY (USE VPN)" tvg-logo="https://static.ppvservices.st/assets/thumb/9abba790e6243b72b412914826da3049-thumbnail.jpg" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" http-referrer="http://www.fawanews.sc/",[Live] The Golazo Show Vs The Golazo Show - LOW QUALITY (USE VPN)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.55/hls/FAFAFAFAAA.m3u8
 #EXTINF:-1 tvg-name="[Live] TENNIS | EVENTO  Vs TENNIS | EVENTO - SKY TENNIS - FHD." tvg-logo="https://i.ibb.co/jPv7P49q/Sktenn.png" group-title="Live Sports | Other" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0",[Live] TENNIS | EVENTO  Vs TENNIS | EVENTO - SKY TENNIS - FHD.
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0
 https://bl.rutube.ru/livestream/5f5dc9d64b43dfc740e92f2bdf2b0d38/index.m3u8?s=8W3-qi6L4hzOhynVnQ1rXw&e=2075285627&scheme=https
@@ -590,24 +851,16 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=85b277daf5aae05833fe43a68f587968:d52d7e9bc0bcd98787efd547ac91eca0
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cjglydxghe/out/v1/8977baf175da4b94873194613dd3fe55/cenc.mpd
-#EXTINF:-1 tvg-name="[Live] Horse Racing Vs Horse Racing - FOX2 SPORTS FHD " tvg-logo="https://pbs.twimg.com/profile_images/1597146257889312773/b_9FkAVp_400x400.jpg" group-title="Live Sports | Other",[Live] Horse Racing Vs Horse Racing - FOX2 SPORTS FHD 
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd
-#EXTINF:-1 tvg-name="[Live] Horse Racing Vs Horse Racing - FOX1 SPORTS FHD" tvg-logo="https://pbs.twimg.com/profile_images/1597146257889312773/b_9FkAVp_400x400.jpg" group-title="Live Sports | Other",[Live] Horse Racing Vs Horse Racing - FOX1 SPORTS FHD
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=5466ebd70704bdeb657f0abf3c5ca4ef:bdd79b72d8e48ed483aa623cc38a8a16
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fsu3wl2rwb/out/v1/be61206c04e643349d53fb22301f3b50/cenc.mpd
-#EXTINF:-1 tvg-name="[Live] Horse Racing Vs Horse Racing - SKY RACING - FHD" tvg-logo="https://pbs.twimg.com/profile_images/1597146257889312773/b_9FkAVp_400x400.jpg" group-title="Live Sports | Other" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0",[Live] Horse Racing Vs Horse Racing - SKY RACING - FHD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0
-https://bl.rutube.ru/livestream/362d68a2d5d5b48dbf23522573e64d57/index.m3u8?s=SyXrFpONvusXH9PA0isg7Q&e=2075285628&scheme=https
-#EXTINF:-1 tvg-name="[Live] Horse Racing Vs Horse Racing - HD QUALITY " tvg-logo="https://pbs.twimg.com/profile_images/1597146257889312773/b_9FkAVp_400x400.jpg" group-title="Live Sports | Other",[Live] Horse Racing Vs Horse Racing - HD QUALITY 
-https://tmaxapp.site/8wirwjs76erftg/skysportsracing.m3u8
-#EXTINF:-1 tvg-name="[Live] Horse Racing Vs Horse Racing - ITV1 FHD " tvg-logo="https://pbs.twimg.com/profile_images/1597146257889312773/b_9FkAVp_400x400.jpg" group-title="Live Sports | Other" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",[Live] Horse Racing Vs Horse Racing - ITV1 FHD 
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=30089c52924f037b225b82c616fee2a5:f55dc8b66ed4fc6753d6035ae7e17144
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0eiyyz8qzm/out/v1/dd17af8835fe4bd087d1a4e359b635d7/cenc.mpd
+#EXTINF:-1 tvg-name="[Live] GOLF EVENTO Vs GOLF EVENTO - Golf Channel - HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfsn5BK10q6F7RDnUoMF18c1HXCsm0WNNhAH_T3iee9Q&s" group-title="Live Sports | Other",[Live] GOLF EVENTO Vs GOLF EVENTO - Golf Channel - HD
+https://dash3.antik.sk/live/test_golf_channel/playlist.m3u8
+#EXTINF:-1 tvg-name="[Live] GOLF EVENTO Vs GOLF EVENTO - Golf PGA Baycurrent Classic (USE VPN)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfsn5BK10q6F7RDnUoMF18c1HXCsm0WNNhAH_T3iee9Q&s" group-title="Live Sports | Other" http-user-agent="Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36" http-referrer="https://nadia01eo.tn76degree12ec3out.cfd",[Live] GOLF EVENTO Vs GOLF EVENTO - Golf PGA Baycurrent Classic (USE VPN)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
+http://193.47.62.44/hls/CTTTT.m3u8
+#EXTINF:-1 tvg-name="[Live] GOLF EVENTO Vs GOLF EVENTO - Golf Open de Espana" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfsn5BK10q6F7RDnUoMF18c1HXCsm0WNNhAH_T3iee9Q&s" group-title="Live Sports | Other" http-user-agent="Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36" http-referrer="https://nadia01eo.tn76degree12ec3out.cfd",[Live] GOLF EVENTO Vs GOLF EVENTO - Golf Open de Espana
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
+http://193.47.62.44/hls/CTTTT.m3u8
 #EXTINF:-1 tvg-name="[Live] SPORTS LIVE Vs SPORTS LIVE - NFL SERVER FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXjkLQo2g5ENJMJlMOF-F_LJH5AhLJ22D3GbNx95sNFA&s=10" group-title="Live Sports | Other",[Live] SPORTS LIVE Vs SPORTS LIVE - NFL SERVER FHD
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=b6e646d15d2ddfcf74c41ef6574b90fc:5c8bb38d3758dca73ad0ba63d6ba2841
@@ -724,47 +977,6 @@ https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 #EXTVLCOPT:http-referrer=https://streame.center
 https://edgestream2.pro/hls/.m3u8
-#EXTINF:-1 tvg-name="[Live] FC Nordsjælland Vs CSKA Sofia - STREAM TV + HD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" http-referrer="https://streame.center",[Live] FC Nordsjælland Vs CSKA Sofia - STREAM TV + HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-#EXTVLCOPT:http-referrer=https://streame.center
-https://edgestream2.pro/hls/.m3u8
-#EXTINF:-1 tvg-name="[Live] FC Iberia 1999 Vs Mjällby AIF - STREAM TV + HD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" http-referrer="https://streame.center",[Live] FC Iberia 1999 Vs Mjällby AIF - STREAM TV + HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-#EXTVLCOPT:http-referrer=https://streame.center
-https://edgestream2.pro/hls/.m3u8
-#EXTINF:-1 tvg-name="[Live] FK Jablonec Vs Brighton & Hove Albion - TNT2UK SPORTS FHD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",[Live] FK Jablonec Vs Brighton & Hove Albion - TNT2UK SPORTS FHD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd
-#EXTINF:-1 tvg-name="[Live] FK Jablonec Vs Brighton & Hove Albion - SPORT1 CZ FHD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football",[Live] FK Jablonec Vs Brighton & Hove Albion - SPORT1 CZ FHD
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
-https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd
-#EXTINF:-1 tvg-name="[Live] FK Crvena zvezda Vs FC København - STREAM TV + HD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" http-referrer="https://streame.center",[Live] FK Crvena zvezda Vs FC København - STREAM TV + HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-#EXTVLCOPT:http-referrer=https://streame.center
-https://edgestream2.pro/hls/.m3u8
-#EXTINF:-1 tvg-name="[Live] Getafe Vs FC Lugano - STREAM TV + HD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" http-referrer="https://streame.center",[Live] Getafe Vs FC Lugano - STREAM TV + HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-#EXTVLCOPT:http-referrer=https://streame.center
-https://edgestream2.pro/hls/.m3u8
-#EXTINF:-1 tvg-name="[Live] Inter Club d'Escaldes Vs Universitatea Craiova - STREAM TV + HD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" http-referrer="https://streame.center",[Live] Inter Club d'Escaldes Vs Universitatea Craiova - STREAM TV + HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-#EXTVLCOPT:http-referrer=https://streame.center
-https://edgestream2.pro/hls/.m3u8
-#EXTINF:-1 tvg-name="[Live] Trabzonspor Vs Heart of Midlothian - TNT3UK SPORTS FHD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football",[Live] Trabzonspor Vs Heart of Midlothian - TNT3UK SPORTS FHD
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca
-https://otte.live.fly.ww.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd
-#EXTINF:-1 tvg-name="[Live] FK Kauno Žalgiris Vs SK Brann - STREAM TV + HD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" http-referrer="https://streame.center",[Live] FK Kauno Žalgiris Vs SK Brann - STREAM TV + HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-#EXTVLCOPT:http-referrer=https://streame.center
-https://edgestream2.pro/hls/.m3u8
-#EXTINF:-1 tvg-name="[Live] Pafos FC Vs Riga FC - STREAM TV + HD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" http-referrer="https://streame.center",[Live] Pafos FC Vs Riga FC - STREAM TV + HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-#EXTVLCOPT:http-referrer=https://streame.center
-https://edgestream2.pro/hls/.m3u8
 #EXTINF:-1 tvg-name="[Live] AGF Vs KF Egnatia - STREAM TV + HD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" http-referrer="https://streame.center",[Live] AGF Vs KF Egnatia - STREAM TV + HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 #EXTVLCOPT:http-referrer=https://streame.center
@@ -797,49 +1009,16 @@ https://edgestream2.pro/hls/.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 #EXTVLCOPT:http-referrer=https://streame.center
 https://edgestream2.pro/hls/.m3u8
-#EXTINF:-1 tvg-name="[Live] Lech Poznań Vs Sunderland - TNT1UK SPORTS FHD " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",[Live] Lech Poznań Vs Sunderland - TNT1UK SPORTS FHD 
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd
-#EXTINF:-1 tvg-name="[Live] Ferencváros TC Vs Torreense - STREAM TV + HD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" http-referrer="https://streame.center",[Live] Ferencváros TC Vs Torreense - STREAM TV + HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-#EXTVLCOPT:http-referrer=https://streame.center
-https://edgestream2.pro/hls/.m3u8
-#EXTINF:-1 tvg-name="[Live] GNK Dinamo Zagreb Vs NEC Nijmegen - STREAM TV + HD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" http-referrer="https://streame.center",[Live] GNK Dinamo Zagreb Vs NEC Nijmegen - STREAM TV + HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-#EXTVLCOPT:http-referrer=https://streame.center
-https://edgestream2.pro/hls/.m3u8
-#EXTINF:-1 tvg-name="[Live] FC Ararat-Armenia Vs AZ Alkmaar - STREAM TV + HD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" http-referrer="https://streame.center",[Live] FC Ararat-Armenia Vs AZ Alkmaar - STREAM TV + HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-#EXTVLCOPT:http-referrer=https://streame.center
-https://edgestream2.pro/hls/.m3u8
-#EXTINF:-1 tvg-name="[Live] Juventus Vs Stade Rennais - STREAM TV + HD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" http-referrer="https://streame.center",[Live] Juventus Vs Stade Rennais - STREAM TV + HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-#EXTVLCOPT:http-referrer=https://streame.center
-https://edgestream2.pro/hls/.m3u8
 #EXTINF:-1 tvg-name="[Live] Beşiktaş JK Vs Crystal Palace - TNT2UK SPORTS FHD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",[Live] Beşiktaş JK Vs Crystal Palace - TNT2UK SPORTS FHD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd
-#EXTINF:-1 tvg-name="[Live] OFI Crete Vs Bayer 04 Leverkusen - STREAM TV + HD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" http-referrer="https://streame.center",[Live] OFI Crete Vs Bayer 04 Leverkusen - STREAM TV + HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-#EXTVLCOPT:http-referrer=https://streame.center
-https://edgestream2.pro/hls/.m3u8
-#EXTINF:-1 tvg-name="[Live] Royale Union Saint-Gilloise Vs Hapoel Be'er Sheva - STREAM TV + HD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" http-referrer="https://streame.center",[Live] Royale Union Saint-Gilloise Vs Hapoel Be'er Sheva - STREAM TV + HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-#EXTVLCOPT:http-referrer=https://streame.center
-https://edgestream2.pro/hls/.m3u8
 #EXTINF:-1 tvg-name="[Live] Bournemouth Vs AC Milan - TNT1UK SPORTS FHD " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",[Live] Bournemouth Vs AC Milan - TNT1UK SPORTS FHD 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749
 https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd
-#EXTINF:-1 tvg-name="[Live] SK Sturm Graz Vs Olympique de Marseille - STREAM TV + HD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" http-referrer="https://streame.center",[Live] SK Sturm Graz Vs Olympique de Marseille - STREAM TV + HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-#EXTVLCOPT:http-referrer=https://streame.center
-https://edgestream2.pro/hls/.m3u8
 #EXTINF:-1 tvg-name="[Live] FC Viktoria Plzeň Vs Levski Sofia - SPORT1 CZ FHD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="Live Sports | Football",[Live] FC Viktoria Plzeň Vs Levski Sofia - SPORT1 CZ FHD
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
@@ -1014,10 +1193,6 @@ https://edgestream2.pro/hls/.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 #EXTVLCOPT:http-referrer=https://streame.center
 https://edgestream2.pro/hls/.m3u8
-#EXTINF:-1 tvg-name="[Live] Anadolu Efes Vs Beşiktaş JK - STREAM TV + HD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/138/image/dark" group-title="Live Sports | Basketball" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" http-referrer="https://streame.center",[Live] Anadolu Efes Vs Beşiktaş JK - STREAM TV + HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
-#EXTVLCOPT:http-referrer=https://streame.center
-https://edgestream2.pro/hls/.m3u8
 #EXTINF:-1 tvg-name="[Live] KK Partizan Mozzart Bet Vs KK Crvena zvezda - STREAM TV + HD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/138/image/dark" group-title="Live Sports | Basketball" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" http-referrer="https://streame.center",[Live] KK Partizan Mozzart Bet Vs KK Crvena zvezda - STREAM TV + HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 #EXTVLCOPT:http-referrer=https://streame.center
@@ -1058,15 +1233,50 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cjglydxghe/out/v1
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=9f327d24c66fbd84e15ab5c9ead7c7a4:83837185529c0c4048f81386c2d36426
 https://otte.cache.aiv-cdn.net/bom-nitro/live/dash/enc/fdx74zqzhu/out/v1/7d7a8c6981a842b98a683e9fbfe51d17/cenc.mpd
-#EXTINF:-1 tvg-name="[Live] DARTS PDC Vs DARTS PDC - Nova2 Sports FHD " tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/751/image" group-title="Live Sports | Other",[Live] DARTS PDC Vs DARTS PDC - Nova2 Sports FHD 
+#EXTINF:-1 tvg-name="[Live] Spain U17 Vs Australia U17 - FOX2 SPORTS FHD " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/827/image/dark" group-title="Live Sports | Football",[Live] Spain U17 Vs Australia U17 - FOX2 SPORTS FHD 
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
-https://dash2.antik.sk/stream/nvidia_nova_sport2/playlist_cenc.mpd
-#EXTINF:-1 tvg-name="[Live] DARTS PDC Vs DARTS PDC - Darts European Tour 15" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/751/image" group-title="Live Sports | Other" http-user-agent="Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36" http-referrer="https://nadia01eo.tn76degree12ec3out.cfd",[Live] DARTS PDC Vs DARTS PDC - Darts European Tour 15
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
-#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
-http://193.47.62.41/hls/IZZZA.m3u8
+#KODIPROP:inputstream.adaptive.license_key=09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd
 #EXTINF:-1 tvg-name="[Live] Illawarra Hawks Vs Sydney Kings - STREAM TV + HD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/1524/image/dark" group-title="Live Sports | Basketball" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" http-referrer="https://streame.center",[Live] Illawarra Hawks Vs Sydney Kings - STREAM TV + HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 #EXTVLCOPT:http-referrer=https://streame.center
 https://edgestream2.pro/hls/.m3u8
+#EXTINF:-1 tvg-name="[Live] Al-Hazem Vs Al-Fayha - STREAM TV + HD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/955/image/dark" group-title="Live Sports | Football" http-referrer="https://player.online878.com/",[Live] Al-Hazem Vs Al-Fayha - STREAM TV + HD
+#EXTVLCOPT:http-referrer=https://player.online878.com/
+https://live.vivo155.com/live/sd-1-4599633.m3u8?txSecret=d4ee6da4d0be0a8fab365a5007c4b68a&txTime=6ADA2222
+#EXTINF:-1 tvg-name="[Live] Al-Hazem Vs Al-Fayha - LOW QUALITY (USE VPN)" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/955/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36" http-referrer="https://nadia01eo.tn76degree12ec3out.cfd",[Live] Al-Hazem Vs Al-Fayha - LOW QUALITY (USE VPN)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://nadia01eo.tn76degree12ec3out.cfd
+http://193.47.62.44/hls/CIIIAAAA.m3u8
+#EXTINF:-1 tvg-name="[Live] Al-Fateh Vs Al-Shabab - STREAM TV + HD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/955/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" http-referrer="http://www.fawanews.sc/",[Live] Al-Fateh Vs Al-Shabab - STREAM TV + HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.44/hls/BHBHBHA.m3u8
+#EXTINF:-1 tvg-name="[Live] Al-Fateh Vs Al-Shabab - LOW QUALITY (USE VPN)" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/955/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" http-referrer="http://www.fawanews.sc/",[Live] Al-Fateh Vs Al-Shabab - LOW QUALITY (USE VPN)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.44/hls/BHBHBHA.m3u8
+#EXTINF:-1 tvg-name="[Live] FC Kairat Almaty Vs Panathinaikos FC - PARAMOUNT+ FHD " tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football",[Live] FC Kairat Almaty Vs Panathinaikos FC - PARAMOUNT+ FHD 
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=7789cab5f0f9169e17c55f05a15fbbf2:2b4cfbf24611902d9d1b3351b5e72482
+https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/5jcc62ose9/out/v1/b7bd945142764506ace50723e8719c14/bf23ef1e-80c8-4af9-b629-b40e9ad4206b-cenc.mpd?aws_sessionId=7e08b817-09a2-49c4-90a3-6c53d514aff5
+#EXTINF:-1 tvg-name="[Live] FC Kairat Almaty Vs Panathinaikos FC - VIX Español FHD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football",[Live] FC Kairat Almaty Vs Panathinaikos FC - VIX Español FHD
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=a0792c0c9b157d5e6a5239460936ff3b:459887781ab8b34c993cdd8c124fd3f6
+https://otte.cache.aiv-cdn.net/fra-nitro/live/clients/dash/enc/5s56vlvtxj/out/v1/83e94e1e8f76494f8173edb038f25837/cenc.mpd
+#EXTINF:-1 tvg-name="[Live] FC Kairat Almaty Vs Panathinaikos FC - STREAM TV + HD" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" http-referrer="https://xlz.domainkqt.cc/",[Live] FC Kairat Almaty Vs Panathinaikos FC - STREAM TV + HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live2.jorvakstreamcache.com/live/channel22.m3u8
+#EXTINF:-1 tvg-name="[Live] FC Kairat Almaty Vs Panathinaikos FC - HD QUALITY4" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" http-referrer="http://www.fawanews.sc/",[Live] FC Kairat Almaty Vs Panathinaikos FC - HD QUALITY4
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+https://www.rtmpcdn.com/live/280508bb-8145-44c4-b0cc-df22d2c194e0.m3u8
+#EXTINF:-1 tvg-name="[Live] FC Kairat Almaty Vs Panathinaikos FC - SonyLiv (Asia)" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0" http-referrer="https://www.sonyliv.com/",[Live] FC Kairat Almaty Vs Panathinaikos FC - SonyLiv (Asia)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+https://sonymtmnew.akamaized.net/hls/live/2094588/footlive2210/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792704833~acl=/*~id=81881158884330765836131264728565~hmac=2e4b1336d344f822a04a7e52fa98b38a8a55f019693cdd340a606364cf4f407b
+#EXTINF:-1 tvg-name="[Live] FC Kairat Almaty Vs Panathinaikos FC - LOW QUALITY (USE VPN)" tvg-logo="http://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="Live Sports | Football" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" http-referrer="http://www.fawanews.sc/",[Live] FC Kairat Almaty Vs Panathinaikos FC - LOW QUALITY (USE VPN)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+http://193.47.62.41/hls/BEEE.m3u8

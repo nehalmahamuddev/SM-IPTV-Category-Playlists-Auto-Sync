@@ -31,7 +31,7 @@ except ImportError:
 BOOTSTRAP_URL = "https://app-main-ap.sm-monirul.xyz/exp/"
 DEFAULT_USER_AGENT = "okhttp/4.12.0"
 OUTPUT_DIR = os.environ.get("PLAYLISTS_DIR", "playlists")
-GITHUB_REPO = os.environ.get("GITHUB_REPOSITORY", "nehalDIU/PlayZTV-Sync")
+GITHUB_REPO = os.environ.get("GITHUB_REPOSITORY", "nehalmahamuddev/SM-IPTV-Category-Playlists-Auto-Sync")
 GITHUB_BRANCH = os.environ.get("GITHUB_REF_NAME", "main")
 RAW_BASE_URL = f"https://raw.githubusercontent.com/{GITHUB_REPO}/{GITHUB_BRANCH}/{OUTPUT_DIR}"
 
@@ -120,15 +120,22 @@ def format_channel_m3u(ch: Dict[str, Any], group_title: str) -> List[str]:
 
     cookie = ch.get("cookie")
     referer = ch.get("referer")
+    origin = ch.get("origin")
     user_agent = ch.get("user_agent")
     kid = ch.get("kid")
     key = ch.get("key")
+
+    # If origin is provided but not referer, ensure referer is set as well
+    if origin and not referer:
+        referer = origin if origin.endswith("/") else f"{origin}/"
 
     extinf = f'#EXTINF:-1 tvg-id="{ch_id}" tvg-name="{name}" tvg-logo="{logo}" group-title="{group_title}"'
     if user_agent:
         extinf += f' http-user-agent="{user_agent}"'
     if referer:
         extinf += f' http-referrer="{referer}"'
+    if origin:
+        extinf += f' http-origin="{origin}"'
     extinf += f',{name}'
 
     lines.append(extinf)
@@ -136,6 +143,8 @@ def format_channel_m3u(ch: Dict[str, Any], group_title: str) -> List[str]:
         lines.append(f'#EXTVLCOPT:http-user-agent={user_agent}')
     if referer:
         lines.append(f'#EXTVLCOPT:http-referrer={referer}')
+    if origin:
+        lines.append(f'#EXTVLCOPT:http-origin={origin}')
     if cookie:
         lines.append(f'#EXTVLCOPT:http-cookie={cookie}')
     if kid and key:
@@ -162,14 +171,21 @@ def format_sport_stream_m3u(match: Dict[str, Any], stream: Dict[str, Any], idx: 
     display_name = f"[Live] {event_name} - {ch_name}"
     user_agent = stream.get("user_agent")
     referer = stream.get("referer")
+    origin = stream.get("origin")
+    cookie = stream.get("cookie")
     kid = stream.get("kid")
     key = stream.get("key")
+
+    if origin and not referer:
+        referer = origin if origin.endswith("/") else f"{origin}/"
 
     extinf = f'#EXTINF:-1 tvg-name="{display_name}" tvg-logo="{event_logo}" group-title="Live Sports | {category}"'
     if user_agent:
         extinf += f' http-user-agent="{user_agent}"'
     if referer:
         extinf += f' http-referrer="{referer}"'
+    if origin:
+        extinf += f' http-origin="{origin}"'
     extinf += f',{display_name}'
 
     lines.append(extinf)
@@ -177,6 +193,10 @@ def format_sport_stream_m3u(match: Dict[str, Any], stream: Dict[str, Any], idx: 
         lines.append(f'#EXTVLCOPT:http-user-agent={user_agent}')
     if referer:
         lines.append(f'#EXTVLCOPT:http-referrer={referer}')
+    if origin:
+        lines.append(f'#EXTVLCOPT:http-origin={origin}')
+    if cookie:
+        lines.append(f'#EXTVLCOPT:http-cookie={cookie}')
     if kid and key:
         lines.append('#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey')
         lines.append(f'#KODIPROP:inputstream.adaptive.license_key={kid}:{key}')

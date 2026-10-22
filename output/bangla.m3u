@@ -1,16 +1,24 @@
 #EXTM3U name="SM IPTV - Refined Bangla"
 # Category: Bangla
-# Updated: 2026-10-22 15:24:22 UTC
+# Updated: 2026-10-22 17:34:40 UTC
 
 #EXTINF:-1 tvg-id="g_series" tvg-name="G-Series" tvg-logo="https://i.postimg.cc/xTxpr24R/1000114119.jpg" group-title="bangla",G-Series
 https://vods2.aynaott.com/gseriesDrama/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="btv" tvg-name="BTV" tvg-logo="https://i.postimg.cc/4yZsvjGm/sm-btv-hd.jpg" group-title="bangla",BTV
+#EXTINF:-1 tvg-id="btv" tvg-name="BTV" tvg-logo="https://i.postimg.cc/4yZsvjGm/sm-btv-hd.jpg" group-title="bangla" http-referrer="https://www.btvlive.gov.bd/" http-origin="https://www.btvlive.gov.bd",BTV
+#EXTVLCOPT:http-referrer=https://www.btvlive.gov.bd/
+#EXTVLCOPT:http-origin=https://www.btvlive.gov.bd
 https://live.btvlive.gov.bd/live/61a7b67c-abf0-4066-8eb6-3f8fd169cd94/BD/355ba051-9a60-48aa-adcf-5a6c64da8c5c/index.m3u8
-#EXTINF:-1 tvg-id="btv_news" tvg-name="BTV News" tvg-logo="https://i.postimg.cc/4yZsvjGK/sm-btv-news.webp" group-title="bangla",BTV News
+#EXTINF:-1 tvg-id="btv_news" tvg-name="BTV News" tvg-logo="https://i.postimg.cc/4yZsvjGK/sm-btv-news.webp" group-title="bangla" http-referrer="https://www.btvlive.gov.bd/" http-origin="https://www.btvlive.gov.bd",BTV News
+#EXTVLCOPT:http-referrer=https://www.btvlive.gov.bd/
+#EXTVLCOPT:http-origin=https://www.btvlive.gov.bd
 https://live.btvlive.gov.bd/live/61a7b67c-abf0-4066-8eb6-3f8fd169cd94/BD/d96eb7f4-83c2-4472-9597-3568390a8ebf/index.m3u8
-#EXTINF:-1 tvg-id="btv_chittagong" tvg-name="BTV CHITTAGONG" tvg-logo="https://i.postimg.cc/L5TRxv42/sm-btv-chattagram.webp" group-title="bangla",BTV CHITTAGONG
+#EXTINF:-1 tvg-id="btv_chittagong" tvg-name="BTV CHITTAGONG" tvg-logo="https://i.postimg.cc/L5TRxv42/sm-btv-chattagram.webp" group-title="bangla" http-referrer="https://www.btvlive.gov.bd/" http-origin="https://www.btvlive.gov.bd",BTV CHITTAGONG
+#EXTVLCOPT:http-referrer=https://www.btvlive.gov.bd/
+#EXTVLCOPT:http-origin=https://www.btvlive.gov.bd
 https://live.btvlive.gov.bd/live/61a7b67c-abf0-4066-8eb6-3f8fd169cd94/BD/a707f2dc-9704-413a-a67c-17c64a77c350/index.m3u8
-#EXTINF:-1 tvg-id="btv_shangshad" tvg-name="BTV Shangshad" tvg-logo="https://i.postimg.cc/yxPBLn61/sm-btv-shangshad.jpg" group-title="bangla",BTV Shangshad
+#EXTINF:-1 tvg-id="btv_shangshad" tvg-name="BTV Shangshad" tvg-logo="https://i.postimg.cc/yxPBLn61/sm-btv-shangshad.jpg" group-title="bangla" http-referrer="https://www.btvlive.gov.bd/" http-origin="https://www.btvlive.gov.bd",BTV Shangshad
+#EXTVLCOPT:http-referrer=https://www.btvlive.gov.bd/
+#EXTVLCOPT:http-origin=https://www.btvlive.gov.bd
 https://live.btvlive.gov.bd/live/61a7b67c-abf0-4066-8eb6-3f8fd169cd94/BD/9ee3b4f9-fd0a-47c5-a135-2575c5691613/index.m3u8
 #EXTINF:-1 tvg-id="channel_1" tvg-name="Channel 1" tvg-logo="https://i.postimg.cc/cHfdn0VD/sm-channel-1.jpg" group-title="bangla",Channel 1
 https://drk6xq0vhn.gpcdn.net/live/channel_1_hd_abr/index.m3u8

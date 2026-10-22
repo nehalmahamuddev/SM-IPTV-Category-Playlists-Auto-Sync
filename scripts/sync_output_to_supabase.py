@@ -397,6 +397,20 @@ def sync_output_to_supabase(
         del_cnt = db.delete_rows_by_ids("stream_servers", server_ids_to_delete)
         print(f"   Successfully deleted {del_cnt} obsolete stream servers.")
 
+    # Step 5: Increment channels_version in app_settings to trigger GoPlay client cache refresh
+    total_changes = len(servers_to_insert) + len(servers_to_update) + len(server_ids_to_delete)
+    if total_changes > 0:
+        print("\n5. Updating client cache version in 'public.app_settings'...")
+        try:
+            settings_rows = db.get_all("app_settings", select="id,channels_version", filters={"id": "eq.1"})
+            if settings_rows:
+                curr_ver = settings_rows[0].get("channels_version") or 1
+                new_ver = curr_ver + 1
+                db.update_row("app_settings", "1", {"channels_version": new_ver})
+                print(f"   Successfully bumped channels_version: {curr_ver} -> {new_ver} (GoPlay clients will sync)")
+        except Exception as e:
+            print(f"   Warning: Could not bump channels_version in app_settings: {e}", file=sys.stderr)
+
     print("\n" + "=" * 72)
     print("Supabase Linear Channels & Multi-Stream Sync Completed Successfully!")
     print("=" * 72)

@@ -85,7 +85,7 @@ def parse_m3u_file(filepath: str, default_category: str) -> List[Dict[str, Any]]
             current_headers = {}
             current_drm = None
 
-            # Extract user agent & referrer from inline attributes if present
+            # Extract user agent, referrer & origin from inline attributes if present
             ua_m = re.search(r'http-user-agent="([^"]+)"', line, re.IGNORECASE)
             if ua_m:
                 current_headers["User-Agent"] = ua_m.group(1)
@@ -94,6 +94,10 @@ def parse_m3u_file(filepath: str, default_category: str) -> List[Dict[str, Any]]
             if ref_m:
                 current_headers["Referer"] = ref_m.group(1)
 
+            orig_m = re.search(r'http-origin="([^"]+)"', line, re.IGNORECASE)
+            if orig_m:
+                current_headers["Origin"] = orig_m.group(1)
+
         elif line.startswith("#EXTVLCOPT:"):
             opt = line[len("#EXTVLCOPT:"):].strip()
             if "=" in opt:
@@ -101,6 +105,8 @@ def parse_m3u_file(filepath: str, default_category: str) -> List[Dict[str, Any]]
                 k_lower = k.lower()
                 if "user-agent" in k_lower:
                     current_headers["User-Agent"] = v
+                elif "origin" in k_lower:
+                    current_headers["Origin"] = v
                 elif "referrer" in k_lower or "referer" in k_lower:
                     current_headers["Referer"] = v
                 elif "cookie" in k_lower:
@@ -208,6 +214,8 @@ def format_channel_to_m3u(channel: Dict[str, Any]) -> List[str]:
             extinf += f' http-user-agent="{headers["User-Agent"]}"'
         if headers.get("Referer"):
             extinf += f' http-referrer="{headers["Referer"]}"'
+        if headers.get("Origin"):
+            extinf += f' http-origin="{headers["Origin"]}"'
         extinf += f',{display_title}'
 
         lines.append(extinf)
@@ -215,6 +223,8 @@ def format_channel_to_m3u(channel: Dict[str, Any]) -> List[str]:
             lines.append(f'#EXTVLCOPT:http-user-agent={headers["User-Agent"]}')
         if headers.get("Referer"):
             lines.append(f'#EXTVLCOPT:http-referrer={headers["Referer"]}')
+        if headers.get("Origin"):
+            lines.append(f'#EXTVLCOPT:http-origin={headers["Origin"]}')
         if headers.get("Cookie"):
             lines.append(f'#EXTVLCOPT:http-cookie={headers["Cookie"]}')
         if drm and drm.get("type") == "clearkey":

@@ -321,9 +321,8 @@ def sync_pipeline(dry_run: bool = False):
 
             logo = ch.get("logo") or ""
 
-            # Check if this channel is newly created or existing
-            if canonical_id not in channels_to_upsert and canonical_id not in existing_channels:
-                # First time seeing this channel: set primary stream in channels table
+            # Always record channel metadata (and fresh headers) in channels_to_upsert
+            if canonical_id not in channels_to_upsert:
                 channels_to_upsert[canonical_id] = {
                     "id": canonical_id,
                     "name": clean_name,
@@ -340,7 +339,11 @@ def sync_pipeline(dry_run: bool = False):
                     "proxy": False,
                     "sort_order": len(channels_to_upsert) + 1
                 }
-                # Also add as Server 1 in stream_servers
+            elif headers:
+                channels_to_upsert[canonical_id]["headers"].update(headers)
+
+            if canonical_id not in existing_channels and canonical_id not in channel_stream_urls:
+                # Also add as Server 1 in stream_servers if brand new channel
                 server_name = f"Server 1 ({quality})"
                 servers_to_insert.append({
                     "channel_id": canonical_id,
