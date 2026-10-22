@@ -1,0 +1,53 @@
+name: Live Sports Auto-Sync & Database Update
+
+on:
+  schedule:
+    # Runs every 10 minutes
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync-live-sports:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+          cache-dependency-path: 'requirements.txt'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Fetch from PlayZ TV & Update Database
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          ADMIN_SECRET_TOKEN: ${{ secrets.ADMIN_SECRET_TOKEN || 'GoLiveAdminSecret2026' }}
+          MAX_WORKERS: 16
+          PURGE_HOURS: 3
+        run: |
+          python sync_live_events.py
+
+      - name: Commit and push updated files
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add events.json channels.json playlist.m3u last_hash_sports_events.txt
+          if ! git diff --staged --quiet; then
+            git commit -m "auto: update live sports data & playlist [skip ci]"
+            git push
+          else
+            echo "No file changes detected."
+          fi
