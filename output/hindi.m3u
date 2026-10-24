@@ -1,6 +1,6 @@
 #EXTM3U name="SM IPTV - Refined Hindi"
 # Category: Hindi
-# Updated: 2026-10-24 17:32:09 UTC
+# Updated: 2026-10-24 18:01:54 UTC
 
 #EXTINF:-1 tvg-id="sony_max" tvg-name="Sony Max" tvg-logo="https://i.postimg.cc/zX9vhkhB/20250529-131834.png" group-title="hindi" http-referrer="https://techandeat.online",Sony Max (Server 1 (HD))
 #EXTVLCOPT:http-referrer=https://techandeat.online
@@ -30,15 +30,11 @@ https://app-re.sm-monirul-islam-rs.workers.dev/star_gold/index.m3u8
 #EXTINF:-1 tvg-id="star_gold_2" tvg-name="Star Gold 2" tvg-logo="https://i.postimg.cc/6q3Qjm9p/star-gold-2.png" group-title="hindi",Star Gold 2
 http://103.151.60.162:2122/play/a01v/index.m3u8
 #EXTINF:-1 tvg-id="star_gold_select" tvg-name="Star Gold Select" tvg-logo="https://i.postimg.cc/8kMDDGYQ/star-gold-select.png" group-title="hindi",Star Gold Select
-https://app-zibo-play40.tvhunter.top/newr/STAR.GOLD.SEL.HD.m3u8
+http://103.114.11.37:8081/StarGoldSelect/index.m3u8?token=dsgdfgsdfgasf
 #EXTINF:-1 tvg-id="star_bharat" tvg-name="Star Bharat" tvg-logo="https://i.postimg.cc/dQrvvFfc/star-bharat.png" group-title="hindi",Star Bharat
-https://homair-tv-production.up.railway.app/api/play/STAR%20GOLD%20SEL%20HD.m3u8
+http://103.135.253.32:8080/STAR-BHARAT/index.m3u8
 #EXTINF:-1 tvg-id="travel_xp_bangla" tvg-name="Travel XP Bangla" tvg-logo="https://i.postimg.cc/28ShX0KZ/travel-xp.png" group-title="hindi",Travel XP Bangla
 https://app-zibo-play40.tvhunter.top/newr/TRAVELXP.HD.m3u8
-#EXTINF:-1 tvg-id="colors_cineplex" tvg-name="Colors Cineplex" tvg-logo="https://i.postimg.cc/HLvX9R1x/colors-cineplex-hd.png" group-title="hindi",Colors Cineplex (Server 1 (HD))
-http://bosstv.click:8080/live/18012689/77561563/85219.ts
-#EXTINF:-1 tvg-id="colors_cineplex" tvg-name="Colors Cineplex" tvg-logo="https://i.postimg.cc/HLvX9R1x/colors-cineplex-hd.png" group-title="hindi",Colors Cineplex (Server 2 (HD))
-https://d1rc86nwwc9fag.cloudfront.net/260723/smil:rishteycineplexukdev.smil/chunklist_b1928000.m3u8
 #EXTINF:-1 tvg-id="colors" tvg-name="Colors" tvg-logo="https://i.postimg.cc/pdy3k1qZ/20251202-090150.png" group-title="hindi",Colors
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:colorsme.smil/media-udh.m3u8
 #EXTINF:-1 tvg-id="star_plus" tvg-name="Star Plus" tvg-logo="https://i.postimg.cc/q7gWQZjw/20251202-090307.png" group-title="hindi",Star Plus
@@ -94,6 +90,8 @@ https://toffee.sm-monirul-islam-rs.workers.dev/sony_bbc_earth_hd/index.m3u8
 https://j6nfugukcl.gpcdn.net/tile_2/master.m3u8
 #EXTINF:-1 tvg-id="b4u_movies" tvg-name="B4U Movies" tvg-logo="https://i.postimg.cc/13nLvxQx/20250630-050504.png" group-title="hindi",B4U Movies
 https://drk6xq0vhn.gpcdn.net/live/b4u_movies_abr/index.m3u8
+#EXTINF:-1 tvg-id="colors_cineplex" tvg-name="Colors Cineplex" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTUfUOb0JURr2sR8aIFquATeQ6krMWpj6O12yJa_j6Hh7TZ_uEf85JbXimVmAy3sFGhxaSLy6bO2KvLxKTkApSOcmNEDNBjiMKvZa_xBXQXpAxccCQAkTTa4RBsgza4SljsLENgELFVScSlxaWlxYoKfs5ed5HEChWG5biR1EBwFIWGE0cNLB0qJhrzg/s1080/1000098991.png" group-title="hindi",Colors Cineplex
+https://d1rc86nwwc9fag.cloudfront.net/260723/smil:rishteycineplexukdev.smil/chunklist_b1928000.m3u8
 #EXTINF:-1 tvg-id="mnx" tvg-name="MNX" tvg-logo="https://i.postimg.cc/5yxLJgNJ/mnx-hd.png" group-title="hindi",MNX
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=40f019b86241d23ef075633fd7f1e927:058dec845bd340178a388edd104a015e

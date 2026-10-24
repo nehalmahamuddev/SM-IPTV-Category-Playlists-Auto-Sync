@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-24T17:32:09.221275+00:00",
-  "total_channels": 534,
-  "total_streams": 550,
+  "updated_at": "2026-10-24T18:01:54.398316+00:00",
+  "total_channels": 530,
+  "total_streams": 545,
   "channels": [
     {
       "id": "g_series",
@@ -1168,7 +1168,7 @@
       "servers": [
         {
           "name": "Server 1 (HD)",
-          "stream_url": "https://tvsen5.aynaott.com/TnMn5kZz8aLmjklkk/index.m3u8",
+          "stream_url": "http://103.114.11.37:8081/T-Sports-FHD/index.m3u8?token=dsgdfgsdfgasf",
           "quality": "HD",
           "headers": {},
           "drm": null,
@@ -1202,7 +1202,7 @@
       "servers": [
         {
           "name": "Server 1 (HD)",
-          "stream_url": "http://tv.cloudcdn.me:80/live.ts?channelId=49859&uid=10097&deviceMac=00:1A:79:A4:73:F2",
+          "stream_url": "http://103.114.11.37:8081/Unite8-sports-1/index.m3u8?token=dsgdfgsdfgasf",
           "quality": "HD",
           "headers": {},
           "drm": null,
@@ -1486,6 +1486,23 @@
       ]
     },
     {
+      "id": "wwe",
+      "name": "WWE",
+      "category": "sports",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFZqdVMVpzooYNv3fZUzBXmWCy5rOetnyES09tCvm4TA&s",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "http://103.114.11.37:8081/WWE-24/7/index.m3u8?token=dsgdfgsdfgasf",
+          "quality": "HD",
+          "headers": {},
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
       "id": "cricket_gold",
       "name": "Cricket Gold",
       "category": "sports",
@@ -1546,57 +1563,6 @@
         {
           "name": "Server 1 (HD)",
           "stream_url": "http://2756d46c.akciatv.ru/iptv/7FRNF6CY9A9TG3/6125/index.m3u8",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "bein_sports_5",
-      "name": "beIN SPORTS 5",
-      "category": "sports",
-      "logo": "http://91.208.162.66/bsnew/bs5hd.png",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "http://2756d46c.akciatv.ru/iptv/7FRNF6CY9A9TG3/6126/index.m3u8",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "bein_sports_6",
-      "name": "beIN SPORTS 6",
-      "category": "sports",
-      "logo": "http://91.208.162.66/bsnew/bs6hd.png",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "http://2756d46c.akciatv.ru/iptv/7FRNF6CY9A9TG3/6127/index.m3u8",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "bein_sports_7",
-      "name": "beIN SPORTS 7",
-      "category": "sports",
-      "logo": "http://91.208.162.66/bsnew/bs7hd.png",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "http://2756d46c.akciatv.ru/iptv/7FRNF6CY9A9TG3/6128/index.m3u8",
           "quality": "HD",
           "headers": {},
           "drm": null,
@@ -1733,7 +1699,7 @@
       "servers": [
         {
           "name": "Server 1 (HD)",
-          "stream_url": "https://app-re.sm-monirul-islam-rs.workers.dev/sun/index.m3u8",
+          "stream_url": "https://app-zibo-play40.tvhunter.top/newr/SUN.BANGLA.HD.m3u8",
           "quality": "HD",
           "headers": {},
           "drm": null,
@@ -1943,7 +1909,7 @@
       "servers": [
         {
           "name": "Server 1 (HD)",
-          "stream_url": "https://app-zibo-play40.tvhunter.top/newr/STAR.GOLD.SEL.HD.m3u8",
+          "stream_url": "http://103.114.11.37:8081/StarGoldSelect/index.m3u8?token=dsgdfgsdfgasf",
           "quality": "HD",
           "headers": {},
           "drm": null,
@@ -1960,7 +1926,7 @@
       "servers": [
         {
           "name": "Server 1 (HD)",
-          "stream_url": "https://homair-tv-production.up.railway.app/api/play/STAR%20GOLD%20SEL%20HD.m3u8",
+          "stream_url": "http://103.135.253.32:8080/STAR-BHARAT/index.m3u8",
           "quality": "HD",
           "headers": {},
           "drm": null,
@@ -1982,31 +1948,6 @@
           "headers": {},
           "drm": null,
           "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "colors_cineplex",
-      "name": "Colors Cineplex",
-      "category": "hindi",
-      "logo": "https://i.postimg.cc/HLvX9R1x/colors-cineplex-hd.png",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "http://bosstv.click:8080/live/18012689/77561563/85219.ts",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        },
-        {
-          "name": "Server 2 (HD)",
-          "stream_url": "https://d1rc86nwwc9fag.cloudfront.net/260723/smil:rishteycineplexukdev.smil/chunklist_b1928000.m3u8",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 2
         }
       ]
     },
@@ -2415,6 +2356,23 @@
       ]
     },
     {
+      "id": "colors_cineplex",
+      "name": "Colors Cineplex",
+      "category": "hindi",
+      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTUfUOb0JURr2sR8aIFquATeQ6krMWpj6O12yJa_j6Hh7TZ_uEf85JbXimVmAy3sFGhxaSLy6bO2KvLxKTkApSOcmNEDNBjiMKvZa_xBXQXpAxccCQAkTTa4RBsgza4SljsLENgELFVScSlxaWlxYoKfs5ed5HEChWG5biR1EBwFIWGE0cNLB0qJhrzg/s1080/1000098991.png",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://d1rc86nwwc9fag.cloudfront.net/260723/smil:rishteycineplexukdev.smil/chunklist_b1928000.m3u8",
+          "quality": "HD",
+          "headers": {},
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
       "id": "mnx",
       "name": "MNX",
       "category": "hindi",
@@ -2596,7 +2554,7 @@
       "servers": [
         {
           "name": "Server 1 (HD)",
-          "stream_url": "http://tv.cloudcdn.me:80/live.ts?channelId=90229&uid=10097&deviceMac=00:1A:79:A4:73:F2",
+          "stream_url": "http://103.135.253.32:8080/NATGEO-HD/index.m3u8",
           "quality": "HD",
           "headers": {},
           "drm": null,
@@ -2613,12 +2571,9 @@
       "servers": [
         {
           "name": "Server 1 (HD)",
-          "stream_url": "https://app-re.sm-monirul-islam-rs.workers.dev/discovery-bangla/index.m3u8",
+          "stream_url": "https://app-zibo-play40.tvhunter.top/newr/DISCOVERY.HD.m3u8",
           "quality": "HD",
-          "headers": {
-            "User-Agent": "OTT-KING TV 1.0",
-            "Referer": "https://sm-monirul.xyz"
-          },
+          "headers": {},
           "drm": null,
           "sort_order": 1
         }
@@ -2634,23 +2589,6 @@
         {
           "name": "Server 1 (HD)",
           "stream_url": "http://103.135.253.32:8080/DORONTU-TV/index.m3u8",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "nick_bangla",
-      "name": "Nick Bangla",
-      "category": "kids",
-      "logo": "https://i.postimg.cc/4dQCpzTm/20250630-050342.png",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "http://tv.cloudcdn.me:80/live.ts?channelId=90242&uid=10097&deviceMac=00:1A:79:A4:73:F2",
           "quality": "HD",
           "headers": {},
           "drm": null,
@@ -2796,7 +2734,7 @@
       "servers": [
         {
           "name": "Server 1 (HD)",
-          "stream_url": "http://2756d46c.akciatv.ru/iptv/7FRNF6CY9A9TG3/6965/index.m3u8",
+          "stream_url": "https://zibo1.tvhunter.top/SDSD/index.m3u8",
           "quality": "HD",
           "headers": {},
           "drm": null,
@@ -2818,23 +2756,6 @@
           "headers": {
             "User-Agent": "OTT-KING TV 1.0"
           },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "disnep_jr",
-      "name": "Disnep jr",
-      "category": "kids",
-      "logo": "https://i.postimg.cc/Yq9cmGDC/20250630-050625.png",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "http://2756d46c.akciatv.ru/iptv/7FRNF6CY9A9TG3/6967/index.m3u8",
-          "quality": "HD",
-          "headers": {},
           "drm": null,
           "sort_order": 1
         }
