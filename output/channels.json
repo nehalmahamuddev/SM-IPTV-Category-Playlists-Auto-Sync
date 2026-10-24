@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T23:03:01.059769+00:00",
+  "updated_at": "2026-10-24T01:29:46.570899+00:00",
   "total_channels": 407,
   "total_streams": 417,
   "channels": [
@@ -3502,6 +3502,276 @@
       ]
     },
     {
+      "id": "live_smackdown_vs_smackdown_stream",
+      "name": "[Live] SmackDown Vs SmackDown - STREAM",
+      "category": "live_sports",
+      "logo": "https://www.wwe.com/f/styles/wwe_show_logo_l/public/all/2024/09/Smackdown_LOGO--c8e0b09904cb1356d309a8ea2acb0422.png",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://edgestream3.pro/hls/zeuryuegn48.m3u8",
+          "quality": "HD",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+            "Referer": "https://streame.center"
+          },
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_smackdown_vs_smackdown_stream_2",
+      "name": "[Live] SmackDown Vs SmackDown - STREAM 2",
+      "category": "live_sports",
+      "logo": "https://www.wwe.com/f/styles/wwe_show_logo_l/public/all/2024/09/Smackdown_LOGO--c8e0b09904cb1356d309a8ea2acb0422.png",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://cdn.streame.center/hls/zeuryuegn48.m3u8",
+          "quality": "HD",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+            "Referer": "https://streame.center"
+          },
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_smackdown_vs_smackdown_quality_smack",
+      "name": "[Live] SmackDown Vs SmackDown - QUALITY SMACK",
+      "category": "live_sports",
+      "logo": "https://www.wwe.com/f/styles/wwe_show_logo_l/public/all/2024/09/Smackdown_LOGO--c8e0b09904cb1356d309a8ea2acb0422.png",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://admin2.formaturamaxi.com.br/wwe.m3u8",
+          "quality": "HD",
+          "headers": {},
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_smackdown_vs_smackdown_wwe_live_fhd4",
+      "name": "[Live] SmackDown Vs SmackDown - WWE LIVE FHD4",
+      "category": "live_sports",
+      "logo": "https://www.wwe.com/f/styles/wwe_show_logo_l/public/all/2024/09/Smackdown_LOGO--c8e0b09904cb1356d309a8ea2acb0422.png",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/4.m3u8",
+          "quality": "HD",
+          "headers": {},
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_smackdown_vs_smackdown_stream_quality",
+      "name": "[Live] SmackDown Vs SmackDown - STREAM QUALITY",
+      "category": "live_sports",
+      "logo": "https://www.wwe.com/f/styles/wwe_show_logo_l/public/all/2024/09/Smackdown_LOGO--c8e0b09904cb1356d309a8ea2acb0422.png",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://jellyfin.fromthyheart.site/dailymotion/live/playlist/5.m3u8",
+          "quality": "HD",
+          "headers": {},
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_smackdown_vs_smackdown_quality_smk",
+      "name": "[Live] SmackDown Vs SmackDown - QUALITY SMK",
+      "category": "live_sports",
+      "logo": "https://www.wwe.com/f/styles/wwe_show_logo_l/public/all/2024/09/Smackdown_LOGO--c8e0b09904cb1356d309a8ea2acb0422.png",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://plex.fromthyheart.site/dailymotion/live/playlist/5.m3u8",
+          "quality": "HD",
+          "headers": {},
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_smackdown_vs_smackdown_server",
+      "name": "[Live] SmackDown Vs SmackDown - SERVER",
+      "category": "live_sports",
+      "logo": "https://www.wwe.com/f/styles/wwe_show_logo_l/public/all/2024/09/Smackdown_LOGO--c8e0b09904cb1356d309a8ea2acb0422.png",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://daffodil.demonpvp.fun/wwe.m3u8",
+          "quality": "HD",
+          "headers": {
+            "Referer": "https://roxiestreams.info"
+          },
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_smackdown_vs_smackdown_streaming",
+      "name": "[Live] SmackDown Vs SmackDown - STREAMING",
+      "category": "live_sports",
+      "logo": "https://www.wwe.com/f/styles/wwe_show_logo_l/public/all/2024/09/Smackdown_LOGO--c8e0b09904cb1356d309a8ea2acb0422.png",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://edgestream1.pro/hls/zeuryuegn48.m3u8",
+          "quality": "HD",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+            "Referer": "https://streame.center"
+          },
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_smackdown_vs_smackdown_smackdown",
+      "name": "[Live] SmackDown Vs SmackDown - SmackDown",
+      "category": "live_sports",
+      "logo": "https://www.wwe.com/f/styles/wwe_show_logo_l/public/all/2024/09/Smackdown_LOGO--c8e0b09904cb1356d309a8ea2acb0422.png",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://raw.githubusercontent.com/athenapanda26/hls/refs/heads/main/smack.m3u8",
+          "quality": "HD",
+          "headers": {},
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_smackdown_vs_smackdown_wwe_live_fhd5",
+      "name": "[Live] SmackDown Vs SmackDown - WWE LIVE FHD5",
+      "category": "live_sports",
+      "logo": "https://www.wwe.com/f/styles/wwe_show_logo_l/public/all/2024/09/Smackdown_LOGO--c8e0b09904cb1356d309a8ea2acb0422.png",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/5.m3u8",
+          "quality": "HD",
+          "headers": {},
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_smackdown_vs_smackdown_wwe_live_fhd6",
+      "name": "[Live] SmackDown Vs SmackDown - WWE LIVE FHD6",
+      "category": "live_sports",
+      "logo": "https://www.wwe.com/f/styles/wwe_show_logo_l/public/all/2024/09/Smackdown_LOGO--c8e0b09904cb1356d309a8ea2acb0422.png",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/6.m3u8",
+          "quality": "HD",
+          "headers": {},
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_smackdown_vs_smackdown_sport_cast_fhd5",
+      "name": "[Live] SmackDown Vs SmackDown - SPORT CAST FHD5",
+      "category": "live_sports",
+      "logo": "https://www.wwe.com/f/styles/wwe_show_logo_l/public/all/2024/09/Smackdown_LOGO--c8e0b09904cb1356d309a8ea2acb0422.png",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://melancholy.fromthyheart.site/dailymotion/live/playlist/5.m3u8",
+          "quality": "HD",
+          "headers": {},
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_smackdown_vs_smackdown_wwe_live_fhd1",
+      "name": "[Live] SmackDown Vs SmackDown - WWE LIVE FHD1",
+      "category": "live_sports",
+      "logo": "https://www.wwe.com/f/styles/wwe_show_logo_l/public/all/2024/09/Smackdown_LOGO--c8e0b09904cb1356d309a8ea2acb0422.png",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://acumen.loreofeldenring.site/dailymotion/live/playlist/1.m3u8",
+          "quality": "HD",
+          "headers": {},
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_smackdown_vs_smackdown_usa_tv_us_vpn",
+      "name": "[Live] SmackDown Vs SmackDown - USA TV (US VPN)",
+      "category": "live_sports",
+      "logo": "https://www.wwe.com/f/styles/wwe_show_logo_l/public/all/2024/09/Smackdown_LOGO--c8e0b09904cb1356d309a8ea2acb0422.png",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://g001-sle-us-cmaf-prd-ak.pcdn03.cssott.com/Content/CMAF_OS1-CTR-4s-v2/Live/channel(12010340-12010340-4445585a62764)/master_2hr.mpd",
+          "quality": "HD",
+          "headers": {},
+          "drm": {
+            "type": "clearkey",
+            "kid": "58551b13211b37d5b325d67e5c6cabef",
+            "key": "3b4c3f8b4236fc57d66cdb54a606fe41"
+          },
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_chicago_stars_fc_vs_houston_dash_stream_tv",
+      "name": "[Live] Chicago Stars FC Vs Houston Dash - STREAM TV +",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/1690/image/dark",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://file.genoads.com/ch1.m3u8",
+          "quality": "HD",
+          "headers": {},
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
       "id": "live_cruzeiro_vs_remo_sport_tv",
       "name": "[Live] Cruzeiro Vs Remo - SPORT TV",
       "category": "live_sports",
@@ -3634,6 +3904,46 @@
       ]
     },
     {
+      "id": "live_tulsa_golden_hurricane_vs_army_knights_stream_tv",
+      "name": "[Live] Tulsa Golden Hurricane Vs Army Knights - STREAM TV +",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/32199/image/dark",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://cdn.streame.center/hls/qsdnajbq32.m3u8",
+          "quality": "HD",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+            "Referer": "https://streame.center"
+          },
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_wyoming_cowboys_vs_air_force_falcons_stream_tv",
+      "name": "[Live] Wyoming Cowboys Vs Air Force Falcons - STREAM TV +",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/32199/image/dark",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://cdn.streame.center/hls/oipozuezeji33.m3u8",
+          "quality": "HD",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+            "Referer": "https://streame.center"
+          },
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
       "id": "live_virginia_cavaliers_vs_duke_blue_devils_stream_tv",
       "name": "[Live] Virginia Cavaliers Vs Duke Blue Devils - STREAM TV +",
       "category": "live_sports",
@@ -3643,6 +3953,90 @@
         {
           "name": "Server 1 (HD)",
           "stream_url": "https://cdn.streame.center/hls/JHDAJBDnjdna30.m3u8",
+          "quality": "HD",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+            "Referer": "https://streame.center"
+          },
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_milwaukee_brewers_vs_tampa_bay_rays_tnt1uk_sports",
+      "name": "[Live] Milwaukee Brewers Vs Tampa Bay Rays - TNT1UK SPORTS",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/11205/image/dark",
+      "quality": "FHD",
+      "servers": [
+        {
+          "name": "Server 1 (FHD)",
+          "stream_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
+          "quality": "FHD",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+          },
+          "drm": {
+            "type": "clearkey",
+            "kid": "69a5aa835a061ce64a630d1046727e40",
+            "key": "d02feac8a999bd06bf4059bf33411749"
+          },
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_milwaukee_brewers_vs_tampa_bay_rays_fox_deportes",
+      "name": "[Live] Milwaukee Brewers Vs Tampa Bay Rays - FOX DEPORTES",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/11205/image/dark",
+      "quality": "FHD",
+      "servers": [
+        {
+          "name": "Server 1 (FHD)",
+          "stream_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
+          "quality": "FHD",
+          "headers": {},
+          "drm": {
+            "type": "clearkey",
+            "kid": "d1a163914db8ffad2c3e94f979896a0d",
+            "key": "9728800a3959aafdd5b0bcfbf3768811"
+          },
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_milwaukee_brewers_vs_tampa_bay_rays_streaming",
+      "name": "[Live] Milwaukee Brewers Vs Tampa Bay Rays - STREAMING",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/11205/image/dark",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://cdn.streame.center/hls/dazhfiach15.m3u8",
+          "quality": "HD",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+            "Referer": "https://streame.center"
+          },
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_milwaukee_brewers_vs_tampa_bay_rays_stream_tv",
+      "name": "[Live] Milwaukee Brewers Vs Tampa Bay Rays - STREAM TV +",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/11205/image/dark",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://edgestream2.pro/hls/dazhfiach15.m3u8",
           "quality": "HD",
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
@@ -3814,6 +4208,46 @@
       ]
     },
     {
+      "id": "live_miami_heat_vs_detroit_pistons_streaming",
+      "name": "[Live] Miami Heat Vs Detroit Pistons - STREAMING",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/132/image/dark",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://cdn.streame.center/hls/ztyarueaghj71.m3u8",
+          "quality": "HD",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+            "Referer": "https://streame.center"
+          },
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_miami_heat_vs_detroit_pistons_stream_tv",
+      "name": "[Live] Miami Heat Vs Detroit Pistons - STREAM TV +",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/132/image/dark",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://edgestream2.pro/hls/ztyarueaghj71.m3u8",
+          "quality": "HD",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+            "Referer": "https://streame.center"
+          },
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
       "id": "live_washington_wizards_vs_toronto_raptors_streaming",
       "name": "[Live] Washington Wizards Vs Toronto Raptors - STREAMING",
       "category": "live_sports",
@@ -3843,6 +4277,130 @@
         {
           "name": "Server 1 (HD)",
           "stream_url": "https://edgestream2.pro/hls/bvnsqdfvgha70.m3u8",
+          "quality": "HD",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+            "Referer": "https://streame.center"
+          },
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_chicago_blackhawks_vs_montreal_canadiens_tsn2_sports",
+      "name": "[Live] Chicago Blackhawks Vs Montréal Canadiens - TSN2 SPORTS",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/234/image/dark",
+      "quality": "FHD",
+      "servers": [
+        {
+          "name": "Server 1 (FHD)",
+          "stream_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cjglydxghe/out/v1/8977baf175da4b94873194613dd3fe55/cenc.mpd",
+          "quality": "FHD",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+          },
+          "drm": {
+            "type": "clearkey",
+            "kid": "85b277daf5aae05833fe43a68f587968",
+            "key": "d52d7e9bc0bcd98787efd547ac91eca0"
+          },
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_chicago_blackhawks_vs_montreal_canadiens_stream_tv",
+      "name": "[Live] Chicago Blackhawks Vs Montréal Canadiens - STREAM TV +",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/234/image/dark",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://edgestream2.pro/hls/uyopzarf50.m3u8",
+          "quality": "HD",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+            "Referer": "https://streame.center"
+          },
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_chicago_blackhawks_vs_montreal_canadiens_streaming",
+      "name": "[Live] Chicago Blackhawks Vs Montréal Canadiens - STREAMING",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/234/image/dark",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://cdn.streame.center/hls/uyopzarf50.m3u8",
+          "quality": "HD",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+            "Referer": "https://streame.center"
+          },
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_colorado_avalanche_vs_tampa_bay_lightning_premier1_sports",
+      "name": "[Live] Colorado Avalanche Vs Tampa Bay Lightning - PREMIER1 SPORTS",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/234/image/dark",
+      "quality": "FHD",
+      "servers": [
+        {
+          "name": "Server 1 (FHD)",
+          "stream_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
+          "quality": "FHD",
+          "headers": {},
+          "drm": {
+            "type": "clearkey",
+            "kid": "1444f4235529f183f0a5a486befe9cdb",
+            "key": "e5e3fec67a1bb3472a2089c8a0a2557f"
+          },
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_colorado_avalanche_vs_tampa_bay_lightning_stream_tv",
+      "name": "[Live] Colorado Avalanche Vs Tampa Bay Lightning - STREAM TV +",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/234/image/dark",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://edgestream2.pro/hls/hjksgdfauzy51.m3u8",
+          "quality": "HD",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+            "Referer": "https://streame.center"
+          },
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_colorado_avalanche_vs_tampa_bay_lightning_streaming",
+      "name": "[Live] Colorado Avalanche Vs Tampa Bay Lightning - STREAMING",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/234/image/dark",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://cdn.streame.center/hls/hjksgdfauzy51.m3u8",
           "quality": "HD",
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
@@ -4525,259 +5083,6 @@
       ]
     },
     {
-      "id": "live_smackdown_vs_smackdown_stream",
-      "name": "[Live] SmackDown Vs SmackDown - STREAM",
-      "category": "live_sports",
-      "logo": "https://www.wwe.com/f/styles/wwe_show_logo_l/public/all/2024/09/Smackdown_LOGO--c8e0b09904cb1356d309a8ea2acb0422.png",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://edgestream3.pro/hls/zeuryuegn48.m3u8",
-          "quality": "HD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
-            "Referer": "https://streame.center"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_smackdown_vs_smackdown_stream_2",
-      "name": "[Live] SmackDown Vs SmackDown - STREAM 2",
-      "category": "live_sports",
-      "logo": "https://www.wwe.com/f/styles/wwe_show_logo_l/public/all/2024/09/Smackdown_LOGO--c8e0b09904cb1356d309a8ea2acb0422.png",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://cdn.streame.center/hls/zeuryuegn48.m3u8",
-          "quality": "HD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
-            "Referer": "https://streame.center"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_smackdown_vs_smackdown_quality_smack",
-      "name": "[Live] SmackDown Vs SmackDown - QUALITY SMACK",
-      "category": "live_sports",
-      "logo": "https://www.wwe.com/f/styles/wwe_show_logo_l/public/all/2024/09/Smackdown_LOGO--c8e0b09904cb1356d309a8ea2acb0422.png",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://admin2.formaturamaxi.com.br/wwe.m3u8",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_smackdown_vs_smackdown_wwe_live_fhd4",
-      "name": "[Live] SmackDown Vs SmackDown - WWE LIVE FHD4",
-      "category": "live_sports",
-      "logo": "https://www.wwe.com/f/styles/wwe_show_logo_l/public/all/2024/09/Smackdown_LOGO--c8e0b09904cb1356d309a8ea2acb0422.png",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/4.m3u8",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_smackdown_vs_smackdown_stream_quality",
-      "name": "[Live] SmackDown Vs SmackDown - STREAM QUALITY",
-      "category": "live_sports",
-      "logo": "https://www.wwe.com/f/styles/wwe_show_logo_l/public/all/2024/09/Smackdown_LOGO--c8e0b09904cb1356d309a8ea2acb0422.png",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://jellyfin.fromthyheart.site/dailymotion/live/playlist/5.m3u8",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_smackdown_vs_smackdown_quality_smk",
-      "name": "[Live] SmackDown Vs SmackDown - QUALITY SMK",
-      "category": "live_sports",
-      "logo": "https://www.wwe.com/f/styles/wwe_show_logo_l/public/all/2024/09/Smackdown_LOGO--c8e0b09904cb1356d309a8ea2acb0422.png",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://plex.fromthyheart.site/dailymotion/live/playlist/5.m3u8",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_smackdown_vs_smackdown_server",
-      "name": "[Live] SmackDown Vs SmackDown - SERVER",
-      "category": "live_sports",
-      "logo": "https://www.wwe.com/f/styles/wwe_show_logo_l/public/all/2024/09/Smackdown_LOGO--c8e0b09904cb1356d309a8ea2acb0422.png",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://daffodil.demonpvp.fun/wwe.m3u8",
-          "quality": "HD",
-          "headers": {
-            "Referer": "https://roxiestreams.info"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_smackdown_vs_smackdown_streaming",
-      "name": "[Live] SmackDown Vs SmackDown - STREAMING",
-      "category": "live_sports",
-      "logo": "https://www.wwe.com/f/styles/wwe_show_logo_l/public/all/2024/09/Smackdown_LOGO--c8e0b09904cb1356d309a8ea2acb0422.png",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://edgestream1.pro/hls/zeuryuegn48.m3u8",
-          "quality": "HD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
-            "Referer": "https://streame.center"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_smackdown_vs_smackdown_smackdown",
-      "name": "[Live] SmackDown Vs SmackDown - SmackDown",
-      "category": "live_sports",
-      "logo": "https://www.wwe.com/f/styles/wwe_show_logo_l/public/all/2024/09/Smackdown_LOGO--c8e0b09904cb1356d309a8ea2acb0422.png",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://raw.githubusercontent.com/athenapanda26/hls/refs/heads/main/smack.m3u8",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_smackdown_vs_smackdown_wwe_live_fhd5",
-      "name": "[Live] SmackDown Vs SmackDown - WWE LIVE FHD5",
-      "category": "live_sports",
-      "logo": "https://www.wwe.com/f/styles/wwe_show_logo_l/public/all/2024/09/Smackdown_LOGO--c8e0b09904cb1356d309a8ea2acb0422.png",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/5.m3u8",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_smackdown_vs_smackdown_wwe_live_fhd6",
-      "name": "[Live] SmackDown Vs SmackDown - WWE LIVE FHD6",
-      "category": "live_sports",
-      "logo": "https://www.wwe.com/f/styles/wwe_show_logo_l/public/all/2024/09/Smackdown_LOGO--c8e0b09904cb1356d309a8ea2acb0422.png",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/6.m3u8",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_smackdown_vs_smackdown_sport_cast_fhd5",
-      "name": "[Live] SmackDown Vs SmackDown - SPORT CAST FHD5",
-      "category": "live_sports",
-      "logo": "https://www.wwe.com/f/styles/wwe_show_logo_l/public/all/2024/09/Smackdown_LOGO--c8e0b09904cb1356d309a8ea2acb0422.png",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://melancholy.fromthyheart.site/dailymotion/live/playlist/5.m3u8",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_smackdown_vs_smackdown_wwe_live_fhd1",
-      "name": "[Live] SmackDown Vs SmackDown - WWE LIVE FHD1",
-      "category": "live_sports",
-      "logo": "https://www.wwe.com/f/styles/wwe_show_logo_l/public/all/2024/09/Smackdown_LOGO--c8e0b09904cb1356d309a8ea2acb0422.png",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://acumen.loreofeldenring.site/dailymotion/live/playlist/1.m3u8",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_smackdown_vs_smackdown_usa_tv_us_vpn",
-      "name": "[Live] SmackDown Vs SmackDown - USA TV (US VPN)",
-      "category": "live_sports",
-      "logo": "https://www.wwe.com/f/styles/wwe_show_logo_l/public/all/2024/09/Smackdown_LOGO--c8e0b09904cb1356d309a8ea2acb0422.png",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://g001-sle-us-cmaf-prd-ak.pcdn03.cssott.com/Content/CMAF_OS1-CTR-4s-v2/Live/channel(12010340-12010340-4445585a62764)/master_2hr.mpd",
-          "quality": "HD",
-          "headers": {},
-          "drm": {
-            "type": "clearkey",
-            "kid": "58551b13211b37d5b325d67e5c6cabef",
-            "key": "3b4c3f8b4236fc57d66cdb54a606fe41"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
       "id": "live_adelaide_united_vs_perth_glory_stream_tv",
       "name": "[Live] Adelaide United Vs Perth Glory - STREAM TV +",
       "category": "live_sports",
@@ -4919,23 +5224,6 @@
       ]
     },
     {
-      "id": "live_chicago_stars_fc_vs_houston_dash_stream_tv",
-      "name": "[Live] Chicago Stars FC Vs Houston Dash - STREAM TV +",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/1690/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://file.genoads.com/ch1.m3u8",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
       "id": "live_utah_royals_fc_vs_seattle_reign_fc_stream_tv",
       "name": "[Live] Utah Royals FC Vs Seattle Reign FC - STREAM TV +",
       "category": "live_sports",
@@ -4981,46 +5269,6 @@
           "stream_url": "https://file.genoads.com/ch1.m3u8",
           "quality": "HD",
           "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_tulsa_golden_hurricane_vs_army_knights_stream_tv",
-      "name": "[Live] Tulsa Golden Hurricane Vs Army Knights - STREAM TV +",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/32199/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://cdn.streame.center/hls/qsdnajbq32.m3u8",
-          "quality": "HD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
-            "Referer": "https://streame.center"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_wyoming_cowboys_vs_air_force_falcons_stream_tv",
-      "name": "[Live] Wyoming Cowboys Vs Air Force Falcons - STREAM TV +",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/32199/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://cdn.streame.center/hls/oipozuezeji33.m3u8",
-          "quality": "HD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
-            "Referer": "https://streame.center"
-          },
           "drm": null,
           "sort_order": 1
         }
@@ -5125,130 +5373,6 @@
         {
           "name": "Server 1 (HD)",
           "stream_url": "https://edgestream2.pro/hls/.m3u8",
-          "quality": "HD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
-            "Referer": "https://streame.center"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_milwaukee_brewers_vs_tampa_bay_rays_tnt1uk_sports",
-      "name": "[Live] Milwaukee Brewers Vs Tampa Bay Rays - TNT1UK SPORTS",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/11205/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
-          "quality": "FHD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-          },
-          "drm": {
-            "type": "clearkey",
-            "kid": "69a5aa835a061ce64a630d1046727e40",
-            "key": "d02feac8a999bd06bf4059bf33411749"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_milwaukee_brewers_vs_tampa_bay_rays_fox_deportes",
-      "name": "[Live] Milwaukee Brewers Vs Tampa Bay Rays - FOX DEPORTES",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/11205/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
-          "quality": "FHD",
-          "headers": {},
-          "drm": {
-            "type": "clearkey",
-            "kid": "d1a163914db8ffad2c3e94f979896a0d",
-            "key": "9728800a3959aafdd5b0bcfbf3768811"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_milwaukee_brewers_vs_tampa_bay_rays_streaming",
-      "name": "[Live] Milwaukee Brewers Vs Tampa Bay Rays - STREAMING",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/11205/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://cdn.streame.center/hls/dazhfiach15.m3u8",
-          "quality": "HD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
-            "Referer": "https://streame.center"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_milwaukee_brewers_vs_tampa_bay_rays_stream_tv",
-      "name": "[Live] Milwaukee Brewers Vs Tampa Bay Rays - STREAM TV +",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/11205/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://edgestream2.pro/hls/dazhfiach15.m3u8",
-          "quality": "HD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
-            "Referer": "https://streame.center"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_miami_heat_vs_detroit_pistons_streaming",
-      "name": "[Live] Miami Heat Vs Detroit Pistons - STREAMING",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/132/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://cdn.streame.center/hls/ztyarueaghj71.m3u8",
-          "quality": "HD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
-            "Referer": "https://streame.center"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_miami_heat_vs_detroit_pistons_stream_tv",
-      "name": "[Live] Miami Heat Vs Detroit Pistons - STREAM TV +",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/132/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://edgestream2.pro/hls/ztyarueaghj71.m3u8",
           "quality": "HD",
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
@@ -5449,130 +5573,6 @@
         {
           "name": "Server 1 (HD)",
           "stream_url": "https://edgestream2.pro/hls/xcsfadafgzfg76.m3u8",
-          "quality": "HD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
-            "Referer": "https://streame.center"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_chicago_blackhawks_vs_montreal_canadiens_tsn2_sports",
-      "name": "[Live] Chicago Blackhawks Vs Montréal Canadiens - TSN2 SPORTS",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/234/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cjglydxghe/out/v1/8977baf175da4b94873194613dd3fe55/cenc.mpd",
-          "quality": "FHD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-          },
-          "drm": {
-            "type": "clearkey",
-            "kid": "85b277daf5aae05833fe43a68f587968",
-            "key": "d52d7e9bc0bcd98787efd547ac91eca0"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_chicago_blackhawks_vs_montreal_canadiens_stream_tv",
-      "name": "[Live] Chicago Blackhawks Vs Montréal Canadiens - STREAM TV +",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/234/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://edgestream2.pro/hls/uyopzarf50.m3u8",
-          "quality": "HD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
-            "Referer": "https://streame.center"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_chicago_blackhawks_vs_montreal_canadiens_streaming",
-      "name": "[Live] Chicago Blackhawks Vs Montréal Canadiens - STREAMING",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/234/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://cdn.streame.center/hls/uyopzarf50.m3u8",
-          "quality": "HD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
-            "Referer": "https://streame.center"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_colorado_avalanche_vs_tampa_bay_lightning_premier1_sports",
-      "name": "[Live] Colorado Avalanche Vs Tampa Bay Lightning - PREMIER1 SPORTS",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/234/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
-          "quality": "FHD",
-          "headers": {},
-          "drm": {
-            "type": "clearkey",
-            "kid": "1444f4235529f183f0a5a486befe9cdb",
-            "key": "e5e3fec67a1bb3472a2089c8a0a2557f"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_colorado_avalanche_vs_tampa_bay_lightning_stream_tv",
-      "name": "[Live] Colorado Avalanche Vs Tampa Bay Lightning - STREAM TV +",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/234/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://edgestream2.pro/hls/hjksgdfauzy51.m3u8",
-          "quality": "HD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
-            "Referer": "https://streame.center"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_colorado_avalanche_vs_tampa_bay_lightning_streaming",
-      "name": "[Live] Colorado Avalanche Vs Tampa Bay Lightning - STREAMING",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/234/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://cdn.streame.center/hls/hjksgdfauzy51.m3u8",
           "quality": "HD",
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
