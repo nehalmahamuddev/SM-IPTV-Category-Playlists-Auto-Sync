@@ -44,7 +44,7 @@ logger = logging.getLogger("SyncLiveEvents")
 # ---------------------------------------------------------
 # Configuration & Environment Variables
 # ---------------------------------------------------------
-SUPABASE_URL = os.environ.get("SUPABASE_URL", "https://hqmhuvsjlykrdusfkmeg.supabase.co").rstrip("/")
+SUPABASE_URL = (os.environ.get("SUPABASE_URL") or "https://hqmhuvsjlykrdusfkmeg.supabase.co").rstrip("/")
 SUPABASE_SERVICE_ROLE_KEY = os.environ.get("SUPABASE_SERVICE_ROLE_KEY", "")
 SUPABASE_ANON_KEY = os.environ.get(
     "SUPABASE_ANON_KEY",
@@ -260,6 +260,58 @@ class SupabaseSyncClient:
             
         return total_upserted
 
+    def insert_rows(self, table: str, rows: list, batch_size: int = 100) -> int:
+        if not rows:
+            return 0
+        endpoint = f"{self.base_url}/rest/v1/{table}"
+        headers = dict(self.headers)
+        headers["Prefer"] = "return=minimal"
+        total = 0
+        for i in range(0, len(rows), batch_size):
+            batch = rows[i:i + batch_size]
+            resp = requests.post(endpoint, headers=headers, json=batch, timeout=30)
+            if resp.status_code not in (200, 201):
+                logger.error(f"Failed inserting batch into '{table}' (status {resp.status_code}): {resp.text}")
+                resp.raise_for_status()
+            total += len(batch)
+        return total
+
+    def update_row(self, table: str, row_id: str, patch_data: dict) -> bool:
+        endpoint = f"{self.base_url}/rest/v1/{table}?id=eq.{row_id}"
+        headers = dict(self.headers)
+        headers["Prefer"] = "return=minimal"
+        resp = requests.patch(endpoint, headers=headers, json=patch_data, timeout=15)
+        if not resp.ok:
+            logger.error(f"Failed updating row {row_id} in '{table}' (status {resp.status_code}): {resp.text}")
+            resp.raise_for_status()
+        return True
+
+    def get_existing_stream_servers(self, channel_ids: set) -> list:
+        if not channel_ids:
+            return []
+        all_servers = []
+        batch_size = 50
+        ch_list = list(channel_ids)
+        for i in range(0, len(ch_list), batch_size):
+            batch = ch_list[i:i + batch_size]
+            ids_str = ",".join(batch)
+            endpoint = f"{self.base_url}/rest/v1/stream_servers?channel_id=in.({ids_str})&select=id,channel_id,name,stream_url,drm,headers,sort_order,active"
+            resp = requests.get(endpoint, headers=self.headers, timeout=20)
+            if resp.status_code == 200:
+                all_servers.extend(resp.json())
+        return all_servers
+
+    def bump_app_settings_version(self) -> None:
+        try:
+            endpoint = f"{self.base_url}/rest/v1/app_settings?id=eq.1&select=id,channels_version"
+            resp = requests.get(endpoint, headers=self.headers, timeout=15)
+            if resp.status_code == 200 and resp.json():
+                curr = resp.json()[0].get("channels_version") or 1
+                self.update_row("app_settings", "1", {"channels_version": curr + 1})
+                logger.info(f"Bumped channels_version in app_settings: {curr} -> {curr + 1}")
+        except Exception as e:
+            logger.warning(f"Could not bump channels_version in app_settings: {e}")
+
     def get_existing_event_ids(self) -> dict:
         endpoint = f"{self.base_url}/rest/v1/events?select=id,start_time,status"
         resp = requests.get(endpoint, headers=self.headers, timeout=20)
@@ -434,6 +486,7 @@ def main():
     purge_cutoff = now_utc - timedelta(hours=PURGE_HOURS)
 
     channels_to_upsert = []
+    servers_to_upsert = []
     events_to_upsert = []
     active_channel_ids = set()
     active_event_ids = set()
@@ -498,6 +551,22 @@ def main():
                 "sort_order": idx
             })
 
+            # Dual-write unified stream_server entry for GoPlay playback failover & health monitor
+            servers_to_upsert.append({
+                "channel_id": channel_id,
+                "name": f"Server 1 ({s['name']})",
+                "stream_url": clean_url,
+                "headers": headers,
+                "drm": drm_json,
+                "scheme": 2 if drm_json else (1 if ".mpd" in clean_url else 0),
+                "has_header": bool(headers),
+                "has_vpn_detection": bool(s.get("hasVpnDetection", False)),
+                "sort_order": 0,
+                "active": True,
+                "health_status": "unknown",
+                "consecutive_failures": 0
+            })
+
         events_to_upsert.append({
             "id": event_id,
             "sport": category,
@@ -550,6 +619,45 @@ def main():
             logger.info(f"Upserting {len(channels_to_upsert)} stream records into 'public.channels'...")
             up_channels = db.upsert_rows("channels", channels_to_upsert)
             logger.info(f"Successfully upserted {up_channels} channels.")
+
+        if servers_to_upsert:
+            logger.info(f"Synchronizing {len(servers_to_upsert)} stream servers into 'public.stream_servers'...")
+            existing_servers = db.get_existing_stream_servers(active_channel_ids)
+            existing_by_key = {(s["channel_id"], s["stream_url"]): s for s in existing_servers}
+
+            servers_to_insert = []
+            servers_to_update = []
+
+            for s_data in servers_to_upsert:
+                key = (s_data["channel_id"], s_data["stream_url"])
+                if key not in existing_by_key:
+                    servers_to_insert.append(s_data)
+                else:
+                    curr = existing_by_key[key]
+                    patch = {}
+                    if curr.get("name") != s_data["name"]:
+                        patch["name"] = s_data["name"]
+                    if curr.get("drm") != s_data["drm"]:
+                        patch["drm"] = s_data["drm"]
+                        patch["scheme"] = s_data["scheme"]
+                    if curr.get("headers") != s_data["headers"]:
+                        patch["headers"] = s_data["headers"]
+                        patch["has_header"] = s_data["has_header"]
+                    if patch:
+                        servers_to_update.append((curr["id"], patch))
+
+            if servers_to_insert:
+                cnt_ins = db.insert_rows("stream_servers", servers_to_insert)
+                logger.info(f"Inserted {cnt_ins} new stream servers.")
+            if servers_to_update:
+                cnt_up = 0
+                for s_id, patch in servers_to_update:
+                    db.update_row("stream_servers", s_id, patch)
+                    cnt_up += 1
+                logger.info(f"Updated {cnt_up} existing stream servers.")
+
+            if servers_to_insert or servers_to_update:
+                db.bump_app_settings_version()
 
         if events_to_upsert:
             logger.info(f"Upserting {len(events_to_upsert)} records into 'public.events'...")

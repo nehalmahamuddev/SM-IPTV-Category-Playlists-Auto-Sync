@@ -177,11 +177,12 @@ def resolve_channel_metadata(category: str) -> Tuple[str, str]:
 def sync_output_to_supabase(
     channels_json_path: str = DEFAULT_CHANNELS_JSON,
     target_categories: Optional[List[str]] = None,
-    dry_run: bool = False
+    dry_run: bool = False,
+    prune_obsolete: bool = False
 ):
     print("=" * 72)
     print("SM IPTV Refined Output -> Supabase Sync Engine")
-    print(f"Timestamp: {datetime.now(timezone.utc).isoformat()} | Dry-Run: {dry_run}")
+    print(f"Timestamp: {datetime.now(timezone.utc).isoformat()} | Dry-Run: {dry_run} | Prune-Obsolete: {prune_obsolete}")
     print("=" * 72)
 
     if not os.path.exists(channels_json_path):
@@ -305,7 +306,9 @@ def sync_output_to_supabase(
                     "has_header": bool(s_headers),
                     "has_vpn_detection": False,
                     "sort_order": s_idx,
-                    "active": True
+                    "active": True,
+                    "health_status": "unknown",
+                    "consecutive_failures": 0
                 })
             else:
                 # B. Check if existing server needs update
@@ -331,16 +334,17 @@ def sync_output_to_supabase(
                 if needs_update:
                     servers_to_update.append((existing["id"], patch))
 
-        # C. Identify obsolete servers to prune
-        for existing in current_servers:
-            e_url = existing.get("stream_url")
-            if e_url and e_url not in desired_urls:
-                server_ids_to_delete.append(existing["id"])
+        # C. Identify obsolete servers to prune (disabled by default to protect manual backup servers)
+        if prune_obsolete:
+            for existing in current_servers:
+                e_url = existing.get("stream_url")
+                if e_url and e_url not in desired_urls:
+                    server_ids_to_delete.append(existing["id"])
 
     print(f"   * Channels to upsert: {len(channels_to_upsert)}")
     print(f"   * Stream servers to insert: {len(servers_to_insert)}")
     print(f"   * Stream servers to update: {len(servers_to_update)}")
-    print(f"   * Obsolete stream servers to delete: {len(server_ids_to_delete)}")
+    print(f"   * Obsolete stream servers to delete: {len(server_ids_to_delete)} (prune_obsolete={prune_obsolete})")
 
     # 4. Dry-Run Reporting
     if dry_run:
@@ -421,10 +425,12 @@ if __name__ == "__main__":
     parser.add_argument("--file", default=DEFAULT_CHANNELS_JSON, help="Path to refined channels.json")
     parser.add_argument("--categories", nargs="+", default=DEFAULT_TARGET_CATEGORIES, help="Categories to sync")
     parser.add_argument("--dry-run", action="store_true", help="Preview sync actions without writing to Supabase")
+    parser.add_argument("--prune-obsolete", action="store_true", default=False, help="Prune stream servers not in incoming feed (default: False, non-destructive)")
     args = parser.parse_args()
 
     sync_output_to_supabase(
         channels_json_path=args.file,
         target_categories=args.categories,
-        dry_run=args.dry_run
+        dry_run=args.dry_run,
+        prune_obsolete=args.prune_obsolete
     )

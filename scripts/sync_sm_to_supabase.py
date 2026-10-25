@@ -354,7 +354,9 @@ def sync_pipeline(dry_run: bool = False):
                     "scheme": 2 if drm else 0,
                     "has_header": bool(headers),
                     "sort_order": 1,
-                    "active": True
+                    "active": True,
+                    "health_status": "unknown",
+                    "consecutive_failures": 0
                 })
                 channel_stream_urls.setdefault(canonical_id, set()).add(stream_url)
             else:
@@ -377,7 +379,9 @@ def sync_pipeline(dry_run: bool = False):
                         "scheme": 2 if drm else 0,
                         "has_header": bool(headers),
                         "sort_order": server_num,
-                        "active": True
+                        "active": True,
+                        "health_status": "unknown",
+                        "consecutive_failures": 0
                     })
                     known_urls.add(stream_url)
 
