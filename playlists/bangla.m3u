@@ -1,6 +1,6 @@
 #EXTM3U name="SM IPTV - Bangla"
 # Category: Bangla
-# Updated: 2026-10-25 00:33:42 UTC
+# Updated: 2026-10-25 05:19:11 UTC
 
 #EXTINF:-1 tvg-id="1" tvg-name="G-Series" tvg-logo="https://i.postimg.cc/xTxpr24R/1000114119.jpg" group-title="Bangla",G-Series
 https://vods2.aynaott.com/gseriesDrama/tracks-v1a1/mono.ts.m3u8
@@ -49,7 +49,7 @@ http://103.135.253.32:8080/Star-News/index.m3u8
 #EXTINF:-1 tvg-id="18" tvg-name="Deepto TV HD" tvg-logo="https://i.postimg.cc/vTzM0X8Z/sm-deepto_tv.jpg" group-title="Bangla",Deepto TV HD
 https://byphdgllyk.gpcdn.net/hls/deeptotv/index.m3u8
 #EXTINF:-1 tvg-id="19" tvg-name="Channel 9 HD" tvg-logo="https://i.postimg.cc/brT8mLYx/sm-channel_9.webp" group-title="Bangla",Channel 9 HD
-https://tvsen6.aynaott.com/kajlsd57jnzxyo/index.m3u8
+https://box.bbaria.net/Channel9/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-id="20" tvg-name="SRK TV" tvg-logo="https://i.postimg.cc/Wznj5Sp0/sm-srk_tv.jpg" group-title="Bangla",SRK TV
 https://srknowapp.ncare.live/srktvhlswodrm/srktv.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="21" tvg-name="Channel I HD" tvg-logo="https://i.postimg.cc/yxPBLn6v/sm-channel_i.webp" group-title="Bangla",Channel I HD
@@ -128,11 +128,11 @@ https://tvsen6.aynaott.com/rELXiuUXqbgzPb06Npom/index.m3u8
 https://tvsen6.aynaott.com/cdgr3tw6WoG7JyRnLbi0/index.m3u8
 #EXTINF:-1 tvg-id="58" tvg-name="Bangla TV" tvg-logo="https://i.postimg.cc/J7c1773r/sm-bangla_tv.webp" group-title="Bangla",Bangla TV
 https://toffee.sm-monirul-islam-rs.workers.dev/bangla_tv/index.m3u8
-#EXTINF:-1 tvg-id="59" tvg-name="Ten Tv Prime" tvg-logo="https://i.postimg.cc/ZKbJWkjs/sm-ten-tv-prime.webp" group-title="Bangla" http-user-agent="OTT-KING TV 1.0",Ten Tv Prime
-#EXTVLCOPT:http-user-agent=OTT-KING TV 1.0
-https://sm-monirul.top/bd/live/Prime-TV/index.m3u8
+#EXTINF:-1 tvg-id="59" tvg-name="Ten Tv Prime" tvg-logo="https://i.postimg.cc/ZKbJWkjs/sm-ten-tv-prime.webp" group-title="Bangla" http-referrer="https://www.jagobd.com",Ten Tv Prime
+#EXTVLCOPT:http-referrer=https://www.jagobd.com
+https://static.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/primetv.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="60" tvg-name="Boishakhi TV" tvg-logo="https://i.postimg.cc/0jfxVZ5j/sm-boishakhi_tv.jpg" group-title="Bangla",Boishakhi TV
-https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8
+https://tvsen6.aynaott.com/1d3uG9VCgrR9DRtWZM57/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="61" tvg-name="Nexus TV" tvg-logo="https://i.postimg.cc/KcrZcc72/sm-nexus_tv.webp" group-title="Bangla",Nexus TV
 https://toffee.sm-monirul-islam-rs.workers.dev/nexus_tv/index.m3u8
 #EXTINF:-1 tvg-id="62" tvg-name="DTV" tvg-logo="https://i.postimg.cc/65WB8sz0/sm-dtv.jpg" group-title="Bangla",DTV
