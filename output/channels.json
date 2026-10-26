@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T06:54:50.280468+00:00",
+  "updated_at": "2026-10-26T11:19:30.214892+00:00",
   "total_channels": 279,
   "total_streams": 286,
   "channels": [
@@ -3104,198 +3104,6 @@
       ]
     },
     {
-      "id": "live_seattle_seahawks_vs_kansas_city_chiefs_tsn1_sports",
-      "name": "[Live] Seattle Seahawks Vs Kansas City Chiefs - TSN1 SPORTS",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/9464/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
-          "quality": "FHD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-          },
-          "drm": {
-            "type": "clearkey",
-            "kid": "14eeabf30c14b7fbf3008c03099ce011",
-            "key": "17d2ac8dbc5429bd70af3433aa12158d"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_seattle_seahawks_vs_kansas_city_chiefs_sportv2_br",
-      "name": "[Live] Seattle Seahawks Vs Kansas City Chiefs - SPORTV2 BR",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/9464/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/4yiko4it8k/out/v1/b77dd424c745443aba2f3f88d418f797/cenc-sd.mpd",
-          "quality": "FHD",
-          "headers": {},
-          "drm": {
-            "type": "clearkey",
-            "kid": "9009b7189e3e68cc09d17811f2beb55a",
-            "key": "dd3f96a94c909da48ff40c92aabf8cf3"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_seattle_seahawks_vs_kansas_city_chiefs_nbc_sports",
-      "name": "[Live] Seattle Seahawks Vs Kansas City Chiefs - NBC SPORTS",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/9464/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dx5hfbpk7u/out/v1/c14185a397544650b9761d43ad2e8e91/cenc.mpd",
-          "quality": "FHD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-          },
-          "drm": {
-            "type": "clearkey",
-            "kid": "36a385124dcdfb2f0969935065e03afa",
-            "key": "ccecd65514dff22eae493b975ccf9a9e"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_seattle_seahawks_vs_kansas_city_chiefs_tsn3_sports",
-      "name": "[Live] Seattle Seahawks Vs Kansas City Chiefs - TSN3 SPORTS",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/9464/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd",
-          "quality": "FHD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-          },
-          "drm": {
-            "type": "clearkey",
-            "kid": "d3250252765347a0c2603c6cb4869f8c",
-            "key": "0c19319460da7e9ed816db46ce839b37"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_seattle_seahawks_vs_kansas_city_chiefs_tsn5_sports",
-      "name": "[Live] Seattle Seahawks Vs Kansas City Chiefs - TSN5 SPORTS",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/9464/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd",
-          "quality": "FHD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-          },
-          "drm": {
-            "type": "clearkey",
-            "kid": "385ceb9714b75e0cef61254f80b31002",
-            "key": "18dce92a2891fee68d21ede5173230f8"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_seattle_seahawks_vs_kansas_city_chiefs_nfl_quality",
-      "name": "[Live] Seattle Seahawks Vs Kansas City Chiefs - NFL QUALITY",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/9464/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://chatgpt.hereisman.net/playlist/58665/load-playlist?&.m3u8",
-          "quality": "HD",
-          "headers": {
-            "Referer": "https://gooz.aapmains.net"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_seattle_seahawks_vs_kansas_city_chiefs_low_quality_use_vpn",
-      "name": "[Live] Seattle Seahawks Vs Kansas City Chiefs - LOW QUALITY (USE VPN)",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/9464/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "http://193.47.62.44/hls/HYHYHY.m3u8",
-          "quality": "HD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36",
-            "Referer": "https://nadia01eo.tn76degree12ec3out.cfd"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_seattle_seahawks_vs_kansas_city_chiefs_2_quality_use_vpn",
-      "name": "[Live] Seattle Seahawks Vs Kansas City Chiefs - 2. QUALITY (USE VPN)",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/9464/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "http://193.47.62.41/hls/HYHYHYX.m3u8",
-          "quality": "HD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36",
-            "Referer": "https://nadia01eo.tn76degree12ec3out.cfd"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_seattle_seahawks_vs_kansas_city_chiefs_stream_tv",
-      "name": "[Live] Seattle Seahawks Vs Kansas City Chiefs - STREAM TV +",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/9464/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://edgestream2.pro/hls/ijzriafaq41.m3u8",
-          "quality": "HD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-            "Referer": "https://embedcenter.st"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
       "id": "live_golf_evento_vs_golf_evento_golf_channel",
       "name": "[Live] GOLF EVENTO Vs GOLF EVENTO - Golf Channel",
       "category": "live_sports",
@@ -5287,6 +5095,198 @@
           "headers": {
             "User-Agent": "Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36",
             "Referer": "https://nadia01eo.tn76degree12ec3out.cfd"
+          },
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_seattle_seahawks_vs_kansas_city_chiefs_tsn1_sports",
+      "name": "[Live] Seattle Seahawks Vs Kansas City Chiefs - TSN1 SPORTS",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "quality": "FHD",
+      "servers": [
+        {
+          "name": "Server 1 (FHD)",
+          "stream_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
+          "quality": "FHD",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+          },
+          "drm": {
+            "type": "clearkey",
+            "kid": "14eeabf30c14b7fbf3008c03099ce011",
+            "key": "17d2ac8dbc5429bd70af3433aa12158d"
+          },
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_seattle_seahawks_vs_kansas_city_chiefs_sportv2_br",
+      "name": "[Live] Seattle Seahawks Vs Kansas City Chiefs - SPORTV2 BR",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "quality": "FHD",
+      "servers": [
+        {
+          "name": "Server 1 (FHD)",
+          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/4yiko4it8k/out/v1/b77dd424c745443aba2f3f88d418f797/cenc-sd.mpd",
+          "quality": "FHD",
+          "headers": {},
+          "drm": {
+            "type": "clearkey",
+            "kid": "9009b7189e3e68cc09d17811f2beb55a",
+            "key": "dd3f96a94c909da48ff40c92aabf8cf3"
+          },
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_seattle_seahawks_vs_kansas_city_chiefs_nbc_sports",
+      "name": "[Live] Seattle Seahawks Vs Kansas City Chiefs - NBC SPORTS",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "quality": "FHD",
+      "servers": [
+        {
+          "name": "Server 1 (FHD)",
+          "stream_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dx5hfbpk7u/out/v1/c14185a397544650b9761d43ad2e8e91/cenc.mpd",
+          "quality": "FHD",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+          },
+          "drm": {
+            "type": "clearkey",
+            "kid": "36a385124dcdfb2f0969935065e03afa",
+            "key": "ccecd65514dff22eae493b975ccf9a9e"
+          },
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_seattle_seahawks_vs_kansas_city_chiefs_tsn3_sports",
+      "name": "[Live] Seattle Seahawks Vs Kansas City Chiefs - TSN3 SPORTS",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "quality": "FHD",
+      "servers": [
+        {
+          "name": "Server 1 (FHD)",
+          "stream_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd",
+          "quality": "FHD",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+          },
+          "drm": {
+            "type": "clearkey",
+            "kid": "d3250252765347a0c2603c6cb4869f8c",
+            "key": "0c19319460da7e9ed816db46ce839b37"
+          },
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_seattle_seahawks_vs_kansas_city_chiefs_tsn5_sports",
+      "name": "[Live] Seattle Seahawks Vs Kansas City Chiefs - TSN5 SPORTS",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "quality": "FHD",
+      "servers": [
+        {
+          "name": "Server 1 (FHD)",
+          "stream_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd",
+          "quality": "FHD",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+          },
+          "drm": {
+            "type": "clearkey",
+            "kid": "385ceb9714b75e0cef61254f80b31002",
+            "key": "18dce92a2891fee68d21ede5173230f8"
+          },
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_seattle_seahawks_vs_kansas_city_chiefs_nfl_quality",
+      "name": "[Live] Seattle Seahawks Vs Kansas City Chiefs - NFL QUALITY",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://chatgpt.hereisman.net/playlist/58665/load-playlist?&.m3u8",
+          "quality": "HD",
+          "headers": {
+            "Referer": "https://gooz.aapmains.net"
+          },
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_seattle_seahawks_vs_kansas_city_chiefs_low_quality_use_vpn",
+      "name": "[Live] Seattle Seahawks Vs Kansas City Chiefs - LOW QUALITY (USE VPN)",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "http://193.47.62.44/hls/HYHYHY.m3u8",
+          "quality": "HD",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36",
+            "Referer": "https://nadia01eo.tn76degree12ec3out.cfd"
+          },
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_seattle_seahawks_vs_kansas_city_chiefs_2_quality_use_vpn",
+      "name": "[Live] Seattle Seahawks Vs Kansas City Chiefs - 2. QUALITY (USE VPN)",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "http://193.47.62.41/hls/HYHYHYX.m3u8",
+          "quality": "HD",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36",
+            "Referer": "https://nadia01eo.tn76degree12ec3out.cfd"
+          },
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_seattle_seahawks_vs_kansas_city_chiefs_stream_tv",
+      "name": "[Live] Seattle Seahawks Vs Kansas City Chiefs - STREAM TV +",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://edgestream2.pro/hls/ijzriafaq41.m3u8",
+          "quality": "HD",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+            "Referer": "https://embedcenter.st"
           },
           "drm": null,
           "sort_order": 1
