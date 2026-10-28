@@ -1,6 +1,6 @@
 #EXTM3U name="SM IPTV - Refined Sports"
 # Category: Sports
-# Updated: 2026-10-28 14:30:46 UTC
+# Updated: 2026-10-28 19:52:45 UTC
 
 #EXTINF:-1 tvg-id="t_sports" tvg-name="T Sports" tvg-logo="https://i.postimg.cc/26pLYgzB/1000115823.jpg" group-title="sports",T Sports
 http://103.135.253.32:8080/T-SPORTS-FULL-HD/tracks-v1a1/mono.m3u8
@@ -28,9 +28,8 @@ https://live.incableinternet.com/ten-sports/master.m3u8
 https://flussonic.defineatoz.com/Starsports1/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="star_sports_2" tvg-name="Star Sports 2" tvg-logo="https://i.postimg.cc/QM98jpm4/sm-star-sports-2.webp" group-title="sports",Star Sports 2
 https://tvsen7.aynaott.com/ssport2hd/index.m3u8
-#EXTINF:-1 tvg-id="star_sports_select_1" tvg-name="Star Sports Select 1" tvg-logo="https://i.postimg.cc/DzJv7q53/sm-star-sports-select-1.webp" group-title="sports" http-user-agent="OTT-KING TV 1.0",Star Sports Select 1
-#EXTVLCOPT:http-user-agent=OTT-KING TV 1.0
-https://flussonic.defineatoz.com/starsportsselect1/tracks-v1/mono.m3u8
+#EXTINF:-1 tvg-id="star_sports_select_1" tvg-name="Star Sports Select 1" tvg-logo="https://i.postimg.cc/DzJv7q53/sm-star-sports-select-1.webp" group-title="sports",Star Sports Select 1
+http://103.135.253.32:8080/STAR-SPORTS-SELECT-1/index.m3u8
 #EXTINF:-1 tvg-id="star_sports_select_2" tvg-name="Star Sports Select 2" tvg-logo="https://i.postimg.cc/9Xpyp6Jd/star-sports-select-2.png" group-title="sports" http-user-agent="OTT-KING TV 1.0",Star Sports Select 2
 #EXTVLCOPT:http-user-agent=OTT-KING TV 1.0
 https://flussonic.defineatoz.com/starsportsselect2sw/tracks-v1a1/mono.m3u8
