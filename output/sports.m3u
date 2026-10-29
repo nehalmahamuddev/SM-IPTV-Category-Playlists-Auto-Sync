@@ -1,13 +1,13 @@
 #EXTM3U name="SM IPTV - Refined Sports"
 # Category: Sports
-# Updated: 2026-10-28 23:58:30 UTC
+# Updated: 2026-10-29 05:33:03 UTC
 
 #EXTINF:-1 tvg-id="t_sports" tvg-name="T Sports" tvg-logo="https://i.postimg.cc/26pLYgzB/1000115823.jpg" group-title="sports",T Sports
 http://103.135.253.32:8080/T-SPORTS-FULL-HD/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="ptv" tvg-name="PTV" tvg-logo="https://i.postimg.cc/zB0GG09t/ptv-sports.png" group-title="sports",PTV
 https://live.incableinternet.com/ptv-sports/master.m3u8
 #EXTINF:-1 tvg-id="unite_sports_2" tvg-name="Unite Sports 2" tvg-logo="https://i.postimg.cc/cJgxdQT1/sm-unite8-sports1.webp" group-title="sports",Unite Sports 2
-http://103.114.11.37:8081/Unite8-sports-1/index.m3u8?token=dsgdfgsdfgasf
+http://103.114.11.37:8081/Unite8-sports-1/index.m3u8?token=sboxcast
 #EXTINF:-1 tvg-id="sony_ten_1" tvg-name="Sony Ten 1" tvg-logo="https://i.postimg.cc/cH2Cc7zX/20250529-122631.png" group-title="sports" http-referrer="https://techandeat.online",Sony Ten 1
 #EXTVLCOPT:http-referrer=https://techandeat.online
 https://techandeat.online/sliv/stream.m3u8?id=1000009276
@@ -25,14 +25,13 @@ https://drk6xq0vhn.gpcdn.net/live/ten_cricket_hd_abr/index.m3u8
 #EXTINF:-1 tvg-id="ten_sports" tvg-name="Ten Sports" tvg-logo="https://i.postimg.cc/Bv4jbHrr/1000116232.jpg" group-title="sports",Ten Sports
 https://live.incableinternet.com/ten-sports/master.m3u8
 #EXTINF:-1 tvg-id="star_sports_1" tvg-name="Star Sports 1" tvg-logo="https://i.postimg.cc/bJmLR4JT/star-sports-1.png" group-title="sports",Star Sports 1
-https://flussonic.defineatoz.com/Starsports1/tracks-v1a1/mono.m3u8
+http://103.114.11.37:8081/Star-sports-1/index.m3u8?token=sboxcast
 #EXTINF:-1 tvg-id="star_sports_2" tvg-name="Star Sports 2" tvg-logo="https://i.postimg.cc/QM98jpm4/sm-star-sports-2.webp" group-title="sports",Star Sports 2
 https://tvsen7.aynaott.com/ssport2hd/index.m3u8
 #EXTINF:-1 tvg-id="star_sports_select_1" tvg-name="Star Sports Select 1" tvg-logo="https://i.postimg.cc/DzJv7q53/sm-star-sports-select-1.webp" group-title="sports",Star Sports Select 1
 http://103.135.253.32:8080/STAR-SPORTS-SELECT-1/index.m3u8
-#EXTINF:-1 tvg-id="star_sports_select_2" tvg-name="Star Sports Select 2" tvg-logo="https://i.postimg.cc/9Xpyp6Jd/star-sports-select-2.png" group-title="sports" http-user-agent="OTT-KING TV 1.0",Star Sports Select 2
-#EXTVLCOPT:http-user-agent=OTT-KING TV 1.0
-https://flussonic.defineatoz.com/starsportsselect2sw/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="star_sports_select_2" tvg-name="Star Sports Select 2" tvg-logo="https://i.postimg.cc/9Xpyp6Jd/star-sports-select-2.png" group-title="sports",Star Sports Select 2
+http://103.114.11.37:8081/Star-select-2/index.m3u8?token=sboxcast
 #EXTINF:-1 tvg-id="a_sports" tvg-name="A Sports" tvg-logo="https://i.postimg.cc/CMjKZsg6/sm-a-sports-hd.jpg" group-title="sports",A Sports
 https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/index.m3u8
 #EXTINF:-1 tvg-id="fancode" tvg-name="Fancode" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIRPzTb1Obu_3JFE7D3IuDs84_EyM-avJbD51I605XWLbSLgNxlaNB99w&s=10" group-title="sports",Fancode
@@ -50,6 +49,6 @@ https://drk6xq0vhn.gpcdn.net/live/euro_sports_hd_abr/index.m3u8
 #EXTINF:-1 tvg-id="willow_sports" tvg-name="Willow Sports" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOgyC8yKz6b86u9_RQUVuWkrj7E32kf42XAnlcp_g06WHJveiBVLVrifbas1lxROSLRWC_FHvHWibyQvG9aRNbfAfTaBtMDS4QVze7wsTNXqBdQsmVMZpNelhwS5Ppmnoh6DFtgChH3y7UFCIjrFIcMQpMYMh6HmriVFFL4yaPT000W7hN_GdNiGbf6g/s1080/1000063307.png" group-title="sports",Willow Sports
 https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8
 #EXTINF:-1 tvg-id="wwe" tvg-name="WWE" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFZqdVMVpzooYNv3fZUzBXmWCy5rOetnyES09tCvm4TA&s" group-title="sports",WWE
-http://103.114.11.37:8081/WWE-24/7/index.m3u8?token=dsgdfgsdfgasf
+http://103.114.11.37:8081/WWE-24/7/index.m3u8?token=sboxcast
 #EXTINF:-1 tvg-id="cricket_gold" tvg-name="Cricket Gold" tvg-logo="https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-06-24/63dcbec8a9ed027c46e448fb003a0a64.jpg" group-title="sports",Cricket Gold
 https://tvsen6.aynaott.com/M2W2UR49dmeKbZnmdRzN/index.m3u8

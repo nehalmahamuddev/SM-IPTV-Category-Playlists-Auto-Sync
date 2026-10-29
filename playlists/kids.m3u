@@ -1,30 +1,25 @@
 #EXTM3U name="SM IPTV - Kids"
 # Category: Kids
-# Updated: 2026-10-28 23:58:30 UTC
+# Updated: 2026-10-29 05:33:03 UTC
 
 #EXTINF:-1 tvg-id="153" tvg-name="Durunto" tvg-logo="https://i.postimg.cc/s2WM2BPR/20251127-095726.png" group-title="Kids",Durunto
 http://103.135.253.32:8080/DORONTU-TV/index.m3u8
 #EXTINF:-1 tvg-id="154" tvg-name="Nick Bangla" tvg-logo="https://i.postimg.cc/4dQCpzTm/20250630-050342.png" group-title="Kids",Nick Bangla
 http://103.135.253.32:8080/NICK/index.m3u8
-#EXTINF:-1 tvg-id="155" tvg-name="Nickelodeon" tvg-logo="https://iili.io/CpgdfYN.md.webp" group-title="Kids",Nickelodeon
-http://2756d46c.akciatv.ru/iptv/7FRNF6CY9A9TG3/6848/index.m3u8
-#EXTINF:-1 tvg-id="156" tvg-name="Sony YAY" tvg-logo="https://i.postimg.cc/wBbj6c9g/20250529-115914.png" group-title="Kids" http-referrer="https://techandeat.online",Sony YAY
+#EXTINF:-1 tvg-id="155" tvg-name="Sony YAY" tvg-logo="https://i.postimg.cc/wBbj6c9g/20250529-115914.png" group-title="Kids" http-referrer="https://techandeat.online",Sony YAY
 #EXTVLCOPT:http-referrer=https://techandeat.online
 https://techandeat.online/sliv/stream.m3u8?id=1000001971
-#EXTINF:-1 tvg-id="157" tvg-name="Pogo" tvg-logo="https://i.postimg.cc/W3FbtF4r/20250529-115709.png" group-title="Kids",Pogo
+#EXTINF:-1 tvg-id="156" tvg-name="Pogo" tvg-logo="https://i.postimg.cc/W3FbtF4r/20250529-115709.png" group-title="Kids",Pogo
 https://drk6xq0vhn.gpcdn.net/live/pogo_sd_abr/index.m3u8
-#EXTINF:-1 tvg-id="158" tvg-name="Discovery Kids" tvg-logo="https://i.postimg.cc/pXdcjfHg/20250529-115821.png" group-title="Kids",Discovery Kids
+#EXTINF:-1 tvg-id="157" tvg-name="Discovery Kids" tvg-logo="https://i.postimg.cc/pXdcjfHg/20250529-115821.png" group-title="Kids",Discovery Kids
 https://drk6xq0vhn.gpcdn.net/live/discovery_kids_abr/index.m3u8
-#EXTINF:-1 tvg-id="159" tvg-name="Hungama" tvg-logo="https://i.postimg.cc/Kz7BCwbt/hungama.png" group-title="Kids",Hungama
-https://app-zibo-play40.tvhunter.top/newr/HUNGAMA.m3u8
-#EXTINF:-1 tvg-id="160" tvg-name="Super Hungama" tvg-logo="https://i.postimg.cc/pVZKZwqB/super-hungama.png" group-title="Kids",Super Hungama
-https://app-zibo-play40.tvhunter.top/newr/SUPER.HUNGAMA.m3u8
-#EXTINF:-1 tvg-id="161" tvg-name="Cartoon Network" tvg-logo="https://i.postimg.cc/zvTzSsKG/20250529-115440.png" group-title="Kids",Cartoon Network
+#EXTINF:-1 tvg-id="158" tvg-name="Hungama" tvg-logo="https://i.postimg.cc/Kz7BCwbt/hungama.png" group-title="Kids",Hungama
+http://103.135.253.32:8080/HUNGAMA/index.m3u8
+#EXTINF:-1 tvg-id="159" tvg-name="Super Hungama" tvg-logo="https://i.postimg.cc/pVZKZwqB/super-hungama.png" group-title="Kids",Super Hungama
+https://sm-monirul.xyz/@monirul_Islam_SM/stream.php?id=super_hungama&sm=.m3u8
+#EXTINF:-1 tvg-id="160" tvg-name="Cartoon Network" tvg-logo="https://i.postimg.cc/zvTzSsKG/20250529-115440.png" group-title="Kids",Cartoon Network
 https://drk6xq0vhn.gpcdn.net/live/cn_sd_abr/index.m3u8
-#EXTINF:-1 tvg-id="162" tvg-name="Cartoon Network HD+" tvg-logo="https://i.postimg.cc/1tkRFmgd/20250529-115531.png" group-title="Kids",Cartoon Network HD+
+#EXTINF:-1 tvg-id="161" tvg-name="Cartoon Network HD+" tvg-logo="https://i.postimg.cc/1tkRFmgd/20250529-115531.png" group-title="Kids",Cartoon Network HD+
 https://drk6xq0vhn.gpcdn.net/live/cn_hd_abr/index.m3u8
-#EXTINF:-1 tvg-id="163" tvg-name="Disnep Channel" tvg-logo="https://i.postimg.cc/KzkJZV7Z/Hridoy-TV-new-channel-(16).webp" group-title="Kids",Disnep Channel
+#EXTINF:-1 tvg-id="162" tvg-name="Disnep Channel" tvg-logo="https://i.postimg.cc/KzkJZV7Z/Hridoy-TV-new-channel-(16).webp" group-title="Kids",Disnep Channel
 https://zibo1.tvhunter.top/SDSD/index.m3u8
-#EXTINF:-1 tvg-id="164" tvg-name="Disnep Channel Hindi" tvg-logo="https://i.postimg.cc/KzkJZV7Z/Hridoy-TV-new-channel-(16).webp" group-title="Kids" http-user-agent="OTT-KING TV 1.0",Disnep Channel Hindi
-#EXTVLCOPT:http-user-agent=OTT-KING TV 1.0
-https://app-re.sm-monirul-islam-rs.workers.dev/Disny-Channel-Hindi/index.m3u8
