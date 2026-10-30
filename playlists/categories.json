@@ -1,23 +1,31 @@
 {
   "app_name": "SM IPTV",
-  "updated_at": "2026-10-30T08:59:19.201518+00:00",
-  "total_categories": 9,
-  "total_channels": 553,
+  "updated_at": "2026-10-30T15:48:13.145605+00:00",
+  "total_categories": 12,
+  "total_channels": 541,
   "master_playlist": "https://raw.githubusercontent.com/nehalmahamuddev/SM-IPTV-Category-Playlists-Auto-Sync/main/playlists/all.m3u",
   "categories": [
     {
       "name": "Bangla",
       "slug": "bangla",
       "filename": "bangla.m3u",
-      "count": 67,
+      "count": 48,
       "type": "linear_tv",
       "raw_url": "https://raw.githubusercontent.com/nehalmahamuddev/SM-IPTV-Category-Playlists-Auto-Sync/main/playlists/bangla.m3u"
+    },
+    {
+      "name": "News",
+      "slug": "news",
+      "filename": "news.m3u",
+      "count": 40,
+      "type": "linear_tv",
+      "raw_url": "https://raw.githubusercontent.com/nehalmahamuddev/SM-IPTV-Category-Playlists-Auto-Sync/main/playlists/news.m3u"
     },
     {
       "name": "Sports",
       "slug": "sports",
       "filename": "sports.m3u",
-      "count": 21,
+      "count": 31,
       "type": "linear_tv",
       "raw_url": "https://raw.githubusercontent.com/nehalmahamuddev/SM-IPTV-Category-Playlists-Auto-Sync/main/playlists/sports.m3u"
     },
@@ -25,7 +33,7 @@
       "name": "Indian Bangla",
       "slug": "indian_bangla",
       "filename": "indian_bangla.m3u",
-      "count": 11,
+      "count": 16,
       "type": "linear_tv",
       "raw_url": "https://raw.githubusercontent.com/nehalmahamuddev/SM-IPTV-Category-Playlists-Auto-Sync/main/playlists/indian_bangla.m3u"
     },
@@ -33,47 +41,63 @@
       "name": "Hindi",
       "slug": "hindi",
       "filename": "hindi.m3u",
-      "count": 43,
+      "count": 30,
       "type": "linear_tv",
       "raw_url": "https://raw.githubusercontent.com/nehalmahamuddev/SM-IPTV-Category-Playlists-Auto-Sync/main/playlists/hindi.m3u"
     },
     {
-      "name": "Documentory",
-      "slug": "documentory",
-      "filename": "documentory.m3u",
-      "count": 9,
+      "name": "English",
+      "slug": "english",
+      "filename": "english.m3u",
+      "count": 39,
       "type": "linear_tv",
-      "raw_url": "https://raw.githubusercontent.com/nehalmahamuddev/SM-IPTV-Category-Playlists-Auto-Sync/main/playlists/documentory.m3u"
+      "raw_url": "https://raw.githubusercontent.com/nehalmahamuddev/SM-IPTV-Category-Playlists-Auto-Sync/main/playlists/english.m3u"
     },
     {
       "name": "Kids",
       "slug": "kids",
       "filename": "kids.m3u",
-      "count": 10,
+      "count": 14,
       "type": "linear_tv",
       "raw_url": "https://raw.githubusercontent.com/nehalmahamuddev/SM-IPTV-Category-Playlists-Auto-Sync/main/playlists/kids.m3u"
     },
     {
-      "name": "Music",
-      "slug": "music",
-      "filename": "music.m3u",
-      "count": 11,
+      "name": "Religious",
+      "slug": "religious",
+      "filename": "religious.m3u",
+      "count": 8,
       "type": "linear_tv",
-      "raw_url": "https://raw.githubusercontent.com/nehalmahamuddev/SM-IPTV-Category-Playlists-Auto-Sync/main/playlists/music.m3u"
+      "raw_url": "https://raw.githubusercontent.com/nehalmahamuddev/SM-IPTV-Category-Playlists-Auto-Sync/main/playlists/religious.m3u"
     },
     {
-      "name": "Islamic",
-      "slug": "islamic",
-      "filename": "islamic.m3u",
-      "count": 6,
+      "name": "Weather",
+      "slug": "weather",
+      "filename": "weather.m3u",
+      "count": 1,
       "type": "linear_tv",
-      "raw_url": "https://raw.githubusercontent.com/nehalmahamuddev/SM-IPTV-Category-Playlists-Auto-Sync/main/playlists/islamic.m3u"
+      "raw_url": "https://raw.githubusercontent.com/nehalmahamuddev/SM-IPTV-Category-Playlists-Auto-Sync/main/playlists/weather.m3u"
+    },
+    {
+      "name": "Live TV",
+      "slug": "live_tv",
+      "filename": "live_tv.m3u",
+      "count": 4,
+      "type": "linear_tv",
+      "raw_url": "https://raw.githubusercontent.com/nehalmahamuddev/SM-IPTV-Category-Playlists-Auto-Sync/main/playlists/live_tv.m3u"
+    },
+    {
+      "name": "Urdhu",
+      "slug": "urdhu",
+      "filename": "urdhu.m3u",
+      "count": 1,
+      "type": "linear_tv",
+      "raw_url": "https://raw.githubusercontent.com/nehalmahamuddev/SM-IPTV-Category-Playlists-Auto-Sync/main/playlists/urdhu.m3u"
     },
     {
       "name": "Live Sports Events",
       "slug": "live_sports",
       "filename": "live_sports.m3u",
-      "count": 375,
+      "count": 309,
       "type": "live_events",
       "raw_url": "https://raw.githubusercontent.com/nehalmahamuddev/SM-IPTV-Category-Playlists-Auto-Sync/main/playlists/live_sports.m3u"
     }

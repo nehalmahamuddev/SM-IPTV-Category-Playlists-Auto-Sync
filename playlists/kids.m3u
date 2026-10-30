@@ -1,25 +1,32 @@
 #EXTM3U name="SM IPTV - Kids"
 # Category: Kids
-# Updated: 2026-10-30 08:59:19 UTC
+# Updated: 2026-10-30 15:48:13 UTC
 
-#EXTINF:-1 tvg-id="152" tvg-name="Durunto" tvg-logo="https://i.postimg.cc/s2WM2BPR/20251127-095726.png" group-title="Kids",Durunto
-http://103.135.253.32:8080/DORONTU-TV/index.m3u8
-#EXTINF:-1 tvg-id="153" tvg-name="Nick Bangla" tvg-logo="https://i.postimg.cc/4dQCpzTm/20250630-050342.png" group-title="Kids",Nick Bangla
-http://103.135.253.32:8080/NICK/index.m3u8
-#EXTINF:-1 tvg-id="154" tvg-name="Sony YAY" tvg-logo="https://i.postimg.cc/wBbj6c9g/20250529-115914.png" group-title="Kids" http-referrer="https://techandeat.online",Sony YAY
-#EXTVLCOPT:http-referrer=https://techandeat.online
-https://techandeat.online/sliv/stream.m3u8?id=1000001971
-#EXTINF:-1 tvg-id="155" tvg-name="Pogo" tvg-logo="https://i.postimg.cc/W3FbtF4r/20250529-115709.png" group-title="Kids",Pogo
-https://drk6xq0vhn.gpcdn.net/live/pogo_sd_abr/index.m3u8
-#EXTINF:-1 tvg-id="156" tvg-name="Discovery Kids" tvg-logo="https://i.postimg.cc/pXdcjfHg/20250529-115821.png" group-title="Kids",Discovery Kids
-https://drk6xq0vhn.gpcdn.net/live/discovery_kids_abr/index.m3u8
-#EXTINF:-1 tvg-id="157" tvg-name="Hungama" tvg-logo="https://i.postimg.cc/Kz7BCwbt/hungama.png" group-title="Kids",Hungama
-http://103.135.253.32:8080/HUNGAMA/index.m3u8
-#EXTINF:-1 tvg-id="158" tvg-name="Super Hungama" tvg-logo="https://i.postimg.cc/pVZKZwqB/super-hungama.png" group-title="Kids",Super Hungama
-https://sm-monirul.xyz/@monirul_Islam_SM/stream.php?id=super_hungama&sm=.m3u8
-#EXTINF:-1 tvg-id="159" tvg-name="Cartoon Network" tvg-logo="https://i.postimg.cc/zvTzSsKG/20250529-115440.png" group-title="Kids",Cartoon Network
-https://drk6xq0vhn.gpcdn.net/live/cn_sd_abr/index.m3u8
-#EXTINF:-1 tvg-id="160" tvg-name="Cartoon Network HD+" tvg-logo="https://i.postimg.cc/1tkRFmgd/20250529-115531.png" group-title="Kids",Cartoon Network HD+
-https://drk6xq0vhn.gpcdn.net/live/cn_hd_abr/index.m3u8
-#EXTINF:-1 tvg-id="161" tvg-name="Disnep Channel" tvg-logo="https://i.postimg.cc/KzkJZV7Z/Hridoy-TV-new-channel-(16).webp" group-title="Kids",Disnep Channel
-https://zibo1.tvhunter.top/SDSD/index.m3u8
+#EXTINF:-1 tvg-id="205" tvg-name="3ABN Kids" tvg-logo="https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-16/images_42d248089af768d78ab12e716c674e77_playmist_3abn_kids.jpg" group-title="Kids",3ABN Kids
+https://3abn.bozztv.com/3abn2/Kids_live/smil:Kids_live.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="206" tvg-name="Dios Te Ve Kids" tvg-logo="https://s3.aynaott.com/storage/dc654c62fa2f2cd754894ebc9353da9c" group-title="Kids",Dios Te Ve Kids
+https://s.emisoras.tv:8081/diostevekids/index.m3u8
+#EXTINF:-1 tvg-id="207" tvg-name="Discovery Family" tvg-logo="https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-16/images_2df08c319ac7e461f3544ff1e9f5bfae_playmist_discovery_family_400x400.jpg" group-title="Kids",Discovery Family
+https://tvsen5.aynaott.com/discoveryfamily/index.m3u8
+#EXTINF:-1 tvg-id="208" tvg-name="Disney Channel" tvg-logo="https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-16/images_92666995d4995d2bb46b92598d2b3e48_playmist_disney_channel_400x400.jpg" group-title="Kids",Disney Channel
+https://tvsen7.aynaott.com/disney/index.m3u8
+#EXTINF:-1 tvg-id="209" tvg-name="Disney XD" tvg-logo="https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-16/images_f02de913e3592f951e728234f2bef434_playmist_disney_xd_400x400.jpg" group-title="Kids",Disney XD
+https://tvsen5.aynaott.com/disneyxd/index.m3u8
+#EXTINF:-1 tvg-id="210" tvg-name="Family JR" tvg-logo="https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-16/images_5a86cf863e55540bcff12372d6c5909b_playmist_family_jr_400x400.jpg" group-title="Kids",Family JR
+https://tvsen3.aynaott.com/25FZdZrX/index.m3u8
+#EXTINF:-1 tvg-id="211" tvg-name="Kids Pang TV" tvg-logo="https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-06-24/17ba4c8d03335c590b01e900ba1d3a9a.jpg" group-title="Kids",Kids Pang TV
+https://tvsen6.aynaott.com/KidsPrangTV/index.m3u8
+#EXTINF:-1 tvg-id="212" tvg-name="Kids TV" tvg-logo="https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-16/images_a183518a2fa3c3364313a8d04ff2feb4_playmist_pbs_kids_400x400.jpg" group-title="Kids",Kids TV
+http://origin5.mediacdn.ru/live/kidstv/index.m3u8
+#EXTINF:-1 tvg-id="213" tvg-name="Moonbug Kids" tvg-logo="https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-16/images_4be00646d9e8f7a973d43b52166407ff_playmist_moonbug_kids400x400.jpg" group-title="Kids",Moonbug Kids
+https://moonbug-rokuus.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="214" tvg-name="PBS Kids" tvg-logo="https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-06-28/images_ab1b8e6f265620cd2720adc23bd2ba0e_playmist_pbs_kids_400x400.jpg" group-title="Kids",PBS Kids
+https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8
+#EXTINF:-1 tvg-id="215" tvg-name="SKY CINEMA ANIMATION" tvg-logo="https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-14/images_57e943dc61890a17ae5c26ac1d8a5f26_playmist_sky_cinema_animation_400x400.jpg" group-title="Kids",SKY CINEMA ANIMATION
+https://tvsen7.aynaott.com/skycinemanimation/index.m3u8
+#EXTINF:-1 tvg-id="216" tvg-name="Teen Nick" tvg-logo="https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-16/images_ea86bedcc4f35a5855683f064d311b67_playmist_teen_nick_400x400.jpg" group-title="Kids",Teen Nick
+https://tvsen7.aynaott.com/teennick/index.m3u8
+#EXTINF:-1 tvg-id="217" tvg-name="TVC Arabic Kids" tvg-logo="https://s3.aynaott.com/storage/31957d5960d3a36d8f9ca4d5a56eee96" group-title="Kids",TVC Arabic Kids
+https://tvsen6.aynaott.com/TVCArabicKids/index.m3u8
+#EXTINF:-1 tvg-id="218" tvg-name="TVCARiB Kids & Teens" tvg-logo="https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-16/images_fbef127efb1f4148d2730e59a78a9662_playmist_tvcarib_kids_teens400x400.jpg" group-title="Kids",TVCARiB Kids & Teens
+https://cdn.mycloudstream.io/hls/live/broadcast/nro19k2h/index.m3u8
