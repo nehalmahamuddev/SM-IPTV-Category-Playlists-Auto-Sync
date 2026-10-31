@@ -1,7 +1,7 @@
 # SM IPTV - Refined Multi-Stream Playlists
 
 > **Auto-generated and refined every 30 minutes via GitHub Actions.**  
-> **Last Synchronized:** `2026-10-30 20:39:39 UTC`  
+> **Last Synchronized:** `2026-10-31 00:04:51 UTC`  
 > **Total Unique Channels:** `488`  
 > **Total Stream Servers:** `500`  
 
