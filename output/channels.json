@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-04T07:26:04.397809+00:00",
-  "total_channels": 530,
-  "total_streams": 544,
+  "updated_at": "2026-11-04T15:46:43.190798+00:00",
+  "total_channels": 424,
+  "total_streams": 436,
   "channels": [
     {
       "id": "ananda_tv",
@@ -2729,6 +2729,255 @@
       ]
     },
     {
+      "id": "live_stade_rennais_vs_olympiacos_fc_tnt2uk_sports",
+      "name": "[Live] Stade Rennais Vs Olympiacos FC - TNT2UK SPORTS",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/679/image/dark",
+      "quality": "FHD",
+      "servers": [
+        {
+          "name": "Server 1 (FHD)",
+          "stream_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd",
+          "quality": "FHD",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+          },
+          "drm": {
+            "type": "clearkey",
+            "kid": "f3df7843080ae743bf865dc5fdf64c68",
+            "key": "567c863bc12eb74788ea74888c042e1b"
+          },
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_stade_rennais_vs_olympiacos_fc_stream_tv",
+      "name": "[Live] Stade Rennais Vs Olympiacos FC - STREAM TV +",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/679/image/dark",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://chatgpt.hereisman.net/playlist//load-playlist?&.m3u8",
+          "quality": "HD",
+          "headers": {
+            "Referer": "https://gooz.aapmains.net"
+          },
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_stade_rennais_vs_olympiacos_fc_low_quality_use_vpn",
+      "name": "[Live] Stade Rennais Vs Olympiacos FC - LOW QUALITY (USE VPN)",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/679/image/dark",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "http://193.47.62.55/hls/AYYYYQQQQAAA.m3u8",
+          "quality": "HD",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36",
+            "Referer": "https://nadia01eo.tn76degree12ec3out.cfd"
+          },
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_japan_u17_vs_north_korea_u17_fox2_sports",
+      "name": "[Live] Japan U17 Vs North Korea U17 - FOX2 SPORTS",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/827/image/dark",
+      "quality": "FHD",
+      "servers": [
+        {
+          "name": "Server 1 (FHD)",
+          "stream_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
+          "quality": "FHD",
+          "headers": {},
+          "drm": {
+            "type": "clearkey",
+            "kid": "09453ce820d65fbc675de3185f9e454c",
+            "key": "98cff9600995fa381c76fdacf3c7edae"
+          },
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_japan_u17_vs_north_korea_u17_tsn3_sports",
+      "name": "[Live] Japan U17 Vs North Korea U17 - TSN3 SPORTS",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/827/image/dark",
+      "quality": "FHD",
+      "servers": [
+        {
+          "name": "Server 1 (FHD)",
+          "stream_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd",
+          "quality": "FHD",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+          },
+          "drm": {
+            "type": "clearkey",
+            "kid": "d3250252765347a0c2603c6cb4869f8c",
+            "key": "0c19319460da7e9ed816db46ce839b37"
+          },
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_japan_u17_vs_north_korea_u17_low_quality_use_vpn",
+      "name": "[Live] Japan U17 Vs North Korea U17 - LOW QUALITY (USE VPN)",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/827/image/dark",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "http://193.47.62.44/hls/AYYYYQ.m3u8",
+          "quality": "HD",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36",
+            "Referer": "https://nadia01eo.tn76degree12ec3out.cfd"
+          },
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_fc_masar_vs_fus_rabat_stream_tv",
+      "name": "[Live] FC Masar Vs FUS Rabat - STREAM TV +",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/21446/image/dark",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "http://193.47.62.44/hls/AYYYYQQQQAA.m3u8",
+          "quality": "HD",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36",
+            "Referer": "https://nadia01eo.tn76degree12ec3out.cfd"
+          },
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_fc_masar_vs_fus_rabat_low_quality_use_vpn",
+      "name": "[Live] FC Masar Vs FUS Rabat - LOW QUALITY (USE VPN)",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/21446/image/dark",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "http://193.47.62.44/hls/AYYYYQQQQAA.m3u8",
+          "quality": "HD",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36",
+            "Referer": "https://nadia01eo.tn76degree12ec3out.cfd"
+          },
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_arkadag_fk_vs_gol_gohar_sirjan_stream_tv",
+      "name": "[Live] Arkadag FK Vs Gol Gohar Sirjan - STREAM TV +",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/668/image/dark",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "http://193.47.62.44/hls/HHHHAAQAQQQ.m3u8",
+          "quality": "HD",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36",
+            "Referer": "https://nadia01eo.tn76degree12ec3out.cfd"
+          },
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_hobart_hurricanes_women_vs_melbourne_renegades_women_stream_tv",
+      "name": "[Live] Hobart Hurricanes Women Vs Melbourne Renegades Women - STREAM TV +",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/11163/image/dark",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
+          "quality": "HD",
+          "headers": {
+            "User-Agent": "Mozilla"
+          },
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_hobart_hurricanes_women_vs_melbourne_renegades_women_fancode",
+      "name": "[Live] Hobart Hurricanes Women Vs Melbourne Renegades Women - FANCODE",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/11163/image/dark",
+      "quality": "FHD",
+      "servers": [
+        {
+          "name": "Server 1 (FHD)",
+          "stream_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+          "quality": "FHD",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+          },
+          "drm": {
+            "type": "clearkey",
+            "kid": "82dfca238e8c4b430a3269db71965db9",
+            "key": "a00b28caf4ac628e77a553d440c0ddca"
+          },
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_hobart_hurricanes_women_vs_melbourne_renegades_women_willow",
+      "name": "[Live] Hobart Hurricanes Women Vs Melbourne Renegades Women - WILLOW",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/11163/image/dark",
+      "quality": "FHD",
+      "servers": [
+        {
+          "name": "Server 1 (FHD)",
+          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/w6mcmg5vcu/out/v1/45db9febe2b64d59a5ecd2181616a9db/cenc.mpd",
+          "quality": "FHD",
+          "headers": {},
+          "drm": {
+            "type": "clearkey",
+            "kid": "c3bbeb16c18d825f04b51b17b67baf5a",
+            "key": "f744722c08e3d13fecfa59de5436cce7"
+          },
+          "sort_order": 1
+        }
+      ]
+    },
+    {
       "id": "live_snooker_vs_snooker_tnt1uk_sports",
       "name": "[Live] Snooker Vs Snooker - TNT1UK SPORTS",
       "category": "live_sports",
@@ -2793,214 +3042,6 @@
             "kid": "cc91508324ce9dcaf425a43d58f1d9d4",
             "key": "643e5474d9edd87c7d9091c8c97994ca"
           },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_new_zealand_vs_india_tnt2uk_sports",
-      "name": "[Live] New Zealand Vs India - TNT2UK SPORTS",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/11190/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd",
-          "quality": "FHD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-          },
-          "drm": {
-            "type": "clearkey",
-            "kid": "f3df7843080ae743bf865dc5fdf64c68",
-            "key": "567c863bc12eb74788ea74888c042e1b"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_new_zealand_vs_india_prime_hindi",
-      "name": "[Live] New Zealand Vs India - PRIME HINDI",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/11190/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/ppmrp8tlzz/out/v1/cf829370483b4212ac7d5e3009c514b1/cenc.mpd",
-          "quality": "FHD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-          },
-          "drm": {
-            "type": "clearkey",
-            "kid": "952fb91696308da86bee7cd24edf0b58",
-            "key": "bf359214ab3ac848738bdf014ace21b3"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_new_zealand_vs_india_willow",
-      "name": "[Live] New Zealand Vs India - WILLOW",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/11190/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vqu1w8f6e7/out/v1/f7d7ec07c208491681c1b6f68d0e823f/cenc.mpd",
-          "quality": "FHD",
-          "headers": {},
-          "drm": {
-            "type": "clearkey",
-            "kid": "a59f28b25431a5ab1091707c14e6e5b5",
-            "key": "0e2b44300a38bd47fbb02e9c687aa2c8"
-          },
-          "sort_order": 1
-        },
-        {
-          "name": "Server 2 (FHD)",
-          "stream_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/s3eotogzpl/out/v1/3a421da823214ef99571a137c1035f04/cenc.mpd",
-          "quality": "FHD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-          },
-          "drm": {
-            "type": "clearkey",
-            "kid": "7ef90352c28904be995275bc47f74c04",
-            "key": "af5e36ddef7584474601c19b4ae5935a"
-          },
-          "sort_order": 2
-        }
-      ]
-    },
-    {
-      "id": "live_new_zealand_vs_india_prime_eng",
-      "name": "[Live] New Zealand Vs India - PRIME ENG",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/11190/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xnz2tp3cz2/out/v1/57dea44e09564aa7b769ebdc51f9a42f/cenc.mpd",
-          "quality": "FHD",
-          "headers": {},
-          "drm": {
-            "type": "clearkey",
-            "kid": "db4b3e1da015cf0f03c2a5f4b9ee8433",
-            "key": "964bab777741f2b59adedcbbcd463374"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_new_zealand_vs_india_willow_alt",
-      "name": "[Live] New Zealand Vs India - WILLOW ALT",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/11190/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://otte.cache.aiv-cdn.net/fra-nitro/live/clients/dash/enc/4dwybz2taj/out/v1/c90ad7bb77af498083f47bf86b7999b7/cenc.mpd",
-          "quality": "HD",
-          "headers": {},
-          "drm": {
-            "type": "clearkey",
-            "kid": "6a028d5592b0e81f9c4fd4de4df6d5c7",
-            "key": "9378d2ddd738b2d0b7a85ba65b643a7f"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_new_zealand_vs_india_sonyliv_eng",
-      "name": "[Live] New Zealand Vs India - SonyLiv (ENG)",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/11190/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://sonyeventsglobal.akamaized.net/hls/live/2119931/cricodi_0311/ENG/std_lrh-800300010.m3u8?hdnea=exp=1793796037~acl=/*~id=944eb554fe0d9d39204a057f1ae426e3-1793752837149~hmac=3f6ed50fb95858dc451bb75e5f83384c487dce331cf29ae361b3784bc545208d",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_new_zealand_vs_india_sonyliv_hin",
-      "name": "[Live] New Zealand Vs India - SonyLiv (HIN)",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/11190/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://sonyeventsglobal.akamaized.net/hls/live/2119921/cricodi_0311/HIN/std_lrh-800300010.m3u8?hdnea=exp=1793796037~acl=/*~id=944eb554fe0d9d39204a057f1ae426e3-1793752837149~hmac=3f6ed50fb95858dc451bb75e5f83384c487dce331cf29ae361b3784bc545208d",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_new_zealand_vs_india_sonyliv_tel",
-      "name": "[Live] New Zealand Vs India - SonyLiv (TEL)",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/11190/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://sonyeventsglobal.akamaized.net/hls/live/2119941/cricodi_0311/TEL/std_lrh-800300010.m3u8?hdnea=exp=1793796155~acl=/*~id=9330fc4a2255cbf324394d7b5b191e90-1793752955164~hmac=1fd83137467b58c5eab840c4d951510eddecacd341e747518010c8de4e5e5aed",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_new_zealand_vs_india_sonyliv_tam",
-      "name": "[Live] New Zealand Vs India - SonyLiv (TAM)",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/11190/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://sonyeventsglobal.akamaized.net/hls/live/2119951/cricodi_0311/TAM/std_lrh-800300010.m3u8?hdnea=exp=1793796155~acl=/*~id=9330fc4a2255cbf324394d7b5b191e90-1793752955164~hmac=1fd83137467b58c5eab840c4d951510eddecacd341e747518010c8de4e5e5aed",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_new_zealand_vs_india_sonyliv_kan",
-      "name": "[Live] New Zealand Vs India - SonyLiv (KAN)",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/11190/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://sonyeventsglobal.akamaized.net/hls/live/2119782/cricodi_0311/KAN/std_lrh-800300010.m3u8?hdnea=exp=1793796155~acl=/*~id=9330fc4a2255cbf324394d7b5b191e90-1793752955164~hmac=1fd83137467b58c5eab840c4d951510eddecacd341e747518010c8de4e5e5aed",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
           "sort_order": 1
         }
       ]
@@ -3354,242 +3395,6 @@
       ]
     },
     {
-      "id": "live_melbourne_victory_vs_persib_bandung_stream_tv",
-      "name": "[Live] Melbourne Victory Vs Persib Bandung - STREAM TV +",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/668/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://chatgpt.hereisman.net/playlist//load-playlist?&.m3u8",
-          "quality": "HD",
-          "headers": {
-            "Referer": "https://gooz.aapmains.net"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_hobart_hurricanes_women_vs_melbourne_renegades_women_stream_tv",
-      "name": "[Live] Hobart Hurricanes Women Vs Melbourne Renegades Women - STREAM TV +",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/11163/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
-          "quality": "HD",
-          "headers": {
-            "User-Agent": "Mozilla"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_aek_athens_u19_vs_real_madrid_u19_stream_tv",
-      "name": "[Live] AEK Athens U19 Vs Real Madrid U19 - STREAM TV +",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/2132/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_pohang_steelers_vs_gamba_osaka_stream_tv",
-      "name": "[Live] Pohang Steelers Vs Gamba Osaka - STREAM TV +",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/463/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://chatgpt.hereisman.net/playlist//load-playlist?&.m3u8",
-          "quality": "HD",
-          "headers": {
-            "Referer": "https://gooz.aapmains.net"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_fc_seoul_vs_the_cong_viettel_stream_tv",
-      "name": "[Live] FC Seoul Vs Thể Công - Viettel - STREAM TV +",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/668/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://chatgpt.hereisman.net/playlist//load-playlist?&.m3u8",
-          "quality": "HD",
-          "headers": {
-            "Referer": "https://gooz.aapmains.net"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_fenerbahce_u19_vs_liverpool_u19_stream_tv",
-      "name": "[Live] Fenerbahçe U19 Vs Liverpool U19 - STREAM TV +",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/2132/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://chatgpt.hereisman.net/playlist//load-playlist?&.m3u8",
-          "quality": "HD",
-          "headers": {
-            "Referer": "https://gooz.aapmains.net"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_buriram_united_vs_kashima_antlers_stream_tv",
-      "name": "[Live] Buriram United Vs Kashima Antlers - STREAM TV +",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/463/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://chatgpt.hereisman.net/playlist//load-playlist?&.m3u8",
-          "quality": "HD",
-          "headers": {
-            "Referer": "https://gooz.aapmains.net"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_arkadag_fk_vs_gol_gohar_sirjan_stream_tv",
-      "name": "[Live] Arkadag FK Vs Gol Gohar Sirjan - STREAM TV +",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/668/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://chatgpt.hereisman.net/playlist//load-playlist?&.m3u8",
-          "quality": "HD",
-          "headers": {
-            "Referer": "https://gooz.aapmains.net"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_japan_u17_vs_north_korea_u17_fox2_sports",
-      "name": "[Live] Japan U17 Vs North Korea U17 - FOX2 SPORTS",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/827/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
-          "quality": "FHD",
-          "headers": {},
-          "drm": {
-            "type": "clearkey",
-            "kid": "09453ce820d65fbc675de3185f9e454c",
-            "key": "98cff9600995fa381c76fdacf3c7edae"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_japan_u17_vs_north_korea_u17_tsn3_sports",
-      "name": "[Live] Japan U17 Vs North Korea U17 - TSN3 SPORTS",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/827/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd",
-          "quality": "FHD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-          },
-          "drm": {
-            "type": "clearkey",
-            "kid": "d3250252765347a0c2603c6cb4869f8c",
-            "key": "0c19319460da7e9ed816db46ce839b37"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_stade_rennais_vs_olympiacos_fc_tnt2uk_sports",
-      "name": "[Live] Stade Rennais Vs Olympiacos FC - TNT2UK SPORTS",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/679/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd",
-          "quality": "FHD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-          },
-          "drm": {
-            "type": "clearkey",
-            "kid": "f3df7843080ae743bf865dc5fdf64c68",
-            "key": "567c863bc12eb74788ea74888c042e1b"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_stade_rennais_vs_olympiacos_fc_stream_tv",
-      "name": "[Live] Stade Rennais Vs Olympiacos FC - STREAM TV +",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/679/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://chatgpt.hereisman.net/playlist//load-playlist?&.m3u8",
-          "quality": "HD",
-          "headers": {
-            "Referer": "https://gooz.aapmains.net"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
       "id": "live_al_rayyan_vs_al_nahda_sc_stream_tv",
       "name": "[Live] Al-Rayyan Vs Al Nahda SC - STREAM TV +",
       "category": "live_sports",
@@ -3910,25 +3715,6 @@
     {
       "id": "live_wrexham_vs_middlesbrough_stream_tv",
       "name": "[Live] Wrexham Vs Middlesbrough - STREAM TV +",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/18/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://chatgpt.hereisman.net/playlist//load-playlist?&.m3u8",
-          "quality": "HD",
-          "headers": {
-            "Referer": "https://gooz.aapmains.net"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_cardiff_city_vs_west_ham_united_stream_tv",
-      "name": "[Live] Cardiff City Vs West Ham United - STREAM TV +",
       "category": "live_sports",
       "logo": "http://img.sofascore.com/api/v1/unique-tournament/18/image/dark",
       "quality": "HD",
@@ -6483,6 +6269,214 @@
       ]
     },
     {
+      "id": "live_new_zealand_vs_india_tnt2uk_sports",
+      "name": "[Live] New Zealand Vs India - TNT2UK SPORTS",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/11190/image/dark",
+      "quality": "FHD",
+      "servers": [
+        {
+          "name": "Server 1 (FHD)",
+          "stream_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd",
+          "quality": "FHD",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+          },
+          "drm": {
+            "type": "clearkey",
+            "kid": "f3df7843080ae743bf865dc5fdf64c68",
+            "key": "567c863bc12eb74788ea74888c042e1b"
+          },
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_new_zealand_vs_india_prime_hindi",
+      "name": "[Live] New Zealand Vs India - PRIME HINDI",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/11190/image/dark",
+      "quality": "FHD",
+      "servers": [
+        {
+          "name": "Server 1 (FHD)",
+          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/ppmrp8tlzz/out/v1/cf829370483b4212ac7d5e3009c514b1/cenc.mpd",
+          "quality": "FHD",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+          },
+          "drm": {
+            "type": "clearkey",
+            "kid": "952fb91696308da86bee7cd24edf0b58",
+            "key": "bf359214ab3ac848738bdf014ace21b3"
+          },
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_new_zealand_vs_india_willow",
+      "name": "[Live] New Zealand Vs India - WILLOW",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/11190/image/dark",
+      "quality": "FHD",
+      "servers": [
+        {
+          "name": "Server 1 (FHD)",
+          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vqu1w8f6e7/out/v1/f7d7ec07c208491681c1b6f68d0e823f/cenc.mpd",
+          "quality": "FHD",
+          "headers": {},
+          "drm": {
+            "type": "clearkey",
+            "kid": "a59f28b25431a5ab1091707c14e6e5b5",
+            "key": "0e2b44300a38bd47fbb02e9c687aa2c8"
+          },
+          "sort_order": 1
+        },
+        {
+          "name": "Server 2 (FHD)",
+          "stream_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/s3eotogzpl/out/v1/3a421da823214ef99571a137c1035f04/cenc.mpd",
+          "quality": "FHD",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+          },
+          "drm": {
+            "type": "clearkey",
+            "kid": "7ef90352c28904be995275bc47f74c04",
+            "key": "af5e36ddef7584474601c19b4ae5935a"
+          },
+          "sort_order": 2
+        }
+      ]
+    },
+    {
+      "id": "live_new_zealand_vs_india_prime_eng",
+      "name": "[Live] New Zealand Vs India - PRIME ENG",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/11190/image/dark",
+      "quality": "FHD",
+      "servers": [
+        {
+          "name": "Server 1 (FHD)",
+          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xnz2tp3cz2/out/v1/57dea44e09564aa7b769ebdc51f9a42f/cenc.mpd",
+          "quality": "FHD",
+          "headers": {},
+          "drm": {
+            "type": "clearkey",
+            "kid": "db4b3e1da015cf0f03c2a5f4b9ee8433",
+            "key": "964bab777741f2b59adedcbbcd463374"
+          },
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_new_zealand_vs_india_willow_alt",
+      "name": "[Live] New Zealand Vs India - WILLOW ALT",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/11190/image/dark",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://otte.cache.aiv-cdn.net/fra-nitro/live/clients/dash/enc/4dwybz2taj/out/v1/c90ad7bb77af498083f47bf86b7999b7/cenc.mpd",
+          "quality": "HD",
+          "headers": {},
+          "drm": {
+            "type": "clearkey",
+            "kid": "6a028d5592b0e81f9c4fd4de4df6d5c7",
+            "key": "9378d2ddd738b2d0b7a85ba65b643a7f"
+          },
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_new_zealand_vs_india_sonyliv_eng",
+      "name": "[Live] New Zealand Vs India - SonyLiv (ENG)",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/11190/image/dark",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://sonyeventsglobal.akamaized.net/hls/live/2119931/cricodi_0311/ENG/std_lrh-800300010.m3u8?hdnea=exp=1793796037~acl=/*~id=944eb554fe0d9d39204a057f1ae426e3-1793752837149~hmac=3f6ed50fb95858dc451bb75e5f83384c487dce331cf29ae361b3784bc545208d",
+          "quality": "HD",
+          "headers": {},
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_new_zealand_vs_india_sonyliv_hin",
+      "name": "[Live] New Zealand Vs India - SonyLiv (HIN)",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/11190/image/dark",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://sonyeventsglobal.akamaized.net/hls/live/2119921/cricodi_0311/HIN/std_lrh-800300010.m3u8?hdnea=exp=1793796037~acl=/*~id=944eb554fe0d9d39204a057f1ae426e3-1793752837149~hmac=3f6ed50fb95858dc451bb75e5f83384c487dce331cf29ae361b3784bc545208d",
+          "quality": "HD",
+          "headers": {},
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_new_zealand_vs_india_sonyliv_tel",
+      "name": "[Live] New Zealand Vs India - SonyLiv (TEL)",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/11190/image/dark",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://sonyeventsglobal.akamaized.net/hls/live/2119941/cricodi_0311/TEL/std_lrh-800300010.m3u8?hdnea=exp=1793796155~acl=/*~id=9330fc4a2255cbf324394d7b5b191e90-1793752955164~hmac=1fd83137467b58c5eab840c4d951510eddecacd341e747518010c8de4e5e5aed",
+          "quality": "HD",
+          "headers": {},
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_new_zealand_vs_india_sonyliv_tam",
+      "name": "[Live] New Zealand Vs India - SonyLiv (TAM)",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/11190/image/dark",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://sonyeventsglobal.akamaized.net/hls/live/2119951/cricodi_0311/TAM/std_lrh-800300010.m3u8?hdnea=exp=1793796155~acl=/*~id=9330fc4a2255cbf324394d7b5b191e90-1793752955164~hmac=1fd83137467b58c5eab840c4d951510eddecacd341e747518010c8de4e5e5aed",
+          "quality": "HD",
+          "headers": {},
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_new_zealand_vs_india_sonyliv_kan",
+      "name": "[Live] New Zealand Vs India - SonyLiv (KAN)",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/11190/image/dark",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://sonyeventsglobal.akamaized.net/hls/live/2119782/cricodi_0311/KAN/std_lrh-800300010.m3u8?hdnea=exp=1793796155~acl=/*~id=9330fc4a2255cbf324394d7b5b191e90-1793752955164~hmac=1fd83137467b58c5eab840c4d951510eddecacd341e747518010c8de4e5e5aed",
+          "quality": "HD",
+          "headers": {},
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
       "id": "live_one_friday_fights_vs_one_friday_fights_server_1",
       "name": "[Live] One Friday Fights Vs One Friday Fights - Server 1",
       "category": "live_sports",
@@ -6904,499 +6898,6 @@
             "kid": "cc91508324ce9dcaf425a43d58f1d9d4",
             "key": "643e5474d9edd87c7d9091c8c97994ca"
           },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_fc_barcelona_vs_aston_villa_paramount",
-      "name": "[Live] FC Barcelona Vs Aston Villa - PARAMOUNT+",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/hfrpveg4ut/out/v1/898ffe1fc933458b940e736c42708232/cenc.mpd",
-          "quality": "FHD",
-          "headers": {},
-          "drm": {
-            "type": "clearkey",
-            "kid": "9257aba4a8155ec0566886d9d2173cbb",
-            "key": "c1663d6dd5e13c6105f55986e1b82bb0"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_fc_barcelona_vs_aston_villa_tnt1uk_sports",
-      "name": "[Live] FC Barcelona Vs Aston Villa - TNT1UK SPORTS",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
-          "quality": "FHD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-          },
-          "drm": {
-            "type": "clearkey",
-            "kid": "69a5aa835a061ce64a630d1046727e40",
-            "key": "d02feac8a999bd06bf4059bf33411749"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_fc_barcelona_vs_aston_villa_sonyliv_prime",
-      "name": "[Live] FC Barcelona Vs Aston Villa - SonyLiv PRIME",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/62u3pe9jhe/out/v1/b16f920939bb40ec921f895197dcc8fe/cenc.mpd",
-          "quality": "FHD",
-          "headers": {},
-          "drm": {
-            "type": "clearkey",
-            "kid": "8457e2ce4bab3e982f93d01d8531937c",
-            "key": "e96b9115e2da4f4fd7fef362fe16b8c6"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_fc_barcelona_vs_aston_villa_dazn_de",
-      "name": "[Live] FC Barcelona Vs Aston Villa - DAZN DE",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vfvwmn8lpn/out/v1/fa48945789f044c89d69a67a81acd513/cenc.mpd",
-          "quality": "FHD",
-          "headers": {},
-          "drm": {
-            "type": "clearkey",
-            "kid": "d5e2fec3b6ccef137970196c83892fcf",
-            "key": "5db83e1690553fda8b857360ba7e4171"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_fc_barcelona_vs_aston_villa_bein_arabic",
-      "name": "[Live] FC Barcelona Vs Aston Villa - beIN ARABIC",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://2sisi.s3.us-east-2.amazonaws.com/bein3/720p/manifest.m3u8",
-          "quality": "FHD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_fc_barcelona_vs_aston_villa_quality_4",
-      "name": "[Live] FC Barcelona Vs Aston Villa - QUALITY 4",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://www.rtmpcdn.com/live/ae26b0b9-fb6a-4a53-95c9-38057990df8e.m3u8",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_fc_barcelona_vs_aston_villa_faster_tv",
-      "name": "[Live] FC Barcelona Vs Aston Villa - FASTER TV",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://tg0o4gr4uqmtt8y41hcjzgezdrmmbqbh8c3toq73u1cjqxfozr5udctzy.100ycdn.com/apxvf0ws91.yarncdn.live/live/sd-6Mxj4xWg1mMLTMQ4EC/playlist.m3u8?wsSession=f463896762b990c184c91002-179373644505132&wsIPSercert=95393e5936bc899fb6501629a824abeb&wsBindIP=2&wsserid=1168309208178241479",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_fc_barcelona_vs_aston_villa_paramount_alt_2",
-      "name": "[Live] FC Barcelona Vs Aston Villa - PARAMOUNT+ ALT 2",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://a201aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/hfrpveg4ut/out/v1/898ffe1fc933458b940e736c42708232/cenc.mpd",
-          "quality": "HD",
-          "headers": {},
-          "drm": {
-            "type": "clearkey",
-            "kid": "9257aba4a8155ec0566886d9d2173cbb",
-            "key": "c1663d6dd5e13c6105f55986e1b82bb0"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_fc_barcelona_vs_aston_villa_paramount_alt_3",
-      "name": "[Live] FC Barcelona Vs Aston Villa - PARAMOUNT+ ALT 3",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/hfrpveg4ut/out/v1/898ffe1fc933458b940e736c42708232/cenc.mpd",
-          "quality": "HD",
-          "headers": {},
-          "drm": {
-            "type": "clearkey",
-            "kid": "9257aba4a8155ec0566886d9d2173cbb",
-            "key": "c1663d6dd5e13c6105f55986e1b82bb0"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_fc_barcelona_vs_aston_villa_low_quality_use_vpn",
-      "name": "[Live] FC Barcelona Vs Aston Villa - LOW QUALITY (USE VPN)",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "http://193.47.62.50/hls/HCCCa.m3u8",
-          "quality": "HD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36",
-            "Referer": "https://nadia01eo.tn76degree12ec3out.cfd"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_fc_barcelona_vs_aston_villa_sonyliv_asia",
-      "name": "[Live] FC Barcelona Vs Aston Villa - SonyLiv (Asia)",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120300/footlive0311/ENG/std_lrh-800300010.m3u8",
-          "quality": "HD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
-            "Referer": "https://www.sonyliv.com/"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_manchester_united_vs_as_roma_sonyliv_prime",
-      "name": "[Live] Manchester United Vs AS Roma - SonyLiv PRIME",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/75yi5p0s1c/out/v1/537063cc750c49799f8a8f78975ce1c8/cenc.mpd",
-          "quality": "FHD",
-          "headers": {},
-          "drm": {
-            "type": "clearkey",
-            "kid": "6d5337196b414dded830543ce01575c8",
-            "key": "f5db6c7b83d3a8ee391191a5486ba567"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_manchester_united_vs_as_roma_paramount",
-      "name": "[Live] Manchester United Vs AS Roma - PARAMOUNT+",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/f9bag1jthy/out/v1/3b8065fd2f2448ae950acb1799289059/cenc.mpd",
-          "quality": "FHD",
-          "headers": {},
-          "drm": {
-            "type": "clearkey",
-            "kid": "36e4c42e68010f7a3e5f543d18e48242",
-            "key": "014543c3e28193bbe08cf7e3f729715e"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_manchester_united_vs_as_roma_vix_espanol",
-      "name": "[Live] Manchester United Vs AS Roma - VIX Español",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rxlovii2bb/out/v1/4ee96f7b64494c1aa1dc327b3f9b07ed/cenc.mpd",
-          "quality": "FHD",
-          "headers": {},
-          "drm": {
-            "type": "clearkey",
-            "kid": "d504a4144684bf40c4ad12a9cf7c3faa",
-            "key": "f81e60e7f3c75a3453b3dd605d2b01dd"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_manchester_united_vs_as_roma_dazn_de",
-      "name": "[Live] Manchester United Vs AS Roma - DAZN DE",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/jtyvkcoh4v/out/v1/075533792ddb4a178c7b77a2c582bcaa/cenc.mpd",
-          "quality": "FHD",
-          "headers": {},
-          "drm": {
-            "type": "clearkey",
-            "kid": "746772ee03bdc6b4c4d26384bff0e499",
-            "key": "3d88f15c96f473fbfae335e7f1b6b200"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_manchester_united_vs_as_roma_bein_arabic",
-      "name": "[Live] Manchester United Vs AS Roma - beIN ARABIC",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://2sisi.s3.us-east-2.amazonaws.com/bein4/720p/manifest.m3u8",
-          "quality": "FHD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_manchester_united_vs_as_roma_dazn_sports",
-      "name": "[Live] Manchester United Vs AS Roma - DAZN SPORTS",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://chatgpt.hereisman.net/playlist/59197/load-playlist-multi?&.m3u8",
-          "quality": "HD",
-          "headers": {
-            "Referer": "https://gooz.aapmains.net"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_manchester_united_vs_as_roma_quality_4",
-      "name": "[Live] Manchester United Vs AS Roma - QUALITY 4",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://www.rtmpcdn.com/live/928e646d-a70c-4c73-9c92-e9f53744c47f.m3u8",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_manchester_united_vs_as_roma_faster_tv",
-      "name": "[Live] Manchester United Vs AS Roma - FASTER TV",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://tg0o4gr4uqmtt8y41hcjzgezdrmmbqbh8c3toq73u1cjqxfozr5udctzy.100ycdn.com/apxvf0ws91.yarncdn.live/live/hd-en-6Mxj4xXS17s31kU9HS/playlist.m3u8?wsSession=e78e8c14fb9c8e485dcefff0-179373649354089&wsIPSercert=95393e5936bc899fb6501629a824abeb&wsBindIP=2&wsserid=1168309213681259573",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_manchester_united_vs_as_roma_low_quality_use_vpn",
-      "name": "[Live] Manchester United Vs AS Roma - LOW QUALITY (USE VPN)",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "http://193.47.62.44/hls/HCCCaaaa.m3u8",
-          "quality": "HD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36",
-            "Referer": "https://nadia01eo.tn76degree12ec3out.cfd"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_manchester_united_vs_as_roma_sonyliv_eng",
-      "name": "[Live] Manchester United Vs AS Roma - SonyLiv (ENG)",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120308/footlive0311/ENG/std_lrh-800300010.m3u8",
-          "quality": "HD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
-            "Referer": "https://www.sonyliv.com/"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_manchester_united_vs_as_roma_sonyliv_hin",
-      "name": "[Live] Manchester United Vs AS Roma - SonyLiv (HIN)",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120306/footlive0311/HIN/std_lrh-800300010.m3u8",
-          "quality": "HD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
-            "Referer": "https://www.sonyliv.com/"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_manchester_united_vs_as_roma_sonyliv_tam",
-      "name": "[Live] Manchester United Vs AS Roma - SonyLiv (TAM)",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2005444/footlive0311/TAM/std_lrh-800300010.m3u8",
-          "quality": "HD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
-            "Referer": "https://www.sonyliv.com/"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_manchester_united_vs_as_roma_sonyliv_tel",
-      "name": "[Live] Manchester United Vs AS Roma - SonyLiv (TEL)",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120307/footlive0311/TEL/std_lrh-800300010.m3u8",
-          "quality": "HD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
-            "Referer": "https://www.sonyliv.com/"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_manchester_united_vs_as_roma_sonyliv_kan",
-      "name": "[Live] Manchester United Vs AS Roma - SonyLiv (KAN)",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120305/footlive0311/KAN/std_lrh-800300010.m3u8",
-          "quality": "HD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
-            "Referer": "https://www.sonyliv.com/"
-          },
-          "drm": null,
           "sort_order": 1
         }
       ]
@@ -7988,896 +7489,6 @@
       ]
     },
     {
-      "id": "live_atletico_madrid_vs_fc_bayern_munchen_sonyliv_prime",
-      "name": "[Live] Atlético Madrid Vs FC Bayern München - SonyLiv PRIME",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/fhhxo4lrgi/out/v1/2e07e360adbb4143a01cfbf13db5a468/cenc.mpd",
-          "quality": "FHD",
-          "headers": {},
-          "drm": {
-            "type": "clearkey",
-            "kid": "61e6e2862d578e47e1d38a09dab188d1",
-            "key": "d476e6ff0a07c5d61eebc382cf62e629"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_atletico_madrid_vs_fc_bayern_munchen_tnt2uk_sports",
-      "name": "[Live] Atlético Madrid Vs FC Bayern München - TNT2UK SPORTS",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd",
-          "quality": "FHD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-          },
-          "drm": {
-            "type": "clearkey",
-            "kid": "f3df7843080ae743bf865dc5fdf64c68",
-            "key": "567c863bc12eb74788ea74888c042e1b"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_atletico_madrid_vs_fc_bayern_munchen_vix_espanol",
-      "name": "[Live] Atlético Madrid Vs FC Bayern München - VIX Español",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ttfe3fwpqd/out/v1/c8dfa6294cb34255a3a6ba81fbf286f7/cenc.mpd",
-          "quality": "FHD",
-          "headers": {},
-          "drm": {
-            "type": "clearkey",
-            "kid": "e267cd32e665cacc817fa5d316d195aa",
-            "key": "0a193efcd601e233f8a46bae9240f2b7"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_atletico_madrid_vs_fc_bayern_munchen_bein_arabic",
-      "name": "[Live] Atlético Madrid Vs FC Bayern München - beIN ARABIC",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://2sisi.s3.us-east-2.amazonaws.com/bein5/720p/manifest.m3u8",
-          "quality": "FHD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_atletico_madrid_vs_fc_bayern_munchen_paramount",
-      "name": "[Live] Atlético Madrid Vs FC Bayern München - PARAMOUNT+",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://chatgpt.hereisman.net/playlist/59198/load-playlist-multi?&.m3u8",
-          "quality": "HD",
-          "headers": {
-            "Referer": "https://gooz.aapmains.net"
-          },
-          "drm": null,
-          "sort_order": 1
-        },
-        {
-          "name": "Server 2 (FHD)",
-          "stream_url": "https://a201aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/vh0otvgsty/out/v1/bd515f9d353d436c8d9f7fad1a036eae/cenc.mpd",
-          "quality": "FHD",
-          "headers": {},
-          "drm": {
-            "type": "clearkey",
-            "kid": "81e0ae17a7166c881b38468bee4d210d",
-            "key": "be2dd777d1aa42adc54d090fcf886b29"
-          },
-          "sort_order": 2
-        }
-      ]
-    },
-    {
-      "id": "live_atletico_madrid_vs_fc_bayern_munchen_paramount_alt",
-      "name": "[Live] Atlético Madrid Vs FC Bayern München - PARAMOUNT+ ALT",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vh0otvgsty/out/v1/bd515f9d353d436c8d9f7fad1a036eae/cenc.mpd",
-          "quality": "HD",
-          "headers": {},
-          "drm": {
-            "type": "clearkey",
-            "kid": "81e0ae17a7166c881b38468bee4d210d",
-            "key": "be2dd777d1aa42adc54d090fcf886b29"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_atletico_madrid_vs_fc_bayern_munchen_tnt_sports",
-      "name": "[Live] Atlético Madrid Vs FC Bayern München - TNT SPORTS",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://chatgpt.hereisman.net/playlist/59201/load-playlist-multi?&.m3u8",
-          "quality": "HD",
-          "headers": {
-            "Referer": "https://gooz.aapmains.net"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_atletico_madrid_vs_fc_bayern_munchen_fox_soccer",
-      "name": "[Live] Atlético Madrid Vs FC Bayern München - FOX SOCCER +",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://chatgpt.hereisman.net/playlist/59198/load-playlist-multi?.m3u8",
-          "quality": "HD",
-          "headers": {
-            "Referer": "https://gooz.aapmains.net"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_atletico_madrid_vs_fc_bayern_munchen_faster_tv",
-      "name": "[Live] Atlético Madrid Vs FC Bayern München - FASTER TV",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://tg0o4gr4uqmtt8y41hcjzgezdrmmbqbh8c3toq73u1cjqxfozr5udctzy.100ycdn.com/apxvf0ws91.yarncdn.live/live/sd-6Mxj4xWgB8F2RrTR7e/playlist.m3u8?wsSession=f463896762b990c184c91002-179373646883592&wsIPSercert=95393e5936bc899fb6501629a824abeb&wsBindIP=2&wsserid=1168309208178241479",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_atletico_madrid_vs_fc_bayern_munchen_quality_4",
-      "name": "[Live] Atlético Madrid Vs FC Bayern München - QUALITY 4",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://www.rtmpcdn.com/live/6f994f4f-c7e6-4f88-9419-e5aeab8d3586.m3u8",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_atletico_madrid_vs_fc_bayern_munchen_low_quality_use_vpn",
-      "name": "[Live] Atlético Madrid Vs FC Bayern München - LOW QUALITY (USE VPN)",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "http://193.47.62.50/hls/HCCC.m3u8",
-          "quality": "HD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36",
-            "Referer": "https://nadia01eo.tn76degree12ec3out.cfd"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_atletico_madrid_vs_fc_bayern_munchen_sonyliv_asia",
-      "name": "[Live] Atlético Madrid Vs FC Bayern München - SonyLiv (Asia)",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120302/footlive0311/ENG/std_lrh-800300010.m3u8",
-          "quality": "HD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
-            "Referer": "https://www.sonyliv.com/"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_villarreal_vs_paris_saint_germain_paramount",
-      "name": "[Live] Villarreal Vs Paris Saint-Germain - PARAMOUNT+",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0nsrdwyz6d/out/v1/1fb3f803330c4d56b7067eb32a2d7b5b/cenc.mpd",
-          "quality": "FHD",
-          "headers": {},
-          "drm": {
-            "type": "clearkey",
-            "kid": "c42433b27c13a1ad99d32d2c027eeb59",
-            "key": "2dad308a6387c9d4fc9b881d01b509d1"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_villarreal_vs_paris_saint_germain_tnt4uk_sports",
-      "name": "[Live] Villarreal Vs Paris Saint-Germain - TNT4UK SPORTS",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd",
-          "quality": "FHD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-          },
-          "drm": {
-            "type": "clearkey",
-            "kid": "fa34fa8c90336dd528c7a23871cad1fe",
-            "key": "552a78d1aeb74f1650d68255c5749408"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_villarreal_vs_paris_saint_germain_dazn_de",
-      "name": "[Live] Villarreal Vs Paris Saint-Germain - DAZN DE",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/db1e5w2dci/out/v1/3664a5f5c459440cb8becc5f4494277b/cenc.mpd",
-          "quality": "FHD",
-          "headers": {},
-          "drm": {
-            "type": "clearkey",
-            "kid": "6dcdc041688dd8c939209051ddc16ad7",
-            "key": "07f42a6ce5def87eaa37b2cf01263d9d"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_villarreal_vs_paris_saint_germain_bein_arabic",
-      "name": "[Live] Villarreal Vs Paris Saint-Germain - beIN ARABIC",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://2sisi.s3.us-east-2.amazonaws.com/bein1/720p/manifest.m3u8",
-          "quality": "FHD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_villarreal_vs_paris_saint_germain_tnt_sports",
-      "name": "[Live] Villarreal Vs Paris Saint-Germain - TNT SPORTS",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://chatgpt.hereisman.net/playlist/59200/load-playlist?&.m3u8",
-          "quality": "HD",
-          "headers": {
-            "Referer": "https://gooz.aapmains.net"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_villarreal_vs_paris_saint_germain_quality_4",
-      "name": "[Live] Villarreal Vs Paris Saint-Germain - QUALITY 4",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://www.rtmpcdn.com/live/30ca7e7b-ad32-4a90-aa2e-fd389c580555.m3u8",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_villarreal_vs_paris_saint_germain_faster_tv",
-      "name": "[Live] Villarreal Vs Paris Saint-Germain - FASTER TV",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://tg0o4gr4uqmtt8y41hcjzgezdrmmbqbh8c3toq73u1cjqxfozr5udctzy.100ycdn.com/apxvf0ws91.yarncdn.live/live/sd-6Mxj4xYAKY3ZEvFyyJ/playlist.m3u8?wsSession=8fe805974b1895289911c75d-179373652619860&wsIPSercert=95393e5936bc899fb6501629a824abeb&wsBindIP=2&wsserid=1168309217956179940",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_villarreal_vs_paris_saint_germain_low_quality_use_vpn",
-      "name": "[Live] Villarreal Vs Paris Saint-Germain - LOW QUALITY (USE VPN)",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "http://193.47.62.59/hls/HCCCaaaaa.m3u8",
-          "quality": "HD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36",
-            "Referer": "https://nadia01eo.tn76degree12ec3out.cfd"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_villarreal_vs_paris_saint_germain_sonyliv_asia",
-      "name": "[Live] Villarreal Vs Paris Saint-Germain - SonyLiv (Asia)",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2094589/footlive0311/ENG/std_lrh-800300010.m3u8",
-          "quality": "HD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
-            "Referer": "https://www.sonyliv.com/"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_bodøglimt_vs_lille_paramount",
-      "name": "[Live] Bodø/Glimt Vs Lille - PARAMOUNT+",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vup2gkotxm/out/v1/35a4a5af02a048968c2b300ddd4677a2/cenc.mpd",
-          "quality": "FHD",
-          "headers": {},
-          "drm": {
-            "type": "clearkey",
-            "kid": "f9c393a27d7eab26828310d5116228b4",
-            "key": "54242b217e2cb116436f2a8f72b9ba6b"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_bodøglimt_vs_lille_sonyliv_prime",
-      "name": "[Live] Bodø/Glimt Vs Lille - SonyLiv PRIME",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/jl3tltjw9p/out/v1/16fb5ea7267e4d6b9b48b22aedeac0a5/cenc.mpd",
-          "quality": "FHD",
-          "headers": {},
-          "drm": {
-            "type": "clearkey",
-            "kid": "8d7dc1cf69c9ab1e7dc09227b1db0725",
-            "key": "9020db32fc968a40a1145f6bdc9b068b"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_bodøglimt_vs_lille_vix_espanol",
-      "name": "[Live] Bodø/Glimt Vs Lille - VIX Español",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/hknyjwcuzu/out/v1/aef31af53940433bb1b5a1d1eaa6ed5d/cenc.mpd",
-          "quality": "FHD",
-          "headers": {},
-          "drm": {
-            "type": "clearkey",
-            "kid": "1ba1ee8262e770b7d92759485de83fa6",
-            "key": "eb42d4be46e10ae5e1c529efc451e3f5"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_bodøglimt_vs_lille_dazn_de",
-      "name": "[Live] Bodø/Glimt Vs Lille - DAZN DE",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b722xitfbt/out/v1/64cda6be047340fc8eab0cfbd350848f/cenc.mpd",
-          "quality": "FHD",
-          "headers": {},
-          "drm": {
-            "type": "clearkey",
-            "kid": "4ab1edbb78f4867a4e68821974ddc07f",
-            "key": "c581c41a8e61fd0bc9ec0d4c23cfea86"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_bodøglimt_vs_lille_faster_tv",
-      "name": "[Live] Bodø/Glimt Vs Lille - FASTER TV",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://tg0o4gr4uqmtt8y41hcjzgezdrmmbqbh8c3toq73u1cjqxfozr5udctzy.100ycdn.com/apxvf0ws91.yarncdn.live/live/sd-6Mxj4xXSLnbRikEmtk/playlist.m3u8?wsSession=8593d34b0f94a7e5a8b40163-179373621559020&wsIPSercert=27193c39466c192adab3ffd55fdf81ea&wsBindIP=2&wsserid=1168309208181387267",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_bodøglimt_vs_lille_quality_4",
-      "name": "[Live] Bodø/Glimt Vs Lille - QUALITY 4",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://www.rtmpcdn.com/live/180b7261-1b17-4bbe-a3ee-0bca3d142e7f.m3u8",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_bodøglimt_vs_lille_low_quality_use_vpn",
-      "name": "[Live] Bodø/Glimt Vs Lille - LOW QUALITY (USE VPN)",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "http://193.47.62.44/hls/HCCCaa.m3u8",
-          "quality": "HD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36",
-            "Referer": "https://nadia01eo.tn76degree12ec3out.cfd"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_bodøglimt_vs_lille_sonyliv_asia",
-      "name": "[Live] Bodø/Glimt Vs Lille - SonyLiv (Asia)",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2018457/footlive0311/ENG/std_lrh-800300010.m3u8",
-          "quality": "HD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
-            "Referer": "https://www.sonyliv.com/"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_lask_vs_sk_slovan_bratislava_paramount",
-      "name": "[Live] LASK Vs ŠK Slovan Bratislava - PARAMOUNT+",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ej3seddljs/out/v1/273718f161c34b44bc7e125ce3fa6173/cenc.mpd",
-          "quality": "FHD",
-          "headers": {},
-          "drm": {
-            "type": "clearkey",
-            "kid": "0f9a8647387c8ced25cb81e31daa8465",
-            "key": "138042cf1b65ee0021b4bb86a8eb4272"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_lask_vs_sk_slovan_bratislava_vix_espanol",
-      "name": "[Live] LASK Vs ŠK Slovan Bratislava - VIX Español",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/mustdnrpeu/out/v1/c36180058f2a49a9ac8e96607922aa95/cenc.mpd",
-          "quality": "FHD",
-          "headers": {},
-          "drm": {
-            "type": "clearkey",
-            "kid": "451fbdc63a11c0819e6d36c54fe95261",
-            "key": "5125bacd14af0cbb86d23615a3d94e81"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_lask_vs_sk_slovan_bratislava_dazn_de",
-      "name": "[Live] LASK Vs ŠK Slovan Bratislava - DAZN DE",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ifwb7xeivb/out/v1/0ef0d09b99094ee9bcf8619782c7535b/cenc.mpd",
-          "quality": "FHD",
-          "headers": {},
-          "drm": {
-            "type": "clearkey",
-            "kid": "05247b8d82d43428e0d5e1fa9993435a",
-            "key": "0ac0b44e21d83314c934490e522b6379"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_lask_vs_sk_slovan_bratislava_faster_tv",
-      "name": "[Live] LASK Vs ŠK Slovan Bratislava - FASTER TV",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://tg0o4gr4uqmtt8y41hcjzgezdrmmbqbh8c3toq73u1cjqxfozr5udctzy.100ycdn.com/apxvf0ws91.yarncdn.live/live/sd-6Mxj4xXRfnuy958m4C/playlist.m3u8?wsSession=8fe805974b1895289911c75d-179373658428740&wsIPSercert=95393e5936bc899fb6501629a824abeb&wsBindIP=2&wsserid=1168309217956179940",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_lask_vs_sk_slovan_bratislava_quality4",
-      "name": "[Live] LASK Vs ŠK Slovan Bratislava - QUALITY4",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://www.rtmpcdn.com/live/c6e9b636-8423-4be7-8604-4692859ede68.m3u8",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_lask_vs_sk_slovan_bratislava_low_quality_use_vpn",
-      "name": "[Live] LASK Vs ŠK Slovan Bratislava - LOW QUALITY (USE VPN)",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "http://193.47.62.41/hls/eoooA.m3u8",
-          "quality": "HD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36",
-            "Referer": "https://nadia01eo.tn76degree12ec3out.cfd"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_lask_vs_sk_slovan_bratislava_sonyliv_asia",
-      "name": "[Live] LASK Vs ŠK Slovan Bratislava - SonyLiv (Asia)",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2094587/footlive0311/ENG/std_lrh-800300010.m3u8",
-          "quality": "HD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
-            "Referer": "https://www.sonyliv.com/"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_feyenoord_vs_inter_paramount",
-      "name": "[Live] Feyenoord Vs Inter - PARAMOUNT+",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/odyam8seie/out/v1/a5f86f8dc35746c9a5d1b0128bb8196c/cenc.mpd",
-          "quality": "FHD",
-          "headers": {},
-          "drm": {
-            "type": "clearkey",
-            "kid": "fc651bf819bdc1df6aa7c249f1acfe66",
-            "key": "06229427fb5ea8c1fcf8c8f878b2fc23"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_feyenoord_vs_inter_vix_espanol",
-      "name": "[Live] Feyenoord Vs Inter - VIX Español",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/yzurcf456k/out/v1/4df741b740c1401a93dd7f933bdde012/cenc.mpd",
-          "quality": "FHD",
-          "headers": {},
-          "drm": {
-            "type": "clearkey",
-            "kid": "c3c680a53aab9eec4b43db218a3713a6",
-            "key": "1adcde85460fd0b23f1510ca56e1e58b"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_feyenoord_vs_inter_sonyliv_prime",
-      "name": "[Live] Feyenoord Vs Inter - SonyLiv PRIME",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/zfm6q50wyx/out/v1/e80bb4a13dc24a8f985079c2cfa1e692/cenc.mpd",
-          "quality": "FHD",
-          "headers": {},
-          "drm": {
-            "type": "clearkey",
-            "kid": "768f15cdba33cfdf9aebb4f8225535e8",
-            "key": "e17aad86724a7d43c8484da55ab0d90b"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_feyenoord_vs_inter_dazn_de",
-      "name": "[Live] Feyenoord Vs Inter - DAZN DE",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/td2vcx9ney/out/v1/7ce09a13e61a4e008492bb0545ba65fa/cenc.mpd",
-          "quality": "FHD",
-          "headers": {},
-          "drm": {
-            "type": "clearkey",
-            "kid": "8b199d76b52fbb59394d3e1f21f19b49",
-            "key": "e5bde1d899ea6c48116aa39f3e50829d"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_feyenoord_vs_inter_cbs_network",
-      "name": "[Live] Feyenoord Vs Inter - CBS NETWORK",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
-          "quality": "FHD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-          },
-          "drm": {
-            "type": "clearkey",
-            "kid": "d9623774ac5c8c351aafe97c5fe70267",
-            "key": "5164e6d05164a2d65fa8fcc962aa4861"
-          },
-          "sort_order": 1
-        },
-        {
-          "name": "Server 2 (HD)",
-          "stream_url": "https://chatgpt.hereisman.net/playlist/59199/load-playlist?&.m3u8",
-          "quality": "HD",
-          "headers": {
-            "Referer": "https://gooz.aapmains.net"
-          },
-          "drm": null,
-          "sort_order": 2
-        }
-      ]
-    },
-    {
-      "id": "live_feyenoord_vs_inter_quality_4",
-      "name": "[Live] Feyenoord Vs Inter - QUALITY 4",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://www.rtmpcdn.com/live/8d209c44-e785-43a1-9aa5-0d5ae8529918.m3u8",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_feyenoord_vs_inter_low_quality_use_vpn",
-      "name": "[Live] Feyenoord Vs Inter - LOW QUALITY (USE VPN)",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "http://193.47.62.59/hls/HCCCaaa.m3u8",
-          "quality": "HD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36",
-            "Referer": "https://nadia01eo.tn76degree12ec3out.cfd"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_feyenoord_vs_inter_sonyliv_asia",
-      "name": "[Live] Feyenoord Vs Inter - SonyLiv (Asia)",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2094588/footlive0311/ENG/std_lrh-800300010.m3u8",
-          "quality": "HD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0",
-            "Referer": "https://www.sonyliv.com/"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
       "id": "live_monday_night_raw_vs_monday_night_raw_quality",
       "name": "[Live] Monday Night RAW Vs Monday Night RAW - QUALITY",
       "category": "live_sports",
@@ -9071,109 +7682,6 @@
       ]
     },
     {
-      "id": "live_ufc_evento_vs_ufc_evento_link_1",
-      "name": "[Live] UFC EVENTO Vs UFC EVENTO - Link 1",
-      "category": "live_sports",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSojAXpDVYQ8eDCnzLF24wvEhrmjMu3xBp9gTvk86MnsQ&s=10",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/s8whotxtvx/out/v1/2edfd49aaf71440e86eb73d7df83c980/cenc.mpd",
-          "quality": "HD",
-          "headers": {},
-          "drm": {
-            "type": "clearkey",
-            "kid": "4339adc036fc1a1270d41aa1bef4b16a",
-            "key": "640ce635e7ca20a820c51717d85db278"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_chapecoense_vs_mirassol_premiere2_br",
-      "name": "[Live] Chapecoense Vs Mirassol - PREMIERE2 BR",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/325/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/oy6rp0jwmf/out/v1/580ecf12bad24979baf8dd993dce053e/cenc.mpd",
-          "quality": "FHD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-          },
-          "drm": {
-            "type": "clearkey",
-            "kid": "9dc40460c93087aea84d6315f08ecb64",
-            "key": "f69c8d4624fddff4ca89bd0b31bdc4a7"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_nacional_asuncion_vs_sportivo_san_lorenzo_stream_tv",
-      "name": "[Live] Nacional Asunción Vs Sportivo San Lorenzo - STREAM TV +",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/11541/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "http://193.47.62.41/hls/QEEE.m3u8",
-          "quality": "HD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36",
-            "Referer": "https://nadia01eo.tn76degree12ec3out.cfd"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_nacional_asuncion_vs_sportivo_san_lorenzo_low_quality_use_vpn",
-      "name": "[Live] Nacional Asunción Vs Sportivo San Lorenzo - LOW QUALITY (USE VPN)",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/11541/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "http://193.47.62.41/hls/7UUUAAAAQQA.m3u8",
-          "quality": "HD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36",
-            "Referer": "https://nadia01eo.tn76degree12ec3out.cfd"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_tennessee_volunteers_vs_wofford_terriers_stream_tv",
-      "name": "[Live] Tennessee Volunteers Vs Wofford Terriers - STREAM TV +",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/33651/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://chatgpt.hereisman.net/playlist/59203/load-playlist?&.m3u8",
-          "quality": "HD",
-          "headers": {
-            "Referer": "https://gooz.aapmains.net"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
       "id": "live_wwe_nxt_vs_wwe_nxt_wwe_tv4",
       "name": "[Live] WWE NXT Vs WWE NXT - WWE TV4 +",
       "category": "live_sports",
@@ -9246,61 +7754,32 @@
       ]
     },
     {
-      "id": "live_akron_zips_vs_ohio_bobcats_tsn1_sports",
-      "name": "[Live] Akron Zips Vs Ohio Bobcats - TSN1 SPORTS",
+      "id": "live_aek_athens_u19_vs_real_madrid_u19_stream_tv",
+      "name": "[Live] AEK Athens U19 Vs Real Madrid U19 - STREAM TV +",
       "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/32199/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
-          "quality": "FHD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-          },
-          "drm": {
-            "type": "clearkey",
-            "kid": "14eeabf30c14b7fbf3008c03099ce011",
-            "key": "17d2ac8dbc5429bd70af3433aa12158d"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_akron_zips_vs_ohio_bobcats_tsn5_sports",
-      "name": "[Live] Akron Zips Vs Ohio Bobcats - TSN5 SPORTS",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/32199/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd",
-          "quality": "FHD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-          },
-          "drm": {
-            "type": "clearkey",
-            "kid": "385ceb9714b75e0cef61254f80b31002",
-            "key": "18dce92a2891fee68d21ede5173230f8"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_akron_zips_vs_ohio_bobcats_low_quality_use_vpn",
-      "name": "[Live] Akron Zips Vs Ohio Bobcats - LOW QUALITY (USE VPN)",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/32199/image/dark",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/2132/image/dark",
       "quality": "HD",
       "servers": [
         {
           "name": "Server 1 (HD)",
-          "stream_url": "http://193.47.62.50/hls/qaqaqaQQQ.m3u8",
+          "stream_url": "https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8",
+          "quality": "HD",
+          "headers": {},
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_aek_athens_u19_vs_real_madrid_u19_low_quality_use_vpn",
+      "name": "[Live] AEK Athens U19 Vs Real Madrid U19 - LOW QUALITY (USE VPN)",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/2132/image/dark",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "http://193.47.62.55/hls/rrrrA.m3u8",
           "quality": "HD",
           "headers": {
             "User-Agent": "Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36",
@@ -9312,53 +7791,15 @@
       ]
     },
     {
-      "id": "live_akron_zips_vs_ohio_bobcats_cfp_rankings_show",
-      "name": "[Live] Akron Zips Vs Ohio Bobcats - CFP Rankings Show",
+      "id": "live_pohang_steelers_vs_gamba_osaka_stream_tv",
+      "name": "[Live] Pohang Steelers Vs Gamba Osaka - STREAM TV +",
       "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/32199/image/dark",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/463/image/dark",
       "quality": "HD",
       "servers": [
         {
           "name": "Server 1 (HD)",
-          "stream_url": "https://chatgpt.hereisman.net/playlist/59232/load-playlist?&.m3u8",
-          "quality": "HD",
-          "headers": {
-            "Referer": "https://gooz.aapmains.net"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_philadelphia_flyers_vs_minnesota_wild_stream_tv",
-      "name": "[Live] Philadelphia Flyers Vs Minnesota Wild - STREAM TV +",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/234/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://chatgpt.hereisman.net/playlist/59212/load-playlist?&.m3u8",
-          "quality": "HD",
-          "headers": {
-            "Referer": "https://gooz.aapmains.net"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_philadelphia_flyers_vs_minnesota_wild_sportscast",
-      "name": "[Live] Philadelphia Flyers Vs Minnesota Wild - SPORTSCAST",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/234/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/764d520e-299f-4983-8c18-9276df7fd9e5/master.m3u8",
+          "stream_url": "https://www.rtmpcdn.com/live/d8f6046d-be6f-4d41-9b31-1c18826ffde1.m3u8",
           "quality": "HD",
           "headers": {},
           "drm": null,
@@ -9367,549 +7808,15 @@
       ]
     },
     {
-      "id": "live_new_york_rangers_vs_st_louis_blues_premiere2_sports",
-      "name": "[Live] New York Rangers Vs St. Louis Blues - PREMIERE2 SPORTS",
+      "id": "live_pohang_steelers_vs_gamba_osaka_low_quality_use_vpn",
+      "name": "[Live] Pohang Steelers Vs Gamba Osaka - LOW QUALITY (USE VPN)",
       "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/234/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd",
-          "quality": "FHD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-          },
-          "drm": {
-            "type": "clearkey",
-            "kid": "1a5df53609ebc9857898c490f4724918",
-            "key": "77f62980d582ec541280796acf8b2d19"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_new_york_rangers_vs_st_louis_blues_quality",
-      "name": "[Live] New York Rangers Vs St. Louis Blues - QUALITY",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/234/image/dark",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/463/image/dark",
       "quality": "HD",
       "servers": [
         {
           "name": "Server 1 (HD)",
-          "stream_url": "https://chatgpt.hereisman.net/playlist/59206/load-playlist?&.m3u8",
-          "quality": "HD",
-          "headers": {
-            "Referer": "https://gooz.aapmains.net"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_new_york_rangers_vs_st_louis_blues_sportscast",
-      "name": "[Live] New York Rangers Vs St. Louis Blues - SPORTSCAST",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/234/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/66e84992-d9a5-44d1-9087-fae837e59992/master.m3u8",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_new_york_rangers_vs_st_louis_blues_stream_tv",
-      "name": "[Live] New York Rangers Vs St. Louis Blues - STREAM TV +",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/234/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://chatgpt.hereisman.net/playlist/59206/load-playlist?&.m3u8",
-          "quality": "HD",
-          "headers": {
-            "Referer": "https://gooz.aapmains.net"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_columbus_blue_jackets_vs_colorado_avalanche_stream_tv",
-      "name": "[Live] Columbus Blue Jackets Vs Colorado Avalanche - STREAM TV +",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/234/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://chatgpt.hereisman.net/playlist/59214/load-playlist?&.m3u8",
-          "quality": "HD",
-          "headers": {
-            "Referer": "https://gooz.aapmains.net"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_columbus_blue_jackets_vs_colorado_avalanche_sportscast",
-      "name": "[Live] Columbus Blue Jackets Vs Colorado Avalanche - SPORTSCAST",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/234/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/151f9017-d83d-4a44-a7b0-1ba9532ae4d3/master.m3u8",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_pittsburgh_penguins_vs_vegas_golden_knights_stream_tv",
-      "name": "[Live] Pittsburgh Penguins Vs Vegas Golden Knights - STREAM TV +",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/234/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://chatgpt.hereisman.net/playlist/59216/load-playlist?&.m3u8",
-          "quality": "HD",
-          "headers": {
-            "Referer": "https://gooz.aapmains.net"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_pittsburgh_penguins_vs_vegas_golden_knights_sportscast",
-      "name": "[Live] Pittsburgh Penguins Vs Vegas Golden Knights - SPORTSCAST",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/234/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/ce68b395-48a2-42ce-b4ee-8b33cc6d6306/master.m3u8",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_tampa_bay_lightning_vs_detroit_red_wings_stream_tv",
-      "name": "[Live] Tampa Bay Lightning Vs Detroit Red Wings - STREAM TV +",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/234/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://chatgpt.hereisman.net/playlist/59213/load-playlist?&.m3u8",
-          "quality": "HD",
-          "headers": {
-            "Referer": "https://gooz.aapmains.net"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_tampa_bay_lightning_vs_detroit_red_wings_sportscast",
-      "name": "[Live] Tampa Bay Lightning Vs Detroit Red Wings - SPORTSCAST",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/234/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/a57d3f53-60dc-4172-aba5-7bc27e9b901b/master.m3u8",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_montreal_canadiens_vs_winnipeg_jets_tsn2_sports",
-      "name": "[Live] Montréal Canadiens Vs Winnipeg Jets - TSN2 SPORTS",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/234/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cjglydxghe/out/v1/8977baf175da4b94873194613dd3fe55/cenc.mpd",
-          "quality": "FHD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-          },
-          "drm": {
-            "type": "clearkey",
-            "kid": "85b277daf5aae05833fe43a68f587968",
-            "key": "d52d7e9bc0bcd98787efd547ac91eca0"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_montreal_canadiens_vs_winnipeg_jets_tsn4_sports",
-      "name": "[Live] Montréal Canadiens Vs Winnipeg Jets - TSN4 SPORTS",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/234/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
-          "quality": "FHD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-          },
-          "drm": {
-            "type": "clearkey",
-            "kid": "abc5b2883121012850ebda05b528c5ec",
-            "key": "e5250924f4b738905f7163a0134587a7"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_montreal_canadiens_vs_winnipeg_jets_stream_tv",
-      "name": "[Live] Montréal Canadiens Vs Winnipeg Jets - STREAM TV +",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/234/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://chatgpt.hereisman.net/playlist/59211/load-playlist?&.m3u8",
-          "quality": "HD",
-          "headers": {
-            "Referer": "https://gooz.aapmains.net"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_montreal_canadiens_vs_winnipeg_jets_sportscast",
-      "name": "[Live] Montréal Canadiens Vs Winnipeg Jets - SPORTSCAST",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/234/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/77f48240-887f-4718-b965-751daf9e5280/master.m3u8",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_toronto_maple_leafs_vs_utah_mammoth_tsn4_sports",
-      "name": "[Live] Toronto Maple Leafs Vs Utah Mammoth - TSN4 SPORTS",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/234/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
-          "quality": "FHD",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-          },
-          "drm": {
-            "type": "clearkey",
-            "kid": "abc5b2883121012850ebda05b528c5ec",
-            "key": "e5250924f4b738905f7163a0134587a7"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_toronto_maple_leafs_vs_utah_mammoth_stream_tv",
-      "name": "[Live] Toronto Maple Leafs Vs Utah Mammoth - STREAM TV +",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/234/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://chatgpt.hereisman.net/playlist/59207/load-playlist?&.m3u8",
-          "quality": "HD",
-          "headers": {
-            "Referer": "https://gooz.aapmains.net"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_toronto_maple_leafs_vs_utah_mammoth_sportscast",
-      "name": "[Live] Toronto Maple Leafs Vs Utah Mammoth - SPORTSCAST",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/234/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/1294e904-6b61-4ed9-9203-730e3dcbfd6c/master.m3u8",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_washington_capitals_vs_dallas_stars_stream_tv",
-      "name": "[Live] Washington Capitals Vs Dallas Stars - STREAM TV +",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/234/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://chatgpt.hereisman.net/playlist/59209/load-playlist?&.m3u8",
-          "quality": "HD",
-          "headers": {
-            "Referer": "https://gooz.aapmains.net"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_washington_capitals_vs_dallas_stars_sportscast",
-      "name": "[Live] Washington Capitals Vs Dallas Stars - SPORTSCAST",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/234/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/0598daf8-4455-4ab0-833a-5379d0f15281/master.m3u8",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_south_carolina_gamecocks_vs_stetson_hatters_stream_tv",
-      "name": "[Live] South Carolina Gamecocks Vs Stetson Hatters - STREAM TV +",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/33651/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://chatgpt.hereisman.net/playlist/59205/load-playlist?&.m3u8",
-          "quality": "HD",
-          "headers": {
-            "Referer": "https://gooz.aapmains.net"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_boston_college_eagles_vs_wagner_seahawks_stream_tv",
-      "name": "[Live] Boston College Eagles Vs Wagner Seahawks - STREAM TV +",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/33651/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://chatgpt.hereisman.net/playlist/59208/load-playlist?&.m3u8",
-          "quality": "HD",
-          "headers": {
-            "Referer": "https://gooz.aapmains.net"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_duquesne_dukes_vs_purdue_fort_wayne_mastodons_stream_tv",
-      "name": "[Live] Duquesne Dukes Vs Purdue Fort Wayne Mastodons - STREAM TV +",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/33651/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://chatgpt.hereisman.net/playlist/59224/load-playlist?&.m3u8",
-          "quality": "HD",
-          "headers": {
-            "Referer": "https://gooz.aapmains.net"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_virginia_tech_hokies_vs_coppin_state_eagles_stream_tv",
-      "name": "[Live] Virginia Tech Hokies Vs Coppin State Eagles - STREAM TV +",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/33651/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://chatgpt.hereisman.net/playlist/59225/load-playlist?&.m3u8",
-          "quality": "HD",
-          "headers": {
-            "Referer": "https://gooz.aapmains.net"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_internacional_vs_coritiba_premierer1",
-      "name": "[Live] Internacional Vs Coritiba - PREMIERER1",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/325/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
-          "quality": "FHD",
-          "headers": {},
-          "drm": {
-            "type": "clearkey",
-            "kid": "56b79c1782b30e6b6fc973b0e8fd4104",
-            "key": "fa38aaa865a57eda7c77444697ba8ed3"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_new_jersey_devils_vs_edmonton_oilers_stream_tv",
-      "name": "[Live] New Jersey Devils Vs Edmonton Oilers - STREAM TV +",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/234/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://chatgpt.hereisman.net/playlist//load-playlist?&.m3u8",
-          "quality": "HD",
-          "headers": {
-            "Referer": "https://gooz.aapmains.net"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_new_jersey_devils_vs_edmonton_oilers_sportscast",
-      "name": "[Live] New Jersey Devils Vs Edmonton Oilers - SPORTSCAST",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/234/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/709f3019-2998-445d-80dc-abe57af97387/master.m3u8",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_virginia_cavaliers_vs_drexel_dragons_stream_tv",
-      "name": "[Live] Virginia Cavaliers Vs Drexel Dragons - STREAM TV +",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/33651/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://chatgpt.hereisman.net/playlist/59220/load-playlist?&.m3u8",
-          "quality": "HD",
-          "headers": {
-            "Referer": "https://gooz.aapmains.net"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_miami_oh_red_hawks_vs_buffalo_bulls_stream_tv",
-      "name": "[Live] Miami (Oh) Red Hawks Vs Buffalo Bulls - STREAM TV +",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/32199/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://chatgpt.hereisman.net/playlist/59228/load-playlist?&.m3u8",
-          "quality": "HD",
-          "headers": {
-            "Referer": "https://gooz.aapmains.net"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_miami_oh_red_hawks_vs_buffalo_bulls_low_quality_use_vpn",
-      "name": "[Live] Miami (Oh) Red Hawks Vs Buffalo Bulls - LOW QUALITY (USE VPN)",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/32199/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "http://193.47.62.50/hls/qaqaqaQQQQ.m3u8",
+          "stream_url": "http://193.47.62.55/hls/rrrrAAA.m3u8",
           "quality": "HD",
           "headers": {
             "User-Agent": "Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36",
@@ -9921,53 +7828,15 @@
       ]
     },
     {
-      "id": "live_miami_oh_red_hawks_vs_buffalo_bulls_cfp_rankings_show",
-      "name": "[Live] Miami (Oh) Red Hawks Vs Buffalo Bulls - CFP Rankings Show",
+      "id": "live_fc_seoul_vs_the_cong_viettel_stream_tv",
+      "name": "[Live] FC Seoul Vs Thể Công - Viettel - STREAM TV +",
       "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/32199/image/dark",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/668/image/dark",
       "quality": "HD",
       "servers": [
         {
           "name": "Server 1 (HD)",
-          "stream_url": "https://chatgpt.hereisman.net/playlist/59232/load-playlist?&.m3u8",
-          "quality": "HD",
-          "headers": {
-            "Referer": "https://gooz.aapmains.net"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_nashville_predators_vs_carolina_hurricanes_stream_tv",
-      "name": "[Live] Nashville Predators Vs Carolina Hurricanes - STREAM TV +",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/234/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://chatgpt.hereisman.net/playlist//load-playlist?&.m3u8",
-          "quality": "HD",
-          "headers": {
-            "Referer": "https://gooz.aapmains.net"
-          },
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_nashville_predators_vs_carolina_hurricanes_sportscast",
-      "name": "[Live] Nashville Predators Vs Carolina Hurricanes - SPORTSCAST",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/234/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/70475a7f-f002-464e-bd9d-4783f0697470/master.m3u8",
+          "stream_url": "https://www.rtmpcdn.com/live/73cfe26f-4a4e-4fb3-8621-4e0d89941298.m3u8",
           "quality": "HD",
           "headers": {},
           "drm": null,
@@ -9976,18 +7845,19 @@
       ]
     },
     {
-      "id": "live_missouri_tigers_vs_cleveland_state_vikings_stream_tv",
-      "name": "[Live] Missouri Tigers Vs Cleveland State Vikings - STREAM TV +",
+      "id": "live_fc_seoul_vs_the_cong_viettel_low_quality_use_vpn",
+      "name": "[Live] FC Seoul Vs Thể Công - Viettel - LOW QUALITY (USE VPN)",
       "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/33651/image/dark",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/668/image/dark",
       "quality": "HD",
       "servers": [
         {
           "name": "Server 1 (HD)",
-          "stream_url": "https://chatgpt.hereisman.net/playlist/59231/load-playlist?&.m3u8",
+          "stream_url": "http://193.47.62.55/hls/rrrrAA.m3u8",
           "quality": "HD",
           "headers": {
-            "Referer": "https://gooz.aapmains.net"
+            "User-Agent": "Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36",
+            "Referer": "https://nadia01eo.tn76degree12ec3out.cfd"
           },
           "drm": null,
           "sort_order": 1
@@ -9995,18 +7865,19 @@
       ]
     },
     {
-      "id": "live_iowa_hawkeyes_vs_lipscomb_bisons_stream_tv",
-      "name": "[Live] Iowa Hawkeyes Vs Lipscomb Bisons - STREAM TV +",
+      "id": "live_fenerbahce_u19_vs_liverpool_u19_stream_tv",
+      "name": "[Live] Fenerbahçe U19 Vs Liverpool U19 - STREAM TV +",
       "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/33651/image/dark",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/2132/image/dark",
       "quality": "HD",
       "servers": [
         {
           "name": "Server 1 (HD)",
-          "stream_url": "https://chatgpt.hereisman.net/playlist/59229/load-playlist?&.m3u8",
+          "stream_url": "http://193.47.62.59/hls/ETTT.m3u8",
           "quality": "HD",
           "headers": {
-            "Referer": "https://gooz.aapmains.net"
+            "User-Agent": "Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36",
+            "Referer": "https://nadia01eo.tn76degree12ec3out.cfd"
           },
           "drm": null,
           "sort_order": 1
@@ -10014,18 +7885,19 @@
       ]
     },
     {
-      "id": "live_arkansas_razorbacks_vs_arkansas_pine_bluff_golden_lions_stream_tv",
-      "name": "[Live] Arkansas Razorbacks Vs Arkansas-Pine Bluff Golden Lions - STREAM TV +",
+      "id": "live_fenerbahce_u19_vs_liverpool_u19_low_quality_use_vpn",
+      "name": "[Live] Fenerbahçe U19 Vs Liverpool U19 - LOW QUALITY (USE VPN)",
       "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/33651/image/dark",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/2132/image/dark",
       "quality": "HD",
       "servers": [
         {
           "name": "Server 1 (HD)",
-          "stream_url": "https://chatgpt.hereisman.net/playlist/59227/load-playlist?&.m3u8",
+          "stream_url": "http://193.47.62.59/hls/ETTT.m3u8",
           "quality": "HD",
           "headers": {
-            "Referer": "https://gooz.aapmains.net"
+            "User-Agent": "Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36",
+            "Referer": "https://nadia01eo.tn76degree12ec3out.cfd"
           },
           "drm": null,
           "sort_order": 1
@@ -10033,18 +7905,19 @@
       ]
     },
     {
-      "id": "live_texas_am_aggies_vs_alabama_state_hornets_stream_tv",
-      "name": "[Live] Texas A&M Aggies Vs Alabama State Hornets - STREAM TV +",
+      "id": "live_fc_porto_u19_vs_napoli_u19_stream_tv",
+      "name": "[Live] FC Porto U19 Vs Napoli U19 - STREAM TV +",
       "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/33651/image/dark",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/2132/image/dark",
       "quality": "HD",
       "servers": [
         {
           "name": "Server 1 (HD)",
-          "stream_url": "https://chatgpt.hereisman.net/playlist/59230/load-playlist?&.m3u8",
+          "stream_url": "http://193.47.62.44/hls/HHHHAA.m3u8",
           "quality": "HD",
           "headers": {
-            "Referer": "https://gooz.aapmains.net"
+            "User-Agent": "Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36",
+            "Referer": "https://nadia01eo.tn76degree12ec3out.cfd"
           },
           "drm": null,
           "sort_order": 1
@@ -10052,39 +7925,19 @@
       ]
     },
     {
-      "id": "live_vancouver_canucks_vs_anaheim_ducks_premier1_sports",
-      "name": "[Live] Vancouver Canucks Vs Anaheim Ducks - PREMIER1 SPORTS",
+      "id": "live_fc_porto_u19_vs_napoli_u19_low_quality_use_vpn",
+      "name": "[Live] FC Porto U19 Vs Napoli U19 - LOW QUALITY (USE VPN)",
       "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/234/image/dark",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
-          "quality": "FHD",
-          "headers": {},
-          "drm": {
-            "type": "clearkey",
-            "kid": "1444f4235529f183f0a5a486befe9cdb",
-            "key": "e5e3fec67a1bb3472a2089c8a0a2557f"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_vancouver_canucks_vs_anaheim_ducks_stream_tv",
-      "name": "[Live] Vancouver Canucks Vs Anaheim Ducks - STREAM TV +",
-      "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/234/image/dark",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/2132/image/dark",
       "quality": "HD",
       "servers": [
         {
           "name": "Server 1 (HD)",
-          "stream_url": "https://chatgpt.hereisman.net/playlist/59238/load-playlist?&.m3u8",
+          "stream_url": "http://193.47.62.44/hls/HHHHAA.m3u8",
           "quality": "HD",
           "headers": {
-            "Referer": "https://gooz.aapmains.net"
+            "User-Agent": "Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36",
+            "Referer": "https://nadia01eo.tn76degree12ec3out.cfd"
           },
           "drm": null,
           "sort_order": 1
@@ -10092,17 +7945,80 @@
       ]
     },
     {
-      "id": "live_vancouver_canucks_vs_anaheim_ducks_sportscast",
-      "name": "[Live] Vancouver Canucks Vs Anaheim Ducks - SPORTSCAST",
+      "id": "live_lekie_filles_fc_vs_mamelodi_sundowns_stream_tv",
+      "name": "[Live] Lekie Filles FC Vs Mamelodi Sundowns - STREAM TV +",
       "category": "live_sports",
-      "logo": "http://img.sofascore.com/api/v1/unique-tournament/234/image/dark",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/21446/image/dark",
       "quality": "HD",
       "servers": [
         {
           "name": "Server 1 (HD)",
-          "stream_url": "https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/665305a7-d859-400e-b8b8-b459b9be4c39/master.m3u8",
+          "stream_url": "http://193.47.62.44/hls/HHHHAAA.m3u8",
           "quality": "HD",
-          "headers": {},
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36",
+            "Referer": "https://nadia01eo.tn76degree12ec3out.cfd"
+          },
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_lekie_filles_fc_vs_mamelodi_sundowns_low_quality_use_vpn",
+      "name": "[Live] Lekie Filles FC Vs Mamelodi Sundowns - LOW QUALITY (USE VPN)",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/21446/image/dark",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "http://193.47.62.44/hls/HHHHAAA.m3u8",
+          "quality": "HD",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36",
+            "Referer": "https://nadia01eo.tn76degree12ec3out.cfd"
+          },
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_buriram_united_vs_kashima_antlers_stream_tv",
+      "name": "[Live] Buriram United Vs Kashima Antlers - STREAM TV +",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/463/image/dark",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "http://193.47.62.44/hls/HHHHAAQA.m3u8",
+          "quality": "HD",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36",
+            "Referer": "https://nadia01eo.tn76degree12ec3out.cfd"
+          },
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_buriram_united_vs_kashima_antlers_low_quality_use_vpn",
+      "name": "[Live] Buriram United Vs Kashima Antlers - LOW QUALITY (USE VPN)",
+      "category": "live_sports",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/463/image/dark",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "http://193.47.62.44/hls/HHHHAAQA.m3u8",
+          "quality": "HD",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 15; motorola edge 50 fusion Build/V2UUI35.39-21-7-5-1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.7922.199 Mobile Safari/537.36",
+            "Referer": "https://nadia01eo.tn76degree12ec3out.cfd"
+          },
           "drm": null,
           "sort_order": 1
         }
