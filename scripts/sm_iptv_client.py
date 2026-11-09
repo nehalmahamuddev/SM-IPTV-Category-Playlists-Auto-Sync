@@ -15,7 +15,11 @@ class SmIptvClient:
     Automatically handles worker URL discovery, session token rotation,
     channel extraction, sports feed syncing, and M3U playlist generation.
     """
-    BOOTSTRAP_URL = "https://app-main-ap.sm-monirul.xyz/exp/"
+    BOOTSTRAP_URLS = [
+        "https://sm-iptv-sourch.sm-monirul.xyz/exp/",
+        "https://app-main-ap.sm-monirul.xyz/exp/",
+    ]
+    SECURITY_KEY = "SM_MONIRUL_ISLAM_OR_SM_IPTV_2026"
     DEFAULT_USER_AGENT = "okhttp/4.12.0"
 
     def __init__(self, session: Optional[requests.Session] = None):
@@ -25,20 +29,38 @@ class SmIptvClient:
         self.token: Optional[str] = None
         self.token_expires_at: float = 0.0
 
+    @staticmethod
+    def generate_signature(timestamp: str) -> str:
+        """Generates dynamic X-Signature required by SM IPTV v2.0 gateway."""
+        key = SmIptvClient.SECURITY_KEY
+        return "".join(
+            f"{ord(c) ^ ord(key[i % len(key)]):02x}"
+            for i, c in enumerate(timestamp)
+        )
+
     def get_worker_url(self, force_refresh: bool = False) -> str:
         """Discovers the active Cloudflare Worker API gateway."""
         if self.worker_url and not force_refresh:
             return self.worker_url
 
-        resp = self.session.get(self.BOOTSTRAP_URL, timeout=10)
-        resp.raise_for_status()
-        url = resp.json().get("url", "").strip()
-        if not url.startswith("https://"):
-            raise ValueError(f"Invalid worker URL received: {url}")
-        if not url.endswith("/"):
-            url += "/"
-        self.worker_url = url
-        return self.worker_url
+        last_error = None
+        for b_url in self.BOOTSTRAP_URLS:
+            try:
+                resp = self.session.get(b_url, timeout=10)
+                resp.raise_for_status()
+                url = resp.json().get("url", "").strip()
+                if url.startswith("https://"):
+                    if not url.endswith("/"):
+                        url += "/"
+                    self.worker_url = url
+                    return self.worker_url
+            except Exception as e:
+                last_error = e
+                continue
+
+        if last_error:
+            raise last_error
+        raise ValueError("Failed to obtain valid worker URL from bootstrap endpoints.")
 
     def get_token(self, force_refresh: bool = False) -> str:
         """Obtains or refreshes the 30-minute JWT session token."""
@@ -58,13 +80,17 @@ class SmIptvClient:
     def _auth_request(self, method: str, endpoint: str, retry: bool = True) -> requests.Response:
         worker = self.get_worker_url()
         token = self.get_token()
+        ts = str(int(time.time() * 1000))
+        sig = self.generate_signature(ts)
         headers = {
             "Authorization": f"Bearer {token}",
-            "User-Agent": self.DEFAULT_USER_AGENT
+            "User-Agent": self.DEFAULT_USER_AGENT,
+            "X-Timestamp": ts,
+            "X-Signature": sig
         }
         url = f"{worker}{endpoint.lstrip('/')}"
         resp = self.session.request(method, url, headers=headers, timeout=15)
-        if resp.status_code == 401 and retry:
+        if resp.status_code in (401, 403) and retry:
             self.get_token(force_refresh=True)
             return self._auth_request(method, endpoint, retry=False)
         resp.raise_for_status()

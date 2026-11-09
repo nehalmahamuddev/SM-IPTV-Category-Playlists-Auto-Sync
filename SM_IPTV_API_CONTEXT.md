@@ -1,8 +1,8 @@
 # SM IPTV Backend Architecture & Live TV / M3U APIs Context
 
-> **Reconstructed from:** `SM IPTV.apk` (`com.sm.smiptv`)  
-> **Target OS:** Android (Jetpack Compose + Media3 ExoPlayer + Retrofit2)  
-> **Generated Date:** 2026-10-19  
+> **Reconstructed from:** `SM IPTV.apk` (`com.sm.smiptv`) v2.0  
+> **Target OS:** Android (Jetpack Compose + Media3 ExoPlayer + Retrofit2 + libapi-security.so)  
+> **Generated Date:** 2026-11-09  
 > **Status:** Verified with Live API Handshake & Payload Validation  
 
 ---
@@ -16,20 +16,20 @@ The backend uses a **two-tier dynamic gateway architecture** designed to allow z
        |
        | 1. GET /exp/ (Bootstrap Configuration)
        v
-[Config Gateway: https://app-main-ap.sm-monirul.xyz/]
+[Config Gateway: https://sm-iptv-sourch.sm-monirul.xyz/]
        |
-       | Returns active Edge Worker URL
-       | e.g. "https://app-dt-1.sm-monirul-islam-rs.workers.dev/"
+       | Returns active Edge Gateway URL
+       | e.g. "https://app-dt.sm-monirul.xyz/"
        v
-[Cloudflare Edge Worker API Gateway]
+[Edge Worker API Gateway]
        |
        | 2. POST /token (Request Session Token)
        | Returns Bearer JWT (expires_in: 1800s / 30 mins)
        |
-       +----> 3. GET /channels (Authorization: Bearer <token>)
+       +----> 3. GET /channels (Authorization: Bearer <token>, X-Timestamp, X-Signature)
        |      Returns 180+ Live TV Channels grouped by Category
        |
-       +----> 4. GET /sports (Authorization: Bearer <token>)
+       +----> 4. GET /sports (Authorization: Bearer <token>, X-Timestamp, X-Signature)
               Returns Live Sports Matches & multi-feed streams
 ```
 
@@ -40,7 +40,8 @@ The backend uses a **two-tier dynamic gateway architecture** designed to allow z
 ### 2.1 Bootstrap Gateway (Worker URL Discovery)
 
 * **Class in APK:** `com.sm.smiptv.network.ConfigService` (invoked in `v6.j` and `v6.n`)
-* **Endpoint:** `GET https://app-main-ap.sm-monirul.xyz/exp/`
+* **Endpoint (v2.0 Primary):** `GET https://sm-iptv-sourch.sm-monirul.xyz/exp/`
+* **Endpoint (Legacy Fallback):** `GET https://app-main-ap.sm-monirul.xyz/exp/`
 * **Headers:**
   ```http
   User-Agent: okhttp/4.12.0
@@ -48,7 +49,7 @@ The backend uses a **two-tier dynamic gateway architecture** designed to allow z
 * **Response Body (`200 OK`):**
   ```json
   {
-    "url": "https://app-dt-1.sm-monirul-islam-rs.workers.dev/"
+    "url": "https://app-dt.sm-monirul.xyz/"
   }
   ```
 * **Validation Logic in App (`v6.j:c`):**
@@ -62,7 +63,7 @@ The backend uses a **two-tier dynamic gateway architecture** designed to allow z
 
 * **Class in APK:** `com.sm.smiptv.network.AuthService`
 * **Endpoint:** `POST <WORKER_URL>token`
-  *(e.g., `POST https://app-dt-1.sm-monirul-islam-rs.workers.dev/token`)*
+  *(e.g., `POST https://app-dt.sm-monirul.xyz/token`)*
 * **Headers:**
   ```http
   User-Agent: okhttp/4.12.0
@@ -80,6 +81,20 @@ The backend uses a **two-tier dynamic gateway architecture** designed to allow z
   - Client stores `expiresAt = currentTimeSeconds + expiresIn`.
   - App triggers auto-refresh when `currentTimeSeconds >= (expiresAt - 60)` (refresh 1 minute before expiration).
   - On any `401 Unauthorized` or `HttpException`, token cache is invalidated and refreshed.
+
+---
+
+### 2.3 Request Signing (SM IPTV v2.0 `libapi-security.so`)
+
+SM IPTV v2.0 introduces native signature verification for `/channels` and `/sports` endpoints:
+* **Headers Required:**
+  - `X-Timestamp`: Current epoch time in milliseconds (e.g. `1794243581395`)
+  - `X-Signature`: Hex-encoded byte array where each character of `X-Timestamp` is XORed with secret key `SM_MONIRUL_ISLAM_OR_SM_IPTV_2026`:
+    ```python
+    def generate_signature(timestamp: str) -> str:
+        key = "SM_MONIRUL_ISLAM_OR_SM_IPTV_2026"
+        return "".join(f"{ord(c) ^ ord(key[i % len(key)]):02x}" for i, c in enumerate(timestamp))
+    ```
 
 ---
 

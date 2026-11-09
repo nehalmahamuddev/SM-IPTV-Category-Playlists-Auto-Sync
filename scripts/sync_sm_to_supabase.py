@@ -26,7 +26,11 @@ except ImportError:
 # ---------------------------------------------------------------------------
 # Configuration & Credentials
 # ---------------------------------------------------------------------------
-BOOTSTRAP_URL = "https://app-main-ap.sm-monirul.xyz/exp/"
+BOOTSTRAP_URLS = [
+    "https://sm-iptv-sourch.sm-monirul.xyz/exp/",
+    "https://app-main-ap.sm-monirul.xyz/exp/",
+]
+SECURITY_KEY = "SM_MONIRUL_ISLAM_OR_SM_IPTV_2026"
 DEFAULT_USER_AGENT = "okhttp/4.12.0"
 
 SUPABASE_URL = os.environ.get("SUPABASE_URL", "https://hqmhuvsjlykrdusfkmeg.supabase.co").rstrip("/")
@@ -36,6 +40,14 @@ SUPABASE_ANON_KEY = os.environ.get(
     "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhxbWh1dnNqbHlrcmR1c2ZrbWVnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODI4MjI3OTEsImV4cCI6MjA5ODM5ODc5MX0.sfNEW7QG0idyVVRHlDtYjITDfIbsFQQm2u9a3ffoNoA"
 )
 ADMIN_SECRET_TOKEN = (os.environ.get("ADMIN_SECRET_TOKEN") or "GoLiveAdminSecret2026").strip()
+
+
+def generate_signature(timestamp: str) -> str:
+    """Generates dynamic X-Signature required by SM IPTV v2.0 gateway."""
+    return "".join(
+        f"{ord(c) ^ ord(SECURITY_KEY[i % len(SECURITY_KEY)]):02x}"
+        for i, c in enumerate(timestamp)
+    )
 
 
 # ---------------------------------------------------------------------------
@@ -109,15 +121,25 @@ class SmIptvClient:
     def get_worker_url(self, force_refresh: bool = False) -> str:
         if self.worker_url and not force_refresh:
             return self.worker_url
-        resp = self.session.get(BOOTSTRAP_URL, timeout=12)
-        resp.raise_for_status()
-        url = resp.json().get("url", "").strip()
-        if not url.startswith("https://"):
-            raise ValueError(f"Invalid worker URL received: {url}")
-        if not url.endswith("/"):
-            url += "/"
-        self.worker_url = url
-        return self.worker_url
+
+        last_error = None
+        for b_url in BOOTSTRAP_URLS:
+            try:
+                resp = self.session.get(b_url, timeout=12)
+                resp.raise_for_status()
+                url = resp.json().get("url", "").strip()
+                if url.startswith("https://"):
+                    if not url.endswith("/"):
+                        url += "/"
+                    self.worker_url = url
+                    return self.worker_url
+            except Exception as e:
+                last_error = e
+                continue
+
+        if last_error:
+            raise last_error
+        raise ValueError("Failed to obtain valid worker URL from bootstrap endpoints.")
 
     def get_token(self, force_refresh: bool = False) -> str:
         now = time.time()
@@ -134,13 +156,17 @@ class SmIptvClient:
     def _auth_request(self, method: str, endpoint: str, retry: bool = True) -> requests.Response:
         worker = self.get_worker_url()
         token = self.get_token()
+        ts = str(int(time.time() * 1000))
+        sig = generate_signature(ts)
         headers = {
             "Authorization": f"Bearer {token}",
-            "User-Agent": DEFAULT_USER_AGENT
+            "User-Agent": DEFAULT_USER_AGENT,
+            "X-Timestamp": ts,
+            "X-Signature": sig
         }
         url = f"{worker}{endpoint.lstrip('/')}"
         resp = self.session.request(method, url, headers=headers, timeout=15)
-        if resp.status_code == 401 and retry:
+        if resp.status_code in (401, 403) and retry:
             self.get_token(force_refresh=True)
             return self._auth_request(method, endpoint, retry=False)
         resp.raise_for_status()
