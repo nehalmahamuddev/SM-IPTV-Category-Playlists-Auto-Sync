@@ -1,9 +1,11 @@
 #EXTM3U name="SM IPTV - Refined Kids"
 # Category: Kids
-# Updated: 2026-11-10 07:31:30 UTC
+# Updated: 2026-11-10 15:47:30 UTC
 
 #EXTINF:-1 tvg-id="durunto" tvg-name="Durunto" tvg-logo="https://i.postimg.cc/s2WM2BPR/20251127-095726.png" group-title="kids",Durunto
 http://sm-monirul.top/@sm_iptv_bd/live.php?id=duranta_tv&sm=.m3u8
+#EXTINF:-1 tvg-id="nick_bangla" tvg-name="Nick Bangla" tvg-logo="https://i.postimg.cc/4dQCpzTm/20250630-050342.png" group-title="kids",Nick Bangla
+http://live.balajibroadband.com:3500/live/1341.m3u8
 #EXTINF:-1 tvg-id="sony_yay" tvg-name="Sony YAY" tvg-logo="https://i.postimg.cc/wBbj6c9g/20250529-115914.png" group-title="kids" http-referrer="https://techandeat.online",Sony YAY
 #EXTVLCOPT:http-referrer=https://techandeat.online
 https://techandeat.online/sliv/stream.m3u8?id=1000001971

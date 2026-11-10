@@ -1,8 +1,8 @@
 # SM IPTV Category Playlists
 
 > **Auto-generated and refreshed every 30 minutes via GitHub Actions.**  
-> **Last Synchronized:** `2026-11-10 07:31:30 UTC`  
-> **Total Channels & Feeds:** `425`  
+> **Last Synchronized:** `2026-11-10 15:47:30 UTC`  
+> **Total Channels & Feeds:** `375`  
 
 ---
 
@@ -10,7 +10,7 @@
 
 | Playlist | Channels | Direct Raw Link (Copy into IPTV Player) |
 |---|---|---|
-| **All Channels & Sports** | **425** | [`https://raw.githubusercontent.com/nehalmahamuddev/SM-IPTV-Category-Playlists-Auto-Sync/main/playlists/all.m3u`](https://raw.githubusercontent.com/nehalmahamuddev/SM-IPTV-Category-Playlists-Auto-Sync/main/playlists/all.m3u) |
+| **All Channels & Sports** | **375** | [`https://raw.githubusercontent.com/nehalmahamuddev/SM-IPTV-Category-Playlists-Auto-Sync/main/playlists/all.m3u`](https://raw.githubusercontent.com/nehalmahamuddev/SM-IPTV-Category-Playlists-Auto-Sync/main/playlists/all.m3u) |
 
 ---
 
@@ -26,7 +26,7 @@
 | **Kids** | `9` | [`https://raw.githubusercontent.com/nehalmahamuddev/SM-IPTV-Category-Playlists-Auto-Sync/main/playlists/kids.m3u`](https://raw.githubusercontent.com/nehalmahamuddev/SM-IPTV-Category-Playlists-Auto-Sync/main/playlists/kids.m3u) |
 | **Music** | `11` | [`https://raw.githubusercontent.com/nehalmahamuddev/SM-IPTV-Category-Playlists-Auto-Sync/main/playlists/music.m3u`](https://raw.githubusercontent.com/nehalmahamuddev/SM-IPTV-Category-Playlists-Auto-Sync/main/playlists/music.m3u) |
 | **Islamic** | `6` | [`https://raw.githubusercontent.com/nehalmahamuddev/SM-IPTV-Category-Playlists-Auto-Sync/main/playlists/islamic.m3u`](https://raw.githubusercontent.com/nehalmahamuddev/SM-IPTV-Category-Playlists-Auto-Sync/main/playlists/islamic.m3u) |
-| **Live Sports Events** | `250` | [`https://raw.githubusercontent.com/nehalmahamuddev/SM-IPTV-Category-Playlists-Auto-Sync/main/playlists/live_sports.m3u`](https://raw.githubusercontent.com/nehalmahamuddev/SM-IPTV-Category-Playlists-Auto-Sync/main/playlists/live_sports.m3u) |
+| **Live Sports Events** | `200` | [`https://raw.githubusercontent.com/nehalmahamuddev/SM-IPTV-Category-Playlists-Auto-Sync/main/playlists/live_sports.m3u`](https://raw.githubusercontent.com/nehalmahamuddev/SM-IPTV-Category-Playlists-Auto-Sync/main/playlists/live_sports.m3u) |
 
 ---
 
