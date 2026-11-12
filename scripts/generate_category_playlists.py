@@ -40,6 +40,17 @@ GITHUB_BRANCH = os.environ.get("GITHUB_REF_NAME", "main")
 RAW_BASE_URL = f"https://raw.githubusercontent.com/{GITHUB_REPO}/{GITHUB_BRANCH}/{OUTPUT_DIR}"
 
 
+def set_github_output(name: str, value: str):
+    """Sets a step output parameter in GitHub Actions if running in GHA."""
+    output_file = os.environ.get("GITHUB_OUTPUT")
+    if output_file:
+        try:
+            with open(output_file, "a", encoding="utf-8") as f:
+                f.write(f"{name}={value}\n")
+        except Exception:
+            pass
+
+
 def generate_signature(timestamp: str) -> str:
     """
     Generates the dynamic X-Signature required by SM IPTV v2.0 API gateway.
@@ -110,30 +121,75 @@ class SmIptvClient:
         self.token_expires_at = now + expires_in
         return self.token
 
-    def _auth_request(self, method: str, endpoint: str, retry: bool = True) -> requests.Response:
-        worker = self.get_worker_url()
-        token = self.get_token()
-        ts = str(int(time.time() * 1000))
-        sig = generate_signature(ts)
-        headers = {
-            "Authorization": f"Bearer {token}",
-            "User-Agent": DEFAULT_USER_AGENT,
-            "X-Timestamp": ts,
-            "X-Signature": sig
-        }
-        url = f"{worker}{endpoint.lstrip('/')}"
-        resp = self.session.request(method, url, headers=headers, timeout=15)
-        if resp.status_code in (401, 403) and retry:
-            self.get_token(force_refresh=True)
-            return self._auth_request(method, endpoint, retry=False)
-        resp.raise_for_status()
-        return resp
+    def _auth_request(self, method: str, endpoint: str, max_retries: int = 3) -> Dict[str, Any]:
+        """
+        Executes an authenticated request with:
+        1. Dynamic X-Signature & X-Timestamp headers
+        2. Automatic retry with exponential backoff on network errors, 5xx, 429, 401/403, and empty/invalid JSON
+        3. Automatic gateway & token refreshing on failure
+        """
+        delays = [3, 6, 12]
+        last_error = None
+
+        for attempt in range(max_retries):
+            try:
+                worker = self.get_worker_url()
+                token = self.get_token()
+                ts = str(int(time.time() * 1000))
+                sig = generate_signature(ts)
+                headers = {
+                    "Authorization": f"Bearer {token}",
+                    "User-Agent": DEFAULT_USER_AGENT,
+                    "X-Timestamp": ts,
+                    "X-Signature": sig
+                }
+                url = f"{worker}{endpoint.lstrip('/')}"
+                resp = self.session.request(method, url, headers=headers, timeout=15)
+
+                if resp.status_code in (401, 403):
+                    print(f"   [Attempt {attempt + 1}/{max_retries}] Auth challenge ({resp.status_code}). Refreshing token & gateway...")
+                    self.get_token(force_refresh=True)
+                    if attempt < max_retries - 1:
+                        time.sleep(delays[attempt])
+                    continue
+
+                if resp.status_code in (429, 500, 502, 503, 504):
+                    print(f"   [Attempt {attempt + 1}/{max_retries}] Upstream returned HTTP {resp.status_code}. Retrying...")
+                    self.get_worker_url(force_refresh=True)
+                    self.get_token(force_refresh=True)
+                    if attempt < max_retries - 1:
+                        time.sleep(delays[attempt])
+                    continue
+
+                resp.raise_for_status()
+
+                # Verify body is not empty and is valid JSON
+                text = resp.text.strip()
+                if not text:
+                    raise ValueError(f"Empty response body received from {url}")
+
+                return resp.json()
+
+            except Exception as e:
+                last_error = e
+                print(f"   [Attempt {attempt + 1}/{max_retries}] Request to '{endpoint}' failed: {e}")
+                if attempt < max_retries - 1:
+                    try:
+                        self.get_worker_url(force_refresh=True)
+                        self.get_token(force_refresh=True)
+                    except Exception:
+                        pass
+                    delay = delays[attempt]
+                    print(f"   Waiting {delay}s before next attempt...")
+                    time.sleep(delay)
+
+        raise RuntimeError(f"All {max_retries} attempts failed for endpoint '{endpoint}'. Last error: {last_error}")
 
     def get_channels(self) -> Dict[str, Any]:
-        return self._auth_request("GET", "channels").json()
+        return self._auth_request("GET", "channels")
 
     def get_sports(self) -> Dict[str, Any]:
-        return self._auth_request("GET", "sports").json()
+        return self._auth_request("GET", "sports")
 
 
 def format_channel_m3u(ch: Dict[str, Any], group_title: str) -> List[str]:
@@ -238,25 +294,31 @@ def main():
     os.makedirs(OUTPUT_DIR, exist_ok=True)
 
     client = SmIptvClient()
-    print("1. Connecting to bootstrap gateway...")
-    worker = client.get_worker_url()
-    print(f"   Active Gateway: {worker}")
+    try:
+        print("1. Connecting to bootstrap gateway...")
+        worker = client.get_worker_url()
+        print(f"   Active Gateway: {worker}")
 
-    print("2. Fetching session token...")
-    token = client.get_token()
-    print(f"   Session Token Acquired (valid for 30m): {token[:20]}...")
+        print("2. Fetching session token...")
+        token = client.get_token()
+        print(f"   Session Token Acquired (valid for 30m): {token[:20]}...")
 
-    # Fetch Channels
-    print("3. Fetching linear channels catalog...")
-    channels_data = client.get_channels()
-    categories = channels_data.get("categories", [])
-    print(f"   Found {len(categories)} categories.")
+        # Fetch Channels
+        print("3. Fetching linear channels catalog...")
+        channels_data = client.get_channels()
+        categories = channels_data.get("categories", [])
+        print(f"   Found {len(categories)} categories.")
 
-    # Fetch Sports
-    print("4. Fetching live sports events...")
-    sports_data = client.get_sports()
-    matches = sports_data.get("matches", [])
-    print(f"   Found {len(matches)} matches.")
+        # Fetch Sports
+        print("4. Fetching live sports events...")
+        sports_data = client.get_sports()
+        matches = sports_data.get("matches", [])
+        print(f"   Found {len(matches)} matches.")
+    except Exception as e:
+        print(f"::warning::Upstream SM IPTV API temporarily unavailable: {e}")
+        print(f"[FALLBACK MODE] Preserving existing playlists in '{OUTPUT_DIR}'. Skipping update safely.")
+        set_github_output("fallback", "true")
+        return
 
     category_stats = []
     all_playlist_lines = [
@@ -402,6 +464,7 @@ These M3U playlists include standard channel metadata (`tvg-id`, `tvg-name`, `tv
         f.write(readme_content)
 
     print(f"5. Saved playlists/README.md and playlists/categories.json catalog successfully.")
+    set_github_output("fallback", "false")
     print("Done!")
 
 

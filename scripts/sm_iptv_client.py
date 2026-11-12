@@ -77,32 +77,72 @@ class SmIptvClient:
         self.token_expires_at = now + expires_in
         return self.token
 
-    def _auth_request(self, method: str, endpoint: str, retry: bool = True) -> requests.Response:
-        worker = self.get_worker_url()
-        token = self.get_token()
-        ts = str(int(time.time() * 1000))
-        sig = self.generate_signature(ts)
-        headers = {
-            "Authorization": f"Bearer {token}",
-            "User-Agent": self.DEFAULT_USER_AGENT,
-            "X-Timestamp": ts,
-            "X-Signature": sig
-        }
-        url = f"{worker}{endpoint.lstrip('/')}"
-        resp = self.session.request(method, url, headers=headers, timeout=15)
-        if resp.status_code in (401, 403) and retry:
-            self.get_token(force_refresh=True)
-            return self._auth_request(method, endpoint, retry=False)
-        resp.raise_for_status()
-        return resp
+    def _auth_request(self, method: str, endpoint: str, max_retries: int = 3) -> Dict[str, Any]:
+        """
+        Executes an authenticated request with:
+        1. Dynamic X-Signature & X-Timestamp headers
+        2. Automatic retry with exponential backoff on network errors, 5xx, 429, 401/403, and empty/invalid JSON
+        3. Automatic gateway & token refreshing on failure
+        """
+        delays = [3, 6, 12]
+        last_error = None
+
+        for attempt in range(max_retries):
+            try:
+                worker = self.get_worker_url()
+                token = self.get_token()
+                ts = str(int(time.time() * 1000))
+                sig = self.generate_signature(ts)
+                headers = {
+                    "Authorization": f"Bearer {token}",
+                    "User-Agent": self.DEFAULT_USER_AGENT,
+                    "X-Timestamp": ts,
+                    "X-Signature": sig
+                }
+                url = f"{worker}{endpoint.lstrip('/')}"
+                resp = self.session.request(method, url, headers=headers, timeout=15)
+
+                if resp.status_code in (401, 403):
+                    self.get_token(force_refresh=True)
+                    if attempt < max_retries - 1:
+                        time.sleep(delays[attempt])
+                    continue
+
+                if resp.status_code in (429, 500, 502, 503, 504):
+                    self.get_worker_url(force_refresh=True)
+                    self.get_token(force_refresh=True)
+                    if attempt < max_retries - 1:
+                        time.sleep(delays[attempt])
+                    continue
+
+                resp.raise_for_status()
+
+                # Verify body is not empty and is valid JSON
+                text = resp.text.strip()
+                if not text:
+                    raise ValueError(f"Empty response body received from {url}")
+
+                return resp.json()
+
+            except Exception as e:
+                last_error = e
+                if attempt < max_retries - 1:
+                    try:
+                        self.get_worker_url(force_refresh=True)
+                        self.get_token(force_refresh=True)
+                    except Exception:
+                        pass
+                    time.sleep(delays[attempt])
+
+        raise RuntimeError(f"All {max_retries} attempts failed for endpoint '{endpoint}'. Last error: {last_error}")
 
     def get_channels(self) -> Dict[str, Any]:
         """Fetches the complete Live TV channels catalog grouped by category."""
-        return self._auth_request("GET", "channels").json()
+        return self._auth_request("GET", "channels")
 
     def get_sports(self) -> Dict[str, Any]:
         """Fetches the Live Sports events and match feeds."""
-        return self._auth_request("GET", "sports").json()
+        return self._auth_request("GET", "sports")
 
     def generate_m3u(self, include_sports: bool = True) -> str:
         """

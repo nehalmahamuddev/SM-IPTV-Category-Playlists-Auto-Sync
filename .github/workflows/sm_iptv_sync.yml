@@ -45,6 +45,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Generate Raw Category Playlists & Catalog
+        id: generate
         env:
           PLAYLISTS_DIR: playlists
           GITHUB_REPOSITORY: ${{ github.repository }}
@@ -53,6 +54,7 @@ jobs:
           python scripts/generate_category_playlists.py
 
       - name: Refine Playlists & Build Multi-Stream Output
+        if: steps.generate.outputs.fallback != 'true'
         env:
           RAW_PLAYLISTS_DIR: playlists
           REFINED_OUTPUT_DIR: output
@@ -62,6 +64,7 @@ jobs:
           python scripts/refine_playlists.py
 
       - name: Sync Refined Channels & Multi-Stream Servers to Supabase
+        if: steps.generate.outputs.fallback != 'true'
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL || 'https://hqmhuvsjlykrdusfkmeg.supabase.co' }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
@@ -70,6 +73,7 @@ jobs:
           python scripts/sync_output_to_supabase.py
 
       - name: Commit and push updated playlists and refined output
+        if: steps.generate.outputs.fallback != 'true'
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
