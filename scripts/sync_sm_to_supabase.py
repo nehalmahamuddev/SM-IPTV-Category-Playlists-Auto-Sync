@@ -26,11 +26,14 @@ except ImportError:
 # ---------------------------------------------------------------------------
 # Configuration & Credentials
 # ---------------------------------------------------------------------------
+DEFAULT_WORKER_URL = os.environ.get("SM_WORKER_URL", "https://ck.sm-monirulislam-exp.workers.dev/").strip()
+if not DEFAULT_WORKER_URL.endswith("/"):
+    DEFAULT_WORKER_URL += "/"
+
 BOOTSTRAP_URLS = [
-    "https://sm-iptv-sourch.sm-monirul.xyz/exp/",
-    "https://app-main-ap.sm-monirul.xyz/exp/",
+    "https://bb.sm-monirul.xyz/cc/exp/",
 ]
-SECURITY_KEY = "SM_MONIRUL_ISLAM_OR_SM_IPTV_2026"
+SECURITY_KEY = os.environ.get("SM_SECURITY_KEY", "VFMFLPzAIv")
 DEFAULT_USER_AGENT = "okhttp/4.12.0"
 
 SUPABASE_URL = os.environ.get("SUPABASE_URL", "https://hqmhuvsjlykrdusfkmeg.supabase.co").rstrip("/")
@@ -44,9 +47,11 @@ ADMIN_SECRET_TOKEN = (os.environ.get("ADMIN_SECRET_TOKEN") or "GoLiveAdminSecret
 
 def generate_signature(timestamp: str) -> str:
     """Generates dynamic X-Signature required by SM IPTV v2.0 gateway."""
+    key_bytes = SECURITY_KEY.encode()
+    ts_bytes = timestamp.encode()
     return "".join(
-        f"{ord(c) ^ ord(SECURITY_KEY[i % len(SECURITY_KEY)]):02x}"
-        for i, c in enumerate(timestamp)
+        f"{b ^ key_bytes[i % len(key_bytes)]:02x}"
+        for i, b in enumerate(ts_bytes)
     )
 
 
@@ -114,7 +119,7 @@ class SmIptvClient:
     def __init__(self, session: Optional[requests.Session] = None):
         self.session = session or requests.Session()
         self.session.headers.update({"User-Agent": DEFAULT_USER_AGENT})
-        self.worker_url: Optional[str] = None
+        self.worker_url: Optional[str] = DEFAULT_WORKER_URL
         self.token: Optional[str] = None
         self.token_expires_at: float = 0.0
 
@@ -122,24 +127,29 @@ class SmIptvClient:
         if self.worker_url and not force_refresh:
             return self.worker_url
 
-        last_error = None
-        for b_url in BOOTSTRAP_URLS:
-            try:
-                resp = self.session.get(b_url, timeout=12)
-                resp.raise_for_status()
-                url = resp.json().get("url", "").strip()
-                if url.startswith("https://"):
-                    if not url.endswith("/"):
-                        url += "/"
-                    self.worker_url = url
-                    return self.worker_url
-            except Exception as e:
-                last_error = e
-                continue
+        if "SM_WORKER_URL" in os.environ:
+            env_url = os.environ["SM_WORKER_URL"].strip()
+            if not env_url.endswith("/"):
+                env_url += "/"
+            self.worker_url = env_url
+            return self.worker_url
 
-        if last_error:
-            raise last_error
-        raise ValueError("Failed to obtain valid worker URL from bootstrap endpoints.")
+        if force_refresh:
+            for b_url in BOOTSTRAP_URLS:
+                try:
+                    resp = self.session.get(b_url, timeout=12)
+                    resp.raise_for_status()
+                    url = resp.json().get("url", "").strip()
+                    if url.startswith("https://"):
+                        if not url.endswith("/"):
+                            url += "/"
+                        self.worker_url = url
+                        return self.worker_url
+                except Exception:
+                    continue
+
+        self.worker_url = DEFAULT_WORKER_URL
+        return self.worker_url
 
     def get_token(self, force_refresh: bool = False) -> str:
         now = time.time()

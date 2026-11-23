@@ -4,6 +4,7 @@ SM IPTV Client & M3U Playlist Generator
 Reverse-engineered from SM IPTV.apk (com.sm.smiptv)
 """
 
+import os
 import time
 import requests
 import json
@@ -15,17 +16,20 @@ class SmIptvClient:
     Automatically handles worker URL discovery, session token rotation,
     channel extraction, sports feed syncing, and M3U playlist generation.
     """
+    DEFAULT_WORKER_URL = os.environ.get("SM_WORKER_URL", "https://ck.sm-monirulislam-exp.workers.dev/").strip()
+    if not DEFAULT_WORKER_URL.endswith("/"):
+        DEFAULT_WORKER_URL += "/"
+
     BOOTSTRAP_URLS = [
-        "https://sm-iptv-sourch.sm-monirul.xyz/exp/",
-        "https://app-main-ap.sm-monirul.xyz/exp/",
+        "https://bb.sm-monirul.xyz/cc/exp/",
     ]
-    SECURITY_KEY = "SM_MONIRUL_ISLAM_OR_SM_IPTV_2026"
+    SECURITY_KEY = os.environ.get("SM_SECURITY_KEY", "VFMFLPzAIv")
     DEFAULT_USER_AGENT = "okhttp/4.12.0"
 
     def __init__(self, session: Optional[requests.Session] = None):
         self.session = session or requests.Session()
         self.session.headers.update({"User-Agent": self.DEFAULT_USER_AGENT})
-        self.worker_url: Optional[str] = None
+        self.worker_url: Optional[str] = self.DEFAULT_WORKER_URL
         self.token: Optional[str] = None
         self.token_expires_at: float = 0.0
 
@@ -33,34 +37,41 @@ class SmIptvClient:
     def generate_signature(timestamp: str) -> str:
         """Generates dynamic X-Signature required by SM IPTV v2.0 gateway."""
         key = SmIptvClient.SECURITY_KEY
+        key_bytes = key.encode()
+        ts_bytes = timestamp.encode()
         return "".join(
-            f"{ord(c) ^ ord(key[i % len(key)]):02x}"
-            for i, c in enumerate(timestamp)
+            f"{b ^ key_bytes[i % len(key_bytes)]:02x}"
+            for i, b in enumerate(ts_bytes)
         )
 
     def get_worker_url(self, force_refresh: bool = False) -> str:
-        """Discovers the active Cloudflare Worker API gateway."""
+        """Returns the active Cloudflare Worker API gateway (supports SM_WORKER_URL env and bootstrap fallback)."""
         if self.worker_url and not force_refresh:
             return self.worker_url
 
-        last_error = None
-        for b_url in self.BOOTSTRAP_URLS:
-            try:
-                resp = self.session.get(b_url, timeout=10)
-                resp.raise_for_status()
-                url = resp.json().get("url", "").strip()
-                if url.startswith("https://"):
-                    if not url.endswith("/"):
-                        url += "/"
-                    self.worker_url = url
-                    return self.worker_url
-            except Exception as e:
-                last_error = e
-                continue
+        if "SM_WORKER_URL" in os.environ:
+            env_url = os.environ["SM_WORKER_URL"].strip()
+            if not env_url.endswith("/"):
+                env_url += "/"
+            self.worker_url = env_url
+            return self.worker_url
 
-        if last_error:
-            raise last_error
-        raise ValueError("Failed to obtain valid worker URL from bootstrap endpoints.")
+        if force_refresh:
+            for b_url in self.BOOTSTRAP_URLS:
+                try:
+                    resp = self.session.get(b_url, timeout=10)
+                    resp.raise_for_status()
+                    url = resp.json().get("url", "").strip()
+                    if url.startswith("https://"):
+                        if not url.endswith("/"):
+                            url += "/"
+                        self.worker_url = url
+                        return self.worker_url
+                except Exception:
+                    continue
+
+        self.worker_url = self.DEFAULT_WORKER_URL
+        return self.worker_url
 
     def get_token(self, force_refresh: bool = False) -> str:
         """Obtains or refreshes the 30-minute JWT session token."""
@@ -103,12 +114,14 @@ class SmIptvClient:
                 resp = self.session.request(method, url, headers=headers, timeout=15)
 
                 if resp.status_code in (401, 403):
+                    last_error = f"HTTP {resp.status_code}: {resp.text}"
                     self.get_token(force_refresh=True)
                     if attempt < max_retries - 1:
                         time.sleep(delays[attempt])
                     continue
 
                 if resp.status_code in (429, 500, 502, 503, 504):
+                    last_error = f"HTTP {resp.status_code}: {resp.text}"
                     self.get_worker_url(force_refresh=True)
                     self.get_token(force_refresh=True)
                     if attempt < max_retries - 1:

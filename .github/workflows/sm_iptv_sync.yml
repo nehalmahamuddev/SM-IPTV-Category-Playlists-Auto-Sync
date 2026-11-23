@@ -50,6 +50,8 @@ jobs:
           PLAYLISTS_DIR: playlists
           GITHUB_REPOSITORY: ${{ github.repository }}
           GITHUB_REF_NAME: ${{ github.ref_name }}
+          SM_WORKER_URL: ${{ vars.SM_WORKER_URL || 'https://ck.sm-monirulislam-exp.workers.dev/' }}
+          SM_SECURITY_KEY: ${{ secrets.SM_SECURITY_KEY || 'VFMFLPzAIv' }}
         run: |
           python scripts/generate_category_playlists.py
 

@@ -1,8 +1,8 @@
 # SM IPTV Backend Architecture & Live TV / M3U APIs Context
 
-> **Reconstructed from:** `SM IPTV.apk` (`com.sm.smiptv`) v2.0  
+> **Reconstructed from:** `SM IPTV.apk` (`com.sm.smiptv`) v2.0+  
 > **Target OS:** Android (Jetpack Compose + Media3 ExoPlayer + Retrofit2 + libapi-security.so)  
-> **Generated Date:** 2026-11-09  
+> **Updated Date:** 2026-11-24  
 > **Status:** Verified with Live API Handshake & Payload Validation  
 
 ---
@@ -14,20 +14,20 @@ The backend uses a **two-tier dynamic gateway architecture** designed to allow z
 ```
 [Client / App]
        |
-       | 1. GET /exp/ (Bootstrap Configuration)
+       | 1. GET /cc/exp/ (Bootstrap Configuration)
        v
-[Config Gateway: https://sm-iptv-sourch.sm-monirul.xyz/]
+[Config Gateway: https://bb.sm-monirul.xyz/cc/exp/]
        |
        | Returns active Edge Gateway URL
-       | e.g. "https://app-dt.sm-monirul.xyz/"
+       | e.g. "https://ck.sm-monirulislam-exp.workers.dev/"
        v
-[Edge Worker API Gateway]
+[Edge Worker API Gateway: https://ck.sm-monirulislam-exp.workers.dev/]
        |
        | 2. POST /token (Request Session Token)
        | Returns Bearer JWT (expires_in: 1800s / 30 mins)
        |
        +----> 3. GET /channels (Authorization: Bearer <token>, X-Timestamp, X-Signature)
-       |      Returns 180+ Live TV Channels grouped by Category
+       |      Returns Live TV Channels grouped by Category
        |
        +----> 4. GET /sports (Authorization: Bearer <token>, X-Timestamp, X-Signature)
               Returns Live Sports Matches & multi-feed streams
@@ -39,9 +39,8 @@ The backend uses a **two-tier dynamic gateway architecture** designed to allow z
 
 ### 2.1 Bootstrap Gateway (Worker URL Discovery)
 
-* **Class in APK:** `com.sm.smiptv.network.ConfigService` (invoked in `v6.j` and `v6.n`)
-* **Endpoint (v2.0 Primary):** `GET https://sm-iptv-sourch.sm-monirul.xyz/exp/`
-* **Endpoint (Legacy Fallback):** `GET https://app-main-ap.sm-monirul.xyz/exp/`
+* **Endpoint (Current Primary):** `GET https://bb.sm-monirul.xyz/cc/exp/`
+* **Endpoint (Legacy Deprecated):** `GET https://sm-iptv-sourch.sm-monirul.xyz/exp/`
 * **Headers:**
   ```http
   User-Agent: okhttp/4.12.0
@@ -49,7 +48,7 @@ The backend uses a **two-tier dynamic gateway architecture** designed to allow z
 * **Response Body (`200 OK`):**
   ```json
   {
-    "url": "https://app-dt.sm-monirul.xyz/"
+    "url": "https://ck.sm-monirulislam-exp.workers.dev/"
   }
   ```
 * **Validation Logic in App (`v6.j:c`):**
@@ -63,7 +62,7 @@ The backend uses a **two-tier dynamic gateway architecture** designed to allow z
 
 * **Class in APK:** `com.sm.smiptv.network.AuthService`
 * **Endpoint:** `POST <WORKER_URL>token`
-  *(e.g., `POST https://app-dt.sm-monirul.xyz/token`)*
+  *(e.g., `POST https://ck.sm-monirulislam-exp.workers.dev/token`)*
 * **Headers:**
   ```http
   User-Agent: okhttp/4.12.0
@@ -72,7 +71,7 @@ The backend uses a **two-tier dynamic gateway architecture** designed to allow z
 * **Response Body (`200 OK`):**
   ```json
   {
-    "token": "eyJpYXQiOjE3OTI0MTc1MjIsImV4cCI6MTc5MjQxOTMyMn0.10HIgvLJQFvORdbesv4bNAPDO_VovPgIcOCb8A5hmFQ",
+    "token": "eyJpYXQiOjE3OTU0NjExNjMsImV4cCI6MTc5NTQ2Mjk2M30....",
     "expires_in": 1800
   }
   ```
@@ -84,28 +83,31 @@ The backend uses a **two-tier dynamic gateway architecture** designed to allow z
 
 ---
 
-### 2.3 Request Signing (SM IPTV v2.0 `libapi-security.so`)
+### 2.3 Request Signing (SM IPTV v2.0+ `libapi-security.so`)
 
-SM IPTV v2.0 introduces native signature verification for `/channels` and `/sports` endpoints:
+SM IPTV introduces native signature verification for `/channels` and `/sports` endpoints:
 * **Headers Required:**
-  - `X-Timestamp`: Current epoch time in milliseconds (e.g. `1794243581395`)
-  - `X-Signature`: Hex-encoded byte array where each character of `X-Timestamp` is XORed with secret key `SM_MONIRUL_ISLAM_OR_SM_IPTV_2026`:
+  - `X-Timestamp`: Current epoch time in milliseconds (e.g. `1795461163000`)
+  - `X-Signature`: Hex-encoded byte array where each character of `X-Timestamp` is XORed with secret key `VFMFLPzAIv` (or legacy `SM_MONIRUL_ISLAM_OR_SM_IPTV_2026`):
     ```python
-    def generate_signature(timestamp: str) -> str:
-        key = "SM_MONIRUL_ISLAM_OR_SM_IPTV_2026"
-        return "".join(f"{ord(c) ^ ord(key[i % len(key)]):02x}" for i, c in enumerate(timestamp))
+    def generate_signature(timestamp: str, key: str = "VFMFLPzAIv") -> str:
+        key_bytes = key.encode()
+        ts_bytes = timestamp.encode()
+        return "".join(f"{b ^ key_bytes[i % len(key_bytes)]:02x}" for i, b in enumerate(ts_bytes))
     ```
 
 ---
 
-### 2.3 Live TV Channels Catalog
+### 2.4 Live TV Channels Catalog
 
 * **Class in APK:** `com.sm.smiptv.network.ChannelService`
-* **Endpoint:** `GET <WORKER_URL>channels`
+* **Endpoint:** `GET https://ck.sm-monirulislam-exp.workers.dev/channels`
 * **Headers:**
   ```http
   User-Agent: okhttp/4.12.0
   Authorization: Bearer <TOKEN>
+  X-Timestamp: <EPOCH_MS>
+  X-Signature: <SIGNATURE>
   ```
 * **Response Model (`com.sm.smiptv.model.ChannelDataResponse`):**
   ```json
@@ -280,29 +282,36 @@ class SmIptvClient:
     Automatically handles worker URL discovery, session token rotation,
     channel extraction, sports feed syncing, and M3U playlist generation.
     """
-    BOOTSTRAP_URL = "https://app-main-ap.sm-monirul.xyz/exp/"
+    DEFAULT_WORKER_URL = os.environ.get("SM_WORKER_URL", "https://ck.sm-monirulislam-exp.workers.dev/").strip()
+    BOOTSTRAP_URLS = ["https://bb.sm-monirul.xyz/cc/exp/"]
+    SECURITY_KEY = os.environ.get("SM_SECURITY_KEY", "VFMFLPzAIv")
     DEFAULT_USER_AGENT = "okhttp/4.12.0"
 
     def __init__(self, session: Optional[requests.Session] = None):
         self.session = session or requests.Session()
         self.session.headers.update({"User-Agent": self.DEFAULT_USER_AGENT})
-        self.worker_url: Optional[str] = None
+        self.worker_url: Optional[str] = self.DEFAULT_WORKER_URL
         self.token: Optional[str] = None
         self.token_expires_at: float = 0.0
 
     def get_worker_url(self, force_refresh: bool = False) -> str:
-        """Discovers the active Cloudflare Worker API gateway."""
+        """Returns the active Cloudflare Worker API gateway."""
         if self.worker_url and not force_refresh:
             return self.worker_url
-
-        resp = self.session.get(self.BOOTSTRAP_URL, timeout=10)
-        resp.raise_for_status()
-        url = resp.json().get("url", "").strip()
-        if not url.startswith("https://"):
-            raise ValueError(f"Invalid worker URL received: {url}")
-        if not url.endswith("/"):
-            url += "/"
-        self.worker_url = url
+        if force_refresh:
+            for b_url in self.BOOTSTRAP_URLS:
+                try:
+                    resp = self.session.get(b_url, timeout=10)
+                    resp.raise_for_status()
+                    url = resp.json().get("url", "").strip()
+                    if url.startswith("https://"):
+                        if not url.endswith("/"):
+                            url += "/"
+                        self.worker_url = url
+                        return self.worker_url
+                except Exception:
+                    continue
+        self.worker_url = self.DEFAULT_WORKER_URL
         return self.worker_url
 
     def get_token(self, force_refresh: bool = False) -> str:
