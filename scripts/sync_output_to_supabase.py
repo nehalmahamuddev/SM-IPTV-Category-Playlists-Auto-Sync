@@ -178,11 +178,12 @@ def sync_output_to_supabase(
     channels_json_path: str = DEFAULT_CHANNELS_JSON,
     target_categories: Optional[List[str]] = None,
     dry_run: bool = False,
-    prune_obsolete: bool = False
+    prune_obsolete: bool = False,
+    soft_delete_missing: bool = True
 ):
     print("=" * 72)
     print("SM IPTV Refined Output -> Supabase Sync Engine")
-    print(f"Timestamp: {datetime.now(timezone.utc).isoformat()} | Dry-Run: {dry_run} | Prune-Obsolete: {prune_obsolete}")
+    print(f"Timestamp: {datetime.now(timezone.utc).isoformat()} | Dry-Run: {dry_run} | Prune-Obsolete: {prune_obsolete} | Soft-Delete: {soft_delete_missing}")
     print("=" * 72)
 
     if not os.path.exists(channels_json_path):
@@ -194,8 +195,14 @@ def sync_output_to_supabase(
     all_channels = catalog_data.get("channels", [])
     print(f"1. Loaded {len(all_channels)} total channels from '{channels_json_path}'")
 
-    # Filter by target categories
-    categories_set = set(target_categories or DEFAULT_TARGET_CATEGORIES)
+    # Filter by target categories (dynamically discover all linear categories if not explicitly passed)
+    if target_categories:
+        categories_set = set(target_categories)
+    else:
+        categories_set = {ch.get("category") for ch in all_channels if ch.get("category") and ch.get("category") != "live_sports"}
+        if not categories_set:
+            categories_set = set(DEFAULT_TARGET_CATEGORIES)
+
     filtered_channels = [ch for ch in all_channels if ch.get("category") in categories_set]
     print(f"   Filtering to {len(filtered_channels)} channels across categories: {sorted(list(categories_set))}")
 
@@ -213,14 +220,23 @@ def sync_output_to_supabase(
     cat_filter = f"({','.join(categories_set)})"
     existing_channels_rows = db.get_all(
         "channels",
-        select="id,name,category,stream_url,quality,logo,sort_order",
+        select="id,name,category,stream_url,quality,logo,sort_order,is_live",
         filters={"category": f"in.{cat_filter}"}
     )
     existing_channels = {c["id"]: c for c in existing_channels_rows}
     print(f"   Found {len(existing_channels)} existing channels in target categories.")
 
+    # Identify channels to soft-delete (exist in DB as live, but missing from current source feed)
+    incoming_channel_ids = {ch["id"] for ch in filtered_channels}
+    channels_to_soft_delete: List[str] = []
+    if soft_delete_missing:
+        for ch_id, ch_data in existing_channels.items():
+            if ch_id not in incoming_channel_ids:
+                if ch_data.get("is_live", True):
+                    channels_to_soft_delete.append(ch_id)
+
     # Collect IDs of channels
-    target_channel_ids = {ch["id"] for ch in filtered_channels}.union(set(existing_channels.keys()))
+    target_channel_ids = incoming_channel_ids.union(set(existing_channels.keys()))
 
     # Fetch existing stream_servers for these channels
     existing_servers: Dict[str, List[Dict[str, Any]]] = {}
@@ -342,6 +358,7 @@ def sync_output_to_supabase(
                     server_ids_to_delete.append(existing["id"])
 
     print(f"   * Channels to upsert: {len(channels_to_upsert)}")
+    print(f"   * Channels to soft-delete (missing from source): {len(channels_to_soft_delete)} (soft_delete_missing={soft_delete_missing})")
     print(f"   * Stream servers to insert: {len(servers_to_insert)}")
     print(f"   * Stream servers to update: {len(servers_to_update)}")
     print(f"   * Obsolete stream servers to delete: {len(server_ids_to_delete)} (prune_obsolete={prune_obsolete})")
@@ -354,6 +371,11 @@ def sync_output_to_supabase(
         print("\n[Preview: Channels to Upsert (First 5)]:")
         for ch in channels_to_upsert[:5]:
             print(f"   - ID: {ch['id']:<20} | Name: {ch['name']:<25} | Cat: {ch['category']:<15} | Quality: {ch['quality']}")
+
+        if channels_to_soft_delete:
+            print(f"\n[Preview: Channels to Soft-Delete (is_live=False, Total {len(channels_to_soft_delete)})]:")
+            for ch_id in channels_to_soft_delete[:10]:
+                print(f"   - Channel ID: {ch_id} (missing from source feed)")
 
         print("\n[Preview: Stream Servers to Insert (First 5)]:")
         for s in servers_to_insert[:5]:
@@ -374,11 +396,23 @@ def sync_output_to_supabase(
     # 5. Live Execution
     print("\n4. Executing Database Updates in Supabase...")
 
-    # Step 1: Upsert Channels
+    # Step 1: Upsert Channels (Active & Resurrected)
     if channels_to_upsert:
         print(f"   Upserting {len(channels_to_upsert)} channels into 'public.channels'...")
         cnt = db.upsert_rows("channels", channels_to_upsert, on_conflict="id")
         print(f"   Successfully upserted {cnt} channels.")
+
+    # Step 1.5: Soft-delete missing channels
+    if channels_to_soft_delete:
+        print(f"   Soft-deleting {len(channels_to_soft_delete)} missing channels (setting is_live=False)...")
+        soft_del_cnt = 0
+        for ch_id in channels_to_soft_delete:
+            try:
+                db.update_row("channels", ch_id, {"is_live": False})
+                soft_del_cnt += 1
+            except Exception as e:
+                print(f"   Warning: Could not soft-delete channel {ch_id}: {e}", file=sys.stderr)
+        print(f"   Successfully soft-deleted {soft_del_cnt} channels.")
 
     # Step 2: Insert New Servers
     if servers_to_insert:
@@ -402,7 +436,7 @@ def sync_output_to_supabase(
         print(f"   Successfully deleted {del_cnt} obsolete stream servers.")
 
     # Step 5: Increment channels_version in app_settings to trigger GoPlay client cache refresh
-    total_changes = len(servers_to_insert) + len(servers_to_update) + len(server_ids_to_delete)
+    total_changes = len(servers_to_insert) + len(servers_to_update) + len(server_ids_to_delete) + len(channels_to_soft_delete)
     if total_changes > 0:
         print("\n5. Updating client cache version in 'public.app_settings'...")
         try:
@@ -423,14 +457,17 @@ def sync_output_to_supabase(
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Sync refined SM IPTV channels from output/channels.json to Supabase")
     parser.add_argument("--file", default=DEFAULT_CHANNELS_JSON, help="Path to refined channels.json")
-    parser.add_argument("--categories", nargs="+", default=DEFAULT_TARGET_CATEGORIES, help="Categories to sync")
+    parser.add_argument("--categories", nargs="+", default=None, help="Categories to sync (default: all linear categories from channels.json)")
     parser.add_argument("--dry-run", action="store_true", help="Preview sync actions without writing to Supabase")
     parser.add_argument("--prune-obsolete", action="store_true", default=False, help="Prune stream servers not in incoming feed (default: False, non-destructive)")
+    parser.add_argument("--soft-delete", dest="soft_delete", action="store_true", default=True, help="Soft-delete channels missing from source by setting is_live=False (default: True)")
+    parser.add_argument("--no-soft-delete", dest="soft_delete", action="store_false", help="Disable soft-deleting missing channels")
     args = parser.parse_args()
 
     sync_output_to_supabase(
         channels_json_path=args.file,
         target_categories=args.categories,
         dry_run=args.dry_run,
-        prune_obsolete=args.prune_obsolete
+        prune_obsolete=args.prune_obsolete,
+        soft_delete_missing=args.soft_delete
     )

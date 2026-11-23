@@ -236,21 +236,67 @@ def format_channel_to_m3u(channel: Dict[str, Any]) -> List[str]:
     return lines
 
 
+def discover_categories(input_dir: str) -> List[Tuple[str, str, str]]:
+    """
+    Dynamically discovers categories from categories.json,
+    falling back to scanning .m3u files in input_dir.
+    Returns a list of (filename, slug, display_name).
+    """
+    categories_json_path = os.path.join(input_dir, "categories.json")
+    category_files: List[Tuple[str, str, str]] = []
+    seen_files = set()
+
+    if os.path.exists(categories_json_path):
+        try:
+            with open(categories_json_path, "r", encoding="utf-8") as f:
+                cat_meta = json.load(f)
+            for cat in cat_meta.get("categories", []):
+                fname = cat.get("filename")
+                slug = cat.get("slug")
+                name = cat.get("name")
+                if fname and slug and name:
+                    category_files.append((fname, slug, name))
+                    seen_files.add(fname)
+        except Exception as e:
+            print(f"   [Warning] Could not load categories.json: {e}")
+
+    # Fallback: scan for any unlisted .m3u files in input_dir (excluding master/external files)
+    protected_or_master = {"all.m3u", "toffee.m3u"}
+    if os.path.exists(input_dir):
+        for fname in sorted(os.listdir(input_dir)):
+            if fname.endswith(".m3u") and fname not in protected_or_master and fname not in seen_files:
+                slug = fname[:-4]
+                display_name = slug.replace("_", " ").title()
+                category_files.append((fname, slug, display_name))
+                seen_files.add(fname)
+
+    return category_files
+
+
+def prune_orphan_output_playlists(output_dir: str, active_filenames: set):
+    """
+    Deletes any category .m3u files in output_dir that are no longer part of active categories.
+    Protects master files ('all.m3u') and non-m3u files.
+    """
+    protected_files = {"all.m3u"}
+    if not os.path.exists(output_dir):
+        return
+    for fname in os.listdir(output_dir):
+        if fname.endswith(".m3u") and fname not in protected_files and fname not in active_filenames:
+            orphan_path = os.path.join(output_dir, fname)
+            try:
+                os.remove(orphan_path)
+                print(f"   [Prune] Removed obsolete refined playlist: {fname}")
+            except Exception as e:
+                print(f"   [Prune Warning] Could not delete {fname}: {e}")
+
+
 def main():
     print(f"[{datetime.now(timezone.utc).isoformat()}] Starting SM IPTV Refinement Engine...")
     os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-    category_files = [
-        ("bangla.m3u", "bangla", "Bangla"),
-        ("sports.m3u", "sports", "Sports"),
-        ("indian_bangla.m3u", "indian_bangla", "Indian Bangla"),
-        ("hindi.m3u", "hindi", "Hindi"),
-        ("documentory.m3u", "documentory", "Documentary"),
-        ("kids.m3u", "kids", "Kids"),
-        ("music.m3u", "music", "Music"),
-        ("islamic.m3u", "islamic", "Islamic"),
-        ("live_sports.m3u", "live_sports", "Live Sports Events")
-    ]
+    category_files = discover_categories(INPUT_DIR)
+    print(f"   Discovered {len(category_files)} categories to refine.")
 
     all_refined_channels: Dict[str, Dict[str, Any]] = {}
     category_summaries = []
@@ -368,6 +414,10 @@ Each channel in this playlist groups multiple server URLs under the same canonic
 
     with open(readme_path, "w", encoding="utf-8") as f:
         f.write(readme)
+
+    # Prune obsolete category playlists in output/
+    active_output_filenames = {cat["filename"] for cat in category_summaries}
+    prune_orphan_output_playlists(OUTPUT_DIR, active_output_filenames)
 
     print(f"   [README] Saved {readme_path}")
     print("Playlist Refinement completed successfully!")

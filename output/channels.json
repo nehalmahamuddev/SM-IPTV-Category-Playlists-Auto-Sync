@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-23T19:20:34.417943+00:00",
-  "total_channels": 168,
-  "total_streams": 172,
+  "updated_at": "2026-11-23T19:35:43.468565+00:00",
+  "total_channels": 170,
+  "total_streams": 174,
   "channels": [
     {
       "id": "g_series",
@@ -2337,6 +2337,40 @@
         {
           "name": "Server 1 (HD)",
           "stream_url": "https://live.incableinternet.com/ary-digital/master.m3u8",
+          "quality": "HD",
+          "headers": {},
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "star_ma_movie",
+      "name": "Star Ma Movie",
+      "category": "m_iptv",
+      "logo": "https://dtil.tmsimg.com/assets/s143826_ld_h15_aa.png?lock=720x540",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://da86m1sqpm3o0.cloudfront.net/28072023/smil:maamovies.smil/chunklist_b2628000.m3u8",
+          "quality": "HD",
+          "headers": {},
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "gren_tv",
+      "name": "Gren TV",
+      "category": "m_iptv",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQXWWdJeIJLvblW9gjJNwdJQN11Y01UQbIH-ciXDr7Vg&s=10",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://live.incableinternet.com/green-tv/master.m3u8",
           "quality": "HD",
           "headers": {},
           "drm": null,

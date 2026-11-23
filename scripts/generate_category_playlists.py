@@ -299,6 +299,24 @@ def format_sport_stream_m3u(match: Dict[str, Any], stream: Dict[str, Any], idx: 
     return lines
 
 
+def prune_orphan_playlists(output_dir: str, active_filenames: set):
+    """
+    Deletes any category .m3u files in output_dir that are no longer reported by the source.
+    Protects master files ('all.m3u'), external provider playlists ('toffee.m3u'), and non-m3u files.
+    """
+    protected_files = {"all.m3u", "toffee.m3u"}
+    if not os.path.exists(output_dir):
+        return
+    for fname in os.listdir(output_dir):
+        if fname.endswith(".m3u") and fname not in protected_files and fname not in active_filenames:
+            orphan_path = os.path.join(output_dir, fname)
+            try:
+                os.remove(orphan_path)
+                print(f"   [Prune] Removed obsolete category playlist: {fname}")
+            except Exception as e:
+                print(f"   [Prune Warning] Could not delete {fname}: {e}")
+
+
 def main():
     print(f"[{datetime.now(timezone.utc).isoformat()}] Starting SM IPTV Category Playlists Generator...")
     os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -423,6 +441,10 @@ def main():
             "master_playlist": f"{RAW_BASE_URL}/{master_file}",
             "categories": category_stats
         }, f, indent=2, ensure_ascii=False)
+
+    # Prune obsolete category playlists not present in active categories
+    active_filenames = {c["filename"] for c in category_stats}
+    prune_orphan_playlists(OUTPUT_DIR, active_filenames)
 
     # Generate README.md index with direct raw links
     readme_path = os.path.join(OUTPUT_DIR, "README.md")
