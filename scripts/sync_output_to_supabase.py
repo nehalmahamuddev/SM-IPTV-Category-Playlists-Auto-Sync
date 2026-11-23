@@ -213,6 +213,28 @@ def sync_output_to_supabase(
 
     db = SupabaseDbClient(SUPABASE_URL, auth_key, ADMIN_SECRET_TOKEN)
 
+    # 1.1 Ensure all referenced categories exist in Supabase 'categories' table (Foreign Key constraint safety)
+    try:
+        existing_db_categories = {c["id"]: c for c in db.get_all("categories", select="id,name")}
+        categories_to_register = []
+        for slug in categories_set:
+            if slug not in existing_db_categories:
+                display_name = slug.replace("_", " ").title()
+                categories_to_register.append({
+                    "id": slug,
+                    "name": display_name,
+                    "sort_order": 90,
+                    "active": True,
+                    "type": "custom"
+                })
+        if categories_to_register:
+            print(f"   Auto-registering {len(categories_to_register)} new categories in Supabase: {[c['id'] for c in categories_to_register]}")
+            if not dry_run:
+                db.upsert_rows("categories", categories_to_register, on_conflict="id")
+                print("   Successfully registered missing categories in Supabase.")
+    except Exception as e:
+        print(f"   Warning: Could not pre-verify categories in Supabase: {e}", file=sys.stderr)
+
     # 2. Query existing channels and stream_servers in Supabase for target categories
     print("\n2. Querying existing channels and stream_servers from Supabase...")
     
