@@ -244,12 +244,33 @@ class SupabaseSyncClient:
             self.headers["x-admin-token"] = admin_token
 
 
-    def upsert_rows(self, table: str, rows: list, batch_size: int = 100) -> int:
+    def upsert_rows(self, table: str, rows: list, on_conflict: str = "id", batch_size: int = 100) -> int:
         if not rows:
             return 0
+
+        # Deduplicate rows by conflict key to prevent Postgres
+        # "ON CONFLICT DO UPDATE command cannot affect row a second time" 500 error
+        if on_conflict:
+            deduped = {}
+            for r in rows:
+                k = r.get(on_conflict)
+                if k is not None:
+                    if k in deduped and isinstance(r.get("channels"), list) and isinstance(deduped[k].get("channels"), list):
+                        merged_channels = list(dict.fromkeys(deduped[k]["channels"] + r["channels"]))
+                        merged_r = dict(r)
+                        merged_r["channels"] = merged_channels
+                        deduped[k] = merged_r
+                    else:
+                        deduped[k] = r
+                else:
+                    deduped[id(r)] = r
+            rows = list(deduped.values())
+
         endpoint = f"{self.base_url}/rest/v1/{table}"
+        if on_conflict:
+            endpoint += f"?on_conflict={on_conflict}"
+
         total_upserted = 0
-        
         for i in range(0, len(rows), batch_size):
             batch = rows[i:i + batch_size]
             resp = requests.post(endpoint, headers=self.headers, json=batch, timeout=30)
@@ -583,7 +604,29 @@ def main():
             "sort_order": 0
         })
 
-    logger.info(f"Prepared {len(events_to_upsert)} events and {len(channels_to_upsert)} channel streams.")
+    # Deduplicate events, channels, and stream servers to ensure no conflict collisions
+    events_dedup = {}
+    for ev in events_to_upsert:
+        eid = ev["id"]
+        if eid in events_dedup:
+            existing_ch = events_dedup[eid].get("channels", [])
+            for cid in ev.get("channels", []):
+                if cid not in existing_ch:
+                    existing_ch.append(cid)
+            events_dedup[eid]["channels"] = existing_ch
+        else:
+            events_dedup[eid] = ev
+    events_to_upsert = list(events_dedup.values())
+
+    channels_to_upsert = list({ch["id"]: ch for ch in channels_to_upsert}.values())
+
+    servers_dedup = {}
+    for s in servers_to_upsert:
+        key = (s["channel_id"], s.get("stream_url"))
+        servers_dedup[key] = s
+    servers_to_upsert = list(servers_dedup.values())
+
+    logger.info(f"Prepared {len(events_to_upsert)} deduplicated events and {len(channels_to_upsert)} channel streams.")
 
     # 6. Save Local Output Files (events.json, channels.json, playlist.m3u)
     events_json_path = os.path.join(OUTPUT_DIR, "events.json")
