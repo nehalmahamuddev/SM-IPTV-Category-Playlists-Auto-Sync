@@ -242,6 +242,18 @@ class SupabaseDbClient:
     def upsert_rows(self, table: str, rows: List[Dict[str, Any]], on_conflict: Optional[str] = None) -> int:
         if not rows:
             return 0
+
+        # In-memory deduplication by on_conflict key to prevent batch collisions
+        if on_conflict:
+            deduped = {}
+            for r in rows:
+                k = r.get(on_conflict)
+                if k is not None:
+                    deduped[k] = r
+                else:
+                    deduped[id(r)] = r
+            rows = list(deduped.values())
+
         url = f"{self.base_url}/rest/v1/{table}"
         if on_conflict:
             url += f"?on_conflict={on_conflict}"
@@ -252,11 +264,22 @@ class SupabaseDbClient:
         batch_size = 100
         for i in range(0, len(rows), batch_size):
             batch = rows[i:i + batch_size]
-            resp = requests.post(url, headers=headers, json=batch, timeout=25)
-            if not resp.ok:
-                print(f"[Supabase Upsert Error on {table}] Status: {resp.status_code}, Body: {resp.text}", file=sys.stderr)
-                resp.raise_for_status()
-            total += len(batch)
+            try:
+                resp = requests.post(url, headers=headers, json=batch, timeout=25)
+                if not resp.ok:
+                    raise requests.HTTPError(f"Status {resp.status_code}: {resp.text}", response=resp)
+                total += len(batch)
+            except Exception as e:
+                print(f"[Supabase Upsert Warning on {table}] Batch upsert failed: {e}. Retrying row-by-row fallback...", file=sys.stderr)
+                for item in batch:
+                    try:
+                        r_resp = requests.post(url, headers=headers, json=[item], timeout=15)
+                        if r_resp.ok:
+                            total += 1
+                        else:
+                            print(f"   [Row Upsert Failed] {table} ID={item.get('id', 'unknown')}: {r_resp.status_code} {r_resp.text}", file=sys.stderr)
+                    except Exception as row_err:
+                        print(f"   [Row Upsert Error] {table} ID={item.get('id', 'unknown')}: {row_err}", file=sys.stderr)
         return total
 
     def insert_rows(self, table: str, rows: List[Dict[str, Any]]) -> int:
@@ -455,6 +478,21 @@ def sync_toffee_pipeline(
 
         # E. Execute DB writes if not dry-run
         if not dry_run:
+            # Pre-flight category verification to prevent foreign key errors (channels_category_fkey)
+            try:
+                cat_resp = requests.get(f"{SUPABASE_URL}/rest/v1/categories?id=eq.toffee&select=id", headers=db.headers, timeout=10)
+                if cat_resp.ok and not cat_resp.json():
+                    print("   Registering missing 'toffee' category in Supabase...")
+                    db.upsert_rows("categories", [{
+                        "id": "toffee",
+                        "name": "Toffee",
+                        "active": True,
+                        "sort_order": 20,
+                        "type": "custom"
+                    }], on_conflict="id")
+            except Exception as e:
+                print(f"   Warning: Could not pre-verify 'toffee' category in Supabase: {e}", file=sys.stderr)
+
             if channels_to_upsert:
                 db.upsert_rows("channels", channels_to_upsert, on_conflict="id")
                 print("   [DB Success] Upserted active channels.")

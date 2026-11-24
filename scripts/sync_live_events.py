@@ -273,11 +273,22 @@ class SupabaseSyncClient:
         total_upserted = 0
         for i in range(0, len(rows), batch_size):
             batch = rows[i:i + batch_size]
-            resp = requests.post(endpoint, headers=self.headers, json=batch, timeout=30)
-            if resp.status_code not in (200, 201):
-                logger.error(f"Failed upserting batch into '{table}' (status {resp.status_code}): {resp.text}")
-                resp.raise_for_status()
-            total_upserted += len(batch)
+            try:
+                resp = requests.post(endpoint, headers=self.headers, json=batch, timeout=30)
+                if resp.status_code not in (200, 201):
+                    raise requests.HTTPError(f"Status {resp.status_code}: {resp.text}", response=resp)
+                total_upserted += len(batch)
+            except Exception as e:
+                logger.warning(f"Batch upsert failed on '{table}': {e}. Retrying row-by-row fallback...")
+                for item in batch:
+                    try:
+                        r_resp = requests.post(endpoint, headers=self.headers, json=[item], timeout=15)
+                        if r_resp.status_code in (200, 201):
+                            total_upserted += 1
+                        else:
+                            logger.error(f"Failed upserting row {item.get('id', 'unknown')} in '{table}': {r_resp.status_code} {r_resp.text}")
+                    except Exception as row_err:
+                        logger.error(f"Error upserting row {item.get('id', 'unknown')} in '{table}': {row_err}")
             
         return total_upserted
 
@@ -657,6 +668,21 @@ def main():
             anon_key=SUPABASE_ANON_KEY,
             admin_token=SUPABASE_ADMIN_TOKEN
         )
+
+        # Pre-flight category verification to prevent foreign key errors (channels_category_fkey)
+        try:
+            cat_resp = requests.get(f"{SUPABASE_URL}/rest/v1/categories?id=eq.events&select=id", headers=db.headers, timeout=10)
+            if cat_resp.ok and not cat_resp.json():
+                logger.info("Registering missing 'events' category in Supabase...")
+                db.upsert_rows("categories", [{
+                    "id": "events",
+                    "name": "Live Sports Events",
+                    "active": True,
+                    "sort_order": 50,
+                    "type": "custom"
+                }], on_conflict="id")
+        except Exception as e:
+            logger.warning(f"Could not pre-verify 'events' category in Supabase: {e}")
 
         if channels_to_upsert:
             logger.info(f"Upserting {len(channels_to_upsert)} stream records into 'public.channels'...")
