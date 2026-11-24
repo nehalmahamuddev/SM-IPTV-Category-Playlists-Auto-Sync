@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-24T08:57:44.989846+00:00",
+  "updated_at": "2026-11-24T10:07:29.150775+00:00",
   "total_channels": 418,
-  "total_streams": 439,
+  "total_streams": 437,
   "channels": [
     {
       "id": "g_series",
@@ -2982,259 +2982,6 @@
       ]
     },
     {
-      "id": "live_india_a_vs_uae_willow_aq",
-      "name": "[Live] India A Vs UAE - WILLOW - AQ",
-      "category": "live_sports",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn2rCtrI68Agu71aIWID9YxzlqXN-3c88k4cwPQQhwEA&s=10",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/po7s7fvgjq/out/v1/5c412831b960410cb880428166b74dee/cenc.mpd",
-          "quality": "HD",
-          "headers": {},
-          "drm": {
-            "type": "clearkey",
-            "kid": "531497de47944ade5410fe5852905698",
-            "key": "574547fdae92793f4630b65dade01761"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_india_a_vs_uae_prime_multi_audio",
-      "name": "[Live] India A Vs UAE - PRIME MULTI AUDIO",
-      "category": "live_sports",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn2rCtrI68Agu71aIWID9YxzlqXN-3c88k4cwPQQhwEA&s=10",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/zenfbe10ry/out/v1/b0b56246975f46b9aec8db7586e25a61/cenc.mpd",
-          "quality": "HD",
-          "headers": {},
-          "drm": {
-            "type": "clearkey",
-            "kid": "04fada1ca01dd6c5f607f8fe0888a692",
-            "key": "9f3089dd8bedd300f801277ce8510bc8"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_india_a_vs_uae_starzplay",
-      "name": "[Live] India A Vs UAE - STARZPLAY",
-      "category": "live_sports",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn2rCtrI68Agu71aIWID9YxzlqXN-3c88k4cwPQQhwEA&s=10",
-      "quality": "FHD",
-      "servers": [
-        {
-          "name": "Server 1 (FHD)",
-          "stream_url": "https://d1ifzl5cnhi7bu.cloudfront.net/out/v1/45ba30e075ad455a8767d3f33e67ea3d/index.mpd",
-          "quality": "FHD",
-          "headers": {},
-          "drm": {
-            "type": "clearkey",
-            "kid": "0ae4f162eec3e6f2b580a5bf0f4a64d4",
-            "key": "03483335db81cba5bbcf51b6d31196d9"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_india_a_vs_uae_sonyliv_eng_aq",
-      "name": "[Live] India A Vs UAE - SONYLIV ENG - AQ",
-      "category": "live_sports",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn2rCtrI68Agu71aIWID9YxzlqXN-3c88k4cwPQQhwEA&s=10",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://sonyeventsglobal.akamaized.net/hls/live/2119931/cricodi_2411/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795540931~acl=/*~id=42533442359826935436253248685876~hmac=87ea8943906f9a403a1ee7d1dd9ff17f83fd0eb43341967a8f9707fc56d22b8b",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_india_a_vs_uae_tamasha_aq",
-      "name": "[Live] India A Vs UAE - TAMASHA AQ",
-      "category": "live_sports",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn2rCtrI68Agu71aIWID9YxzlqXN-3c88k4cwPQQhwEA&s=10",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://cdn06khi-n.tamashaweb.com:8087/appcast/ACC-men-AC26-b-abr/playlist.m3u8",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_india_a_vs_uae_willow_s2_aq",
-      "name": "[Live] India A Vs UAE - WILLOW S2 - AQ",
-      "category": "live_sports",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn2rCtrI68Agu71aIWID9YxzlqXN-3c88k4cwPQQhwEA&s=10",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/po7s7fvgjq/out/v1/5c412831b960410cb880428166b74dee/cenc.mpd",
-          "quality": "HD",
-          "headers": {},
-          "drm": {
-            "type": "clearkey",
-            "kid": "531497de47944ade5410fe5852905698",
-            "key": "574547fdae92793f4630b65dade01761"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_india_a_vs_uae_sonyliv_hin_aq",
-      "name": "[Live] India A Vs UAE - SONYLIV HIN - AQ",
-      "category": "live_sports",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn2rCtrI68Agu71aIWID9YxzlqXN-3c88k4cwPQQhwEA&s=10",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://sonyeventsglobal.akamaized.net/hls/live/2119921/cricodi_2411/HIN/std_lrh-800300010.m3u8?hdnea=exp=1795540931~acl=/*~id=42533442359826935436253248685876~hmac=87ea8943906f9a403a1ee7d1dd9ff17f83fd0eb43341967a8f9707fc56d22b8b",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_india_a_vs_uae_sonyliv_tam_aq",
-      "name": "[Live] India A Vs UAE - SONYLIV TAM - AQ",
-      "category": "live_sports",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn2rCtrI68Agu71aIWID9YxzlqXN-3c88k4cwPQQhwEA&s=10",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://sonyeventsglobal.akamaized.net/hls/live/2119951/cricodi_2411/TAM/std_lrh-800300010.m3u8?hdnea=exp=1795540931~acl=/*~id=42533442359826935436253248685876~hmac=87ea8943906f9a403a1ee7d1dd9ff17f83fd0eb43341967a8f9707fc56d22b8b",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_india_a_vs_uae_sonyliv_tel_aq",
-      "name": "[Live] India A Vs UAE - SONYLIV TEL - AQ",
-      "category": "live_sports",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn2rCtrI68Agu71aIWID9YxzlqXN-3c88k4cwPQQhwEA&s=10",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://sonyeventsglobal.akamaized.net/hls/live/2119941/cricodi_2411/TEL/std_lrh-800300010.m3u8?hdnea=exp=1795540931~acl=/*~id=42533442359826935436253248685876~hmac=87ea8943906f9a403a1ee7d1dd9ff17f83fd0eb43341967a8f9707fc56d22b8b",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_india_a_vs_uae_sonyliv_kan_aq",
-      "name": "[Live] India A Vs UAE - SONYLIV KAN - AQ",
-      "category": "live_sports",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn2rCtrI68Agu71aIWID9YxzlqXN-3c88k4cwPQQhwEA&s=10",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://sonyeventsglobal.akamaized.net/hls/live/2119782/cricodi_2411/KAN/std_lrh-800300010.m3u8?hdnea=exp=1795540931~acl=/*~id=42533442359826935436253248685876~hmac=87ea8943906f9a403a1ee7d1dd9ff17f83fd0eb43341967a8f9707fc56d22b8b",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_india_a_vs_uae_ptv_sports",
-      "name": "[Live] India A Vs UAE - PTV SPORTS",
-      "category": "live_sports",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn2rCtrI68Agu71aIWID9YxzlqXN-3c88k4cwPQQhwEA&s=10",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://live.msnetworks.net/ptv-sports/master.m3u8",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_newcastle_jets_vs_kashiwa_reysol_tapmad_aq",
-      "name": "[Live] Newcastle Jets Vs Kashiwa Reysol - TAPMAD - AQ",
-      "category": "live_sports",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/463/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://multiregion-asia-cdn.tapmad.com/v1/01a1548c4faf15fc600b1e3e968408/01a1548c7fde1ea557841e1612cf76/main.m3u8",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_newcastle_jets_vs_kashiwa_reysol_stream",
-      "name": "[Live] Newcastle Jets Vs Kashiwa Reysol - STREAM",
-      "category": "live_sports",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/463/image/dark",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://live200.kravonstreamdelivery.com/live/channel5.m3u8",
-          "quality": "HD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 1
-        },
-        {
-          "name": "Server 2 (SD)",
-          "stream_url": "http://193.47.62.44/hls/C444.m3u8",
-          "quality": "SD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 2
-        },
-        {
-          "name": "Server 3 (SD)",
-          "stream_url": "https://www.rtmpcdn.com/live/573a52ae88e2dc0d538ebb7f1fb13c44fead290769efd0dda927462594a842ac.m3u8",
-          "quality": "SD",
-          "headers": {},
-          "drm": null,
-          "sort_order": 3
-        }
-      ]
-    },
-    {
       "id": "live_south_africa_vs_bangladesh_willow_aq",
       "name": "[Live] South Africa Vs Bangladesh - WILLOW - AQ",
       "category": "live_sports",
@@ -3505,6 +3252,23 @@
       ]
     },
     {
+      "id": "live_australia_vs_england_australia_tv_aq",
+      "name": "[Live] Australia Vs England - AUSTRALIA TV AQ",
+      "category": "live_sports",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/11190/image/dark",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://host-64-235-250-101.contentfabric.io/qlibs/ilibBFVVnZD2HsyW1Rmi5atMjddq2NQ/q/hq__28fW1t6v3h4xWa2vtTDBxoEXLgcieBVThodN1ZZRYcW37UUxyGHKn7p8yop8TKMowZpieMuipEqL/rep/playout/default/hls-aes128/playlist.m3u8?authorization=acssjc2jSG55vSsBYBZ8GWmQzr4tMzCk9kjdKtbQTbgbVFCk9xwfK4zgmVEKm68wfQBNDFgLpPewj9rjXJR22xdom791SFZSjD6Mo9TTrLkkWNuw4S5AgPY8h1Tf94A6wLHc8WcLvvF2LZ3392VLhcdddiM4RCByf5rRccfC8a2cgb76w48hobPTmJpYzhx23yyvTGxFw2jyPZUQJ8cbKurovsNFiEwkdaRzkPhPEGFVTJj4na5MnPPSg39FAUT65my1AWhxenHx2Fj3zYLUgCwrXtxMsE8Xw4XKLJy3hpBB6snFFTv9EUGhm5s1MeXDfLxRyahg3pzUsM3Wt7T7ggTY3NyuCCutmvWGaNQeib5Wu6dsQ1FSeKbgM6hSGP53Ru956hvLUNX7xfuFGeZmRJixNHpmXUeKHwW5CuNBLukXugN3JHBrzcsk2HQ6RAikWJBVmM5REkqB5g9PWoWny3XMYKzaqfLV4LcGewYLphEE9z3epvnBJEdYJeJ8ZMSorf1rJ8Bbph6sNP24w5HmpXmk1nRWnGV9dVWM4MCkPGxVC2q1bL7y5hbZbjstu9a6X7pfnK5skwRxcyk37YjQiejH2UZqUN5W6pwP4KzSWYNi&player_profile=hls-js",
+          "quality": "HD",
+          "headers": {},
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
       "id": "live_australia_vs_england_tapmad_aq",
       "name": "[Live] Australia Vs England - TAPMAD - AQ",
       "category": "live_sports",
@@ -3564,34 +3328,13 @@
       "servers": [
         {
           "name": "Server 1 (HD)",
-          "stream_url": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/6mhsahjkto/out/v1/29e8b344082d4ab6b7c0bb838956ea02/cenc.mpd",
+          "stream_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/1zdpsgfa6p/out/v1/0be3672943164ddc9df8372d522c3842/cenc.mpd",
           "quality": "HD",
           "headers": {},
           "drm": {
             "type": "clearkey",
-            "kid": "1f5fcb1ee0ebcdf807d4807767ee66a0",
-            "key": "dac7ee8c999b9516a04f0c0bdd3aef34"
-          },
-          "sort_order": 1
-        }
-      ]
-    },
-    {
-      "id": "live_pakistan_a_vs_nepal_prime_video_aq",
-      "name": "[Live] Pakistan A Vs Nepal - PRIME VIDEO AQ",
-      "category": "live_sports",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn2rCtrI68Agu71aIWID9YxzlqXN-3c88k4cwPQQhwEA&s=10",
-      "quality": "HD",
-      "servers": [
-        {
-          "name": "Server 1 (HD)",
-          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/y9w1vhkmod/out/v1/db4038c42a2c4ab4acc3642f1f7435dd/cenc.mpd",
-          "quality": "HD",
-          "headers": {},
-          "drm": {
-            "type": "clearkey",
-            "kid": "88c543d8b2d0fb9736930d9f7115d02c",
-            "key": "474298fb05d7bbc6d4605b99ec7013be"
+            "kid": "ac685b471a4e1d6c4be3fe7429595d9d",
+            "key": "db72f4347277225954d7170f0ec6992f"
           },
           "sort_order": 1
         }
@@ -3606,7 +3349,7 @@
       "servers": [
         {
           "name": "Server 1 (HD)",
-          "stream_url": "https://sonyeventsglobal.akamaized.net/hls/live/2120303/criclive2111/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795298705~acl=/*~id=58960934573632640226853258998970~hmac=e8d92b8745000a7e6f59cce0ff84d6dadb46b224096720200205f1d50ed2401f",
+          "stream_url": "https://sonyeventsglobal.akamaized.net/hls/live/2120299/Criclive2411/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795556164~acl=/*~id=83143876600458032276763961949467~hmac=72e5a14c6606af548705e64a24f227a39ca0b5d7ea777f56f844b153cd3ef9a6",
           "quality": "HD",
           "headers": {},
           "drm": null,
@@ -3623,13 +3366,13 @@
       "servers": [
         {
           "name": "Server 1 (HD)",
-          "stream_url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/6mhsahjkto/out/v1/29e8b344082d4ab6b7c0bb838956ea02/cenc.mpd",
+          "stream_url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/1zdpsgfa6p/out/v1/0be3672943164ddc9df8372d522c3842/cenc.mpd",
           "quality": "HD",
           "headers": {},
           "drm": {
             "type": "clearkey",
-            "kid": "1f5fcb1ee0ebcdf807d4807767ee66a0",
-            "key": "dac7ee8c999b9516a04f0c0bdd3aef34"
+            "kid": "ac685b471a4e1d6c4be3fe7429595d9d",
+            "key": "db72f4347277225954d7170f0ec6992f"
           },
           "sort_order": 1
         }
@@ -3646,6 +3389,40 @@
           "name": "Server 1 (HD)",
           "stream_url": "https://cdn06khi-n.tamashaweb.com:8087/appcast/ACC-men-AC26-b-abr/playlist.m3u8",
           "quality": "HD",
+          "headers": {},
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_daejeon_hana_citizen_vs_beijing_guoan_stream",
+      "name": "[Live] Daejeon Hana Citizen Vs Beijing Guoan - STREAM",
+      "category": "live_sports",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/463/image/dark",
+      "quality": "SD",
+      "servers": [
+        {
+          "name": "Server 1 (SD)",
+          "stream_url": "http://193.47.62.41/hls/3GGG.m3u8",
+          "quality": "SD",
+          "headers": {},
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_kyoto_sanga_fc_vs_pohang_steelers_stream",
+      "name": "[Live] Kyoto Sanga FC Vs Pohang Steelers - STREAM",
+      "category": "live_sports",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/463/image/dark",
+      "quality": "SD",
+      "servers": [
+        {
+          "name": "Server 1 (SD)",
+          "stream_url": "http://193.47.62.41/hls/3GGGA.m3u8",
+          "quality": "SD",
           "headers": {},
           "drm": null,
           "sort_order": 1
@@ -7894,6 +7671,209 @@
           "headers": {},
           "drm": null,
           "sort_order": 2
+        }
+      ]
+    },
+    {
+      "id": "live_india_a_vs_uae_willow_aq",
+      "name": "[Live] India A Vs UAE - WILLOW - AQ",
+      "category": "live_sports",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn2rCtrI68Agu71aIWID9YxzlqXN-3c88k4cwPQQhwEA&s=10",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/po7s7fvgjq/out/v1/5c412831b960410cb880428166b74dee/cenc.mpd",
+          "quality": "HD",
+          "headers": {},
+          "drm": {
+            "type": "clearkey",
+            "kid": "531497de47944ade5410fe5852905698",
+            "key": "574547fdae92793f4630b65dade01761"
+          },
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_india_a_vs_uae_prime_multi_audio",
+      "name": "[Live] India A Vs UAE - PRIME MULTI AUDIO",
+      "category": "live_sports",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn2rCtrI68Agu71aIWID9YxzlqXN-3c88k4cwPQQhwEA&s=10",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/zenfbe10ry/out/v1/b0b56246975f46b9aec8db7586e25a61/cenc.mpd",
+          "quality": "HD",
+          "headers": {},
+          "drm": {
+            "type": "clearkey",
+            "kid": "04fada1ca01dd6c5f607f8fe0888a692",
+            "key": "9f3089dd8bedd300f801277ce8510bc8"
+          },
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_india_a_vs_uae_starzplay",
+      "name": "[Live] India A Vs UAE - STARZPLAY",
+      "category": "live_sports",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn2rCtrI68Agu71aIWID9YxzlqXN-3c88k4cwPQQhwEA&s=10",
+      "quality": "FHD",
+      "servers": [
+        {
+          "name": "Server 1 (FHD)",
+          "stream_url": "https://d1ifzl5cnhi7bu.cloudfront.net/out/v1/45ba30e075ad455a8767d3f33e67ea3d/index.mpd",
+          "quality": "FHD",
+          "headers": {},
+          "drm": {
+            "type": "clearkey",
+            "kid": "0ae4f162eec3e6f2b580a5bf0f4a64d4",
+            "key": "03483335db81cba5bbcf51b6d31196d9"
+          },
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_india_a_vs_uae_sonyliv_eng_aq",
+      "name": "[Live] India A Vs UAE - SONYLIV ENG - AQ",
+      "category": "live_sports",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn2rCtrI68Agu71aIWID9YxzlqXN-3c88k4cwPQQhwEA&s=10",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://sonyeventsglobal.akamaized.net/hls/live/2119931/cricodi_2411/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795540931~acl=/*~id=42533442359826935436253248685876~hmac=87ea8943906f9a403a1ee7d1dd9ff17f83fd0eb43341967a8f9707fc56d22b8b",
+          "quality": "HD",
+          "headers": {},
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_india_a_vs_uae_tamasha_aq",
+      "name": "[Live] India A Vs UAE - TAMASHA AQ",
+      "category": "live_sports",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn2rCtrI68Agu71aIWID9YxzlqXN-3c88k4cwPQQhwEA&s=10",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://cdn06khi-n.tamashaweb.com:8087/appcast/ACC-men-AC26-b-abr/playlist.m3u8",
+          "quality": "HD",
+          "headers": {},
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_india_a_vs_uae_willow_s2_aq",
+      "name": "[Live] India A Vs UAE - WILLOW S2 - AQ",
+      "category": "live_sports",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn2rCtrI68Agu71aIWID9YxzlqXN-3c88k4cwPQQhwEA&s=10",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/po7s7fvgjq/out/v1/5c412831b960410cb880428166b74dee/cenc.mpd",
+          "quality": "HD",
+          "headers": {},
+          "drm": {
+            "type": "clearkey",
+            "kid": "531497de47944ade5410fe5852905698",
+            "key": "574547fdae92793f4630b65dade01761"
+          },
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_india_a_vs_uae_sonyliv_hin_aq",
+      "name": "[Live] India A Vs UAE - SONYLIV HIN - AQ",
+      "category": "live_sports",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn2rCtrI68Agu71aIWID9YxzlqXN-3c88k4cwPQQhwEA&s=10",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://sonyeventsglobal.akamaized.net/hls/live/2119921/cricodi_2411/HIN/std_lrh-800300010.m3u8?hdnea=exp=1795540931~acl=/*~id=42533442359826935436253248685876~hmac=87ea8943906f9a403a1ee7d1dd9ff17f83fd0eb43341967a8f9707fc56d22b8b",
+          "quality": "HD",
+          "headers": {},
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_india_a_vs_uae_sonyliv_tam_aq",
+      "name": "[Live] India A Vs UAE - SONYLIV TAM - AQ",
+      "category": "live_sports",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn2rCtrI68Agu71aIWID9YxzlqXN-3c88k4cwPQQhwEA&s=10",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://sonyeventsglobal.akamaized.net/hls/live/2119951/cricodi_2411/TAM/std_lrh-800300010.m3u8?hdnea=exp=1795540931~acl=/*~id=42533442359826935436253248685876~hmac=87ea8943906f9a403a1ee7d1dd9ff17f83fd0eb43341967a8f9707fc56d22b8b",
+          "quality": "HD",
+          "headers": {},
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_india_a_vs_uae_sonyliv_tel_aq",
+      "name": "[Live] India A Vs UAE - SONYLIV TEL - AQ",
+      "category": "live_sports",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn2rCtrI68Agu71aIWID9YxzlqXN-3c88k4cwPQQhwEA&s=10",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://sonyeventsglobal.akamaized.net/hls/live/2119941/cricodi_2411/TEL/std_lrh-800300010.m3u8?hdnea=exp=1795540931~acl=/*~id=42533442359826935436253248685876~hmac=87ea8943906f9a403a1ee7d1dd9ff17f83fd0eb43341967a8f9707fc56d22b8b",
+          "quality": "HD",
+          "headers": {},
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_india_a_vs_uae_sonyliv_kan_aq",
+      "name": "[Live] India A Vs UAE - SONYLIV KAN - AQ",
+      "category": "live_sports",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn2rCtrI68Agu71aIWID9YxzlqXN-3c88k4cwPQQhwEA&s=10",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://sonyeventsglobal.akamaized.net/hls/live/2119782/cricodi_2411/KAN/std_lrh-800300010.m3u8?hdnea=exp=1795540931~acl=/*~id=42533442359826935436253248685876~hmac=87ea8943906f9a403a1ee7d1dd9ff17f83fd0eb43341967a8f9707fc56d22b8b",
+          "quality": "HD",
+          "headers": {},
+          "drm": null,
+          "sort_order": 1
+        }
+      ]
+    },
+    {
+      "id": "live_india_a_vs_uae_ptv_sports",
+      "name": "[Live] India A Vs UAE - PTV SPORTS",
+      "category": "live_sports",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn2rCtrI68Agu71aIWID9YxzlqXN-3c88k4cwPQQhwEA&s=10",
+      "quality": "HD",
+      "servers": [
+        {
+          "name": "Server 1 (HD)",
+          "stream_url": "https://live.msnetworks.net/ptv-sports/master.m3u8",
+          "quality": "HD",
+          "headers": {},
+          "drm": null,
+          "sort_order": 1
         }
       ]
     }
