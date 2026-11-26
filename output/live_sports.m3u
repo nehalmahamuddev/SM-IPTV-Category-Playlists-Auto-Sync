@@ -1,6 +1,6 @@
 #EXTM3U name="SM IPTV - Refined Live Sports Events"
 # Category: Live Sports Events
-# Updated: 2026-11-26 15:28:49 UTC
+# Updated: 2026-11-26 15:50:26 UTC
 
 #EXTINF:-1 tvg-id="live_bg_pathum_united_vs_lion_city_sailors_tapmad_aq" tvg-name="[Live] BG Pathum United Vs Lion City Sailors - TAPMAD - AQ" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/668/image/dark" group-title="live_sports",[Live] BG Pathum United Vs Lion City Sailors - TAPMAD - AQ
 https://multiregion-asia-cdn.tapmad.com/v1/01a154a641d51567ee931e109fa59f/01a154a676281ea557841e1612cf77/main.m3u8
@@ -76,12 +76,66 @@ https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd
-#EXTINF:-1 tvg-id="live_china_u17_vs_fiji_u17_stream" tvg-name="[Live] China U17 Vs Fiji U17 - STREAM" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/279/image/dark" group-title="live_sports",[Live] China U17 Vs Fiji U17 - STREAM
+#EXTINF:-1 tvg-id="live_morocco_u17_vs_spain_u17_stream" tvg-name="[Live] Morocco U17 Vs Spain U17 - STREAM" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/279/image/dark" group-title="live_sports",[Live] Morocco U17 Vs Spain U17 - STREAM
+http://193.47.62.55/hls/QYYYQ.m3u8
+#EXTINF:-1 tvg-id="live_china_u17_vs_fiji_u17_stream" tvg-name="[Live] China U17 Vs Fiji U17 - STREAM" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/279/image/dark" group-title="live_sports",[Live] China U17 Vs Fiji U17 - STREAM (Server 1 (HD))
 https://live3979.zundrixmediapipeline.com/live/channel17.m3u8
+#EXTINF:-1 tvg-id="live_china_u17_vs_fiji_u17_stream" tvg-name="[Live] China U17 Vs Fiji U17 - STREAM" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/279/image/dark" group-title="live_sports",[Live] China U17 Vs Fiji U17 - STREAM (Server 2 (SD))
+http://193.47.62.55/hls/QYYY.m3u8
+#EXTINF:-1 tvg-id="live_abha_vs_al_shabab_stream" tvg-name="[Live] Abha Vs Al-Shabab - STREAM" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/955/image/dark" group-title="live_sports",[Live] Abha Vs Al-Shabab - STREAM (Server 1 (HD))
+https://live3979.zundrixmediapipeline.com/live/channel8.m3u8
+#EXTINF:-1 tvg-id="live_abha_vs_al_shabab_stream" tvg-name="[Live] Abha Vs Al-Shabab - STREAM" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/955/image/dark" group-title="live_sports",[Live] Abha Vs Al-Shabab - STREAM (Server 2 (SD))
+http://193.47.62.55/hls/QYYYQQ.m3u8
+#EXTINF:-1 tvg-id="live_fc_kairat_almaty_vs_mjallby_aif_tnt_sports_aq" tvg-name="[Live] FC Kairat Almaty Vs Mjällby AIF - TNT SPORTS - AQ" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="live_sports",[Live] FC Kairat Almaty Vs Mjällby AIF - TNT SPORTS - AQ
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd
+#EXTINF:-1 tvg-id="live_fc_kairat_almaty_vs_mjallby_aif_sport_2_cz_aq" tvg-name="[Live] FC Kairat Almaty Vs Mjällby AIF - SPORT 2 CZ - AQ" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="live_sports",[Live] FC Kairat Almaty Vs Mjällby AIF - SPORT 2 CZ - AQ
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
+https://dash2.antik.sk/stream/nvidia_sport2/playlist_cenc.mpd
+#EXTINF:-1 tvg-id="live_fc_kairat_almaty_vs_mjallby_aif_sonyliv_eng_aq" tvg-name="[Live] FC Kairat Almaty Vs Mjällby AIF - SONYLIV ENG - AQ" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="live_sports",[Live] FC Kairat Almaty Vs Mjällby AIF - SONYLIV ENG - AQ
+https://sonyeventsglobal.akamaized.net/hls/live/2120299/Footlive2611/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795748537~acl=/*~id=69004804089144406230493982079733~hmac=ba7fa616632786d17cd3e0464ae172b3c459308d569fa4ff7f4477b39408c6e4
+#EXTINF:-1 tvg-id="live_olympiacos_fc_vs_ac_milan_tnt_sports_aq" tvg-name="[Live] Olympiacos FC Vs AC Milan - TNT SPORTS - AQ" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="live_sports",[Live] Olympiacos FC Vs AC Milan - TNT SPORTS - AQ
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd?
+#EXTINF:-1 tvg-id="live_gnk_dinamo_zagreb_vs_bayer_04_leverkusen_sky_top_event_aq" tvg-name="[Live] GNK Dinamo Zagreb Vs Bayer 04 Leverkusen - Sky Top Event- AQ" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="live_sports",[Live] GNK Dinamo Zagreb Vs Bayer 04 Leverkusen - Sky Top Event- AQ
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=368bd4ebe301406897324bc777650411:69d27c2c2b7de927d67aacc973259901
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gjsukewpxp/out/v1/ef14aacf858248839b9867eec5caf563/cenc.mpd
+#EXTINF:-1 tvg-id="live_brighton_hove_albion_vs_universitatea_craiova_tnt_sports_aq" tvg-name="[Live] Brighton & Hove Albion Vs Universitatea Craiova - TNT SPORTS - AQ" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="live_sports",[Live] Brighton & Hove Albion Vs Universitatea Craiova - TNT SPORTS - AQ
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd
+#EXTINF:-1 tvg-id="live_heart_of_midlothian_vs_as_monaco_tnt_sports_aq" tvg-name="[Live] Heart of Midlothian Vs AS Monaco - TNT SPORTS - AQ" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="live_sports",[Live] Heart of Midlothian Vs AS Monaco - TNT SPORTS - AQ
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd?
+#EXTINF:-1 tvg-id="live_celta_vigo_vs_bournemouth_tnt_sports_aq" tvg-name="[Live] Celta Vigo Vs Bournemouth - TNT SPORTS - AQ" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="live_sports",[Live] Celta Vigo Vs Bournemouth - TNT SPORTS - AQ
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd
 #EXTINF:-1 tvg-id="live_detroit_lions_vs_chicago_bears_tsn_sports_aq" tvg-name="[Live] Detroit Lions Vs Chicago Bears - TSN SPORTS - AQ" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/9464/image/dark" group-title="live_sports",[Live] Detroit Lions Vs Chicago Bears - TSN SPORTS - AQ
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd
+#EXTINF:-1 tvg-id="live_juventus_vs_omonia_nicosia_tnt_sports_aq" tvg-name="[Live] Juventus Vs Omonia Nicosia - TNT SPORTS - AQ" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="live_sports",[Live] Juventus Vs Omonia Nicosia - TNT SPORTS - AQ
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd?
+#EXTINF:-1 tvg-id="live_torreense_vs_celtic_tnt_sports_aq" tvg-name="[Live] Torreense Vs Celtic - TNT SPORTS - AQ" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="live_sports",[Live] Torreense Vs Celtic - TNT SPORTS - AQ
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd?
+#EXTINF:-1 tvg-id="live_crystal_palace_vs_real_sociedad_tnt_sports_aq" tvg-name="[Live] Crystal Palace Vs Real Sociedad - TNT SPORTS - AQ" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/679/image/dark" group-title="live_sports",[Live] Crystal Palace Vs Real Sociedad - TNT SPORTS - AQ
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd
+#EXTINF:-1 tvg-id="live_sc_freiburg_vs_fc_twente_sky_top_event_aq" tvg-name="[Live] SC Freiburg Vs FC Twente - Sky Top Event- AQ" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/17015/image/dark" group-title="live_sports",[Live] SC Freiburg Vs FC Twente - Sky Top Event- AQ
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=368bd4ebe301406897324bc777650411:69d27c2c2b7de927d67aacc973259901
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gjsukewpxp/out/v1/ef14aacf858248839b9867eec5caf563/cenc.mpd
 #EXTINF:-1 tvg-id="live_dallas_cowboys_vs_philadelphia_eagles_sky_top_event_aq" tvg-name="[Live] Dallas Cowboys Vs Philadelphia Eagles - Sky Top Event - AQ" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/9464/image/dark" group-title="live_sports",[Live] Dallas Cowboys Vs Philadelphia Eagles - Sky Top Event - AQ
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=368bd4ebe301406897324bc777650411:69d27c2c2b7de927d67aacc973259901
@@ -126,6 +180,10 @@ https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gjsukewpxp/
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd
+#EXTINF:-1 tvg-id="live_macarthur_fc_vs_melbourne_city_tnt_sports_aq" tvg-name="[Live] Macarthur FC Vs Melbourne City - TNT SPORTS - AQ" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/136/image/dark" group-title="live_sports",[Live] Macarthur FC Vs Melbourne City - TNT SPORTS - AQ
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd?
 #EXTINF:-1 tvg-id="live_motogp_vs_motogp_fancode_aq" tvg-name="[Live] MotoGP Vs MotoGP - FANCODE - AQ" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgiy9chJNhw1XEU4gM-u6aLV0OGAHC38TO344gN3HFWqeOk5068zqJsQOYTyud9BoDV44JPX0pT2Jr7iVFa-IHUrB80G5N76Q_jUG9qiKNF5Wehb0-DqS6tQ46OpeQFfPfq_K-6icHx6-EZxHj-9cTG5WaqhPNQcqeIOba-XGnMg7ybLyKfEIkFUH5iUg8/s1600/1000009835.png" group-title="live_sports",[Live] MotoGP Vs MotoGP - FANCODE - AQ
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca
