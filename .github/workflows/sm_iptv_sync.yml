@@ -65,6 +65,15 @@ jobs:
         run: |
           python scripts/refine_playlists.py
 
+      - name: Build Combined Multi-Source M3U & JSON
+        if: steps.generate.outputs.fallback != 'true'
+        env:
+          CHANNELS_JSON_PATH: output/channels.json
+          TOFFEE_JSON_PATH: output/toffee.json
+          OUTPUT_DIR: output
+        run: |
+          python scripts/combine_playlists.py
+
       - name: Sync Refined Channels & Multi-Stream Servers to Supabase
         if: steps.generate.outputs.fallback != 'true'
         env:
