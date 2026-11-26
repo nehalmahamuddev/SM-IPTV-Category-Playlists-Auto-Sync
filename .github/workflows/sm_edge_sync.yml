@@ -1,0 +1,65 @@
+name: SM IPTV Latest Edge Sync
+
+on:
+  schedule:
+    # Runs every 30 minutes (:00, :30)
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+  repository_dispatch:
+    types: [sync, sync_sm_edge]
+  push:
+    branches: [ main ]
+    paths:
+      - 'scripts/sync_sm_edge.py'
+      - '.github/workflows/sm_edge_sync.yml'
+
+concurrency:
+  group: sm-edge-sync
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  sync-edge-playlists:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+          cache-dependency-path: 'requirements.txt'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run SM IPTV Edge Sync
+        env:
+          SM_EDGE_CHANNELS_URL: ${{ vars.SM_EDGE_CHANNELS_URL || 'https://djzgejnptardaliqlgpu.supabase.co/functions/v1/get-channels' }}
+          SM_EDGE_SIGNING_SECRET: ${{ secrets.SM_EDGE_SIGNING_SECRET || 'key' }}
+          PLAYLISTS_DIR: playlists/sm_latest
+        run: |
+          python scripts/sync_sm_edge.py
+
+      - name: Commit and push updated playlists
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add playlists/sm_latest/
+          if ! git diff --staged --quiet; then
+            git commit -m "auto: update latest SM IPTV playlists [skip ci]"
+            git pull --rebase origin main
+            git push
+          else
+            echo "No changes detected in playlists/sm_latest."
+          fi
