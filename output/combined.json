@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-26T15:16:12.371161+00:00",
+  "updated_at": "2026-11-26T15:28:49.110451+00:00",
   "total_categories": 13,
-  "total_channels": 563,
-  "total_streams": 606,
+  "total_channels": 565,
+  "total_streams": 609,
   "category_counts": {
     "bangla": {
       "channels": 47,
@@ -49,8 +49,8 @@
       "streams": 1
     },
     "live_sports": {
-      "channels": 288,
-      "streams": 300
+      "channels": 290,
+      "streams": 303
     },
     "toffee": {
       "channels": 45,
@@ -4356,61 +4356,6 @@
     ],
     "live_sports": [
       {
-        "id": "live_italia_t10_vs_italia_t10_unbeaten",
-        "name": "[Live] Italia T10 Vs Italia T10 - UNBEATEN",
-        "category": "live_sports",
-        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBTK9sfDCFhv5T2jEH3nkh9cPngwVXMaQFV9uNCn66zg&s=10",
-        "quality": "FHD",
-        "servers": [
-          {
-            "name": "Server 1 (FHD)",
-            "stream_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd",
-            "quality": "FHD",
-            "headers": {},
-            "drm": {
-              "type": "clearkey",
-              "kid": "5d6c647cd1b56550bd34349b68ec8c82",
-              "key": "09f952780ba5b30bc222439aaa3ac09b"
-            },
-            "sort_order": 1
-          }
-        ]
-      },
-      {
-        "id": "live_italia_t10_vs_italia_t10_sm_iptv_live",
-        "name": "[Live] Italia T10 Vs Italia T10 - SM IPTV LIVE",
-        "category": "live_sports",
-        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBTK9sfDCFhv5T2jEH3nkh9cPngwVXMaQFV9uNCn66zg&s=10",
-        "quality": "HD",
-        "servers": [
-          {
-            "name": "Server 1 (HD)",
-            "stream_url": "https://amssandbrix.sandbrix.live/sandbrix/streams/mk139q1Mi9bHznBA775016895861.m3u8",
-            "quality": "HD",
-            "headers": {},
-            "drm": null,
-            "sort_order": 1
-          }
-        ]
-      },
-      {
-        "id": "live_italia_t10_vs_italia_t10_tamasha_pro_aq",
-        "name": "[Live] Italia T10 Vs Italia T10 - TAMASHA PRO AQ",
-        "category": "live_sports",
-        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBTK9sfDCFhv5T2jEH3nkh9cPngwVXMaQFV9uNCn66zg&s=10",
-        "quality": "HD",
-        "servers": [
-          {
-            "name": "Server 1 (HD)",
-            "stream_url": "https://cdn03lhr-n.tamashaweb.com:8087/appcast/t10-italia-SVOD-abr/playlist.m3u8",
-            "quality": "HD",
-            "headers": {},
-            "drm": null,
-            "sort_order": 1
-          }
-        ]
-      },
-      {
         "id": "live_bg_pathum_united_vs_lion_city_sailors_tapmad_aq",
         "name": "[Live] BG Pathum United Vs Lion City Sailors - TAPMAD - AQ",
         "category": "live_sports",
@@ -4653,6 +4598,31 @@
             "headers": {},
             "drm": null,
             "sort_order": 1
+          },
+          {
+            "name": "Server 2 (SD)",
+            "stream_url": "http://193.47.62.41/hls/QTTT.m3u8",
+            "quality": "SD",
+            "headers": {},
+            "drm": null,
+            "sort_order": 2
+          }
+        ]
+      },
+      {
+        "id": "live_al_fateh_vs_al_riyadh_stream",
+        "name": "[Live] Al-Fateh Vs Al-Riyadh - STREAM",
+        "category": "live_sports",
+        "logo": "https://img.sofascore.com/api/v1/unique-tournament/955/image/dark",
+        "quality": "SD",
+        "servers": [
+          {
+            "name": "Server 1 (SD)",
+            "stream_url": "http://193.47.62.41/hls/QTTTAAA.m3u8",
+            "quality": "SD",
+            "headers": {},
+            "drm": null,
+            "sort_order": 1
           }
         ]
       },
@@ -4665,13 +4635,13 @@
         "servers": [
           {
             "name": "Server 1 (HD)",
-            "stream_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lvpxnd9lm7/out/v1/ec8487d426a14be59423e84d2fb4c8ee/cenc.mpd",
+            "stream_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/nkhxmu8uyd/out/v1/55d2a00aa7234f7aa9910b17ff528780/cenc.mpd",
             "quality": "HD",
             "headers": {},
             "drm": {
               "type": "clearkey",
-              "kid": "d7070587c4a7d8db325db4540da4777c",
-              "key": "c474bc272c73fdce1298511ac95bfdce"
+              "kid": "d36396587a3e395dd49822bfb8876a30",
+              "key": "85bfdc16276e3c741b94203dc14cf744"
             },
             "sort_order": 1
           }
@@ -4707,13 +4677,13 @@
         "servers": [
           {
             "name": "Server 1 (HD)",
-            "stream_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
+            "stream_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd?",
             "quality": "HD",
             "headers": {},
             "drm": {
               "type": "clearkey",
-              "kid": "69a5aa835a061ce64a630d1046727e40",
-              "key": "d02feac8a999bd06bf4059bf33411749"
+              "kid": "fa34fa8c90336dd528c7a23871cad1fe",
+              "key": "552a78d1aeb74f1650d68255c5749408"
             },
             "sort_order": 1
           }
@@ -4796,15 +4766,15 @@
         ]
       },
       {
-        "id": "live_ilt_t20_vs_ilt_t20_fancode_aq_ind",
-        "name": "[Live] ILT T20 Vs ILT T20 - FANCODE AQ (IND)",
+        "id": "live_ilt_t20_vs_ilt_t20_fancode_ind",
+        "name": "[Live] ILT T20 Vs ILT T20 - FANCODE [IND]",
         "category": "live_sports",
         "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLPb2DPj3zNmfruRqU6BXsmrMIYosxxZA0efvdkBZ_4Q&s=10",
         "quality": "HD",
         "servers": [
           {
             "name": "Server 1 (HD)",
-            "stream_url": "https://in-mc-vod.fancode.com/mumbai/4251054_english_hls_b961d4d41363338_1ta-di_h264/index.m3u8",
+            "stream_url": "https://in-mc-vod.fancode.com/mumbai/4251055_english_hls_b4b255f9cb46377_1ta-di_h264/index.m3u8",
             "quality": "HD",
             "headers": {},
             "drm": null,
@@ -4849,6 +4819,27 @@
               "type": "clearkey",
               "kid": "f836853d8eac19446ed9535f5fc568b1",
               "key": "b3bc5ef00602b29abac7e482d3d9fbf3"
+            },
+            "sort_order": 1
+          }
+        ]
+      },
+      {
+        "id": "live_morocco_u17_vs_spain_u17_fox_sports_aq",
+        "name": "[Live] Morocco U17 Vs Spain U17 - FOX SPORTS - AQ",
+        "category": "live_sports",
+        "logo": "https://img.sofascore.com/api/v1/unique-tournament/279/image/dark",
+        "quality": "HD",
+        "servers": [
+          {
+            "name": "Server 1 (HD)",
+            "stream_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
+            "quality": "HD",
+            "headers": {},
+            "drm": {
+              "type": "clearkey",
+              "kid": "09453ce820d65fbc675de3185f9e454c",
+              "key": "98cff9600995fa381c76fdacf3c7edae"
             },
             "sort_order": 1
           }
@@ -9941,6 +9932,61 @@
             "name": "Server 1 (SD)",
             "stream_url": "http://193.47.62.41/hls/WAWAWA.m3u8",
             "quality": "SD",
+            "headers": {},
+            "drm": null,
+            "sort_order": 1
+          }
+        ]
+      },
+      {
+        "id": "live_italia_t10_vs_italia_t10_unbeaten",
+        "name": "[Live] Italia T10 Vs Italia T10 - UNBEATEN",
+        "category": "live_sports",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBTK9sfDCFhv5T2jEH3nkh9cPngwVXMaQFV9uNCn66zg&s=10",
+        "quality": "FHD",
+        "servers": [
+          {
+            "name": "Server 1 (FHD)",
+            "stream_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd",
+            "quality": "FHD",
+            "headers": {},
+            "drm": {
+              "type": "clearkey",
+              "kid": "5d6c647cd1b56550bd34349b68ec8c82",
+              "key": "09f952780ba5b30bc222439aaa3ac09b"
+            },
+            "sort_order": 1
+          }
+        ]
+      },
+      {
+        "id": "live_italia_t10_vs_italia_t10_sm_iptv_live",
+        "name": "[Live] Italia T10 Vs Italia T10 - SM IPTV LIVE",
+        "category": "live_sports",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBTK9sfDCFhv5T2jEH3nkh9cPngwVXMaQFV9uNCn66zg&s=10",
+        "quality": "HD",
+        "servers": [
+          {
+            "name": "Server 1 (HD)",
+            "stream_url": "https://amssandbrix.sandbrix.live/sandbrix/streams/mk139q1Mi9bHznBA775016895861.m3u8",
+            "quality": "HD",
+            "headers": {},
+            "drm": null,
+            "sort_order": 1
+          }
+        ]
+      },
+      {
+        "id": "live_italia_t10_vs_italia_t10_tamasha_pro_aq",
+        "name": "[Live] Italia T10 Vs Italia T10 - TAMASHA PRO AQ",
+        "category": "live_sports",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBTK9sfDCFhv5T2jEH3nkh9cPngwVXMaQFV9uNCn66zg&s=10",
+        "quality": "HD",
+        "servers": [
+          {
+            "name": "Server 1 (HD)",
+            "stream_url": "https://cdn03lhr-n.tamashaweb.com:8087/appcast/t10-italia-SVOD-abr/playlist.m3u8",
+            "quality": "HD",
             "headers": {},
             "drm": null,
             "sort_order": 1
