@@ -9,6 +9,7 @@ Generates:
 1. Individual category M3U files in `playlists/sm_latest/` (e.g. kids.m3u, bangla.m3u)
 2. Master all-in-one M3U playlist in `playlists/sm_latest/all.m3u`
 3. JSON metadata catalog in `playlists/sm_latest/categories.json`
+4. Syncs channels & stream servers to remote Supabase Database (if credentials provided)
 """
 
 import os
@@ -22,7 +23,12 @@ import unicodedata
 import urllib.request
 import urllib.error
 from datetime import datetime, timezone
-from typing import Dict, List, Optional, Any
+from typing import Dict, List, Optional, Tuple, Any
+
+try:
+    import requests
+except ImportError:
+    requests = None
 
 # ---------------------------------------------------------------------------
 # Configuration
@@ -37,6 +43,14 @@ DEFAULT_USER_AGENT = os.environ.get(
     "Mozilla/5.0 (iPhone; CPU iPhone OS 17_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Mobile/15E148 Safari/604.1"
 )
 OUTPUT_DIR = os.environ.get("PLAYLISTS_DIR", os.path.join("playlists", "sm_latest"))
+
+# Remote Supabase DB credentials
+REMOTE_SUPABASE_URL = os.environ.get("SUPABASE_URL", "https://hqmhuvsjlykrdusfkmeg.supabase.co").rstrip("/")
+REMOTE_SUPABASE_KEY = os.environ.get("SUPABASE_SERVICE_ROLE_KEY") or os.environ.get(
+    "SUPABASE_ANON_KEY",
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhxbWh1dnNqbHlrcmR1c2ZrbWVnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODI4MjI3OTEsImV4cCI6MjA5ODM5ODc5MX0.sfNEW7QG0idyVVRHlDtYjITDfIbsFQQm2u9a3ffoNoA"
+)
+ADMIN_SECRET_TOKEN = (os.environ.get("ADMIN_SECRET_TOKEN") or "GoLiveAdminSecret2026").strip()
 
 
 def generate_signature(timestamp: str, secret: bytes = SIGNING_SECRET) -> str:
@@ -54,6 +68,61 @@ def slugify_category(name: str) -> str:
     clean = re.sub(r"[^\w\s-]", "", normalized).strip().lower()
     clean = re.sub(r"[-\s]+", "_", clean)
     return clean or "other"
+
+
+def refine_channel_metadata(raw_name: str) -> Tuple[str, str, str]:
+    """
+    Refines raw channel name into:
+    1. canonical_id: lowercase slug stripped of quality tags (e.g. 't_sports')
+    2. clean_name: human-readable name stripped of quality (e.g. 'T Sports')
+    3. quality: detected quality string (e.g. 'FHD', 'HD', '4K', 'SD')
+    """
+    name = unicodedata.normalize("NFKD", raw_name).strip()
+
+    quality = "HD"
+    q_match = re.search(r'\b(4K|UHD|FHD|1080p|720p|HD|SD|HQ)\b', name, re.IGNORECASE)
+    if not q_match:
+        q_match = re.search(r'(?<=[a-zA-Z0-9])(FHD|UHD|4K|HD)\b', name, re.IGNORECASE)
+
+    if q_match:
+        found_q = q_match.group(1).upper()
+        if found_q in ("1080P", "FHD", "UHD"):
+            quality = "FHD"
+        elif found_q in ("720P", "HD"):
+            quality = "HD"
+        elif found_q == "4K":
+            quality = "4K"
+        elif found_q == "SD":
+            quality = "SD"
+
+    clean = re.sub(r'\b(4K|UHD|FHD|1080p|720p|HD|SD|HQ)\b', '', name, flags=re.IGNORECASE)
+    clean = re.sub(r'(?<=[a-zA-Z0-9])(FHD|UHD|4K|HD)\b', '', clean, flags=re.IGNORECASE)
+    clean = re.sub(r'^[0-9]+[\.\-\s]+', '', clean)
+    clean = re.sub(r'[\.\-\|\:\_\s]+$', '', clean)
+    clean = re.sub(r'\s+', ' ', clean).strip()
+    if not clean:
+        clean = name
+
+    slug = clean.lower()
+    slug = re.sub(r'[^\w\s-]', '', slug)
+    slug = re.sub(r'[-\s]+', '_', slug).strip('_')
+    if not slug:
+        slug = "channel"
+
+    return slug, clean, quality
+
+
+def resolve_channel_metadata(category: str) -> Tuple[str, str]:
+    if category in ("bangla", "sports"):
+        return "BD", "bn"
+    elif category in ("indian_bangla",):
+        return "IN", "bn"
+    elif category in ("hindi",):
+        return "IN", "hi"
+    elif category in ("islamic",):
+        return "SA", "ar"
+    else:
+        return "GLOBAL", "en"
 
 
 def fetch_channels_data(url: str = SUPABASE_EDGE_URL, timeout: int = 15, retries: int = 3) -> Dict[str, Any]:
@@ -205,6 +274,256 @@ def build_playlists(data: Dict[str, Any], output_dir: str = OUTPUT_DIR) -> Dict[
     return catalog
 
 
+# ---------------------------------------------------------------------------
+# Supabase PostgREST Client for Remote DB Sync
+# ---------------------------------------------------------------------------
+class SupabaseDbClient:
+    def __init__(self, base_url: str, key: str, admin_token: str = ""):
+        self.base_url = base_url.rstrip("/")
+        self.headers = {
+            "Content-Type": "application/json",
+            "apikey": key,
+            "Authorization": f"Bearer {key}"
+        }
+        if admin_token:
+            self.headers["x-admin-token"] = admin_token
+
+    def get_all(self, table: str, select: str = "*", filters: Optional[Dict[str, str]] = None) -> List[Dict[str, Any]]:
+        """Paginates through all rows of a table using Range header."""
+        results = []
+        page_size = 1000
+        offset = 0
+
+        while True:
+            headers = dict(self.headers)
+            headers["Range"] = f"{offset}-{offset + page_size - 1}"
+            url = f"{self.base_url}/rest/v1/{table}?select={select}"
+            if filters:
+                for k, v in filters.items():
+                    url += f"&{k}={v}"
+
+            resp = requests.get(url, headers=headers, timeout=20)
+            if not resp.ok:
+                print(f"[Supabase Query Error on {table}] Status: {resp.status_code}, Body: {resp.text}", file=sys.stderr)
+                resp.raise_for_status()
+
+            data = resp.json()
+            if not data:
+                break
+            results.extend(data)
+            if len(data) < page_size:
+                break
+            offset += page_size
+
+        return results
+
+    def upsert_rows(self, table: str, rows: List[Dict[str, Any]], on_conflict: str = "id") -> int:
+        """Upserts rows in batches."""
+        if not rows:
+            return 0
+        batch_size = 100
+        total = 0
+        for i in range(0, len(rows), batch_size):
+            batch = rows[i:i + batch_size]
+            url = f"{self.base_url}/rest/v1/{table}?on_conflict={on_conflict}"
+            headers = dict(self.headers)
+            headers["Prefer"] = "resolution=merge-duplicates,return=minimal"
+            resp = requests.post(url, headers=headers, json=batch, timeout=25)
+            if not resp.ok:
+                print(f"[Supabase Upsert Error on {table}] Status: {resp.status_code}, Body: {resp.text}", file=sys.stderr)
+                resp.raise_for_status()
+            total += len(batch)
+        return total
+
+    def insert_rows(self, table: str, rows: List[Dict[str, Any]]) -> int:
+        """Inserts rows in batches."""
+        if not rows:
+            return 0
+        batch_size = 100
+        total = 0
+        for i in range(0, len(rows), batch_size):
+            batch = rows[i:i + batch_size]
+            url = f"{self.base_url}/rest/v1/{table}"
+            headers = dict(self.headers)
+            headers["Prefer"] = "return=minimal"
+            resp = requests.post(url, headers=headers, json=batch, timeout=25)
+            if not resp.ok:
+                print(f"[Supabase Insert Error on {table}] Status: {resp.status_code}, Body: {resp.text}", file=sys.stderr)
+                resp.raise_for_status()
+            total += len(batch)
+        return total
+
+
+def sync_to_supabase_db(data: Dict[str, Any], dry_run: bool = False):
+    """
+    Syncs channels and stream servers into the remote Supabase database.
+    Ensures categories exist, upserts channels, and registers stream servers.
+    """
+    if not requests:
+        print("requests module not installed, skipping remote Supabase DB sync.", file=sys.stderr)
+        return
+
+    if not REMOTE_SUPABASE_URL or not REMOTE_SUPABASE_KEY:
+        print("Missing SUPABASE_URL or SUPABASE_SERVICE_ROLE_KEY, skipping remote DB sync.")
+        return
+
+    print("\n" + "=" * 70)
+    print("Syncing latest channels & stream servers to Supabase DB...")
+    print(f"Target DB: {REMOTE_SUPABASE_URL} (dry_run: {dry_run})")
+    print("=" * 70)
+
+    db = SupabaseDbClient(REMOTE_SUPABASE_URL, REMOTE_SUPABASE_KEY, ADMIN_SECRET_TOKEN)
+    categories = data.get("categories", [])
+
+    # 1. Ensure categories exist in DB
+    try:
+        existing_cats = {c["id"]: c for c in db.get_all("categories", select="id,name")}
+    except Exception as e:
+        print(f"   Warning: Could not fetch existing categories: {e}")
+        existing_cats = {}
+
+    cats_to_register = []
+    category_slugs = set()
+    for cat in categories:
+        raw_name = cat.get("name", "Other").strip()
+        slug = slugify_category(raw_name)
+        category_slugs.add(slug)
+        if slug not in existing_cats:
+            cats_to_register.append({
+                "id": slug,
+                "name": raw_name,
+                "sort_order": 90,
+                "active": True,
+                "type": "custom"
+            })
+            existing_cats[slug] = {"id": slug, "name": raw_name}
+
+    if cats_to_register:
+        print(f"   Registering {len(cats_to_register)} new categories in Supabase: {[c['id'] for c in cats_to_register]}")
+        if not dry_run:
+            db.upsert_rows("categories", cats_to_register, on_conflict="id")
+
+    # 2. Fetch existing channels & servers to index
+    try:
+        cat_filter = f"({','.join(category_slugs)})"
+        existing_channels_rows = db.get_all("channels", select="id,name,stream_url,category", filters={"category": f"in.{cat_filter}"})
+        existing_channels = {c["id"]: c for c in existing_channels_rows}
+    except Exception as e:
+        print(f"   Warning: Could not fetch channels: {e}")
+        existing_channels = {}
+
+    try:
+        existing_servers_rows = db.get_all("stream_servers", select="id,channel_id,stream_url,name,sort_order")
+        existing_servers: Dict[str, List[Dict[str, Any]]] = {}
+        for s in existing_servers_rows:
+            cid = s.get("channel_id")
+            if cid:
+                existing_servers.setdefault(cid, []).append(s)
+    except Exception as e:
+        print(f"   Warning: Could not fetch stream_servers: {e}")
+        existing_servers = {}
+
+    # Track known stream URLs per channel
+    known_stream_urls: Dict[str, set] = {}
+    for cid, s_list in existing_servers.items():
+        known_stream_urls[cid] = {s.get("stream_url") for s in s_list if s.get("stream_url")}
+    for cid, ch in existing_channels.items():
+        if ch.get("stream_url"):
+            known_stream_urls.setdefault(cid, set()).add(ch["stream_url"])
+
+    channels_to_upsert: Dict[str, Dict[str, Any]] = {}
+    servers_to_insert: List[Dict[str, Any]] = []
+
+    for cat in categories:
+        raw_name = cat.get("name", "Other").strip()
+        cat_slug = slugify_category(raw_name)
+
+        for ch in cat.get("channels", []):
+            raw_ch_name = (ch.get("name") or "").strip()
+            stream_url = (ch.get("stream_url") or "").strip()
+            if not stream_url:
+                continue
+
+            canonical_id, clean_name, quality = refine_channel_metadata(raw_ch_name)
+            country, language = resolve_channel_metadata(cat_slug)
+
+            # Build headers
+            headers = {}
+            if ch.get("user_agent"):
+                headers["User-Agent"] = ch["user_agent"]
+            if ch.get("referer"):
+                headers["Referer"] = ch["referer"]
+            if ch.get("cookie"):
+                headers["Cookie"] = ch["cookie"]
+            if ch.get("origin"):
+                headers["Origin"] = ch["origin"]
+
+            # DRM
+            drm = None
+            if ch.get("kid") and ch.get("key"):
+                drm = {
+                    "type": "clearkey",
+                    "kid": ch["kid"],
+                    "key": ch["key"]
+                }
+
+            logo = ch.get("logo") or ""
+
+            if canonical_id not in channels_to_upsert:
+                channels_to_upsert[canonical_id] = {
+                    "id": canonical_id,
+                    "name": clean_name,
+                    "logo": logo,
+                    "category": cat_slug,
+                    "country": country,
+                    "language": language,
+                    "is_live": True,
+                    "is_trending": False,
+                    "quality": quality,
+                    "stream_url": stream_url,
+                    "headers": headers,
+                    "drm": drm,
+                    "proxy": False,
+                    "sort_order": len(channels_to_upsert) + 1
+                }
+            elif headers:
+                channels_to_upsert[canonical_id]["headers"].update(headers)
+
+            # Reconcile server
+            urls_for_ch = known_stream_urls.setdefault(canonical_id, set())
+            if stream_url not in urls_for_ch:
+                server_num = len(existing_servers.get(canonical_id, [])) + sum(1 for s in servers_to_insert if s["channel_id"] == canonical_id) + 1
+                servers_to_insert.append({
+                    "channel_id": canonical_id,
+                    "name": f"Server {server_num} ({quality})",
+                    "stream_url": stream_url,
+                    "headers": headers,
+                    "drm": drm,
+                    "scheme": 2 if drm else 0,
+                    "has_header": bool(headers),
+                    "sort_order": server_num,
+                    "active": True,
+                    "health_status": "unknown",
+                    "consecutive_failures": 0
+                })
+                urls_for_ch.add(stream_url)
+
+    print(f"3. Upserting {len(channels_to_upsert)} channels into 'channels' table...")
+    if not dry_run and channels_to_upsert:
+        db.upsert_rows("channels", list(channels_to_upsert.values()), on_conflict="id")
+        print("   Channels successfully upserted.")
+
+    if servers_to_insert:
+        print(f"4. Inserting {len(servers_to_insert)} new stream servers into 'stream_servers' table...")
+        if not dry_run:
+            db.insert_rows("stream_servers", servers_to_insert)
+            print("   Stream servers successfully inserted.")
+    else:
+        print("4. All stream servers already up to date in DB.")
+
+    print("Supabase DB sync completed successfully!")
+
+
 def main():
     print(f"[{datetime.now(timezone.utc).isoformat()}] Starting SM IPTV Latest Edge Sync...")
     print(f"1. Fetching linear channels from Supabase Edge Function...")
@@ -213,9 +532,15 @@ def main():
     cats = data.get("categories", [])
     print(f"   Retrieved {len(cats)} categories from upstream.")
 
-    print(f"2. Generating playlists in '{OUTPUT_DIR}'...")
+    print(f"\n2. Generating playlists in '{OUTPUT_DIR}'...")
     catalog = build_playlists(data, OUTPUT_DIR)
-    print(f"Done! Synced {catalog['total_channels']} channels across {catalog['total_categories']} categories.")
+    print(f"Done local M3U build! Synced {catalog['total_channels']} channels across {catalog['total_categories']} categories.")
+
+    # Check if DB sync is enabled
+    enable_db_sync = os.environ.get("ENABLE_DB_SYNC", "true").lower() in ("true", "1", "yes")
+    if enable_db_sync and REMOTE_SUPABASE_URL and REMOTE_SUPABASE_KEY:
+        dry_run = os.environ.get("DRY_RUN", "false").lower() in ("true", "1", "yes")
+        sync_to_supabase_db(data, dry_run=dry_run)
 
 
 if __name__ == "__main__":

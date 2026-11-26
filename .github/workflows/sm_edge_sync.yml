@@ -43,11 +43,15 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run SM IPTV Edge Sync
+      - name: Run SM IPTV Edge Sync & Supabase DB Update
         env:
           SM_EDGE_CHANNELS_URL: ${{ vars.SM_EDGE_CHANNELS_URL || 'https://djzgejnptardaliqlgpu.supabase.co/functions/v1/get-channels' }}
           SM_EDGE_SIGNING_SECRET: ${{ secrets.SM_EDGE_SIGNING_SECRET || 'key' }}
           PLAYLISTS_DIR: playlists/sm_latest
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL || 'https://hqmhuvsjlykrdusfkmeg.supabase.co' }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          ADMIN_SECRET_TOKEN: ${{ secrets.ADMIN_SECRET_TOKEN || 'GoLiveAdminSecret2026' }}
+          ENABLE_DB_SYNC: "true"
         run: |
           python scripts/sync_sm_edge.py
 
