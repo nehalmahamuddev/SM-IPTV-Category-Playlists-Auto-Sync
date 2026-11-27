@@ -1,13 +1,13 @@
 #EXTM3U name="SM IPTV Latest - Sports"
 # Category: Sports
-# Updated: 2026-11-26 16:03:43 UTC
+# Updated: 2026-11-27 00:10:45 UTC
 
 #EXTINF:-1 tvg-id="64" tvg-name="T Sports" tvg-logo="https://i.postimg.cc/26pLYgzB/1000115823.jpg" group-title="Sports",T Sports
-https://tvsen5.aynaott.com/TnMn5kZz8/index.m3u8
+http://103.114.11.37:8081/T-Sports-FHD/index.m3u8?token=sbox
 #EXTINF:-1 tvg-id="65" tvg-name="PTV" tvg-logo="https://i.postimg.cc/zB0GG09t/ptv-sports.png" group-title="Sports",PTV
-http://tv.cloudcdn.me/live.ts?channelId=279&deviceMac=00:1A:79:8C:0C:E9
-#EXTINF:-1 tvg-id="66" tvg-name="Unite Sports 2" tvg-logo="https://i.postimg.cc/cJgxdQT1/sm-unite8-sports1.webp" group-title="Sports",Unite Sports 2
-https://mac.sm-monirul.top/mac_channel/unite2.m3u8
+http://103.114.11.37:8081/PTV/index.m3u8?token=sbox
+#EXTINF:-1 tvg-id="66" tvg-name="Unite Sports 1" tvg-logo="https://i.postimg.cc/cJgxdQT1/sm-unite8-sports1.webp" group-title="Sports",Unite Sports 1
+http://103.114.11.37:8081/Unite8-sports-1/index.m3u8?token=sbox
 #EXTINF:-1 tvg-id="67" tvg-name="Sony Ten 1" tvg-logo="https://i.postimg.cc/cH2Cc7zX/20250529-122631.png" group-title="Sports" http-referrer="https://techandeat.online",Sony Ten 1
 #EXTVLCOPT:http-referrer=https://techandeat.online
 https://techandeat.online/sliv/stream.m3u8?id=1000009276
@@ -25,13 +25,13 @@ https://toffee.sm-monirul-islam-rs.workers.dev/sony_ten_cricket/index.m3u8
 #EXTINF:-1 tvg-id="72" tvg-name="Ten Sports" tvg-logo="https://i.postimg.cc/Bv4jbHrr/1000116232.jpg" group-title="Sports",Ten Sports
 https://live.msnetworks.net/ten-sports/master.m3u8
 #EXTINF:-1 tvg-id="73" tvg-name="Star Sports 1" tvg-logo="https://i.postimg.cc/bJmLR4JT/star-sports-1.png" group-title="Sports",Star Sports 1
-http://bd.sm-monirul.xyz/live/star_sports1/index.m3u8
+http://103.114.11.37:8081/Star-sports-1/index.m3u8?token=sbox
 #EXTINF:-1 tvg-id="74" tvg-name="Star Sports 2" tvg-logo="https://i.postimg.cc/QM98jpm4/sm-star-sports-2.webp" group-title="Sports",Star Sports 2
 https://tvsen7.aynaott.com/ssport2hd/index.m3u8
 #EXTINF:-1 tvg-id="75" tvg-name="Star Sports Select 1 HD" tvg-logo="https://i.postimg.cc/DzJv7q53/sm-star-sports-select-1.webp" group-title="Sports",Star Sports Select 1 HD
 https://mac.sm-monirul.top/mac_channel/star_sports_select_1.m3u8
 #EXTINF:-1 tvg-id="76" tvg-name="Star Sports Select 2 HD" tvg-logo="https://i.postimg.cc/9Xpyp6Jd/star-sports-select-2.png" group-title="Sports",Star Sports Select 2 HD
-http://bd.sm-monirul.xyz/live/star_select2/index.m3u8
+http://103.114.11.37:8081/Star-select-2/index.m3u8?token=sbox
 #EXTINF:-1 tvg-id="77" tvg-name="A Sports" tvg-logo="https://i.postimg.cc/CMjKZsg6/sm-a-sports-hd.jpg" group-title="Sports",A Sports
 https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/index.m3u8
 #EXTINF:-1 tvg-id="78" tvg-name="Fancode" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIRPzTb1Obu_3JFE7D3IuDs84_EyM-avJbD51I605XWLbSLgNxlaNB99w&s=10" group-title="Sports",Fancode
